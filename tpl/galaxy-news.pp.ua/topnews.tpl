@@ -1,0 +1,1 @@
+<li class="topnews"><a href="{post:url}" title="{post:title:strip} - {post:created_time:Y.m.d H:i}">{post:title}</a></li>

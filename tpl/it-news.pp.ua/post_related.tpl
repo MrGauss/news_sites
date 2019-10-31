@@ -1,0 +1,1 @@
+<div class="related"><a href="{post:url}" title="{post:title:strip}">{post:title}</a></div>
