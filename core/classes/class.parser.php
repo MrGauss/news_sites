@@ -1234,7 +1234,7 @@ trait unian
                 $this->save_unian( $data );
                 sleep( 1 );
                 $I++;
-                if( $I > 5 ){ break; }
+                if( $I > 50 ){ break; }
             }
         }
         else

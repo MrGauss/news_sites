@@ -2,5611 +2,901 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 	<loc>https://cknews.pp.ua/</loc>
-		<lastmod>2019-10-27</lastmod>
+		<lastmod>2019-11-01</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>https://cknews.pp.ua/tag:%C0%ED%E0%EB%B3%F2%E8%EA%E0/</loc>
-		<lastmod>2019-10-27</lastmod>
+		<lastmod>2019-11-01</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>https://cknews.pp.ua/tag:%C2%B3%E9%ED%E0+%ED%E0+%F1%F5%EE%E4%B3/</loc>
-		<lastmod>2019-10-27</lastmod>
+		<lastmod>2019-11-01</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>https://cknews.pp.ua/tag:%C2%B3%E9%F1%FC%EA%EE%EC%E0%F2/</loc>
-		<lastmod>2019-10-27</lastmod>
+		<lastmod>2019-11-01</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>https://cknews.pp.ua/tag:%C5%EA%EE%EB%EE%E3%B3%FF/</loc>
-		<lastmod>2019-10-27</lastmod>
+		<lastmod>2019-11-01</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>https://cknews.pp.ua/tag:%C5%EA%EE%ED%EE%EC%B3%EA%E0/</loc>
-		<lastmod>2019-10-27</lastmod>
+		<lastmod>2019-11-01</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>https://cknews.pp.ua/tag:%CA%F3%EB%FC%F2%F3%F0%E0/</loc>
-		<lastmod>2019-10-27</lastmod>
+		<lastmod>2019-11-01</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>https://cknews.pp.ua/tag:%CC%E5%E4%E8%F6%E8%ED%E0/</loc>
-		<lastmod>2019-10-27</lastmod>
+		<lastmod>2019-11-01</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>https://cknews.pp.ua/tag:%CC%E5%F0%B3%FF/</loc>
-		<lastmod>2019-10-27</lastmod>
+		<lastmod>2019-11-01</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>https://cknews.pp.ua/tag:%CD%E0%F3%EA%E0/</loc>
-		<lastmod>2019-10-27</lastmod>
+		<lastmod>2019-11-01</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>https://cknews.pp.ua/tag:%CD%EE%E2%E8%ED%E8/</loc>
-		<lastmod>2019-10-27</lastmod>
+		<lastmod>2019-11-01</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>https://cknews.pp.ua/tag:%CE%F1%E2%B3%F2%E0/</loc>
-		<lastmod>2019-10-27</lastmod>
+		<lastmod>2019-11-01</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>https://cknews.pp.ua/tag:%CF%EE%E3%EE%E4%E0/</loc>
-		<lastmod>2019-10-27</lastmod>
+		<lastmod>2019-11-01</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>https://cknews.pp.ua/tag:%CF%EE%E4%B3%BF/</loc>
-		<lastmod>2019-10-27</lastmod>
+		<lastmod>2019-11-01</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>https://cknews.pp.ua/tag:%CF%EE%EB%B3%F2%E8%EA%E0/</loc>
-		<lastmod>2019-10-27</lastmod>
+		<lastmod>2019-11-01</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>https://cknews.pp.ua/tag:%CF%EE%EB%B3%F6%B3%FF/</loc>
-		<lastmod>2019-10-27</lastmod>
+		<lastmod>2019-11-01</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>https://cknews.pp.ua/tag:%D0%E0%E9%EE%ED%E8/</loc>
-		<lastmod>2019-10-27</lastmod>
+		<lastmod>2019-11-01</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.7</priority>
+	</url>
+	<url>
+		<loc>https://cknews.pp.ua/tag:%D0%E5%EB%B3%E3%B3%FF/</loc>
+		<lastmod>2019-11-01</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.7</priority>
+	</url>
+	<url>
+		<loc>https://cknews.pp.ua/tag:%D1%E2%FF%F2%EE/</loc>
+		<lastmod>2019-11-01</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>https://cknews.pp.ua/tag:%D1%EF%EE%F0%F2/</loc>
-		<lastmod>2019-10-27</lastmod>
+		<lastmod>2019-11-01</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>https://cknews.pp.ua/tag:%D1%F3%F1%EF%B3%EB%FC%F1%F2%E2%EE/</loc>
-		<lastmod>2019-10-27</lastmod>
+		<lastmod>2019-11-01</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1120-21aa51e58af48567f62852f14c7d3ced.html</loc>
-		<lastmod>2019-10-27</lastmod>
+		<loc>https://cknews.pp.ua/blog/144-fe0edb7f13d7429603db387c1a7ce6b6.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1119-9b2ec62b4eaeef5943e5b8f027f1c806.html</loc>
-		<lastmod>2019-10-27</lastmod>
+		<loc>https://cknews.pp.ua/blog/143-efe820374fba7f7532805ae0311746a1.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1118-648be115acf66e01ab1042bddd0d7952.html</loc>
-		<lastmod>2019-10-27</lastmod>
+		<loc>https://cknews.pp.ua/blog/142-e0e758d0d2fa4e4b9c79463953f7ded1.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1117-a9dd94a18ffbb2f32ec00bb43d713f78.html</loc>
-		<lastmod>2019-10-27</lastmod>
+		<loc>https://cknews.pp.ua/blog/141-7bbab920b44dd085164d4cb4bf732365.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1116-6086ff6cd0716c8433881f2061ff135c.html</loc>
-		<lastmod>2019-10-27</lastmod>
+		<loc>https://cknews.pp.ua/blog/140-a9b193a505195551766281c9a2ed7e3d.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1115-cbbbbc70ea970b88d27f6c10d504f68c.html</loc>
-		<lastmod>2019-10-27</lastmod>
+		<loc>https://cknews.pp.ua/blog/139-10a3431e7f161a50535f73e510acbc4b.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1114-34301a76e5cf396be343e21884ea9ada.html</loc>
-		<lastmod>2019-10-27</lastmod>
+		<loc>https://cknews.pp.ua/blog/138-3d4faec4657c7d0b32419bcb60d6843e.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1113-bf344afe4bccb8074dbc5de4cfd5c220.html</loc>
-		<lastmod>2019-10-27</lastmod>
+		<loc>https://cknews.pp.ua/blog/137-cc06edb9d512fdc41a0301699a7695e7.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1112-65bbca0829b9faabaf8fe5824b9fa6fa.html</loc>
-		<lastmod>2019-10-27</lastmod>
+		<loc>https://cknews.pp.ua/blog/136-cc17fc2d279a8b03b26506a02641f554.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1111-755dfb361d1743702e5bf8e53bfc6964.html</loc>
-		<lastmod>2019-10-27</lastmod>
+		<loc>https://cknews.pp.ua/blog/135-5a7e2453f3127ca96aec3ec107097daa.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1110-09dd50c642f08db7b57223f9a1dcee07.html</loc>
-		<lastmod>2019-10-27</lastmod>
+		<loc>https://cknews.pp.ua/blog/134-ee63049e7528d22f772a8b69eb346ce8.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1109-2ef7e14780192fe1e8dda07d0d2bbed5.html</loc>
-		<lastmod>2019-10-27</lastmod>
+		<loc>https://cknews.pp.ua/blog/133-adbd7600fb382b2b9972292c7ca086be.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1108-a99382415d4b63529809f1475bb61798.html</loc>
-		<lastmod>2019-10-27</lastmod>
+		<loc>https://cknews.pp.ua/blog/132-4289c003f558476911790c9094029ce7.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1107-4c1acc01aeaca5c79fe1357d1ce20829.html</loc>
-		<lastmod>2019-10-27</lastmod>
+		<loc>https://cknews.pp.ua/blog/131-c71851b8bf9513454c4d1596c09c99b9.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1106-da4208d5aa8bf89bf5047a8960cd2456.html</loc>
-		<lastmod>2019-10-27</lastmod>
+		<loc>https://cknews.pp.ua/blog/130-0dc8917dfbf3c1aefecc9d92aa6bf2a6.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1105-3e9114f4e43337550d1b53df949131e1.html</loc>
-		<lastmod>2019-10-27</lastmod>
+		<loc>https://cknews.pp.ua/blog/129-151b70302b0549b717090da8b67bd7db.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1104-7bfe7ab4f3c93ec8dd08785cdebe5596.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/128-c2f41bd6404faff24b2bf7d515cf0a6f.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1103-6affb6a3ab013d984308f1347a4f5e38.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/127-8d4a9173ed0645c4a8a9277f1617a71c.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1102-da39f3b52ff762bd32623a38056b0d21.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/126-0c4f20a9ce4a55e08ece39eb28755158.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1101-7f92bdc35e5887ead31135b16a97d61c.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/125-36eca9c25253ac0ab027ca63a5808378.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1100-02d3400c74092b44e9c5246a7e90d680.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/124-e99e2603a3d149fd52afb17faafe321a.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1099-9825b20548cb8f983376ce8e09a8dfa3.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/123-ba06a081697b97f8c02ddf0f181d9688.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1098-a4f9addc9fab024bb7a6bd8e27ecc2af.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/122-a2abfea97f0edd8fe922f25b3cbd3e77.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1097-4fe15d2eb542242e1cb626254d2bdf89.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/121-3629cc56a164dc1788a343bee5279683.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1096-6bc257966d6e12f3890fb26b40517c14.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/120-ff5d7f71d24df7173c64259dc28c6b3a.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1095-0e77e47fbdae5c879e6f4c3c80ba7f6a.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/119-709411355dc8d255284dabb30360d0b1.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1094-d42131b3213dda82f66133cfa0902a84.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/118-2194fcc996c9e6519a2f1033e188d7d2.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1093-0932afd4970ec608b6a36f1ade4b6cf5.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/117-fa21a14c7310bf9a103d5aa45c806b13.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1092-24fd1c3cd83078ae995af677d9f97d53.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/116-f8ffb22c62083ee7e2cde3b8531e6067.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1091-d4b1e2e2340285d57384823d7ce245cc.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/115-a53a42f5f9a358f625d609db8992482f.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1090-715a83fb7ad0de754cec91e90db03720.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/114-11c6355fe86ec6ed47d505e471ec5be0.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1089-06bdc6000e2f419b3d8b8bb152b15278.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/113-b6b12db0f1bd288ff0402e80843018f1.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1088-cb636b9f82f1770f2678fa40e2666e96.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/112-de6461e29ace832594ab563171fced2c.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1087-6b13ef0cd532ed4e537545f79125a25f.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/111-1c7d5b36ea246685f5fbeb08d776af9e.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1086-8890b1b4c1ed19a8f5436b6ef240ebdf.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/110-e61d260623b86df105cca76325fe7dc9.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1085-2d9b6640c670cbff9fcdef60f4eae8dd.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/109-02b8e820008ddb4da9060cee21657ce3.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1084-4a9fd1cf2409a5e4d8133383dcbb23a9.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/108-c204224a4cdbed285b8e3ec7aef7da23.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1083-379964d9182b2bb5b87cfc7b8c08eec2.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/107-6b560be8b12f4434149ef8f51aca71dc.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1082-b6ef7f3f2e2f894fd1e1dec3b21ec8f7.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/106-46b811d42420c4a32b9f3bafc2694995.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1081-40331218aa3e2caca2abf60e320c3303.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/105-ec05b7b65c8852a065430ab363228bc8.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1080-389b60d3e656eb944a924d1cfe3b39ba.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/104-ef27080cb1847b22cc9b32c298c78e3a.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1079-c9adf3b570aefd4f61cef66d404730cc.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/103-156f6cdb67921e36109fc756d9c9f2c7.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1078-3cd8897ec3931435b8467164e3716b88.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/102-9dd7bd6926d0a7ce1eca696b0b441fdc.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1077-fe819d864a799d1717d2f84580e57142.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/101-52da3c2f63464604a2c98c5c3ab4edd0.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1076-8f1b21aea8b3729ad5e0881984d40426.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/100-52da3c2f63464604a2c98c5c3ab4edd0.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1075-301926e436c93256a42291bb04159803.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/99-e2da48dd950367e1a70aa6c15fbc2eba.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1074-cbddb3c2d795c106554bc45edf6584ad.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/98-e2da48dd950367e1a70aa6c15fbc2eba.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1073-c39649517faedc2b0e5752195a55c7d3.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/97-71dbee8e25747b3e4c6237f79a5a28ba.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1072-cad1055eaeac18589a2862c1ec56631e.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/96-3a30df3b5b0f734cddda6a33e0f507e7.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1071-557df30385199e209ee308096132bf8a.html</loc>
-		<lastmod>2019-10-26</lastmod>
+		<loc>https://cknews.pp.ua/blog/95-106c6f9627b5cc1c69102af50ce7861f.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1070-f4624ac58b8e90fcb17dde54e502820f.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/94-3a30df3b5b0f734cddda6a33e0f507e7.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1069-19778c9b029b2c5b4383a7e02acf5344.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/93-b5f3083229500abac24f7397a767c7e9.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1068-5228bb5c0556e2ac48e8961ccbf9b571.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/92-b5f3083229500abac24f7397a767c7e9.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1067-c8331c0987dea871242db687589c6614.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/91-c734aae77d3d71649ee94ffaf10be716.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1066-52d882de8cfd58a9794d5af6cc29069c.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/90-c734aae77d3d71649ee94ffaf10be716.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1065-83f9d07408be4533629a24c0deb04d6c.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/89-9a3726d26a30a9101d7dfb42262acbfe.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1064-15f5943cf8fbe056c2f5869d43469559.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/88-9a3726d26a30a9101d7dfb42262acbfe.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1063-c7c38a021979bc472125dcadd727acd1.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/87-b5747d7daa8643fa7c72fd4901a9de93.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1062-e341eb29bd42c9c994849a2621883d44.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/86-b5747d7daa8643fa7c72fd4901a9de93.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1061-508ac37f73c19cfd4fd898446bdfbdcc.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/85-8c3afe03f2eac0e8173b2aee67e24fa5.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1060-c724a45a750ab010f18e5ef07e0c6047.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/84-8c3afe03f2eac0e8173b2aee67e24fa5.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1059-a4efe5b9f0da9d68ea9083c8abee02a5.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/83-07009460ba6355034987ba4a90c527a4.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1058-0f1ddbbb99bd1c443f62892c1531c715.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/82-07009460ba6355034987ba4a90c527a4.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1057-833c45974c642c51d2bb0100d77ac2a3.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/81-d88390ae37b1d7c10c4442e0514692ac.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1056-b1c671708c133487c5838a6288176926.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/80-d88390ae37b1d7c10c4442e0514692ac.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1055-944f4deefaf9f7045d89dbd3cca31201.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/79-052652622f4ff2c6a3bdb0e4fd1a3a12.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1054-4e8501e449db40a733f93f522069033c.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/78-052652622f4ff2c6a3bdb0e4fd1a3a12.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1053-2f3916238a800de51de1a420af6acf0f.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/77-c4bf64373fe173dbcdce493b3e50d22d.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1052-53cbd142ca4ffef3d4d54a1c5f34eeb7.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/76-c4bf64373fe173dbcdce493b3e50d22d.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1051-f138942c44a2f41be712aae877af76e1.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/75-683ca4382f7f085d4e75fe871a3fa3ce.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1050-d537fcffac139eee36207bce8718b052.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/74-683ca4382f7f085d4e75fe871a3fa3ce.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1049-21aa51e58af48567f62852f14c7d3ced.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/73-885dec581b15046de66d70eaedcbd1ab.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1048-9e3c19f8a101168067bffeffb0563521.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/72-885dec581b15046de66d70eaedcbd1ab.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1047-b212c8d9bd9127003727368203ddb576.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/71-461148687316d4447b63308caf0e85c3.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1046-8bbc36f57816511613ac6592cd14f40d.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/70-461148687316d4447b63308caf0e85c3.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1045-6e4dc7bff0a346252b307fac2cdcf625.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/69-64f9e38cd028b1a0621ad4499bf7e223.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1044-e599d841dca6647fc0a14ee82b0f055a.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/68-64f9e38cd028b1a0621ad4499bf7e223.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1043-b71604654c5ced39ccbb57861df7339c.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/67-53cbd142ca4ffef3d4d54a1c5f34eeb7.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1042-7900de3976593e53a93af63591e0dd32.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/66-53cbd142ca4ffef3d4d54a1c5f34eeb7.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1041-0426898d47209c21f22a177735de4b1b.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/65-944f4deefaf9f7045d89dbd3cca31201.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1039-e2128bcca7d676c62bc2527775f78812.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/64-944f4deefaf9f7045d89dbd3cca31201.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1038-43ae4adb2b03e32c47623526bc226c8c.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/63-e6f9b1733b96c2fe2bc5ebf3c14f826d.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1037-cc251b7e18c872295a862d1ef8b59b2c.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/62-e6f9b1733b96c2fe2bc5ebf3c14f826d.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1036-62bd69f6fc244f024409ca34a058b195.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/61-e4aee0aa9a40a8d8920a2f55f16c9766.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1035-bb0f3e720f963a6b8630b1339b358cf9.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/60-e4aee0aa9a40a8d8920a2f55f16c9766.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1033-5b213f41ce9cfbf9fe6618f67f5c1cfd.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/59-4a1559b88666225b73206f149c674170.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1032-39472979302c1f4939be8e0f6e171241.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/58-4a1559b88666225b73206f149c674170.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1031-b5a0fe9d11207979d6493dfc28633aad.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/57-ecf259d3354ace8711da7dda20c13f99.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1030-0ed6eb5cdd8609e4f549c5dee34979dc.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/56-ecf259d3354ace8711da7dda20c13f99.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1029-3fc3a1d6ce05177d3f7b224c5ec8b978.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/55-a7428bf39d84680da1f29c3e84676651.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1028-b6b427908cc72a11c1938e65a4392e89.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/54-17b6e427f2717d83dcc0c9bbac32d4c0.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1027-851b9e43601ef16a6387e26dda9770d5.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/53-a7428bf39d84680da1f29c3e84676651.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1026-274fce40e4572c508ccf140ade53e8ba.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/52-18ed4ca65ee11f68c8e912f48fb3831f.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1025-dad87e3eefc22c322a8258245c88f3e4.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/51-18ed4ca65ee11f68c8e912f48fb3831f.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1024-d59c772b6334ba1272c7672e4bb0d0a6.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/50-bbf2647c7e3756c7bbde126d78408083.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1023-c40836da80fa9cc12573a09856c4b00d.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/49-bbf2647c7e3756c7bbde126d78408083.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1022-6ccf4b0bf5380cfed9214e5b71dc3fe4.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/48-2c09f6c435b211fc3db40a3387cc8445.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1021-00d6447e00c7fd4cbf07627961c452d7.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/47-2aec23930fe795caf75e462cf999c011.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1020-e26c2747ada9f2f053c65bb2459dcada.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/46-2c09f6c435b211fc3db40a3387cc8445.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1019-c831974fa17a38cc67b1cf295bc9f687.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/45-02b5ad62ee8ebf9cc2a17996205179ea.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1018-28998ab63347709bc9580f111cd37316.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/44-02b5ad62ee8ebf9cc2a17996205179ea.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1017-919b5f4597516e2ef557c29b60c9c500.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/43-1e24bbfa3231fa7b02492d97d4fb5986.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1016-9244f82f2ef1b6ccda2e59d40999c7fe.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/42-1e24bbfa3231fa7b02492d97d4fb5986.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1015-47ac841e1119de0b0abbad26e55c4d8b.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/41-abf5495866658f6058dbccebb8e1a1ae.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1014-0966c3f3b1bc565c79d21d37b620febb.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/40-abf5495866658f6058dbccebb8e1a1ae.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1013-ec23de66534fe561a5fc92a0d605caf9.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/39-6fa2e73a8971a0d64da2c00abb4f634c.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1012-dca00617e4f1656bc5e98a9620ea1fb0.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/38-6fa2e73a8971a0d64da2c00abb4f634c.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1011-4a1c7540baae285b3579ada8b76658c9.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/37-c92f075b6776a1273934454f76b33878.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1010-884884d7edfb082221e0ed297f6073f4.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/36-6d08bb4e698593f50a91fbd741bff489.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1009-3ac9fbaaf9acc4991bf0e5b0b119126e.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/35-700b043b07cce4df1713ed836c644a47.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1008-c2b7c3d915b444b860968f88196765b0.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/34-bd8fcbbe46525b85e11bfcafd15f7f01.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1007-a31bcb0743ec0db8869f614b98bcf9fd.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/33-4665829b0f9833d1ec096515a5f635cf.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1006-9ea786a224ad1d9acaaf195851bbe208.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/32-eaf3b8e14c6647bd3af0430fe25bbc8f.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1005-a1c822bb8b2a3b8bee19e0abc4cfa18d.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/31-5e4538ae2dbded3e3bc4c3d7737cd02b.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1004-1704da7ec66d440bd15a462c47c31bf0.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/30-073f92ced2f5c832ca21fb22939597e9.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1003-fc038d8460df2b1d813796a06a452119.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/29-f66a6d7c5a0676620c7863567f95aac1.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1002-eb29a5f8ef7035893526a79fd85aeb94.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/28-8d6e39d8b1ae1cbebaba640ad4315012.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1001-d7b03108ce5e55717562bed78133a115.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/27-39b202d816a00f62ba10891c732c1cad.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/1000-1e990b46f4e912a5832792d7e44b0bd2.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/26-0d6b1cb63e23f80cd48e084f7843cd82.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/999-57910e7da6baf844a4566f819781cb68.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/25-81bb9bb580699d5647eff9f99a396243.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/998-f0d03bfe988e65b316c277b94fd433f0.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/24-d7621f4f56dab3ef5d83d7d174ea2392.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/997-c17ed5ae1b81d11fdb46e062fa2cba3d.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/23-6dc81fc24da7c01b340f5c3721532901.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/996-a492e5045e81178d362dbc5fa94f5267.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/22-55d985a88453962b8b0322dc012d1e97.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/995-1297f9733bc1f3024ee47f4a81473c0b.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/21-a9e98605bb3f144f544ffd229e59db3c.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/994-a4fe376fa45008384ed24f9b9f6636f3.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/20-fcebd0e7894444cfc6ad497a8cc7178f.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/993-a8d8ad3df52766b7e2d4cc138efc2dfd.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/19-ef872c73cded7e3da4fa4665c4a03664.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/992-fb206495c7b81af93978a8dc430144e5.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/18-73eb6d14e202ad7d280d625f09256407.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/991-7f29446359f30ece9bae71dfdfe79990.html</loc>
-		<lastmod>2019-10-25</lastmod>
+		<loc>https://cknews.pp.ua/blog/17-8f1ddb59389446805bd3e146bf0dff5d.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://cknews.pp.ua/news/990-84b1ee666bcb231b5e6a3e826d1c51ed.html</loc>
-		<lastmod>2019-10-25</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/989-8e8f85689cfc648a460e1f0ef37ef175.html</loc>
-		<lastmod>2019-10-25</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/988-b6ac3193d49e95b3149ce202fd6b1b4d.html</loc>
-		<lastmod>2019-10-25</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/987-d90f59b07bb37be87ed8670464a68909.html</loc>
-		<lastmod>2019-10-25</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/986-84717ed1535852f1f978135a324c3d37.html</loc>
-		<lastmod>2019-10-25</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/985-72121d011c6aa0c43025e6ae8a97e47d.html</loc>
-		<lastmod>2019-10-25</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/984-e8d831618568690903dad541bc620a2f.html</loc>
-		<lastmod>2019-10-25</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/983-e74487ba2fad9192cc203ffc41432730.html</loc>
-		<lastmod>2019-10-25</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/982-cddf78dc77727d0ad8b256982e9e6dfb.html</loc>
-		<lastmod>2019-10-25</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/981-2f46aeeea7bad9f5f0cff3e54f1dfbfa.html</loc>
-		<lastmod>2019-10-25</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/980-c08842cf65d6e9c5d1cecdeb95f88b24.html</loc>
-		<lastmod>2019-10-25</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/979-e7bb3b6a4f15775a46ec3b77ee9bc7d5.html</loc>
-		<lastmod>2019-10-25</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/978-1cf8ede035962bd753ad99a266acc3b3.html</loc>
-		<lastmod>2019-10-25</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/977-888716ecc1d9b5f572b827a5519bdf29.html</loc>
-		<lastmod>2019-10-25</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/976-a5fd9a73f0e7094380cda6a066923148.html</loc>
-		<lastmod>2019-10-25</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/975-d7599b643133c96cc33155b86bdfd8ba.html</loc>
-		<lastmod>2019-10-25</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/974-4d919170c318131064d7bca4b9c63333.html</loc>
-		<lastmod>2019-10-25</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/973-02592f756eab75182050516f07a92ca0.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/972-3bfca2af563c3bfbe43869d05fbd3758.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/971-ec1df25d060e12430307bf2af744b0f6.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/970-e89432c3e212d4f4cc34edc05605dd7c.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/969-179ebe87707b67f9fbd0835b7ef8930c.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/968-d4e3f91b37164a608ec5a7d0ab9159fe.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/967-4e440ae1e5be762ec8ac7707cbc5fb04.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/966-77ad03988781beb81e13b556146959e5.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/965-64f9e38cd028b1a0621ad4499bf7e223.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/964-fb3da2321f8aa80d7f3d089a62a13fad.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/963-100dc52a039a04413d6b4ac831ebd95b.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/962-abd70809b98770589a19f85feda38a00.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/961-cd32c513507478e67b83fc9ec1ea6bc6.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/960-8ae1203302569deccdf4309fbe669ddb.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/959-d526e90bcab3965e8db07b7f07fae7d3.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/958-6453e73030caa6b91b54468e9e5b1089.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/957-3cead690758adabcd0124d3b3b24eb45.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/956-29e709bf217017692cbdacb3dc748af4.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/955-ab24c2215869d304fceb09111c638c95.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/954-4072470a07e57589ce8a6a9e9870bb3b.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/953-18ac392355ce2925bdd772680cd86075.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/952-461148687316d4447b63308caf0e85c3.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/951-dd462985dfe8bccc990ef0e58cdd1b00.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/950-26e681002ec5402291d2892fb727e83a.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/949-ee68995b7d6771f5f075c5be3ec189e2.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/948-629caf55e4dfa2fe4ca64d3f26fb8c74.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/947-946f956f1a36f4bed39b5f183ed801cd.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/946-bcd650c102db50268e5d7ae963775ccc.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/945-b4cb3a77320a355e8c429a3b39b53c90.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/944-11f8a54fb3d19098a9da99eefaa7491b.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/943-ddc5d878f3091e467ed4b7abe5f47c41.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/942-fb5d4da7bb0704ca1599a9cbfb52f16d.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/941-1aa87417fb276b923aa62a0ff3f66cde.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/940-2e7a0a004c6ad430bfdbed8a1706de66.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/939-37553bd27334c8f649c7262b6813c407.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/938-9f477d7f1472b6bb8fb52a363a15db39.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/937-0b68dda7f57aad5bf0f5d0cd4456721e.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/936-b04706dbfca42c71a14593d47f65a214.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/935-16f661370915cf855ac520eb26ce4c1e.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/934-eb187729f244e5112d32eb5a03f0083a.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/933-f7892debfb443be88c2728a11e5d184d.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/932-8a40a354bf144b3e9744402a63da7af8.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/931-67f215687e00090ecb298bc4fd96174f.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/930-746a031dab48cc303df516942b55e3d8.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/929-287ff24243d44c0afb594ef07a3464ff.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/928-45d59c8524cdf6c1d8eb737bd4f750a1.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/927-20b318ffa67b58849322e98b2e2aed21.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/926-58858a59b26f7f2b7d27320500bbfbb0.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/925-51969ef351f6bfa06fbffeccf6f3a271.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/924-a20f1bc9720bf0115c00e400dec21298.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/923-4aa42a209ef5387cda51e5cd52832007.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/922-dfcc5ebdfea968415bcd72c78bf3a40e.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/921-57fc057603095004508fd27f97092f9f.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/920-ff2809b7fce53d06d7869d2b3854ad27.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/919-3836286646b32c78e164105f33e02bf7.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/918-5fd084c640af9d1cbc4d8f74964ef297.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/917-a9cf434cd686a0bc1312b0a4cdd6230d.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/916-442ed13028f4f8928aaccfb4f6b53e71.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/915-2e4a747b5559956606d1354927f08476.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/914-303ae3373ade7055c06c68d1c4c0e0bf.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/913-b0fbe8b67f5b60ed91c6df222e0c2e7a.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/912-b6846df67bc464c47cfdd39cba4fabbc.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/911-380dd2e61d93496f9eaf32479a61b313.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/910-ffd2999364bdd5b7bb6e2235e2b0cffc.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/908-93fed6401d42111687451ea62abca236.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/907-369d84b59b0250e8328424dc9faebb9b.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/904-2923487e227d6f4dbb415c50a86caf2c.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/903-879afcdd3e51863a655a068146b1db49.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/902-b1a6f88b2ff6e655aea86d0c3d13225e.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/901-6df0277e95c906dbec55d6b6920d2444.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/900-f5d843ece7fefe0876e157889581c5c2.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/899-509d383e648927521becf5545193bdd3.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/898-361b0bb131f07eb938c6e0b2141385d4.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/897-28f1b284f0e7022b666436ae9484a0d6.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/896-d9aca1c2039936d5424f5347f40f5b90.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/895-6f0437477050dcd353f8e6d9d68f35ce.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/894-d328d60c8ce7598664e906ba4cf24501.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/893-seminar_ozbroyene_oko_tenologichna_ekspertiza_tvoriv_mistectva.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/892-5430d8b0542cfc7dcbd569a29d037500.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/891-406b2ae8b47008d6e41ff9e6d42cfa56.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/889-974078826635eaec8c55f4ac71cc1977.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/888-f30bfe002d99fdc2c790ef9779a9ae25.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/887-15677f8612711fb4be45c0a15bc3ab02.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/886-4cdf930f183a2715a2a05074efa87a11.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/885-9371fe2ed3dbbe343dfbc60160b14f0f.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/884-55130880068e49316efe4a4cc4ab8c87.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/883-ed8ed0cac1550b3a0a323f4518287640.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/882-f4a5f98bcf56eb1f914085c0ff702739.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/881-aa39de680b7bbc7353357084b803f925.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/880-1c9ddeaae9ced72358ae94727c6e9126.html</loc>
-		<lastmod>2019-10-24</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/879-c4c0b1a107116e5f7dce22d81e545bdc.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/878-dee4d43da3ca2f391996f11fa477a7da.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/877-e15640e05b58cfc99a5cf22c2a232ef1.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/876-e51fadc2b01c1a020f14a62c68db50d0.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/875-47bcdc151eb4bae6b08313f0fee1a9b3.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/874-1b2734d9a4de3b53c942324fecdfb439.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/873-69e9925a36dcd54c6d93c62bb8ad7f5b.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/872-8f9f19fda8807ec5b2721a41fc281f36.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/871-cdf606680e978a13113d444138d43ab1.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/870-d8bd9c153f148681c58ca6c8a120f612.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/869-ab8a9fe65d72e546f8e57321cd885757.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/868-f6713ed3cb2bacb8b6d375ad6aa30f65.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/867-897015a0b45abf8203276a42227b759d.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/866-27540f588235e2d2effdad8b990bff69.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/865-746d270cb63f7b6ec2bfec2639174b16.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/864-ed53a7dbb06863685f533f6b6149e448.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/863-7e727c1ff31df509ebf46576899aeda8.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/862-e5b1ea7dd133c12cddadbf745c17491f.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/861-0e2d1275575a32d98b26d31f34e2f6eb.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/860-3f31c31dabc97f98b132f4cf8255a497.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/859-b5fcd79f1d4512ff771e29dc6c3a2939.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/858-727f51d52511961ae7cde463786a9447.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/857-3cf0e270aa6c411676fb51071fe80d3a.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/856-3878d28ec02c6d6edf318d5759d5bb27.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/855-3653ff745f258a6b737afe040a13d8bd.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/854-604ca1e6c67f2f17a4beca67699211ed.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/853-10f5d99f83136f7b269687ee168c52b4.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/852-153ac99e3909a6968f15da1098c940f4.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/851-abf5495866658f6058dbccebb8e1a1ae.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/850-e6425c25c2b99d613ec33b0845a10ce6.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/849-1e24bbfa3231fa7b02492d97d4fb5986.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/848-8a0c75fc6776a0241cc2fb79586eca29.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/847-ac602a303b9145937705fd1a02d3cb3b.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/846-6a695844ce4aeb49928a7df2bea70195.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/845-d69ab44b7e5b283224e7beaef1b81f09.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/844-0167af206e5b73c92df5dd5e5fc3fe93.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/843-afc0adc5b3f861263b652b295ed7c208.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/842-20e41695808c96d2b6334d2416903737.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/841-6f323c7b391453111d85bbb30a178db6.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/840-6c42ffbb245be3fcbffea4ba14835db0.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/839-f112e468b900c579c9ae3f4d0f04645f.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/838-d78e771b11b0d6de8521ff1f37ef7c71.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/837-c0c04dec4165c0fb2443c3faaf752f1b.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/836-8a7f65f0f4940dd0d8f4d1e9b3cd8005.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/835-9262ba4269342f608e38ea5bfec9125c.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/834-533caec1b585a24d4ae306fad9456cc4.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/833-425b9650be8d26f51335f0ab19ea5a0e.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/832-26126d80408beb10276341da5de8df27.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/831-931b6020f36e7f927c16a7e5ad60164d.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/830-284dac902546eb422888c9858df63aa0.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/829-b038fb3b475bc063936d06abf6a53e1a.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/828-f53dd0dbbe6a4175dcbbedc6f61e0a91.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/827-492cd1926a06158eb7c1fa0e01a3839d.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/826-35a77f94ca731c1c2d71506df8bfc4c3.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/825-30f9c130aed4fec92ad194fd26addc29.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/824-80efa9e61542514e49c4a257906dacdb.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/823-2d04987e7550d03772ddc6b7d5827e1c.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/822-0c96d7b20ade555ce810dd2819821954.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/821-1f602a3202d10c56773409ab05839c43.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/820-44578355060fff648bb45e839c4f70ae.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/819-773618a0b3198cbe3d3d827088b4df1f.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/818-dcfdd93f23d1faf27a6ae07c6cb01fb2.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/817-2644711fd52a9f8f5827fcc30b767126.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/816-4fc50a8cf5121ffb573c0d5670689d84.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/815-4437415da2dd668b27c5b764b8e7fca9.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/814-a9a5b39e1470deb91b0e84c1c2d998dd.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/813-3c7762c874e6ca4f1d8bd686fb565c58.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/812-3f82d78522e3a6525488bc567619cb01.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/811-6511f69bba05c2609abf69feaa297348.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/810-b571e337c8e7d35ceecf9d349ad0ad84.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/808-5fe4ed660102ad36966561c58c162b2a.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/807-0625cb620f2d5a804c6b51256415f038.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/806-6937753929bb59752b67ecd208ecb839.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/805-d45fc84aeed2011906fc60de378a9a88.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/804-50e1a6583ff264fea27a89179e068b1b.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/803-8ac150317634da72d856498a81f52c65.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/802-6b96b13f33d086f8a68b5577e7781ae7.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/801-b3f84b279e827ae3c433cf2c86a0eda7.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/800-b0b49c0b62e41f73e2d5cb4d1ea4dfd7.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/799-926102783d53358fef856a17ec0fc772.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/798-ba4fc08b58eed793de0f42c0f69a0cdb.html</loc>
-		<lastmod>2019-10-23</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/797-9f89ee827bad8334516d81841977f9d2.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/796-92790cacb4794833cddca5a3697f5843.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/795-56616e3b491f116360925f39f393f58c.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/794-88f7acc47b8d5c4eb799bd7dcb7ecbd7.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/793-5c84923718015f347196de4d8bbbf1d8.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/792-2b2c6e9ef5b65ae7679a945c87db1c08.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/791-d0f14a11cb04726b14c155a8514566fa.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/790-f8afc9bf2a876c6a02423d7e9e48d623.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/789-333f377000ee335ca0260338b4bb144a.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/788-ca02795ccfd28f8d50192ef5e7c5c13b.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/787-6588aecf63b4ac04e0bb08d4ee7f35c8.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/786-4fdc07dd998b5fc4593f03870b09c3d4.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/785-eedb0461103573f860a4a44353a0454f.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/784-51270d9e1c6cf6885238e4182767ad74.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/783-7079c77f5b0114869baf9cdbacc9d4aa.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/782-a28b2319815e457649d4f0d55f82dd89.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/781-af8be291d4e6493453f67deca368a28a.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/780-e1afade190d670867899c1036a5b33a7.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/779-51d0c32036bab1e01cc17a50aa2bd89d.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/778-5bbbe61b7407b172333c8be4e1649813.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/777-25675e69f5fad9d7b6e3130ace05cc30.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/776-c26e7a4857ffb740e9f7e66b4f3ea0a5.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/775-eac9f36b8df9745bcbd355142a20910f.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/774-d8fdac5bbf0d8cbd9c62378aa0c281df.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/773-a74359303b24a014024aafb4297ea566.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/772-c3dede388a89638c17579bd926eee04f.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/771-ab4e40aa9d8a8be5e73ca0f513c8801c.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/770-0dcb3c673dac30d7f14d303ef43dc2b9.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/769-bb5008223101cf515e92abbcdf4f3d31.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/768-625168393401518b3a5874c091edd830.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/767-4f1570061a54fa072e40f53381c259db.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/766-1c5153b82ae2c6232610846933f5b244.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/765-1a9686dd34ec99afd04627e36c66629a.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/764-3148cfb21cc9f096843db667e5a868fd.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/763-e2497bdbfeaa8ad554ef101a47721ced.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/762-10138d0cfc3d45bcfa8cc9ca76f6c43c.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/761-1c5fa844e7e08afc2d37d0d025913f77.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/760-afa7441e40f3b94339b42f6ae0aebc0a.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/759-d0f5ca9968bebd4ff8e2b64d919dc74c.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/758-d5d386666d3f81b8638820b95435e8c6.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/757-83d701a09910488e42e652d088945c63.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/756-ea95e7d6ea2a4d428974e3f294fd225c.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/755-c4d75383169f5d8a4b913a8fd5f6db39.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/754-ee34f49df1bdda6587166772756d7891.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/753-23f17c062ab680d903beaeca7319f3be.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/752-16c39e7858177ca745170db817d0453f.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/751-58bd1982814ac2d417b7dd13becf6286.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/750-c1ca6c7ba0fd26bbd31bee47dea44399.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/749-60e6a513704730fb71351b1dca8d32a5.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/748-0444133b9077f7b8ba32ee3bba196a0f.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/747-3fb071e1def6bec04d5ae72d5e898256.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/746-1c1e93f341d3aeaedbb5c292d9606c4a.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/745-b05554bcb31ffd463a2e20cfa7ef78ed.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/744-d8bd34bd813d9be2ca3be2f0f05722d5.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/743-b82c2932cbfb6960100eb0c378813be4.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/742-fca5790bd48f892f0eee3d388306b177.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/741-6848baf59162dd7dcd9b17a2c98ad2e1.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/740-a90a0f3d31f995395aaa4c74b62fa769.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/739-73b152ebdd0756226398f980a7e18604.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/738-8d6039cdfde910a482e7f5760caad22a.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/737-f427058145ea08c4202c1c5c5c2d1c5b.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/736-090eb902ff6ab188e891f25f2be29c40.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/735-869c5152986301e11c0fd88ef6414b08.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/734-0754a08d8867256c93c9481ddc2181c7.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/733-63dd11bef967892d4f5f18d1d3a621e6.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/732-92bd687433415f9a1cc17b2048f109a9.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/731-84739e0a2d9f8cdccaf68ac841706230.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/730-8c0bc51d9bc9316c2c170d97d200c2ef.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/729-0da0e2eed7a18ef3b6e521c189a66b78.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/728-8dc5d4494708f62c2628262af1b186e9.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/727-47f0707329265e91a670b75fa52d080c.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/726-35b7f312e057db899a72c8e418339c58.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/725-b41ad238f96118321b05dbfd6a71ec63.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/724-38342595bf0858cddab5a64ee4276689.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/723-af47bf4a5cf8a2f26fa42f24d74d90b8.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/722-82929398d4b1bd3ca3a38328b94cc94b.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/721-4ff551457da8f0826da25ad77403453f.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/720-a3f189405082d0115d48bd705a1f7a74.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/719-845a29c4ed88a63db4174174f37dd5a9.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/718-4a7f89aeb9b0b258b6ce62a488218a1b.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/717-a259d5b32f6078965d8f9064dbe4d49d.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/716-ceb687cddd6d108fdc39d2e21f8b4c80.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/715-355e98f375045a072a825c44c62d2e06.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/714-6fdd90509647ef894127726f5ac2949b.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/713-47f4697bda794a3dcc0f69222aff2d49.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/712-0e0b74a3be9a2ec509ac1296bb772527.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/711-7df4ef0cf6f84de90e8e5c5b68ba39fe.html</loc>
-		<lastmod>2019-10-22</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/710-bb876749550ff6e5bcf9fad25cefaea6.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/709-0fc8cfa56d2fabb93d4ccf517c975192.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/708-61b28667c357484843756e00448829cd.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/707-5a4096869cf3c99b92f31aea49042b04.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/706-7e570d27ca2eb88130da68faacc0fbf3.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/705-b2bfab7eea250b15f95f9b94c340fe6a.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/704-c8f763ff0eeea17ca4246306f237aeb1.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/703-961ee0115ecaeea3a42bc750d79cf5f1.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/702-bd0b22d5a47487193fcdde45bdd6273a.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/701-06ca3ec1bdfbe8e974d1e9987b5a6bce.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/700-5428522ad280f9a6e7b980d40fdf2a58.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/699-8a0b51e8356224ed480921facbf20bd7.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/698-49f84b817b0ade1ea3ef885efd8504d9.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/697-6c58af2682384f7bf73e99208a3829d9.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/696-1601ba382b5dcdb6e20d86c8ce4327f5.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/695-b79f7d8a8567c175517abbc6113de02e.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/694-051f94c519a8f2c27609223c45f5c49d.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/693-be8a7289209a53e8f816a41b68f43076.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/692-c5c852876e0c2fe36eeebdd22c2482a7.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/691-ff5c0b1215092798a956c685605a2037.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/690-412e24cd49a05995ef54dec009e8a41e.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/689-b613e4b6840e9a8be76674ed9bde5ec1.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/688-06b9057368b79d692f7647e877212994.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/687-29e647a88109bf3a89b0cf2abc73434f.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/686-8d8ea7e8b1237a17548740d8dec9a39b.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/685-4be09c2532a29d1160cac4c2f9d72461.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/684-cdf57fc4e8d2b6e74311c0f5e85c8b63.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/683-ac4dd3b019fde4a8ab3af45acc776606.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/682-acf5acffd7f6fb1961e83c3466e2be29.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/681-f094229a2e4604bd050b47a09e9c8f8c.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/680-1674b4c75ad97d78668d941e88bf7614.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/679-885dec581b15046de66d70eaedcbd1ab.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/678-43aef685feb2a8606f99efde1e9905c9.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/677-e9585ec398e38f562c5266ef441311b8.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/676-7ccc71f6f5b06dca60a192ac576cab4f.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/675-cea0d9fe82d4d4441f2b688ca64e0e0c.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/674-1d936ff20cd2f81938fae3d976d27f80.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/673-af3a6197c8b79ad047e33b9de1ac3fd5.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/672-0a756608128d4d4d4ba7cb58805ae95c.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/671-b48c4c71f35bf9d7ec3714df312f3a10.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/670-aeeb8fd74d6706ee25af66b4ad759572.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/669-cb933c6bfd31e538b8135456155a0f05.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/668-078c704d8868baa791ebf1252ddf064a.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/667-304bf300aaacc2a3b87cfc2af86b3f86.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/666-51beed264a032bd5a95a70d2aa220c29.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/665-b657bf8078018609b6f2fb5e943bbee3.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/664-7465c67a64a58e1f13ee4192a9bd93be.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/663-7714ad83a996ec72f1f7db7a729f3f3f.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/662-8db32d1934da6cf2931b7d308112186e.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/661-324d55ac14583e9c4d16c09f17bbd4d0.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/660-8adaaeaf01ec2b74c53eac70f0d5ad35.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/659-cb698804740897c74a5fa47ab6e99d68.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/658-521312191e74e5fdf5939121bb1b96b0.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/657-125804fe5e2687c18d95cbc660cded4f.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/656-7e13c96504b8db6a06f9032f9d6f2c36.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/655-26b18ec4b76f9d09564e4735532b9c45.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/654-20dc1b50eb02a47e49251976c24f06b6.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/653-cc073450c878c5fe26c43772cf2e2da1.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/652-e6c69fde873e439e8ea4255820e4ba0a.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/651-502b5f2915d3297008fb6f6fd3fb1e47.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/650-3824ae2b7566b0288e9c2111cab58330.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/649-0cdba52a643c56ae4fcca59a051ce312.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/648-80a0b82b8b0eabae9b53d0c2fd2f87e3.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/647-a9eafbcce1f55905c0daeb257dda73ce.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/646-8450ffdaf26f9827550dc348d9d41e02.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/645-edb95d09aafe97eb06dbd901e7646462.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/644-99febb29ce3f218ea8779c8af072859d.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/643-5de48591a27611838e94c85532ea28dd.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/642-645ed5181bea269fe567a10d8e2e2a31.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/641-7d8edad147a2272795cf1e65229b2bda.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/640-bbccbb74c07f59f08103423e80c1ca9f.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/639-698c2b577560b03b74cb3db3bfb6b8d9.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/638-0761073a8d478ed4d29a7a82401c7082.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/637-a1ccc854809fbb94efee831dc235872f.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/636-04ab4633eb8f0ac31bc7467659e8ec75.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/635-8cadedbb3fa412467aedf42246e91cfb.html</loc>
-		<lastmod>2019-10-21</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/634-7f713f064ecba06e47396949f4776dcc.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/633-4d69609e4c06a3194ec264340fec710e.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/632-90732cdc606a396e9cc1a6d88f42e38c.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/631-187e83521c75b410da903cb75b95b3ca.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/630-aa971f05490b4d2026b0c8f31b4047cf.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/629-1f75e80378be463544ecc60866cf789f.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/628-21ab9025e1a28f99d66efea3b2b51e62.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/627-73f8aac34c4ac7ff377becace959fc2e.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/626-5057024af77021afb8caf194232bf4bd.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/625-34151d71472a96b879bf1d462f47a885.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/624-038f65099fed6baf33a43b9dbbf86544.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/623-37126710ab5a1a22102992d4719f5cf2.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/622-77aca0c5b3293821a95bd24f05cd2cf4.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/621-e54ba3b4bb2ddf11b49fe1de15a53c25.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/620-980de6a5e09912d129a425d277941b29.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/619-faea4c59818a68d328597f39bf3b1d11.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/618-dc1c41fc51f4a6d12bd7b422297468fd.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/617-8be066d5125d4159d202f4407a7eb695.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/616-66936fe727b6ef03258b7cf03930434a.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/615-b97d952c1050c45b36fac55c737d7de0.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/614-f948337a2f395ecfd50b4cd7aa08afb7.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/613-a923c63ccfd706061e0f80d2749a998a.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/612-22c17fe941596d0550d59376b20390f7.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/611-6f8068255c2cafcccb05ebad9fc381c0.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/610-9603d07b0dada6d129ee8704ce927238.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/608-73354c778cdaf130e87e62950c449cec.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/607-3e8d03f1c3aff958673b20f4b12b5411.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/606-0a8fd614b379b595a203638d2ad3958a.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/605-4655204d06a798d822ef83a443ad265f.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/604-508ae87663aa2af6c4aae1738e7c22db.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/603-92d4d061c9715c80607a0dcb8a9a0a84.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/602-d96ea8f5b7aad21241c259cd09fe4ec3.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/601-d8cc8dd23a1c1c11ac59022125eff97d.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/600-ecf259d3354ace8711da7dda20c13f99.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/599-17b6e427f2717d83dcc0c9bbac32d4c0.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/598-a7428bf39d84680da1f29c3e84676651.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/597-18ed4ca65ee11f68c8e912f48fb3831f.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/596-bbf2647c7e3756c7bbde126d78408083.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/595-2aec23930fe795caf75e462cf999c011.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/594-2c09f6c435b211fc3db40a3387cc8445.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/593-02b5ad62ee8ebf9cc2a17996205179ea.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/592-24df78f8f1da5fbc16aaca6c1b2fa9df.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/591-6413fe70be4ea9403d87c67ea397c7b6.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/590-b117b778788ff8cde53c7055c41585cd.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/589-55319c541e31dd9f85e0ff0d3e2404b6.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/588-2ffab08a5abf015b743fe2be391e2540.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/587-e7cb08a3be668fc2a8b70564e8c38a5e.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/586-2b05d109e933130029cfded86856256c.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/585-e3615aa5110d5bc29c336635ecbaec30.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/584-2c04436d58c9d55a07549a36cb52ae11.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/583-605b72e1524b67347905534738f26a04.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/582-683ca4382f7f085d4e75fe871a3fa3ce.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/563-6d2a0826d905fc57a4d2df39d1b61368.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/562-067b5ab2027b2ecbc7d75f0cfb494744.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/561-92253d072ee8f1fefd220c6f6c2474ef.html</loc>
-		<lastmod>2019-10-20</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/560-f08fabf4c38ea5f20be0e6fa26ccf743.html</loc>
-		<lastmod>2019-10-19</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/559-2f53aa5e4535c46c8eaf0448f4aa4afd.html</loc>
-		<lastmod>2019-10-19</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/558-91c6715ab4848a42e57fe6dddc3da505.html</loc>
-		<lastmod>2019-10-19</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/557-1a2fd12f220be7c46c59df41f916758c.html</loc>
-		<lastmod>2019-10-19</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/556-045d4b00cff7f1a0e885a6b1e14e0ad0.html</loc>
-		<lastmod>2019-10-19</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/555-7818fc993d9f1ce6c969732a60ecba6e.html</loc>
-		<lastmod>2019-10-19</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/554-0b7c3319d9622b3e507012109d2f25e5.html</loc>
-		<lastmod>2019-10-19</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/553-6782fdde6274edd4005fb961442a3ab2.html</loc>
-		<lastmod>2019-10-19</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/552-ec3f72a3e3812242b1d923c4fa2a6cd3.html</loc>
-		<lastmod>2019-10-19</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/551-ec4bf66267012ce12235c4ce7a828cf8.html</loc>
-		<lastmod>2019-10-19</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/550-0711494b01a1514a84892ce8096b8156.html</loc>
-		<lastmod>2019-10-19</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/549-8035ce3b255d13dc89ea3951139d64f5.html</loc>
-		<lastmod>2019-10-19</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/548-fadcdf23952effa980fda399375823c3.html</loc>
-		<lastmod>2019-10-19</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/547-0467ef3d7e0b00d15aae0ea50d79f2c0.html</loc>
-		<lastmod>2019-10-19</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/546-19371a34894f5e06472298a0dab7c250.html</loc>
-		<lastmod>2019-10-19</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/545-11d02e01f23c229157da73612d69c22c.html</loc>
-		<lastmod>2019-10-19</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/544-f6723976ea26320132b0ef449b278eaf.html</loc>
-		<lastmod>2019-10-19</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/543-09ece05a06f62f4630fc7b534da76e4c.html</loc>
-		<lastmod>2019-10-19</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/542-534f62ffa4ae73ea4654fddc25846955.html</loc>
-		<lastmod>2019-10-19</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/541-3a0e71798854b85a1cde4452d45cb669.html</loc>
-		<lastmod>2019-10-19</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/540-f6fa3990fced1c6ee30b908c96e2be39.html</loc>
-		<lastmod>2019-10-19</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/539-69b88332f9e3f8be06e0586698829d4f.html</loc>
-		<lastmod>2019-10-19</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/538-2089a610f2a8e05340c357131521c321.html</loc>
-		<lastmod>2019-10-19</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/537-8dd836911b76f6d38d74f166e4b5a8c6.html</loc>
-		<lastmod>2019-10-19</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/536-611e24b7671a9fdb2280e6b6917a25ac.html</loc>
-		<lastmod>2019-10-19</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/535-3b776ba551449418f0aee3a0ea8e60ca.html</loc>
-		<lastmod>2019-10-19</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/534-9eab9d4dfc07429696fc6b3fb12d00a5.html</loc>
-		<lastmod>2019-10-19</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/533-3a30f8f4cc8db8810d707c92da03e8cd.html</loc>
-		<lastmod>2019-10-19</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/532-2f125e0390dcb8759713319f9ae91c8c.html</loc>
-		<lastmod>2019-10-19</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/531-dbfee4f11860a8dff50a74db2dbf0667.html</loc>
-		<lastmod>2019-10-19</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/530-08404a6ea6140426dab7ddb788cf6605.html</loc>
-		<lastmod>2019-10-19</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/529-fe6ba42f89c9084c99b9a443412062ad.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/528-c62f85f584a1915cf3132c71f8172a12.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/527-b62a3a668fc02e35088ea7ae86dc7b6c.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/526-8050db53b9603b9ffdc36363917d6bb3.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/525-eb905b8ab5448463dde8bfc0e1ff1fe7.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/524-e6023ce2dcd143845edd9ff0690cb080.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/523-97e4cf2d3b61a1de8516c335283afc4a.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/522-f3f35520ab167d4ef015f553a9d8e179.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/521-5171d1564ed4d2c2941b5324795f4d25.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/520-dd8a654ca6c4259c5b05279921cfb2e9.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/519-58f85d35ed6eb86952d45bdf86f28f05.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/518-344083c0f3870b4c08904257266812b7.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/517-c42d36096b3bfc086fa2ef5997224d56.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/516-c069eb1a6bbf659a1d037772f4749c1b.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/515-6de614d26c8a96ee4477a26e47b2fb56.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/514-d122ad5a94aa899715ba3fc384c18b4d.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/513-63fdc5d097361e50d827b675cc01198b.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/512-6d9b38d6858a3e6f61666fcc8aefe033.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/511-9473e228d2e182ef7d08bfb79566790e.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/510-4d2eb6ea0ff078ee28e0b772e677ec46.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/509-972f580e9cc1343568405237eb91b4ee.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/508-cfc6853425f4674a55e5f19efb625e85.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/507-846aa7de4475db01c29110b0faafd0a9.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/506-d112b6199fb58606d8817a3e9fb37c55.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/505-cc0a1f93e16bc0955747d93762483172.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/504-0c8491d5cdf317a3c4421e2d70fd3f92.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/503-a0702eea43ce9bcd11c4b199ee8a3108.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/502-bc07346178d4258bb208b0f8a061dcf5.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/501-5cd26df49d2357d31f61c6cd3abdda0e.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/500-5f728fbc1b284fbb5fe9c49209b539d2.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/499-ad3a8c1f821bea72ba31a4e1164e0fff.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/498-7aaa43fea0acc24cc517b50cae7d01f3.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/497-610723aca312299a5bfd34b8cd3b0920.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/496-7d42485668fb9c6448c6d3e237917705.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/495-49ae34c99d4f1298fb0eb49433602948.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/494-735b8c445fffac91cd6e278d25da9af6.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/493-c77555c7e61db14d912c837930e6f0c1.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/492-64331212ca105dc9eab82f01f2460756.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/491-88cee9b7c957544abdfe5e336156a065.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/490-21ce807343c43ecddf4180fc3ece1f26.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/489-293a9d501acaebecc84d5e36e4b9f085.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/488-b68ef867224e9d94c4c197f0957d2fd8.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/487-fa21a14c7310bf9a103d5aa45c806b13.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/486-6642b4dc5f7949119c70616978f7fee9.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/485-2126afcee6aaa2ce5cc00c100e961c31.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/484-2194fcc996c9e6519a2f1033e188d7d2.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/483-0c4f20a9ce4a55e08ece39eb28755158.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/482-709411355dc8d255284dabb30360d0b1.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/481-0dc8917dfbf3c1aefecc9d92aa6bf2a6.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/480-f8ffb22c62083ee7e2cde3b8531e6067.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/479-c2f41bd6404faff24b2bf7d515cf0a6f.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/478-ba06a081697b97f8c02ddf0f181d9688.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/477-ff5d7f71d24df7173c64259dc28c6b3a.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/476-28984e0d87c992f65cc7985472a793fe.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/475-141048757e72d6d5f290d7670da7d10a.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/474-3c4e57cdaa949d4688cc524fe7761e7b.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/473-fc4146f007f76d37100460e52dbae75d.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/472-9eb3e5277e087e286285bfc0da453401.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/471-ddaf38070c590234a56f37ca833e52c3.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/470-fd78f2f82f2ee4ee23a769ae42bbf367.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/468-8b043518422ed152d77328b00d0403c6.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/467-59becf3cc25c96c515204c94980c451a.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/465-d01c87cc752c17c2be3b4a1f9b9f4cf4.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/464-ac3815a0fc87e253074f51ac5bbb0f39.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/463-1e9975254be417b32e2d3cddea1d5d2d.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/462-a21e6e0d421ba2d8afdfae325b70d914.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/461-4b4d389bc51dc0d22c8167e45005a27a.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/460-54c6218a920d37c4ee8a03be1dccf7f3.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/459-04ff14190a6393178d6f9bf0b7b0d27b.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/457-3c5bf7f5e65d35acf21ef22e3c2c98af.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/456-d8ce1b5a81d19981e049d5f055c3a536.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/455-f2737db32db6658c2dd3882926307883.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/454-5625adf6d947be8cf0fb1e7b89ebd588.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/453-100082d5ba9f355dc6818dd02f09d1e8.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/452-72daf7ff436a86030d3b2b18bce7ac7f.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/451-bee6b3514ed9d81c27e11e2cd90fc43a.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/450-2b167cad9f8e86c66065ab9fd7c26012.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/449-393653fdf82b757a057fe42030bffd36.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/448-3ac7ddded0c55fc6307eb05b80ae724d.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/447-f524d2129b40b7bffec47bf7486a0601.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/446-ebab4fe39e1b6b3cb5e5745fce011902.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/445-ed9be8f88e4c6d6fb8bdf2ae9ec2e8c4.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/444-c8973e3f2bb7cd081c66083fd5fdc0e3.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/443-f9b8101db328fa9e339b82b3b612233b.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/442-b9a584c54553186ef5ef9ded4ff9d8ff.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/441-dd39944531a1ea7e3d385b53eb753681.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/440-cb3d5157fab2098303249f26dc99fd10.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/439-7616ab39c0cc115d4e1e32ffbfe952e5.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/438-22db8560f12b82798ca2de925ff32eb5.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/437-52b2b5086426fc33de8022d0eaa3fa8f.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/436-3044410c5f971b620bfee4af41c06d48.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/435-cb0ee5283a0f9b0048cdc4339842748c.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/434-5a46ead14557a46ae8b3d31b563b5284.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/433-d14c3257e64ed95f90f57aac855628d8.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/432-f7b768cf8c8931b5c003518bdeb7f45b.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/422-8d4a9173ed0645c4a8a9277f1617a71c.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/421-3629cc56a164dc1788a343bee5279683.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/420-c71851b8bf9513454c4d1596c09c99b9.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/419-ee63049e7528d22f772a8b69eb346ce8.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/418-36eca9c25253ac0ab027ca63a5808378.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/417-a2abfea97f0edd8fe922f25b3cbd3e77.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/416-4289c003f558476911790c9094029ce7.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/415-adbd7600fb382b2b9972292c7ca086be.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/414-e99e2603a3d149fd52afb17faafe321a.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/413-151b70302b0549b717090da8b67bd7db.html</loc>
-		<lastmod>2019-10-18</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/362-cd9329b6b47137f95921b0374f783f77.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/327-ee0f4f85105ea08fb28b6a32f7d1a501.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/311-56c0a035dc54427993f964895b266a74.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/286-7f16272dfa42cd450c4cf70e2aef5275.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/283-7db4e32857f2568ef7067423ded0929d.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/276-994c6e91d51bde4b3094010c165a09fb.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/275-fef9c5923866407fc177cf2101feec48.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/274-5cff58b16975229b3be6d7caed6dbdc5.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/273-8f7463a15eca331d967674f0a9176b6e.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/272-0837acafa7edbe184df116f62569d84d.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/270-19385d539c8cade9dbbdb7b4399bb083.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/269-5c33aef344a1e8bc9918c553f0d7abfd.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/268-8ce682ca89801a0ee992909fc05ebd55.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/267-3c3de0a6499b8cdad884d44dbc388c69.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/266-bf03791f747f8728a9dc28c6ab9b7ca2.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/265-e3e85c99023a9b63ee5eff08ab863417.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/264-77fe197bbd0d0d30476b1b9bab6399de.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/263-9c76be76778bfafe17bf80e8037bfd0a.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/262-321bfb64b75af07b570e6b06483e6ef9.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/261-80cac0deed3829e10a089654a0a2320b.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/260-22f16cec68f0e961775c8538b694ef56.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/259-70e212833f4c308ea2e6b4b604c65d13.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/258-89eac34b7899126e1e9fd8d884a5c481.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/257-dea4b289285ffc7ead927a2911a4cb72.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/256-86cd0d6e7d612a36100b7ab96e27061f.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/255-8c3f012e155b16162a20ae463b13a281.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/254-d9ce92de461dd1d2a7e02925c7a7c51e.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/253-36e07a230fe9797aca0e1f77520f681b.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/252-302e1564da887c3736053e2f40801e1b.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/251-d239161431c25ce8d7e31289a019fc27.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/250-dc68ad166791c8e0b4f234cd0d5555e0.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/249-14609a5f9ee2042017736b6027201f54.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/248-f042adc5ba9e6f4cc39b792afbcb1cf4.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/247-3249b6c3feb22fb50346690c93afb786.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/246-7dbaa078434f5ae084ea35bb5ac2bcd6.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/245-6f3717742e3550531279b36c9c6f5e70.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/244-48ae4a4f29c42c3f8939bd622a67b90c.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/243-bd14229efc8dd55bad8ee24b82a3a904.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/242-074dd23869d6f0c3d2b5e88ad80664a0.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/241-8ff09f2fe9ead26a425a8e44fbed9f12.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/240-f1470a2f740ffded448c9ad7c4e297ea.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/239-73f44c3132ebc484a2f2c14dcb2a105f.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/238-83cb104ef3027a54550157cab47eabc1.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/237-97832d9f9c1ef655dd1043e5f6ed71b8.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/236-4cb805ef1b70aaecca8a20645a57ef59.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/235-3ab986572dbca71a64a87100e928c13b.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/234-8a5a69e35482620ea3bea9c4b261f7fe.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/233-1d46ec6a5a84cf93416894ec95eb7cf6.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/232-8530c9dc290ff4d4327474517db0e8da.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/231-ac54269ca531269ad73c9a73206bd240.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/230-9c20be1bb958a629687a887ce6e94bed.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/229-7e3824bee92557e599fada4ee338e020.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/228-315f6088c639171f8e43f726e792453f.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/227-ebae7d5f347c02a2efc8a2d5f79cc851.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/226-fff8022c67bc2269a4b8c24f0c6c79ef.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/225-e017543b4faa60c85191bc932d26d56b.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/224-867f50db302a66dd766f9661bbbee574.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/223-40c4fa1ba2bef045d8780f8651f04429.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/222-5df7cace737c050aacea04f9f8b9ecd5.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/221-bd301505ab2d94e06b0d04dcc9f7843f.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/220-935765224364477120313a38ef6a9c08.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/219-eadad87603a1e0bae20c602ea5da4ccd.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/218-44f74f349112556fd627524b11932720.html</loc>
-		<lastmod>2019-10-17</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/217-8d77f844260c924504c1fef8a57f2c20.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/215-34a8b045bb3e56231e701df1249f83af.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/214-d31d9f20e741f9238e4cbc0689285fcb.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/213-645a85955c3bbace34552c2f25708051.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/212-d2ea7aecb1dc5273bee19e7ff3ddfa0d.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/211-f7dcce32a56f5e1e051ec1c28c277527.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/210-cf3c6ade0b533fbc703a07f49563b73a.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/209-70bb310b36a630b9f21f0d5e9268e716.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/208-94838edeae1d12472309b681553c282b.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/207-c70367fc1f2de9a2a89a80eb7f646f1f.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/206-bed563b9d0c0e9eade683ccbb30ecde3.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/205-4497b6cd831842a4fa031b31dcb5101d.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/204-f023a83fb57c60260b94949200c2a6cb.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/203-1cdc723763c7b4c1e76def72f8991ad3.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/202-516d5ea086b0f07643f321b2d6afaf3e.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/201-798678e4f1a85c46fc4fb0c74870f020.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/200-feb32470929c815e53c7947b19bbb083.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/199-51360ba9c05bdbae4972d38c7e186435.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/198-f0eacf73863df5689d87f93405d54de3.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/197-4b039767ff406d831486b40e1d21888e.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/196-b0839b2319034dcf796ad70155e9d455.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/195-cd3728a7e4521046b444f83b2f9756c9.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/194-c30aed92dda2aaf6ad22dbb919e7c2ff.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/193-465bdace5a12a800d96405418672c540.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/192-a68a4d4eaab9ba2b7788c19a392d8143.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/191-a63b65f602af09ce5076e469a85afbfe.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/190-00ec81fe148f52b669934fdc2808f703.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/189-f282b71469776a4d2dcee00d14b0df6c.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/188-170333312fbd2211f2045e207467f6b6.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/187-b6b07e2d8abdd20a69097125903b7922.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/184-51c7ece4cd2fb0910e5e5fb7ed81ede2.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/183-8c04e06acb7415a33cad4954dff2487a.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/182-c099c975c5543dd6787279fcad715610.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/181-25220a016be41378936d0fcef7f30bc6.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/180-a7a52dbe008436bd8dcb0e1df3ca48d6.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/179-6dad09ec7f3610b687970ac99ace06d7.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/178-80cf8541b80ee39df8862e4c3a5fcf84.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/177-5fef5b970d2e37d0674a66beb4d8e8e3.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/176-ea1ef849e2868d55d9226dba10d8fc65.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/175-779f506e0bb97a50a26e3f7bc2764766.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/174-b163c938f6b2e6052d834845d2bd7948.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/173-0093411c3571bd844c08ac41683fef39.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/172-0dfbaba44ed4ea22fd3273cdc1f90c8b.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/171-c1f2854c692f9a993f987c4b1860761e.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/170-17b6253fd6d9431bed3ec7f5e4e88814.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/169-a5a7201c1f1538ec075b0af594dab58a.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/168-8b1cb3ab45c00c13216d523b22d71e6b.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/167-ab8d5f17fb76329ec09e6818c25bbb3a.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/166-996f3a052e410c3c774aa2c72ee6a10f.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/164-0338f90493cccf2eb2418e3230c59ad0.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/162-11d927e8e8fe77b658b10db6d5fa132c.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/161-68c9dee9ea5e118a059c285be164f3b2.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/160-e4c07261e0658bbd3e72ac8c09a4f2e6.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/159-24b6c9c4bd1d556681971ada686fcb03.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/158-ad1608ed7a3882f889bc50ba526816fb.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/157-93e0a36d9f8dcada4343b4cf625b2279.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/155-4452e23ea6be96b24633262f714b28ad.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/154-6799853b8dbe4adb9d64753896591cb7.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/153-bb9255bff5b2cbba1213a8a282ce7180.html</loc>
-		<lastmod>2019-10-16</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/151-c00fbf4300816b836f9254db84210594.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/150-2f5a05df60b460ba5486d7987edddf8c.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/149-fc4e57cb554d3faac59deca73de5e321.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/148-c02fa59864a44777faf1ebc6c22eee4e.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/147-a24616341abb19f4f16df7c7b23084a5.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/146-b14694807237f91e163d085dbb1bf265.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/145-146e48745d57451bab5eabdd4b789f24.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/144-e52713a04552f10f5c781123a03b54c9.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/143-7ac9b6a46f8cbe9f5f67cb558f87f909.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/142-0c4f6b0b30c23e1335d423309cf4653c.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/140-1064ed1aa31aa1b4eff998e0f300ad9a.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/139-05483fbd37a6050845dd3311842715ea.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/138-978ad80719a7e920bddae75d321b3260.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/137-ddf60c1bd8b6a0493618be2079cd9163.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/136-3e0dfecb23f07c4e5ff4df573808cddd.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/135-0beb98a583880a726a98fc43ffc29ebf.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/134-5dd198e35f5cd02da347a57b15128124.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/133-a428ef50b78513a5304c0f56e8b00f82.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/132-0eeba1156d2f14490233d88fa965515a.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/131-b6c00546eae194322e6475bbdf98769e.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/130-ef2b6a8f01aa623219ab3d1eaea14b4e.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/129-509d7034d752cb4b606fbc31112b36a0.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/128-f663f9fd2fcd9993ae8896e5230ee3db.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/127-1979d87f4e7e77c03cd9e9b8d57ef9f0.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/126-4af46506d46b635a5f56fcfd27067ed9.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/125-448a74836e2f9f8ea22edf2de39a264b.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/124-3624c490bddbdc2c7f7b617f86fb8ead.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/123-71653517f61f109f0aa25f8ae0e9c9ce.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/122-34018c0903642577a8278a8747ce31c3.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/121-7451fe0cfb34f56c2ea1b48045327158.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/120-117fa9eac7f68a6aa92157ee63b34dca.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/119-548ddf3819c52a465792b59f06d454e6.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/118-09b106bebbce748edabbf7c7232dc227.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/117-6c0de9c7094e988ca142c7697a51e9cc.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/116-798cd057fced857b4d48aa177d134782.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/115-1de9bfc524aaa5a7bb1d7d56195f9760.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/114-9154d15ea571257950901b15af09a47f.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/113-ac8ba442849bcc683793b24aa75605c3.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/112-f20df61deaa808dbd4602dce8bfa8fc5.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/110-a059eff383593f7d3c6ca7210e1c6451.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/109-a6fd8e73fb5422c64c5d6f781f922ea1.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/108-370a8b4e5ca1b342764660cbeca456ad.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/107-3273caa5e46320efc6188f25a7625dcc.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/106-b8201681ec36a355782e68e6e1301f16.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/105-fec10a91d07979958a09605ae3f630ea.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/104-1612a3e4105f1f08d4e602c550240009.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/103-640c36a04003720af6b442e7813a693a.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/102-bc25fbfc79d60227c11955eb53a77cd9.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/101-97a7cf2fd378132ecf84135f41a1703e.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/100-a4cb1956b71ed5122f06566e80e35240.html</loc>
-		<lastmod>2019-10-15</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/99-2735c3db41a0f15212f2cef03cd7da6f.html</loc>
-		<lastmod>2019-10-14</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/98-1c7af76beb8395b4a6356c613de765c4.html</loc>
-		<lastmod>2019-10-14</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/97-91daf01e207b585674400d3d4f83397b.html</loc>
-		<lastmod>2019-10-14</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/96-b4457004e10923e910e91f56ef46de76.html</loc>
-		<lastmod>2019-10-14</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/95-e47f2ac2d89c436781baa9a64a6c5f4c.html</loc>
-		<lastmod>2019-10-14</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/94-2b9b1b4395e88d16a7dd80be312a1d0a.html</loc>
-		<lastmod>2019-10-14</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/93-b1e568fb6e9408c03424064b40706eeb.html</loc>
-		<lastmod>2019-10-14</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/92-5bc0515f6bd6d2868737b7fad58d821f.html</loc>
-		<lastmod>2019-10-14</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/91-226833295227a425f22e81ae5beb61a8.html</loc>
-		<lastmod>2019-10-14</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/90-06defcb95e2af425e87fabf4bf3a07d2.html</loc>
-		<lastmod>2019-10-14</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/89-b6405abfac8d5ee51bfdad41b7cdfab4.html</loc>
-		<lastmod>2019-10-14</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/88-7d4d13f9af001daa5b192ec4bc489c5a.html</loc>
-		<lastmod>2019-10-13</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/87-d71d76f5d3a88c0768705e98d6822d5f.html</loc>
-		<lastmod>2019-10-13</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/86-d6194b1e20b418974dbc561af654a8d8.html</loc>
-		<lastmod>2019-10-13</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/85-040f4072ebb4ff6087387707f38c01b2.html</loc>
-		<lastmod>2019-10-13</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/84-60445d7f1a77182e6f5bbfd458ffa9d2.html</loc>
-		<lastmod>2019-10-13</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/82-342d18886b8d501bd54b6019e7a174ae.html</loc>
-		<lastmod>2019-10-13</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/81-20a5bf80a6ae9823c4b741d9ef5d4a4b.html</loc>
-		<lastmod>2019-10-13</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/80-530270eb6eb790507013339f88c8b19d.html</loc>
-		<lastmod>2019-10-13</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/79-54f879a5c7a8ef508bcda3188dba04e7.html</loc>
-		<lastmod>2019-10-13</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/78-374d6eb20dedea703a87a10595632afe.html</loc>
-		<lastmod>2019-10-13</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/77-6dd28ad9eff3842577a4da8f9a407329.html</loc>
-		<lastmod>2019-10-13</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/76-2a577ed50640ea5e20b0528d9a6c58ce.html</loc>
-		<lastmod>2019-10-12</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/74-908678d16cf55e93c1fd5ca0e57ec3ab.html</loc>
-		<lastmod>2019-10-12</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/73-12acd374c4e594b51f93c56453d2722e.html</loc>
-		<lastmod>2019-10-12</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/72-09e6fc96f5bd6f2c73b1e039f74a2adc.html</loc>
-		<lastmod>2019-10-12</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/70-62166bd7e40faa041c998a8c766406a1.html</loc>
-		<lastmod>2019-10-12</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/69-362910f16589b5a37ab8b09fa8411d03.html</loc>
-		<lastmod>2019-10-12</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/68-1611b88895ebb41f00e5a1386fff36e9.html</loc>
-		<lastmod>2019-10-12</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/67-706cceed6fb73c2ec0170fb2972c73b3.html</loc>
-		<lastmod>2019-10-12</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/65-d97864b27f69cf66b7ceb396e6017553.html</loc>
-		<lastmod>2019-10-09</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/64-da392b2426371ca6df1bf934c5099311.html</loc>
-		<lastmod>2019-10-09</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/63-bfc0241bf5892fbbded11c9853c1f9ed.html</loc>
-		<lastmod>2019-10-09</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/62-3a14bf159889aa0dba80039501d2bb1d.html</loc>
-		<lastmod>2019-10-09</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/61-e755577af0477be7460d2127db5ae7f3.html</loc>
-		<lastmod>2019-10-09</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/60-af43aa3322b6299dc3e67a55270b6c66.html</loc>
-		<lastmod>2019-10-09</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/59-8d7357223e46ae22b3d7a862ba50ce57.html</loc>
-		<lastmod>2019-10-09</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/58-e170476089fd08be1f6935fba59bd422.html</loc>
-		<lastmod>2019-10-09</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/57-5c12c4e4d8775e1a9185f104768e7477.html</loc>
-		<lastmod>2019-10-09</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/56-09f19e049c92db99b544760bc5d3fb6d.html</loc>
-		<lastmod>2019-10-09</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/55-2d6d9d08edf3fea9cf2eb8f6a3b2eef1.html</loc>
-		<lastmod>2019-10-09</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/54-b6e58a51be8f1dabfa8ec58208fdd107.html</loc>
-		<lastmod>2019-10-09</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/53-08b3e426497607cda7bfe274e994aeb7.html</loc>
-		<lastmod>2019-10-09</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/51-7a6f2c2284f50e1c4b68797416d57d9e.html</loc>
-		<lastmod>2019-10-08</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/50-9748bacdc1d186d77e6a25cb9f9de46e.html</loc>
-		<lastmod>2019-10-08</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/49-224e4542eb8d63044796552f0da91b1b.html</loc>
-		<lastmod>2019-10-08</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/48-f7709f1b6d1301c6585224fe65f48624.html</loc>
-		<lastmod>2019-10-08</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/47-167ead17c474a13540e4f1b09017f3f8.html</loc>
-		<lastmod>2019-10-08</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/46-4d48f4d4ad67404a5a39638d02d20c06.html</loc>
-		<lastmod>2019-10-08</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/45-eba2a8cc86086a1fbdbfe1f5f09c9c58.html</loc>
-		<lastmod>2019-10-08</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/44-a8a2ed2a5ea146e769cb8d44a230e2e1.html</loc>
-		<lastmod>2019-10-07</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/43-a067b965439ce305769a6c9fa588926e.html</loc>
-		<lastmod>2019-10-07</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/42-f33d7041b759edd4399c0883234ae1a6.html</loc>
-		<lastmod>2019-10-07</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/41-4a4793c9d51cbadd640ea96ed69a0181.html</loc>
-		<lastmod>2019-10-07</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/40-5cec1aa7fbb34907cc88a30c7c002720.html</loc>
-		<lastmod>2019-10-07</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/39-1c3817a1aa40e7e006eddd8ed03b8154.html</loc>
-		<lastmod>2019-10-07</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/37-27b70e62b60b800ebd416ff0f7fb429e.html</loc>
-		<lastmod>2019-10-07</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/36-e11ebc38eb5be7e91bcf99641fb3a33c.html</loc>
-		<lastmod>2019-10-07</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/35-dfb356d0d7447d0906387e3ead213897.html</loc>
-		<lastmod>2019-10-07</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/33-903aa5701a4ff6ba567cec0dc1c0162b.html</loc>
-		<lastmod>2019-10-07</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/32-c4f4d5c2df925ff530177857636542a2.html</loc>
-		<lastmod>2019-10-07</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/31-77209f3ce82ee562a7f4098e98e33913.html</loc>
-		<lastmod>2019-10-07</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/30-2129c230273ed8ddd7844ff5e737d8fa.html</loc>
-		<lastmod>2019-10-07</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/29-af5ce29efd8ed23f0cc297a9f3209a51.html</loc>
-		<lastmod>2019-10-07</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/26-e2f498e3821f893c5c3a3100ceeefefc.html</loc>
-		<lastmod>2019-10-07</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/25-522ae802f8d9db704d8145a23287aee0.html</loc>
-		<lastmod>2019-10-07</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/24-b9a7b0cf50eb25441e022d359c490eba.html</loc>
-		<lastmod>2019-10-07</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/23-eab1a675b5a6eecfe60e93c9c6bfb53c.html</loc>
-		<lastmod>2019-10-07</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/22-49bae13560527c73ce07482accab52fc.html</loc>
-		<lastmod>2019-10-07</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/21-0d4feeba2623b97e658eaff3e7804b20.html</loc>
-		<lastmod>2019-10-07</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/20-6bdf20ce90d84af0e1c19ff4b9fb0dff.html</loc>
-		<lastmod>2019-10-07</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/19-8bff3e0004ae93e56c68e4347e99dc42.html</loc>
-		<lastmod>2019-10-07</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/18-8fc990f78842c62d4e35f2c380d93787.html</loc>
-		<lastmod>2019-10-07</lastmod>
-		<changefreq>never</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://cknews.pp.ua/news/17-32ac250f62c6e274b6c0a32aa8a91828.html</loc>
-		<lastmod>2019-10-07</lastmod>
+		<loc>https://cknews.pp.ua/blog/16-e55b3bcf07cdad1777b77c9038616273.html</loc>
+		<lastmod>2019-10-31</lastmod>
 		<changefreq>never</changefreq>
 		<priority>0.6</priority>
 	</url>

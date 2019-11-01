@@ -757,7 +757,7 @@ $telegram =
                             .'&disable_web_page_preview=0'
                             .'&disable_notification=0';
 
-            /*$h = 0;
+            $h = 0;
             $c = 0;
             $t = 5;
             $id = curl_init( $URL );
@@ -768,7 +768,7 @@ $telegram =
             curl_setopt($id, CURLOPT_REFERER, $URL);
             curl_setopt($id, CURLOPT_USERAGENT, 'TELEGRAM BOT');
             $page = curl_exec($id);
-            curl_close($id);  */
+            curl_close($id);
             return true;
         }
 

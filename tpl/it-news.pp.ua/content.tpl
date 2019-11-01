@@ -60,10 +60,10 @@
                 <div class="header">
                     <ul>
                         <li><a href="/">Головна</a></li>
-                        <li><a href="/tag:%CA%EE%F1%EC%EE%F1/" title="&Kcy;&ocy;&scy;&mcy;&ocy;&scy;">Космос</a></li>
+                        <li><a href="/tag:Hardware/" title="Hardware">Hardware</a></li>
+                        <li><a href="/tag:Software/" title="Software">Software</a></li>
+                        <li><a href="/tag:%C2%B3%F0%F3%F1%E8/" title="&Vcy;&iukcy;&rcy;&ucy;&scy;&icy;">Віруси</a></li>
                         <li><a href="/tag:%CD%E0%F3%EA%E0/" title="&Ncy;&acy;&ucy;&kcy;&acy;">Наука</a></li>
-                        <li><a href="/tag:%CD%EE%E2%E8%ED%E8/" title="&Ncy;&ocy;&vcy;&icy;&ncy;&icy;">Новини</a></li>
-                        <li><a href="/tag:%D2%E5%F5%ED%EE%EB%EE%E3%B3%BF/" title="&Tcy;&iecy;&khcy;&ncy;&ocy;&lcy;&ocy;&gcy;&iukcy;&yicy;">Технології</a></li>
                         <li><a href="/rss.xml" target="_blank">RSS</a></li>
                         <li><a rel="nofollow noreferrer" target="_blank" title="Наш канал в TELEGRAM" href="https://t.me/it_news_pp_ua">TELEGRAM</a></li>
                         <li><a href="/post/1-pro_nas.html">Про нас</a></li>
@@ -81,10 +81,10 @@
                     {global:posts}
                 </div>
                 <div class="right_top">
-                    <h2>Кібербезпека</h2>           <div class="right_side_img">{custom:2-2:tags:34:topnews_bottom}</div>       <ul>{custom:2-2:tags:34:topnews}</ul>
-                    <h2>Технології</h2>             <div class="right_side_img">{custom:0-1:tags:27:topnews_bottom}</div>       <ul>{custom:2-3:tags:27:topnews}</ul>
-                    <h2>Хакери</h2>                 <div class="right_side_img">{custom:0-1:tags:28:topnews_bottom}</div>       <ul>{custom:1-4:tags:28:topnews}</ul>
-                    <h2>Наука</h2>                  <ul>{custom:0-10:tags:25:topnews}</ul>
+                    <h2>Кібербезпека</h2><div class="right_side_img">{custom:2-2:tags:11:topnews_bottom}</div>      <ul>{custom:2-2:tags:11:topnews}</ul>
+                    <h2>Технології</h2>  <div class="right_side_img">{custom:0-1:tags:8:topnews_bottom}</div>       <ul>{custom:2-3:tags:8:topnews}</ul>
+                    <h2>Хакери</h2>      <div class="right_side_img">{custom:0-1:tags:5,13:topnews_bottom}</div>    <ul>{custom:1-4:tags:5,13:topnews}</ul>
+                    <h2>Наука</h2>       <ul>{custom:0-10:tags:6,7:topnews}</ul>
                 </div>
                 [/notarea]
 

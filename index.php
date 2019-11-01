@@ -74,9 +74,10 @@ require( CORE_DIR.DS.'init.php' );
         $tpl->load( 'content' );
         $tpl->compile( 'content' );
 
-header('Content-type: text/html; charset=' . CHARSET);
-
 echo    stats::ins2html( $tpl->result( 'content' ) );
+
+header('Content-type: text/html; charset=' . CHARSET);
+echo ob_get_clean();
 exit;
 
 ?>

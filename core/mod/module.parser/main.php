@@ -9,6 +9,25 @@ if( !class_exists( 'parser' ) ){ require( CLASSES_DIR.DS.'class.parser.php' ); }
 
 header('Content-type: text/plain; charset=' . CHARSET);
 
+$f = MODS_DIR.DS.'module.'._MOD_.DS.DOMAIN.'.php';
+if( !file_exists($f) ){ echo "NO TAGS!"; exit; }
+$tags = array_unique( array_keys( require( $f ) ) );
+
+if( is_array($tags) && count($tags) )
+{
+    foreach( $tags as $tag )
+    {
+        $count = common::integer( $db->super_query( 'SELECT count(id) as count FROM tags WHERE name=\''.$db->safesql($tag).'\';' )['count'] );
+        if( $count ){ continue; }
+
+        $db->query( 'INSERT INTO tags (name,altname) VALUES (\''.$db->safesql($tag).'\', \''.$db->safesql(common::totranslit( $tag )).'\');' );
+
+        echo "INSERT TAG:\n".$tag."\n";
+        flush();
+    }
+    echo "\n\n";
+}
+
 $parser = new parser;
 
 if( DOMAIN == 'cknews.pp.ua' )

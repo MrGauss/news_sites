@@ -58,11 +58,10 @@
                 <div class="header">
                     <ul>
                         <li><a href="/">Головна</a></li>
-                        <li><a href="/tag:%C2%B3%E9%ED%E0+%ED%E0+%F1%F5%EE%E4%B3/" title="&Acy;&Tcy;&Ocy;-&Ocy;&Ocy;&Scy;">Війна</a></li>
-                        <li><a href="/tag:%D0%9A%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0/" title="&Kcy;&ucy;&lcy;&softcy;&tcy;&ucy;&rcy;&acy;">Культура</a></li>
-                        <li><a href="/tag:%D0%9D%D0%BE%D0%B2%D0%B8%D0%BD%D0%B8/" title="&Ncy;&ocy;&vcy;&icy;&ncy;&icy;">Новини</a></li>
-                        <li><a href="/tag:%D0%9F%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0/" title="&Pcy;&ocy;&gcy;&ocy;&dcy;&acy;">Погода</a></li>
-                        <li><a href="/tag:%D0%9F%D0%BE%D0%BB%D1%96%D1%82%D0%B8%D0%BA%D0%B0/" title="&Pcy;&ocy;&lcy;&iukcy;&tcy;&icy;&kcy;&acy;">Політика</a></li>
+                        <li><a href="/tag:%C2%B3%E9%ED%E0+%ED%E0+%F1%F5%EE%E4%B3/" title="&Vcy;&iukcy;&jcy;&ncy;&acy; &ncy;&acy; &scy;&khcy;&ocy;&dcy;&iukcy;">Війна на сході</a></li>
+                        <li><a href="/tag:%C5%EA%EE%ED%EE%EC%B3%EA%E0/" title="&IEcy;&kcy;&ocy;&ncy;&ocy;&mcy;&iukcy;&kcy;&acy;">Економіка</a></li>
+                        <li><a href="/tag:%CA%F3%EB%FC%F2%F3%F0%E0/" title="&Kcy;&ucy;&lcy;&softcy;&tcy;&ucy;&rcy;&acy;">Культура</a></li>
+                        <li><a href="/tag:%CC%E5%F0%B3%FF/" title="&Mcy;&iecy;&rcy;&iukcy;&yacy;">Мерія</a></li>
                         <li><a rel="nofollow noreferrer" target="_blank" title="Наш канал в TELEGRAM" href="https://t.me/cknewsppua">TELEGRAM</a></li>
                         <li><a href="/rss.xml" target="_blank">RSS</a></li>
                     </ul>
@@ -74,10 +73,10 @@
                     {global:posts}
                 </div>
                 <div class="right_top">
-                    <h2>Райони</h2>             <div class="right_side_img">{custom:0-2:tags:25:topnews_bottom}</div><ul>{custom:2-2:tags:25:topnews}</ul>
-                    <h2>Економіка</h2>          <div class="right_side_img">{custom:0-1:tags:35:topnews_bottom}</div><ul>{custom:1-2:tags:35:topnews}</ul>
-                    <h2>Політика</h2>           <div class="right_side_img">{custom:0-2:tags:27,23:topnews_bottom}</div><ul>{custom:2-2:tags:27,23:topnews}</ul>
-                    <h2>Освіта та культура</h2> <div class="right_side_img">{custom:0-1:tags:33,34:topnews_bottom}</div><ul>{custom:1-2:tags:33,34:topnews}</ul>
+                    <h2>Райони</h2>             <div class="right_side_img">{custom:0-2:tags:6:topnews_bottom}</div><ul>{custom:2-2:tags:6:topnews}</ul>
+                    <h2>Економіка</h2>          <div class="right_side_img">{custom:0-1:tags:15:topnews_bottom}</div><ul>{custom:1-2:tags:15:topnews}</ul>
+                    <h2>Політика</h2>           <div class="right_side_img">{custom:0-2:tags:11:topnews_bottom}</div><ul>{custom:2-2:tags:11:topnews}</ul>
+                    <h2>Освіта та культура</h2> <div class="right_side_img">{custom:0-1:tags:3,13:topnews_bottom}</div><ul>{custom:1-2:tags:3,13:topnews}</ul>
                 </div>
                 [/notarea]
 
