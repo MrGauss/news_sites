@@ -9,6 +9,77 @@ if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
 if( !trait_exists( 'basic' ) ){ require( CLASSES_DIR.DS.'trait.basic.php' ); }
 if( !class_exists( 'posts' ) ){ require( CLASSES_DIR.DS.'class.posts.php' ); }
 
+// https://itechua.com/
+// https://gsminfo.com.ua/
+// https://www.ukrinform.ua/rubric-technology/block-lastnews
+// https://tehnofan.com.ua/
+// https://ua.interfax.com.ua/news/tag/%D0%BA%D0%BE%D1%81%D0%BC%D0%BE%D1%81.html
+// https://ua.interfax.com.ua/news/telecom.html
+// https://politeka.net/ua/tag/nauka/
+// https://24tv.ua/techno/kosmos_tag1810/
+// https://techno.znaj.ua/
+// https://www.unn.com.ua/rss/news_tech_uk.xml
+
+
+trait tr_cikavosti
+{
+    public final function load_from_cikavosti( $categ_link, $tags = array() )
+    {
+        $data = $this->curl( $categ_link );
+
+        echo "\n\nLOAD: ".$categ_link."\n";
+
+        if( $this->HTTP_STATUS != 200 ){ echo "\tHTTP ERROR!\n"; return false; }
+
+        $data = preg_replace( '!<(script|style)(.+?)(\1)>!is', '', $data );
+        $data = preg_replace( '!<\!--(.+?)-->!is', '', $data );
+
+        $data = explode( '</h1>', $data, 2 ); $data = end( $data );
+
+        if( !preg_match_all( '!<article(.+?)article>!is', $data, $data ) ){ echo "\tNO ARTICLES!\n"; return false; }
+        $data = isset($data[0])?$data[0]:array();
+
+        foreach( $data as $k => $article )
+        {
+            $article = common::html_entity_decode( $article );
+            $article = common::htmlspecialchars_decode( $article );
+            $article = common::stripslashes( $article );
+            $article = common::trim( $article );
+
+            $article = array( 'page' => $article );
+            if( !preg_match( '!<h2(.+?)h2>!i', $article['page'], $article['title'] ) ){ continue; }
+            $article['title'] = strip_tags( $article['title'][0] );
+
+            if( !$article['title'] || strlen($article['title']) < 50 ){ continue; }
+
+            if( !preg_match( '!href=\"(\S+?)\"!i', $article['page'], $article['link'] ) ){ continue; }
+            $article['link'] = strip_tags( $article['link'][1] );
+
+            $SQL = 'SELECT count(id) FROM posts WHERE comment LIKE \''.$this->db->safesql($article['link']).'%\' OR title =\''.$this->db->safesql( $article['title'] ).'\' ;';
+            if( $this->db->super_query( $SQL )['count'] > 0 ){ echo "DUBLICATE! ".$article['title']."\n"; continue; }
+
+            $article['page'] = $this->curl( $article['link'] );
+            if( $this->HTTP_STATUS != 200 ){ continue; }
+
+            $article['page'] = preg_replace( '!<(script|style)(.+?)(\1)>!is', '', $article['page'] );
+            $article['page'] = preg_replace( '!<\!--(.+?)-->!is', '', $article['page'] );
+
+            $article['images'] = array();
+
+            // if( preg_match( '!og:image(.+?)content=\"(http\S+?)\"!i', $article['page'], $article['images'] ) ){ $article['images'] = array( $article['images'][2] ); }
+
+            $article = common::html_entity_decode( $article );
+            $article = common::htmlspecialchars_decode( $article );
+            $article = common::stripslashes( $article );
+            $article = common::trim( $article );
+
+            var_export($article); exit;
+        }
+
+        var_export($data);
+        exit;
+    }
+}
 
 trait tr_provce_ck_ua
 {
@@ -1428,8 +1499,7 @@ trait tr_shpola_otg_gov_ua
 
         $data['page'] = preg_replace( '!\[p\]\[\/p\]!i', '', $data['page'] );
 
-        if( strlen($data['page']) < 200 ){ return false; }
-
+        if( !$data['page'] || strlen($data['page']) < 200 ){ return false; }
 
         $data['page'] = trim( $data['page'] );
 
@@ -1693,6 +1763,7 @@ class parser
             tr_dzvin_media,
             tr_vch_uman_in_ua,
             tr_pingvin_pro,
+            tr_cikavosti,
             tr_playua_net,
             tr_shpola_otg_gov_ua,
             tr_zolotonosha_ck_ua;
