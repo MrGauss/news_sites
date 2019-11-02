@@ -19,13 +19,112 @@ if( !class_exists( 'posts' ) ){ require( CLASSES_DIR.DS.'class.posts.php' ); }
 // https://24tv.ua/techno/kosmos_tag1810/
 // https://techno.znaj.ua/
 // https://www.unn.com.ua/rss/news_tech_uk.xml
+// https://dt.ua/TECHNOLOGIES
 
+trait tr_ukr_media
+{
+    // https://ukr.media/science/
+    public final function load_from_ukr_media( $categ_link, $tags = array() )
+    {
+        $data = $this->curl( $categ_link );
+
+        $N = 15;
+        $I = 0;
+
+        echo "\n\nLOAD: ".$categ_link."\n";
+
+        if( $this->HTTP_STATUS != 200 ){ echo "\tHTTP ERROR!\n"; return false; }
+
+        $data = preg_replace( '!<(script|style|noscript)(.+?)(\1)>!is', '', $data );
+        $data = preg_replace( '!<\!--(.+?)-->!is', '', $data );
+        $data = preg_replace( '!src=\"data(\S+?)\"!is', '', $data );
+        $data = explode( '</h1>', $data, 2 ); $data = end( $data );
+        $data = explode( 'class="bordered-title">', $data, 2 ); $data = reset( $data );
+
+        if( !preg_match_all( '!<div class="item-article2">(.+?)<h2>(.+?)class="tegs"(.+?)<\/div>!is', $data, $data ) ){ echo "\tNO ARTICLES!\n"; return false; }
+        $data = isset($data[0])?$data[0]:array();
+        $data = common::trim( $data );
+
+        foreach( $data as $k => $article )
+        {
+            unset( $data[$k] );
+
+            $article = common::html_entity_decode( $article );
+            $article = common::htmlspecialchars_decode( $article );
+            $article = common::stripslashes( $article );
+            $article = common::trim( $article );
+
+            $article = array( 'page' => $article );
+
+            if( !preg_match( '!href=\"(\S+?)\"!i', $article['page'], $article['link'] ) ){ continue; }
+            $article['link'] = strip_tags( $article['link'][1] );
+
+            if( !preg_match( '!<h2(.+?)h2>!i', $article['page'], $article['title'] ) ){ continue; }
+            $article['title'] = strip_tags( $article['title'][0] );
+
+            if( !preg_match( '!<div class=\"tegs\">(.+?)<\/div>!i', $article['page'], $article['category'] ) ){ continue; }
+            $article['category'] = implode(',', common::trim(explode("\n",trim( strip_tags( preg_replace('!<a!i',"\n".'$0',$article['category'][0]) ) ))) );
+
+            if( !$article['title'] || strlen($article['title']) < 20 ){ continue; }
+
+            $SQL = 'SELECT count(id) FROM posts WHERE comment LIKE \''.$this->db->safesql($article['link']).'%\' OR title =\''.$this->db->safesql( $article['title'] ).'\' ;';
+            if( $this->db->super_query( $SQL )['count'] > 0 ){ echo "DUBLICATE! ".$article['title']."\n"; continue; }
+
+            $article['page'] = $this->curl( $article['link'] );
+            if( $this->HTTP_STATUS != 200 ){ continue; }
+
+            $article['page'] = preg_replace( '!<(script|style|noscript)(.+?)(\1)>!is', '', $article['page'] );
+
+            if( preg_match( '!og:image(.+?)content=\"(http\S+?)\"!i', $article['page'], $article['images'] ) ){ $article['images'] = array( $article['images'][2] ); }
+
+            $article['page'] = explode( '</h1>', $article['page'], 2 ); $article['page'] = end( $article['page'] );
+            $article['page'] = explode( 'articleBody', $article['page'], 2 ); $article['page'] = '<div class="dd'.end( $article['page'] );
+
+            if( !preg_match( '!<div(.+?)gtegs(.+?)div>!i', $article['page'], $article['keywords'] ) ){ continue; }
+            $article['keywords'] = implode(', ', common::trim(explode("\n",trim( strip_tags( preg_replace('!<a!i',"\n".'$0',$article['keywords'][0]) ) ))) );
+
+            $article['page'] = explode( 'class="gtegs', $article['page'], 2 ); $article['page'] = reset( $article['page'] ).'>';
+
+            $article = common::html_entity_decode( $article );
+            $article = common::htmlspecialchars_decode( $article );
+            $article = common::stripslashes( $article );
+            $article = common::trim( $article );
+
+            if( preg_match_all( '!src=\"((http)\S+?(jpg|jpeg|png))\"!i', $article['page'], $images ) )
+            {
+                $article['images'] =  array_merge( $article['images'],  $images[1] );
+            }
+            $article['images'] = array_values( array_unique($article['images']) );
+
+            if( !count($article['images']) ){ continue; }
+
+            $article['page'] = strip_tags( $article['page'] );
+            $article['page'] = explode( "\n", $article['page'] );
+            foreach( $article['page'] as $l => $p )
+            {
+                $article['page'][$l] = preg_replace( '!(\s+)!i', ' ', $p );
+                $article['page'][$l] = common::trim( $article['page'][$l] );
+                if( strlen($article['page'][$l]) < 10 ){ unset( $article['page'][$l] ); continue; }
+                $article['page'][$l] = '[p]'.$article['page'][$l].'[/p]';
+            }
+            $article['page'] = implode( "\n", $article['page'] );
+            $article['domain'] = 'ukr.media';
+
+            echo "ADDED: ".$this->save_post( $article )."\n";
+            $I++;
+            if( $I > $N ){ break; }
+        }
+    }
+}
 
 trait tr_cikavosti
 {
     public final function load_from_cikavosti( $categ_link, $tags = array() )
     {
         $data = $this->curl( $categ_link );
+
+        $N = 15;
+        $I = 0;
 
         echo "\n\nLOAD: ".$categ_link."\n";
 
@@ -41,6 +140,8 @@ trait tr_cikavosti
 
         foreach( $data as $k => $article )
         {
+            unset( $data[$k] );
+
             $article = common::html_entity_decode( $article );
             $article = common::htmlspecialchars_decode( $article );
             $article = common::stripslashes( $article );
@@ -68,16 +169,45 @@ trait tr_cikavosti
 
             // if( preg_match( '!og:image(.+?)content=\"(http\S+?)\"!i', $article['page'], $article['images'] ) ){ $article['images'] = array( $article['images'][2] ); }
 
+            $article['page'] = explode( '<article', $article['page'], 2 ); $article['page'] = '<article '.end( $article['page'] );
+            $article['page'] = explode( '</article>', $article['page'], 2 ); $article['page'] = ''.reset( $article['page'] );
+            $article['page'] = explode( 'class="entry">', $article['page'], 2 ); $article['page'] = ''.end( $article['page'] );
+            $article['page'] = explode( '<div class="adace-slot">', $article['page'], 2 ); $article['page'] = ''.reset( $article['page'] );
+
+            if( preg_match_all( '!src=\"((http)\S+?(jpg|jpeg|png))\"!i', $article['page'], $images ) )
+            {
+                $article['images'] =  array_merge( $article['images'],  $images[1] );
+            }
+            $article['images'] = array_values( array_unique($article['images']) );
+
+            if( !count($article['images']) ){ continue; }
+
+            $article['page'] = strip_tags( $article['page'] );
+            $article['page'] = explode( "\n", $article['page'] );
+            foreach( $article['page'] as $l => $p )
+            {
+                $article['page'][$l] = preg_replace( '!(\s+)!i', ' ', $p );
+                $article['page'][$l] = common::trim( $article['page'][$l] );
+                if( strlen($article['page'][$l]) < 10 ){ unset( $article['page'][$l] ); continue; }
+                $article['page'][$l] = '[p]'.$article['page'][$l].'[/p]';
+            }
+            $article['page'] = implode( "\n", $article['page'] );
+
+            $article['domain'] = 'cikavosti.com';
+            $article['keywords'] = '';
+            $article['category'] = implode(',',$tags);
+
             $article = common::html_entity_decode( $article );
             $article = common::htmlspecialchars_decode( $article );
             $article = common::stripslashes( $article );
             $article = common::trim( $article );
 
-            var_export($article); exit;
-        }
+            // var_export($article); exit;
 
-        var_export($data);
-        exit;
+            echo "ADDED: ".$this->save_post( $article )."\n";
+            $I++;
+            if( $I > $N ){ break; }
+        }
     }
 }
 
@@ -1766,6 +1896,7 @@ class parser
             tr_cikavosti,
             tr_playua_net,
             tr_shpola_otg_gov_ua,
+            tr_ukr_media,
             tr_zolotonosha_ck_ua;
 
     const CACHE_VAR_POSTS = 'posts';
@@ -1884,11 +2015,21 @@ class parser
 
     public final static function filter_utf8( $str )
     {
-        $str = iconv("Windows-1251","UTF-8//TRANSLIT",$str);
-        $str = iconv("UTF-8","Windows-1251//TRANSLIT",$str);
+        if( is_array( $str ) )
+        {
+            foreach( $str as $k => $v )
+            {
+                $str[$k] = self::filter_utf8($v);
+            }
+        }
+        else
+        {
+            $str = iconv("Windows-1251","UTF-8//TRANSLIT",$str);
+            $str = iconv("UTF-8","Windows-1251//TRANSLIT",$str);
 
-        $str = iconv("Windows-1251","UTF-8//IGNORE",$str);
-        $str = iconv("UTF-8","Windows-1251//IGNORE",$str);
+            $str = iconv("Windows-1251","UTF-8//IGNORE",$str);
+            $str = iconv("UTF-8","Windows-1251//IGNORE",$str);
+        }
 
         return $str;
     }

@@ -33,7 +33,7 @@ $parser = new parser;
 if( DOMAIN == 'cknews.pp.ua' )
 {
     $parser->load_from_dzvin_media();
-    $parser->load_from_18000_com_ua(); 
+    $parser->load_from_18000_com_ua();
     $parser->load_from_shpola_otg_gov_ua();
     $parser->load_from_vch_uman_in_ua();
     $parser->load_from_zolotonosha_ck_ua();
@@ -52,11 +52,10 @@ if( DOMAIN == 'cknews.pp.ua' )
 if( DOMAIN == 'live-in-ck.pp.ua' )  { $parser->unian_load( 'https://www.unian.ua/m/war', array( 'війна', 'ато' ) ); }
 if( DOMAIN == 'it-news.pp.ua' )
 {
-    $parser->load_from_cikavosti( 'https://cikavosti.com/category/tehnologiyi/', array( 'технології' ) );
-    exit;
-
+    $parser->load_from_ukr_media('https://ukr.media/science/', array( 'наука', 'технології' ));
 
     $parser->load_from_playua_net();
+    $parser->load_from_cikavosti( 'https://cikavosti.com/category/tehnologiyi/', array( 'технології' ) );
     $parser->load_from_pingvin_pro();
 
     $parser->unian_load( 'https://www.unian.ua/m/tag/hakeri', array( 'хакер' ) );
