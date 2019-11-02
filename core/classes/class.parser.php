@@ -501,6 +501,7 @@ trait tr_vycherpno_ck_ua
         }
 
         $files = $this->_save_images( $raw );
+
         if( !count($files) ){ echo "\tNO IMAGES! SKIP!\n"; return false; }
         $raw['page'] = explode( "\n", $raw['page'] );
 
@@ -1758,7 +1759,23 @@ class parser
                 unset( $file );
             }
             $raw['images'] = array_values($raw['images']);
+
+            foreach( $raw['images'] as $k => $v )
+            {
+                if( preg_match( '!http:!i', $v ) )
+                {
+                    unset( $raw['images'][$k] );
+                }
+            }
+
+            $raw['images'] = array_values($raw['images']);
         }
+        else
+        {
+            $raw['images'] = array();
+        }
+
+
 
         return $files;
     }
