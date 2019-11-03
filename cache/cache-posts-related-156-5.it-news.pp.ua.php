@@ -1,4 +1,0 @@
-<?php if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
- /* CACHE CREATED: 1572722799.0868 (2019-11-02 21:26:39) */
-return '<div class="related"><a href="/blog/21-62f697208c7377124aeac5a9fcd1abce.html" title="Розпочався закритий бета-тест Warcraft 3: Reforged">Розпочався закритий бета-тест Warcraft 3: Reforged</a></div><div class="related"><a href="/blog/127-b2ff594e5385e7ffd804c0c538106ccf.html" title="Підробна версія відомого браузера викрадає криптовалюту у користувачів">Підробна версія відомого браузера викрадає криптовалюту у користувачів</a></div><div class="related"><a href="/blog/111-fb2ebacf5941478345f16cd662450cec.html" title="Уфологи об&apos;єднали зусилля з армією США для вивчення НЛО">Уфологи об&apos;єднали зусилля з армією США для вивчення НЛО</a></div>'; 
-?>
