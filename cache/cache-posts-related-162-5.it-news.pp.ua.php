@@ -1,0 +1,4 @@
+<?php if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
+ /* CACHE CREATED: 1572722811.1552 (2019-11-02 21:26:51) */
+return '<div class="related"><a href="/blog/107-9aa674682c60e8fbe45d9e52143121e4.html" title="&quot;Найбільше досягнення за 5 років&quot;: Google використовуватиме новий пошуковий алгоритм">&quot;Найбільше досягнення за 5 років&quot;: Google використовуватиме новий пошуковий алгоритм</a></div><div class="related"><a href="/blog/40-e4c768a2825024faf9716fa3a42a1ba8.html" title="Астронавти NASA проведуть тиждень на Місяці під час нової висадки">Астронавти NASA проведуть тиждень на Місяці під час нової висадки</a></div>'; 
+?>
