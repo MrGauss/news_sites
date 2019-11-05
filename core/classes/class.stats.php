@@ -62,6 +62,7 @@ class stats
 
         $html = str_replace( '{stats:used_memory}', common::integer2size(memory_get_peak_usage()), $html );
         $html = str_replace( '{stats:user_count}', visit_counter::stats_by_curr_day(), $html );
+        $html = str_replace( '{stats:user_count_periodic}', visit_counter::stats_by_week_txt(), $html );
         $html = preg_replace( '!\{stats:(.+?)\}!i', '0', $html );
 
         return $html;

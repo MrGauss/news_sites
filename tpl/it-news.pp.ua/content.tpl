@@ -5,6 +5,8 @@
     <!--    ïîì³ùåíî â êåø: {stats:cached} -->
     <!-- ÊÎÐÈÑÒÓÂÀ×²Â:      {stats:user_count} -->
     <!-- _AREA_:            {AREA} -->
+    <!-- {stats:user_count_periodic}
+    -->
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset={charset}" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
