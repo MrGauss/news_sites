@@ -23,6 +23,17 @@ class visit_counter
         $db->query( $SQL );
     }
 
+/*
+SELECT
+    date_trunc('day', visit_counter.ts) as visit_day,
+    COUNT( DISTINCT visit_counter.ua_hash ) as count
+FROM
+visit_counter
+WHERE date_trunc('day', visit_counter.ts ) > date_trunc('day', NOW() - INTERVAL '1 week')
+GROUP BY visit_day
+ORDER BY visit_day;
+*/
+
     public final static function stats_by_curr_day()
     {
         $db = isset( $GLOBALS['db'] ) && is_object( $GLOBALS['db'] ) ?  $GLOBALS['db'] : false;
