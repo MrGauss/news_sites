@@ -5,6 +5,35 @@ if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
 
 //////////////////////////////////////////////////////////////////////////////////////////
 
+/*$page_id = '106830904087035';
+
+$data = array(
+    'access_token' => 'EAAF5OShKUF4BAD1r5hZAfXcDR7DZAZAouJY8zZA45cN0XhHv1XHFxhzM6L2yGSlxDDZCdWsZCAg4VRG8LfNa4aZAAWU0KLzLDxSYuUZA6nyEy6y8dZCWPyQuAe0kdANHgCA3TE0lH6dTgmyCGp1Ixvv4SBjK2zsPYPUhyMRZCDZAZA84MnYVnHcthwgk6c6ZAG2vGyccZD',
+    'message'      => 'Hello, world!',
+    'link'         => 'https://cknews.pp.ua/index.php',
+    'name'         => 'Анкор',
+    'picture'      => 'https://cknews.pp.ua/uploads/cknews.pp.ua.png'
+);
+
+            $h = 0;
+            $c = 0;
+            $t = 5;
+            $ch = curl_init( 'https://graph.facebook.com/' . $page_id . '/feed' );
+            curl_setopt($ch, CURLOPT_HEADER, $h);
+            curl_setopt($ch, CURLOPT_NOBODY, $c);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+            curl_setopt($ch, CURLOPT_POST, 1);
+            curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+            curl_setopt($ch, CURLOPT_TIMEOUT, $t);
+            curl_setopt($ch, CURLOPT_REFERER, 'https://facebook.com/');
+            curl_setopt($ch, CURLOPT_USERAGENT, 'TELEGRAM BOT');
+            $page = curl_exec($ch);
+            curl_close($ch);
+
+
+var_export($page);
+exit; */
+
 if( !class_exists( 'parser' ) ){ require( CLASSES_DIR.DS.'class.parser.php' ); }
 
 header('Content-type: text/plain; charset=' . CHARSET);
