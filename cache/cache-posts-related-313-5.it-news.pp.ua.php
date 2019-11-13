@@ -1,4 +1,0 @@
-<?php if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
- /* CACHE CREATED: 1573586939.3014 (2019-11-12 21:28:59) */
-return '<div class="related"><a href="/blog/57-b8bea62b3425fe99a06235f9a8e13d43.html" title="Microsoft розширюЇ п≥дтримку робот≥в у Windows">Microsoft розширюЇ п≥дтримку робот≥в у Windows</a></div><div class="related"><a href="/blog/315-b38b60bec19dd6293cc6298935746215.html" title="як створити над≥йний пароль та захистити своњ дан≥">як створити над≥йний пароль та захистити своњ дан≥</a></div><div class="related"><a href="/blog/321-6fe4833409eeb42124d9afde86fb7962.html" title="ƒверний дзв≥нок Amazon Ring опинивс€ п≥д загрозою хакер≥в">ƒверний дзв≥нок Amazon Ring опинивс€ п≥д загрозою хакер≥в</a></div>'; 
-?>
