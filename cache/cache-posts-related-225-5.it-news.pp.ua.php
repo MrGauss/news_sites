@@ -1,0 +1,4 @@
+<?php if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
+ /* CACHE CREATED: 1573586919.231 (2019-11-12 21:28:39) */
+return '<div class="related"><a href="/blog/193-7cdbbad69d8eb56e368a3cf998b53a63.html" title="Шибайголова, Томата, Трансформери — Дайджест коміксів #07">Шибайголова, Томата, Трансформери — Дайджест коміксів #07</a></div><div class="related"><a href="/blog/206-c5717dbbeb9c6705c7feba07e24d293b.html" title="Додаток Google Maps для Android отримав режим інкогніто">Додаток Google Maps для Android отримав режим інкогніто</a></div><div class="related"><a href="/blog/315-b38b60bec19dd6293cc6298935746215.html" title="Як створити надійний пароль та захистити свої дані">Як створити надійний пароль та захистити свої дані</a></div>'; 
+?>

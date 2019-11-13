@@ -1,4 +1,4 @@
 <?php if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
- /* CACHE CREATED: 1573579198.1958 (2019-11-12 19:19:58) */
+ /* CACHE CREATED: 1573586932.0826 (2019-11-12 21:28:52) */
 return '<div class="related"><a href="/blog/23-e8108db8265f01158abd05fa3a5cce69.html" title="Фільм «Відьмак: Полювання» тепло зустріли у Львові">Фільм «Відьмак: Полювання» тепло зустріли у Львові</a></div><div class="related"><a href="/blog/293-f3828977ecf6e963f0ff7ed0f0be4c09.html" title="Шоуранерка “Відьмака” має плани на 7 сезонів серіалу">Шоуранерка “Відьмака” має плани на 7 сезонів серіалу</a></div><div class="related"><a href="/blog/193-7cdbbad69d8eb56e368a3cf998b53a63.html" title="Шибайголова, Томата, Трансформери — Дайджест коміксів #07">Шибайголова, Томата, Трансформери — Дайджест коміксів #07</a></div><div class="related"><a href="/blog/116-ba019a365d02defbc4273641a7901601.html" title="Новий трейлер та дата прем’єри серіалу The Witcher">Новий трейлер та дата прем’єри серіалу The Witcher</a></div><div class="related"><a href="/blog/22-ec6d09337856d1830a8defd7d41149ef.html" title="Gwent вийшов на iOS">Gwent вийшов на iOS</a></div>'; 
 ?>
