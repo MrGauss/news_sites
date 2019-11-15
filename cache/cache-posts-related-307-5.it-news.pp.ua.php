@@ -1,4 +1,0 @@
-<?php if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
- /* CACHE CREATED: 1573776053.448 (2019-11-15 02:00:53) */
-return '<div class="related"><a href="/blog/269-a09e7e3092c04f43630b70977bc506f4.html" title="13 загальновідомих «істин», які виявилися цілковитою брехнею">13 загальновідомих «істин», які виявилися цілковитою брехнею</a></div><div class="related"><a href="/blog/394-8474eb17ea41ac0d0d259f5aab8e9c86.html" title="Рімейк з 1989. Огляд MediEvil">Рімейк з 1989. Огляд MediEvil</a></div><div class="related"><a href="/blog/347-f11086be622ff23153a7bcd7136764d2.html" title="Ретроспектива Resident Evil. Випуск 05: Resident Evil Code: Veronica">Ретроспектива Resident Evil. Випуск 05: Resident Evil Code: Veronica</a></div><div class="related"><a href="/blog/250-74ec9e5fa9c87f96a352df489b41acd2.html" title="PingvinProTech: 5 корисних та універсальних додатків для Android">PingvinProTech: 5 корисних та універсальних додатків для Android</a></div>'; 
-?>
