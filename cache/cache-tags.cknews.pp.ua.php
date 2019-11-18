@@ -1,5 +1,5 @@
 <?php if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
- /* CACHE CREATED: 1574011024.6073 (2019-11-17 19:17:04) */
+ /* CACHE CREATED: 1574036349.702 (2019-11-18 02:19:09) */
 return array (
   14 => 
   array (
@@ -20,42 +20,42 @@ return array (
     'id' => '19',
     'name' => 'Екологія',
     'altname' => 'ekologiya',
-    'news_count' => '101',
+    'news_count' => '102',
   ),
   15 => 
   array (
     'id' => '15',
     'name' => 'Економіка',
     'altname' => 'ekonomika',
-    'news_count' => '163',
+    'news_count' => '164',
   ),
   23 => 
   array (
     'id' => '23',
     'name' => 'Життя міста',
     'altname' => 'zhittya_mista',
-    'news_count' => '260',
+    'news_count' => '261',
   ),
   3 => 
   array (
     'id' => '3',
     'name' => 'Культура',
     'altname' => 'kul_tura',
-    'news_count' => '317',
+    'news_count' => '319',
   ),
   12 => 
   array (
     'id' => '12',
     'name' => 'Медицина',
     'altname' => 'medicina',
-    'news_count' => '174',
+    'news_count' => '177',
   ),
   4 => 
   array (
     'id' => '4',
     'name' => 'Мерія',
     'altname' => 'meriya',
-    'news_count' => '1109',
+    'news_count' => '1111',
   ),
   22 => 
   array (
@@ -69,14 +69,14 @@ return array (
     'id' => '5',
     'name' => 'Новини',
     'altname' => 'novini',
-    'news_count' => '1338',
+    'news_count' => '1341',
   ),
   13 => 
   array (
     'id' => '13',
     'name' => 'Освіта',
     'altname' => 'osvita',
-    'news_count' => '234',
+    'news_count' => '236',
   ),
   24 => 
   array (
@@ -90,7 +90,7 @@ return array (
     'id' => '20',
     'name' => 'Погода',
     'altname' => 'pogoda',
-    'news_count' => '92',
+    'news_count' => '93',
   ),
   8 => 
   array (
@@ -104,7 +104,7 @@ return array (
     'id' => '11',
     'name' => 'Політика',
     'altname' => 'politika',
-    'news_count' => '890',
+    'news_count' => '892',
   ),
   9 => 
   array (
@@ -118,7 +118,7 @@ return array (
     'id' => '6',
     'name' => 'Райони',
     'altname' => 'rajoni',
-    'news_count' => '1104',
+    'news_count' => '1105',
   ),
   21 => 
   array (
@@ -132,21 +132,21 @@ return array (
     'id' => '18',
     'name' => 'Свято',
     'altname' => 'svyato',
-    'news_count' => '46',
+    'news_count' => '47',
   ),
   10 => 
   array (
     'id' => '10',
     'name' => 'Спорт',
     'altname' => 'sport',
-    'news_count' => '227',
+    'news_count' => '229',
   ),
   7 => 
   array (
     'id' => '7',
     'name' => 'Суспільство',
     'altname' => 'suspil_stvo',
-    'news_count' => '913',
+    'news_count' => '917',
   ),
 ); 
 ?>
