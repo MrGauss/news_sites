@@ -1,0 +1,4 @@
+<?php if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
+ /* CACHE CREATED: 1574106887.8159 (2019-11-18 21:54:47) */
+return '<div class="related"><a href="/blog/113-e47192af17acfbac0079949f343a7f31.html" title="Фахівці ESET знайшли в Google Play 42 шкідливі програми">Фахівці ESET знайшли в Google Play 42 шкідливі програми</a></div><div class="related"><a href="/blog/347-f11086be622ff23153a7bcd7136764d2.html" title="Ретроспектива Resident Evil. Випуск 05: Resident Evil Code: Veronica">Ретроспектива Resident Evil. Випуск 05: Resident Evil Code: Veronica</a></div><div class="related"><a href="/blog/108-a5b7a8f2b778c038d885eed9de307761.html" title="Facebook видалив пов&apos;язані з &quot;кухарем Путіна&quot; фейкові акаунти, які впливали на Африку">Facebook видалив пов&apos;язані з &quot;кухарем Путіна&quot; фейкові акаунти, які впливали на Африку</a></div>'; 
+?>
