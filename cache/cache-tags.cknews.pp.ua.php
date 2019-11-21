@@ -1,5 +1,5 @@
 <?php if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
- /* CACHE CREATED: 1574270076.7203 (2019-11-20 19:14:36) */
+ /* CACHE CREATED: 1574292644.8121 (2019-11-21 01:30:44) */
 return array (
   14 => 
   array (
@@ -27,14 +27,14 @@ return array (
     'id' => '15',
     'name' => 'Економіка',
     'altname' => 'ekonomika',
-    'news_count' => '188',
+    'news_count' => '189',
   ),
   23 => 
   array (
     'id' => '23',
     'name' => 'Життя міста',
     'altname' => 'zhittya_mista',
-    'news_count' => '305',
+    'news_count' => '306',
   ),
   3 => 
   array (
@@ -48,14 +48,14 @@ return array (
     'id' => '12',
     'name' => 'Медицина',
     'altname' => 'medicina',
-    'news_count' => '202',
+    'news_count' => '203',
   ),
   4 => 
   array (
     'id' => '4',
     'name' => 'Мерія',
     'altname' => 'meriya',
-    'news_count' => '1309',
+    'news_count' => '1311',
   ),
   22 => 
   array (
@@ -69,7 +69,7 @@ return array (
     'id' => '5',
     'name' => 'Новини',
     'altname' => 'novini',
-    'news_count' => '1593',
+    'news_count' => '1611',
   ),
   13 => 
   array (
@@ -97,28 +97,28 @@ return array (
     'id' => '8',
     'name' => 'Події',
     'altname' => 'podi',
-    'news_count' => '465',
+    'news_count' => '466',
   ),
   11 => 
   array (
     'id' => '11',
     'name' => 'Політика',
     'altname' => 'politika',
-    'news_count' => '1033',
+    'news_count' => '1034',
   ),
   9 => 
   array (
     'id' => '9',
     'name' => 'Поліція',
     'altname' => 'policiya',
-    'news_count' => '547',
+    'news_count' => '549',
   ),
   6 => 
   array (
     'id' => '6',
     'name' => 'Райони',
     'altname' => 'rajoni',
-    'news_count' => '1310',
+    'news_count' => '1313',
   ),
   21 => 
   array (
@@ -139,14 +139,14 @@ return array (
     'id' => '10',
     'name' => 'Спорт',
     'altname' => 'sport',
-    'news_count' => '269',
+    'news_count' => '271',
   ),
   7 => 
   array (
     'id' => '7',
     'name' => 'Суспільство',
     'altname' => 'suspil_stvo',
-    'news_count' => '1083',
+    'news_count' => '1091',
   ),
 ); 
 ?>
