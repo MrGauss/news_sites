@@ -1,151 +1,170 @@
-2019.11.21 13:15:01:
+2019.11.21 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Новини';
 --------------------------------
-2019.11.21 13:15:01:
+2019.11.21 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Життя міста';
 --------------------------------
-2019.11.21 13:15:01:
+2019.11.21 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Суспільство';
 --------------------------------
-2019.11.21 13:15:01:
+2019.11.21 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Події';
 --------------------------------
-2019.11.21 13:15:01:
+2019.11.21 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Мерія';
 --------------------------------
-2019.11.21 13:15:01:
+2019.11.21 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Війна на сході';
 --------------------------------
-2019.11.21 13:15:01:
+2019.11.21 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Спорт';
 --------------------------------
-2019.11.21 13:15:01:
+2019.11.21 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Політика';
 --------------------------------
-2019.11.21 13:15:01:
+2019.11.21 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Райони';
 --------------------------------
-2019.11.21 13:15:01:
+2019.11.21 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Поліція';
 --------------------------------
-2019.11.21 13:15:01:
+2019.11.21 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Військомат';
 --------------------------------
-2019.11.21 13:15:01:
+2019.11.21 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Особистість';
 --------------------------------
-2019.11.21 13:15:01:
+2019.11.21 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Свято';
 --------------------------------
-2019.11.21 13:15:01:
+2019.11.21 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Екологія';
 --------------------------------
-2019.11.21 13:15:01:
+2019.11.21 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Економіка';
 --------------------------------
-2019.11.21 13:15:01:
+2019.11.21 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Погода';
 --------------------------------
-2019.11.21 13:15:01:
+2019.11.21 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Релігія';
 --------------------------------
-2019.11.21 13:15:01:
+2019.11.21 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Культура';
 --------------------------------
-2019.11.21 13:15:01:
+2019.11.21 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Освіта';
 --------------------------------
-2019.11.21 13:15:01:
+2019.11.21 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Наука';
 --------------------------------
-2019.11.21 13:15:01:
+2019.11.21 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Медицина';
 --------------------------------
-2019.11.21 13:15:02:
+2019.11.21 19:15:02:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/svitlodiodnymy-lihtaryamy-zasvityvsya-shhe-odyn-cherkaskyj-dvir/%' OR title ='Світлодіодними ліхтарями засвітився ще один черкаський двір' ;
+SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/cherkaska-tecz-provodyt-konkurs-dity-pro-energetyku/%' OR title ='Черкаська ТЕЦ проводить конкурс «Діти про енергетику»' ;
 --------------------------------
-2019.11.21 13:15:02:
+2019.11.21 19:15:02:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/shhotyzhnya-dtp-cherkasczi-prosyat-vstanovyty-svitlofor-na-nebezpechnomu-perehresti/%' OR title ='Щотижня ДТП: черкасці просять встановити світлофор на небезпечному перехресті' ;
+SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/u-cherkasah-zapraczyuye-zahidna-shkola-samovryaduvannya/%' OR title ='У Черкасах запрацює «Західна школа самоврядування»' ;
 --------------------------------
-2019.11.21 13:15:02:
+2019.11.21 19:15:02:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/na-zvenygorodshhyni-gasyly-pozhezhu/%' OR title ='На Звенигородщині гасили пожежу' ;
+SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/forum-rozvytku-osbb-vidbuvsya-sogodni-u-cherkasah/%' OR title ='Форум розвитку ОСББ відбувся сьогодні у Черкасах' ;
 --------------------------------
-2019.11.21 13:15:02:
+2019.11.21 19:15:02:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/v-cherkasah-buduyut-novu-zupynku-gromadskogo-transportu/%' OR title ='В Черкасах будують нову зупинку громадського транспорту' ;
+SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/patrulni-vyyavyly-cholovika-yakogo-rozshukuvaly-za-nesplatu-alimentiv/%' OR title ='Патрульні виявили чоловіка, якого розшукували за несплату аліментів' ;
 --------------------------------
-2019.11.21 13:15:02:
+2019.11.21 19:15:02:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/startuvav-konkurs-iz-vidboru-sloganu-dlya-majbutnogo-brendu-cherkashhyny/%' OR title ='Стартував конкурс із відбору слогану для майбутнього бренду Черкащини' ;
+SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/pryvitannya-mertvyh-dush-u-cherkasah-vytrachayut-tysyachi-gryven-na-lystivky-nezhyvym-foto/%' OR title ='Привітання “мертвих душ”: у Черкасах витрачають тисячі гривень на листівки неживим' ;
 --------------------------------
-2019.11.21 13:15:02:
+2019.11.21 19:15:02:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/cherkasy-serednyaky-v-rejtyngu-prozoryh-mist-ukrayiny/%' OR title ='Черкаси – середняки в рейтингу прозорих міст України' ;
+SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/u-cherkasah-prezentuvaly-novu-tehniku-prydbanu-dlya-cherkasyteplokomunenergo-foto/%' OR title ='У Черкасах презентували нову техніку, придбану для «Черкаситеплокомуненерго»' ;
 --------------------------------
-2019.11.21 13:15:02:
+2019.11.21 19:15:02:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/zelenskyj-pidpysav-zakon-pro-dostupni-plyazhi-dlya-vsih/%' OR title ='Зеленський підписав закон про доступні пляжі для всіх' ;
+SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/miska-vlada-cherkas-zbilshyla-finansuvannya-na-pidgotovku-sportsmeniv/%' OR title ='Міська влада Черкас збільшила фінансування на підготовку спортсменів' ;
 --------------------------------
-2019.11.21 13:15:02:
+2019.11.21 19:15:02:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/v-orshanczi-vchytymutsya-protydiyaty-zbroyi-masovogo-znyshhennya/%' OR title ='В Оршанці вчитимуться протидіяти зброї масового знищення' ;
+SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/spravzhnya-zyma-do-kinczya-tyzhnya-bude-holodno-i-vitryano/%' OR title ='Справжня зима: до кінця тижня буде холодно і вітряно' ;
 --------------------------------
-2019.11.21 13:15:02:
+2019.11.21 19:15:02:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/den-gidnosti-ta-svobody-yak-ukrayinczi-borolys-za-svoyu-nezalezhist/%' OR title ='День Гідності та Свободи. Як українці боролись за свою незалежість' ;
+SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/v-dtp-na-tragichnomu-perehresti-postrazhdalo-dvoye-cherkashhan/%' OR title ='В ДТП на “трагічному” перехресті постраждало двоє черкащан' ;
 --------------------------------
-2019.11.21 13:15:02:
+2019.11.21 19:15:02:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/shho-robyty-koly-miskrada-prymushuye-platyty-za-velykogabarytne-smittya/%' OR title ='Що робити, коли міськрада примушує платити за великогабаритне сміття?' ;
+SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/nevidomi-vkraly-fary-z-avtivky-deputata-foto/%' OR title ='Невідомі вкрали фари з автівки депутата' ;
 --------------------------------
-2019.11.21 13:15:02:
+2019.11.21 19:15:02:
 --------------------------------
-SELECT COUNT(id) as count FROM posts WHERE comment LIKE 'https://dzvin.media/news/svitlodiodnymy-lihtaryamy-zasvityvsya-shhe-odyn-cherkaskyj-dvir/%' OR title = 'Світлодіодними ліхтарями засвітився ще один черкаський двір';
+SELECT COUNT(id) as count FROM posts WHERE comment LIKE 'https://dzvin.media/news/cherkaska-tecz-provodyt-konkurs-dity-pro-energetyku/%' OR title = 'Черкаська ТЕЦ проводить конкурс «Діти про енергетику»';
 --------------------------------
-2019.11.21 13:15:05:
+2019.11.21 19:15:08:
 --------------------------------
-SELECT COUNT(md5) as count FROM images WHERE md5='783793e327d955cac3fbcd5c13cd54be';
+SELECT COUNT(md5) as count FROM images WHERE md5='e7252be32d965a8109507d1ad114537f';
 --------------------------------
-2019.11.21 13:15:05:
+2019.11.21 19:15:08:
 --------------------------------
-INSERT INTO images ("post_id", "md5", "user_id", "serv_name", "load_time", "is_mini") VALUES ('0', '783793e327d955cac3fbcd5c13cd54be', '1', '2019-11-21_13-15-02_931.png', '2019-11-21 13:15:05', '1');
+INSERT INTO images ("post_id", "md5", "user_id", "serv_name", "load_time", "is_mini") VALUES ('0', 'e7252be32d965a8109507d1ad114537f', '1', '2019-11-21_19-15-02_21.png', '2019-11-21 19:15:08', '1');
 --------------------------------
-2019.11.21 13:15:05:
+2019.11.21 19:15:08:
 --------------------------------
-INSERT INTO posts ("title", "alt_title", "descr", "short_post", "full_post", "comment", "svector", "keywords", "posted", "fixed", "static", "category", "author_id") VALUES ('Світлодіодними ліхтарями засвітився ще один черкаський двір', '2706c745c36a932f2a22260d7bb0d7f3', 'Світлодіодними ліхтарями засвітився ще один черкаський двір', 'Оснащення дворового освітлення завершилося на вулиці Юрія Іллєнка, 6. За цією адресою освітлення в дворі було відсутнє. За інформацією КП “Міськсвітло”, під час облаштування вуличного освітлення двору встановлено 7 металевих оцинкованих опор та 7 світодіодних LED-світильників потужністю по 40 Вт. Облаштування дворового освітлення світодіодними світильниками дозволить заощаджувати на енергоспоживанні. Також слід зазначити, що LED-світильники забезпечують рівномірне освітлення двору та тротуарів. Вони є екологічно безпечнішими для навколишнього середовища і не вимагають спеціальної утилізації. “Приємно спостерігати за тим, як черкаські двори та вулиці стають світлішими, а значить, і безпечнішими для людей. Продовжуватиме роботу в цьому напрямку і надалі”, – прокоментував міський голова Черкас Анатолій Бондаренко.', '<p class=\"bb_p\">Оснащення дворового освітлення завершилося на вулиці Юрія Іллєнка, 6. За цією адресою освітлення в дворі було відсутнє. За інформацією КП “Міськсвітло”, під час облаштування вуличного освітлення двору встановлено 7 металевих оцинкованих опор та 7 світодіодних LED-світильників потужністю по 40 Вт.</p>
-<p class=\"bb_p align_center\"><img class="post_img" src="/uploads/images/2019-11-21/2019-11-21_13-15-02_931.png" alt="" title="" /></p>
-<p class=\"bb_p\">Облаштування дворового освітлення світодіодними світильниками дозволить заощаджувати на енергоспоживанні. Також слід зазначити, що LED-світильники забезпечують рівномірне освітлення двору та тротуарів. Вони є екологічно безпечнішими для навколишнього середовища і не вимагають спеціальної утилізації.</p>
-<p class=\"bb_p\">“Приємно спостерігати за тим, як черкаські двори та вулиці стають світлішими, а значить, і безпечнішими для людей. Продовжуватиме роботу в цьому напрямку і надалі”, – прокоментував міський голова Черкас Анатолій Бондаренко.</p><div class="source"><p class=\"bb_p align_right\"><a rel="nofollow noreferrer" href="https://dzvin.media/news/svitlodiodnymy-lihtaryamy-zasvityvsya-shhe-odyn-cherkaskyj-dvir/" target="_blank">За матеріалами "dzvin.media"</a></p></div>', 'https://dzvin.media/news/svitlodiodnymy-lihtaryamy-zasvityvsya-shhe-odyn-cherkaskyj-dvir/', '', '', '1', '0', '0', '1', '1') RETURNING id;
+INSERT INTO posts ("title", "alt_title", "descr", "short_post", "full_post", "comment", "svector", "keywords", "posted", "fixed", "static", "category", "author_id") VALUES ('Черкаська ТЕЦ проводить конкурс «Діти про енергетику»', 'e4943fcf7c45be3a3cee8b7af494840c', 'Черкаська ТЕЦ проводить конкурс «Діти про енергетику»', 'З 19 листопада до 14 грудня 2019 року можна взяти участь у вже традиційному конкурсі творчого малюнку «Діти про енергетику», який проводить Відокремлений підрозділ «Черкаська ТЕЦ» приватного акціонерного товариства «Черкаське хімволокно» серед дітей працівників підприємства з нагоди професійного свята – Дня енергетика. Повідомляють у адміністрації підприємства. Умови конкурсу: До участі у конкурсі малюнку запрошуються діти від 6 до 15 років. На Конкурс приймаються дитячі творчі роботи, виконані довільною графічною або живописною технікою. Конкурсні роботи необхідно надіслати не пізніше 10 грудня 2019 на поштову адресу підприємства з поміткою «НА КОНКУРС» або занести в Пресслужбу кабінет №207 (2 поверх). Поштова адреса ВП «Черкаська ТЕЦ» ПРАТ «Черкаське хімволокно»: м. Черкаси, пр-т Хіміків 76. Конкурсні роботи виконуються на загальну тематику «Діти про енергетику». Для художнього втілення й творчої реалізації задумів у рамках основної тематики учасникам пропонується кілька підтем на вибір, зокрема: – «Черкаська ТЕЦ – тепло в кожен дім»; – «Мої батьки – енергетики!»; – «Енергозбереження у нашому будинку». Вимоги до конкурсних робіт: – На конкурс подаються малюнки форматом А-4, А-3; – Усі роботи подаються у зазначені терміни; – На зворотній стороні до кожної конкурсної роботи додається етикетка (10?6см), яка містить: назву роботи, прізвище, ім’я, вік автора та контактний номер телефону; – Художні матеріали для виконання робіт: гуаш, акварель, кольорові олівці; – Зображення має відповідати тематиці конкурсу; – Приймаються лише авторські дитячі роботи, які виконані з дотриманням умов конкурсу. Майстерність та техніка виконання творчих робіт оцінюватиметься конкурсною комісією. У кожній віковій категорії (6-9 років, 10-12 років, 13-15 років) буде обрано по три найкращі роботи та визначено переможців, яким буде вручено цінні подарунки. Конкурсні роботи авторам не повертаються, організатор на свій розсуд має право розпоряджатися малюнками учасників. Інформацію про підсумки Конкурсу дитячого малюнку «Діти про енергетику» буде розміщено на офіційному веб-сайті ВП «Черкаська ТЕЦ» ПРАТ «Черкаське хімволокно» (http://khimvolokno.com.ua/). Нагородження переможців відбудеться після оголошення результатів конкурсу у грудні 2019 році на Черкаській ТЕЦ. Докладніше з умовами проведення конкурсу можна ознайомитись у «Положенні про проведення конкурсу малюнку серед дітей співробітників ВП «Черкаська ТЕЦ» ПРАТ «Черкаське хімволокно». Запрошуємо дітей проявити свої творчі здібності та показати своє бачення ролі та значення професії «енергетик» та енергетичної галузі загалом у житті людини. Бажаємо юним митцям натхнення та успіхів! За детальною інформацією про конкурс звертайтесь у пресслужбу Черкаської ТЕЦ. Контактний телефон для довідок: (0472) 39-72-42 або моб. тел. 050-41-58-694.', '<p class=\"bb_p\">З 19 листопада до 14 грудня 2019 року можна взяти участь у вже традиційному конкурсі творчого малюнку «Діти про енергетику», який проводить Відокремлений підрозділ «Черкаська ТЕЦ» приватного акціонерного товариства «Черкаське хімволокно» серед дітей працівників підприємства з нагоди професійного свята – Дня енергетика. Повідомляють у адміністрації підприємства.</p>
+<p class=\"bb_p align_center\"><img class="post_img" src="/uploads/images/2019-11-21/2019-11-21_19-15-02_21.png" alt="" title="" /></p>
+<p class=\"bb_p\">Умови конкурсу:</p>
+<p class=\"bb_p\">До участі у конкурсі малюнку запрошуються діти від 6 до 15 років.</p>
+<p class=\"bb_p\">На Конкурс приймаються дитячі творчі роботи, виконані довільною графічною або живописною технікою.</p>
+<p class=\"bb_p\">Конкурсні роботи необхідно надіслати не пізніше 10 грудня 2019 на поштову адресу підприємства з поміткою «НА КОНКУРС» або занести в Пресслужбу кабінет №207 (2 поверх). Поштова адреса ВП «Черкаська ТЕЦ» ПРАТ «Черкаське хімволокно»: м. Черкаси, пр-т Хіміків 76.</p>
+<p class=\"bb_p\">Конкурсні роботи виконуються на загальну тематику «Діти про енергетику». Для художнього втілення й творчої реалізації задумів у рамках основної тематики учасникам пропонується кілька підтем на вибір, зокрема:</p>
+<p class=\"bb_p\">– «Черкаська ТЕЦ – тепло в кожен дім»;</p>
+<p class=\"bb_p\">– «Мої батьки – енергетики!»;</p>
+<p class=\"bb_p\">– «Енергозбереження у нашому будинку».</p>
+<p class=\"bb_p\">Вимоги до конкурсних робіт:</p>
+<p class=\"bb_p\">– На конкурс подаються малюнки форматом А-4, А-3;</p>
+<p class=\"bb_p\">– Усі роботи подаються у зазначені терміни;</p>
+<p class=\"bb_p\">– На зворотній стороні до кожної конкурсної роботи додається етикетка (10?6см), яка містить: назву роботи, прізвище, ім’я, вік автора та контактний номер телефону;</p>
+<p class=\"bb_p\">– Художні матеріали для виконання робіт: гуаш, акварель, кольорові олівці;</p>
+<p class=\"bb_p\">– Зображення має відповідати тематиці конкурсу;</p>
+<p class=\"bb_p\">– Приймаються лише авторські дитячі роботи, які виконані з дотриманням умов конкурсу.</p>
+<p class=\"bb_p\">Майстерність та техніка виконання творчих робіт оцінюватиметься конкурсною комісією. У кожній віковій категорії (6-9 років, 10-12 років, 13-15 років) буде обрано по три найкращі роботи та визначено переможців, яким буде вручено цінні подарунки.</p>
+<p class=\"bb_p\">Конкурсні роботи авторам не повертаються, організатор на свій розсуд має право розпоряджатися малюнками учасників.</p>
+<p class=\"bb_p\">Інформацію про підсумки Конкурсу дитячого малюнку «Діти про енергетику» буде розміщено на офіційному веб-сайті ВП «Черкаська ТЕЦ» ПРАТ «Черкаське хімволокно» (http://khimvolokno.com.ua/). Нагородження переможців відбудеться після оголошення результатів конкурсу у грудні 2019 році на Черкаській ТЕЦ.</p>
+<p class=\"bb_p\">Докладніше з умовами проведення конкурсу можна ознайомитись у «Положенні про проведення конкурсу малюнку серед дітей співробітників ВП «Черкаська ТЕЦ» ПРАТ «Черкаське хімволокно».</p>
+<p class=\"bb_p\">Запрошуємо дітей проявити свої творчі здібності та показати своє бачення ролі та значення професії «енергетик» та енергетичної галузі загалом у житті людини. Бажаємо юним митцям натхнення та успіхів!</p>
+<p class=\"bb_p\">За детальною інформацією про конкурс звертайтесь у пресслужбу Черкаської ТЕЦ. Контактний телефон для довідок: (0472) 39-72-42 або моб. тел. 050-41-58-694.</p><div class="source"><p class=\"bb_p align_right\"><a rel="nofollow noreferrer" href="https://dzvin.media/news/cherkaska-tecz-provodyt-konkurs-dity-pro-energetyku/" target="_blank">За матеріалами "dzvin.media"</a></p></div>', 'https://dzvin.media/news/cherkaska-tecz-provodyt-konkurs-dity-pro-energetyku/', '', '', '1', '0', '0', '1', '1') RETURNING id;
 --------------------------------
-2019.11.21 13:15:05:
+2019.11.21 19:15:08:
 --------------------------------
-UPDATE images SET post_id=2100 WHERE post_id=0;
+UPDATE images SET post_id=2156 WHERE post_id=0;
 --------------------------------
-2019.11.21 13:15:05:
+2019.11.21 19:15:08:
 --------------------------------
 SELECT 
  count( posts.id ) as count 
@@ -158,7 +177,7 @@ WHERE
 	posts.id > 0 AND
 	categ.id > 0 AND
 	posts.created_time <= NOW() AND
-	posts.id = 2100 
+	posts.id = 2156 
 
 
 -- %QUERY_CACHABLE
@@ -166,7 +185,7 @@ WHERE
 
 
 --------------------------------
-2019.11.21 13:15:05:
+2019.11.21 19:15:08:
 --------------------------------
 SELECT 
 -- SELECT 
@@ -198,7 +217,7 @@ WHERE
 	posts.id > 0 AND
 	categ.id > 0 AND
 	posts.created_time <= NOW() AND
-	posts.id = 2100 
+	posts.id = 2156 
 -- ORDER
 ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
 -- ORDER
@@ -210,107 +229,103 @@ OFFSET 0 LIMIT 10;
 
 
 --------------------------------
-2019.11.21 13:15:05:
+2019.11.21 19:15:08:
 --------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (2100) ORDER by tg.name; -- %QUERY_CACHABLE
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (2156) ORDER by tg.name; -- %QUERY_CACHABLE
 --------------------------------
-2019.11.21 13:15:05:
+2019.11.21 19:15:08:
 --------------------------------
 SELECT * FROM categories ORDER BY level;  -- %QUERY_CACHABLE
 --------------------------------
-2019.11.21 13:15:05:
+2019.11.21 19:15:08:
 --------------------------------
-UPDATE posts SET repost_tg=1 WHERE id='2100';
+UPDATE posts SET repost_tg=1 WHERE id='2156';
 --------------------------------
-2019.11.21 13:15:05:
+2019.11.21 19:15:08:
 --------------------------------
-UPDATE images SET post_id=2100 WHERE md5='783793e327d955cac3fbcd5c13cd54be' AND post_id=0;
+UPDATE images SET post_id=2156 WHERE md5='e7252be32d965a8109507d1ad114537f' AND post_id=0;
 --------------------------------
-2019.11.21 13:15:06:
+2019.11.21 19:15:08:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/cherkashhanin-potrebuye-dopomogi-u-borotbi-z-xvoroboyu-foto/%' OR title ='Черкащанин потребує допомоги у боротьбі з хворобою' ;
+SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/tabloid/umanchanin-ostapchuk-visloviv-podyaku-vsim-pidtrimuvav-jogo-na-tancyax-iz-zirkami/%' OR title ='Уманчанин Остапчук висловив подяку за підтримку на “Танцях із зірками”' ;
 --------------------------------
-2019.11.21 13:15:06:
+2019.11.21 19:15:08:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/pauerlifteri-z-umani-viboroli-12-medalej-na-kubku-yevrazi%d1%97-foto/%' OR title ='Пауерліфтери з Умані вибороли 12 медалей на Кубку Євразії' ;
+SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/mama-vpershe-vidvidala-malya-shho-vizhilo-pid-chas-rezonansno%d1%97-pozhezhi/%' OR title ='Мама вперше відвідала маля, що вижило під час резонансної пожежі' ;
 --------------------------------
-2019.11.21 13:15:06:
+2019.11.21 19:15:08:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/u-cherkaskomu-vishi-projde-final-kibersportivnogo-turniru-sered-studentiv-ukra%d1%97ni/%' OR title ='У черкаському виші пройде фінал кіберспортивного турніру серед студентів України' ;
+SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/mixajlyuk-zabiv-triochkovij-u-matchi-proti-chikago/%' OR title ='Михайлюк забив триочковий у матчі проти “Чикаго”' ;
 --------------------------------
-2019.11.21 13:15:06:
+2019.11.21 19:15:08:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/u-merezhi-pokazali-peremogu-cherkashhanina-majdakova-nad-rosijskim-bokserom-video/%' OR title ='У мережі показали перемогу черкащанина Майдакова над російським боксером' ;
+SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/irena-karpa-rozpovila-pro-syemki-na-zupinci-v-cherkasax/%' OR title ='Ірена Карпа розповіла про “сємки” на зупинці в Черкасах' ;
 --------------------------------
-2019.11.21 13:15:06:
+2019.11.21 19:15:08:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/u-cherkasax-vikrali-parkan-iz-teritori%d1%97-uchilishha/%' OR title ='У Черкасах викрали паркан із території училища' ;
+SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/zhorstoke-vbivstvo-v-lisyanskomu-rajoni-pidozryuvanogo-vzyali-pid-vartu/%' OR title ='Жорстоке вбивство в Лисянському районі. Підозрюваного взяли під варту' ;
 --------------------------------
-2019.11.21 13:15:06:
+2019.11.21 19:15:08:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/u-deputata-vkrali-fari-foto/%' OR title ='У депутата вкрали фари' ;
+SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/umanskij-nardep-vitrativ-na-vibori-najbilshe-z-mazhoritarnikiv/%' OR title ='Уманський нардеп витратив на вибори найбільше з мажоритарників' ;
 --------------------------------
-2019.11.21 13:15:06:
+2019.11.21 19:15:08:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/na-zvenigorodshhini-vantazhivka-vrizalasya-v-metalevij-vidbijnik/%' OR title ='На Звенигородщині вантажівка врізалася в металевий відбійник' ;
+SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/u-dtp-v-cherkasax-postrazhdalo-dvoye-osib-ne-rozminulisya-dva-legkoviki-foto/%' OR title ='У ДТП в Черкасах постраждало двоє осіб. Не розминулися два легковики' ;
 --------------------------------
-2019.11.21 13:15:06:
+2019.11.21 19:15:08:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/xlopchika-shho-vizhiv-u-smertelnij-pozhezhi-prooperuvali/%' OR title ='Хлопчика, що вижив у смертельній пожежі, прооперували' ;
+SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/bez-snigu-do-cherkas-jde-meteorologichna-zima/%' OR title ='Без снігу: до Черкас йде метеорологічна зима' ;
 --------------------------------
-2019.11.21 13:15:06:
+2019.11.21 19:15:08:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/tilda/na-kraj-yevropi-za-72-dni-yak-ukra%d1%97nec-velosipedom-distavsya-portugali%d1%97-foto/%' OR title ='На край Європи за 72 дні. Як українець велосипедом дістався Португалії' ;
+SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/povernuvsya-na-misce-de-vzhe-buv-trup-u-cherkasax-rozsliduyut-smertelnu-dtp-za-uchasti-marshrutki/%' OR title ='“Повернувся на місце, де вже був труп”: у Черкасах розслідують смертельну ДТП за участі маршрутки' ;
 --------------------------------
-2019.11.21 13:15:07:
+2019.11.21 19:15:08:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/tabloid/vinnik-rozpoviv-koli-vpershe-prigotuvav-borshh/%' OR title ='Винник розповів, коли вперше приготував борщ' ;
+SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/tilda/yak-ta-chim-zhive-viktorivskij-psixonevrologichnij-internat-video/%' OR title ='Єдиний чоловічий. Як та чим живе Вікторівський психоневрологічний інтернат?' ;
 --------------------------------
-2019.11.21 13:15:08:
+2019.11.21 19:15:09:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/21/iz-zasidannia-vykonavchoho-komitetu/%' OR title ='Із засідання виконавчого комітету' ;
+--------------------------------
+2019.11.21 19:15:10:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/21/den-hidnosti-ta-svobody-vidznachyly-u-shpolianskij-hromadi/%' OR title ='День Гідності та Свободи відзначили у Шполянській громаді' ;
+--------------------------------
+2019.11.21 19:15:10:
 --------------------------------
 SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/21/proiekty-rishen-vykonkomu-vid-20-11-2019/%' OR title ='Проєкти рішень виконкому від 20.11.2019' ;
 --------------------------------
-2019.11.21 13:15:08:
+2019.11.21 19:15:11:
 --------------------------------
 SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/21/21-lystopada-den-hidnosti-ta-svobody-ukrainy-2/%' OR title ='21 листопада — День Гідності та Свободи України' ;
 --------------------------------
-2019.11.21 13:15:08:
+2019.11.21 19:15:11:
 --------------------------------
 SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/20/kontejnery-dlia-vidpratsovanykh-batarejok-z-iavylys-u-shkolakh-sil-lebedyn-ta-krymky-foto/%' OR title ='Контейнери для відпрацьованих батарейок з’явились у школах сіл Лебедин та Кримки' ;
 --------------------------------
-2019.11.21 13:15:08:
+2019.11.21 19:15:11:
 --------------------------------
 SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/20/kulturno-osvitnia-poizdka-do-polshchi-shvetsii-norvehii-ta-danii/%' OR title ='Культурно-освітня поїздка до Польщі, Швеції, Норвегії та Данії' ;
 --------------------------------
-2019.11.21 13:15:08:
+2019.11.21 19:15:11:
 --------------------------------
 SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/20/asotsiatsiia-natsionalno-patriotychnykh-orhanizatsij-informuie/%' OR title ='Асоціація національно-патріотичних організацій інформує' ;
 --------------------------------
-2019.11.21 13:15:09:
+2019.11.21 19:15:11:
 --------------------------------
 SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/20/do-uvahy/%' OR title ='До уваги!' ;
 --------------------------------
-2019.11.21 13:15:09:
+2019.11.21 19:15:12:
 --------------------------------
 SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/19/zaklady-osvity-ta-medytsyny-u-selakh-remontuiut/%' OR title ='Заклади освіти та медицини у селах ремонтують' ;
 --------------------------------
-2019.11.21 13:15:10:
+2019.11.21 19:15:12:
 --------------------------------
 SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/18/divocha-komanda-shpolianskoi-oth-vvijshla-do-nastupnoho-kola-zmahan-chempionatu-ukrainy-z-futzalu/%' OR title ='Дівоча команда Шполянської ОТГ ввійшла до наступного кола змагань Чемпіонату України з футзалу' ;
 --------------------------------
-2019.11.21 13:15:10:
+2019.11.21 19:15:12:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/18/informatsiia-shchodo-naiavnosti-likarskykh-zasobiv-vytratnykh-materialiv-medychnykh-vyrobiv-ta-kharchovykh-produktiv-dlia-spetsialnoho-diietychnoho-spozhyvannia-otrymanykh-za-koshty-derzhavnoho-ta-29/%' OR title ='Інформація щодо наявності лікарських засобів, витратних матеріалів, медичних виробів та харчових продуктів для спеціального дієтичного споживання, отриманих за кошти державного та місцевого бюджетів, благодійної діяльності і гуманітарної допомоги' ;
---------------------------------
-2019.11.21 13:15:10:
---------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/18/pryvitaly-pratsivnykiv-silskoho-hospodarstva-shpolianskoi-oth/%' OR title ='Привітали працівників сільського господарства Шполянської ОТГ' ;
---------------------------------
-2019.11.21 13:15:10:
---------------------------------
-SELECT COUNT(id) as count FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/21/proiekty-rishen-vykonkomu-vid-20-11-2019/%' OR title = 'Проєкти рішень виконкому від 20.11.2019';
---------------------------------
-2019.11.21 13:15:10:
---------------------------------
-SELECT COUNT(id) as count FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/19/zaklady-osvity-ta-medytsyny-u-selakh-remontuiut/%' OR title = 'Заклади освіти та медицини у селах ремонтують';
+SELECT COUNT(id) as count FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/21/iz-zasidannia-vykonavchoho-komitetu/%' OR title = 'Із засідання виконавчого комітету';
 --------------------------------
