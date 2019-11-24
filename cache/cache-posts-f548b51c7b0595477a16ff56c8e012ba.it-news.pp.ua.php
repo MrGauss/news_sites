@@ -1,9 +1,54 @@
 <?php if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
- /* CACHE CREATED: 1574529321.6715 (2019-11-23 19:15:21) */
+ /* CACHE CREATED: 1574552419.53 (2019-11-24 01:40:19) */
 return array (
-  'count' => 1398,
+  'count' => 1402,
   'rows' => 
   array (
+    545 => 
+    array (
+      'post' => 
+      array (
+        'id' => '545',
+        'title' => 'Як зробити мультик? 5 основних етапів – Валера і',
+        'alt_title' => 'b661c3cb743ca0d53bde047cb0771e3e',
+        'descr' => 'Як зробити мультик? 5 основних етапів – Валера і',
+        'short_post' => 'Всім привіт, сьогодні у нас доволі таки цікава тема, ми поговоримо про те як зробити мультик. Найчастіше, говорячи про виробництво мультфільмів згадують саме три етапи : Пре-продакшн — процес підготовки до створення мультфільму; Продакшн — етап безпосереднього виробництва; Пост-продакшн — фінальна обробка готового матеріалу. маркетинг — вивчення ринку або так зване виробниче пекло, передує етапу пре-продакшину; дистрибуція – розповсюдження готового продукту йде після пост-продакшину.',
+        'author_id' => '1',
+        'created_time' => '2019-11-20 13:13:04',
+        'keywords' => '',
+        'posted' => '1',
+        'fixed' => '0',
+        'static' => '0',
+        'full_post' => '<p class=\\"bb_p\\">Всім привіт, сьогодні у нас доволі таки цікава тема, ми поговоримо про те як зробити мультик.</p>
+<p class=\\"bb_p align_center\\"><img class="post_img" src="/uploads/images/2019-11-20/2019-11-20_13-13-03_268.png" alt="" title="" /></p>
+<p class=\\"bb_p\\">Найчастіше, говорячи про виробництво мультфільмів згадують саме три етапи :</p>
+<div class="bb_youtube"><iframe width="640" src="https://www.youtube.com/embed/_aNLS-U74Zw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<p class=\\"bb_p\\"><b class=\\"bb_b\\">Пре-продакшн</b> — процес підготовки до створення мультфільму;</p>
+<p class=\\"bb_p\\"><b class=\\"bb_b\\">Продакшн</b> — етап безпосереднього виробництва;</p>
+<p class=\\"bb_p\\"><b class=\\"bb_b\\">Пост-продакшн</b> — фінальна обробка готового матеріалу.</p>
+<p class=\\"bb_p\\"><b class=\\"bb_b\\">маркетинг</b> — вивчення ринку або так зване виробниче пекло, передує етапу пре-продакшину;</p>
+<p class=\\"bb_p\\"><b class=\\"bb_b\\">дистрибуція</b> – розповсюдження готового продукту йде після пост-продакшину.</p>
+<div class="bb_youtube"><iframe width="640" src="https://www.youtube.com/embed/h1Qd4pL7oEY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="bb_youtube"><iframe width="640" src="https://www.youtube.com/embed/MZMUteB6sxw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="bb_youtube"><iframe width="640" src="https://www.youtube.com/embed/YBlLA9Av5og" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="bb_youtube"><iframe width="640" src="https://www.youtube.com/embed/LsaReRXxujY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="source"><p class=\\"bb_p align_right\\"><a rel="nofollow noreferrer" href="https://playua.net/yak-zrobyty-multyk-5-osnovnyh-etapiv-valera-i/" target="_blank">За матеріалами "playua.net"</a></p></div>',
+        'repost_tg' => '1',
+      ),
+      'categ' => 
+      array (
+        'id' => '1',
+        'altname' => 'blog',
+        'name' => 'Блог розробників',
+      ),
+      'usr' => 
+      array (
+        'login' => 'admin',
+        'email' => 'admin@cmska.org',
+      ),
+      'tags' => 
+      array (
+      ),
+    ),
     544 => 
     array (
       'post' => 
@@ -535,66 +580,6 @@ return array (
           'name' => 'Новини',
           'altname' => 'novini',
           'post_id' => '534',
-        ),
-      ),
-    ),
-    533 => 
-    array (
-      'post' => 
-      array (
-        'id' => '533',
-        'title' => 'Столтенберґ сподівається на визнання космосу сферою військової діяльності',
-        'alt_title' => 'aa2819c8bdf31596c243dc02302b538d',
-        'descr' => 'Столтенберґ сподівається на визнання космосу сферою військової діяльності',
-        'short_post' => 'За його словами, це допоможе у розвитку систем навігації, зв’язку і раннього оповіщення. Північноатлантичний альянс очікує, що космос буде визнаний оперативною сферою військової діяльності. Про це генсекретар Єнс Столтенберґ заявив у Брюсселі напередодні зустрічі міністрів оборони країн-членів НАТО, передає Радіо Свобода. «Очікую, що міністри погодяться визнати космічний простір в якості окремої сфери діяльності на рівні із повітряною і наземною сферами та кіберпростором», – сказав Столтенберґ. За його словами, визнання космічного простору сферою військової діяльності допоможе у розвитку систем навігації, зв’язку і раннього оповіщення. Досі сферою військової діяльності були суша, повітря і море, пізніше туди додали кіберпростір.',
-        'author_id' => '1',
-        'created_time' => '2019-11-20 06:03:11',
-        'keywords' => 'космос, новини, новини України, новини дня, головні новини, свіжі новини, новини Київ',
-        'posted' => '1',
-        'fixed' => '0',
-        'static' => '0',
-        'full_post' => '<p class=\\"bb_p\\">За його словами, це допоможе у розвитку систем навігації, зв’язку і раннього оповіщення.</p>
-<p class=\\"bb_p align_center\\"><img class="post_img" src="/uploads/images/2019-11-20/2019-11-20_06-03-08_37.png" alt="" title="" /></p>
-<p class=\\"bb_p\\">Північноатлантичний альянс очікує, що космос буде визнаний оперативною сферою військової діяльності.</p>
-<p class=\\"bb_p\\">Про це генсекретар Єнс Столтенберґ заявив у Брюсселі напередодні зустрічі міністрів оборони країн-членів НАТО, передає Радіо Свобода.</p>
-<p class=\\"bb_p\\">«Очікую, що міністри погодяться визнати космічний простір в якості окремої сфери діяльності на рівні із повітряною і наземною сферами та кіберпростором», – сказав Столтенберґ.</p>
-<p class=\\"bb_p\\">За його словами, визнання космічного простору сферою військової діяльності допоможе у розвитку систем навігації, зв’язку і раннього оповіщення.</p>
-<p class=\\"bb_p\\">Досі сферою військової діяльності були суша, повітря і море, пізніше туди додали кіберпростір.</p><div class="source"><p class=\\"bb_p align_right\\"><a rel="nofollow noreferrer" href="https://www.unian.ua/m/weapons/10761329-stoltenberg-spodivayetsya-na-viznannya-kosmosu-sferoyu-viyskovoji-diyalnosti.html" target="_blank">За матеріалами "unian"</a></p></div>',
-        'repost_tg' => '1',
-      ),
-      'categ' => 
-      array (
-        'id' => '1',
-        'altname' => 'blog',
-        'name' => 'Блог розробників',
-      ),
-      'usr' => 
-      array (
-        'login' => 'admin',
-        'email' => 'admin@cmska.org',
-      ),
-      'tags' => 
-      array (
-        6 => 
-        array (
-          'id' => '6',
-          'name' => 'Космос',
-          'altname' => 'kosmos',
-          'post_id' => '533',
-        ),
-        7 => 
-        array (
-          'id' => '7',
-          'name' => 'Наука',
-          'altname' => 'nauka',
-          'post_id' => '533',
-        ),
-        3 => 
-        array (
-          'id' => '3',
-          'name' => 'Новини',
-          'altname' => 'novini',
-          'post_id' => '533',
         ),
       ),
     ),
