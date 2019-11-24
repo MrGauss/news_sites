@@ -1,4 +1,913 @@
-2019.11.24 13:14:54:
+2019.11.24 19:15:01:
+--------------------------------
+SELECT count(id) as count FROM tags WHERE name='Новини';
+--------------------------------
+2019.11.24 19:15:01:
+--------------------------------
+SELECT count(id) as count FROM tags WHERE name='Життя міста';
+--------------------------------
+2019.11.24 19:15:01:
+--------------------------------
+SELECT count(id) as count FROM tags WHERE name='Суспільство';
+--------------------------------
+2019.11.24 19:15:01:
+--------------------------------
+SELECT count(id) as count FROM tags WHERE name='Події';
+--------------------------------
+2019.11.24 19:15:01:
+--------------------------------
+SELECT count(id) as count FROM tags WHERE name='Мерія';
+--------------------------------
+2019.11.24 19:15:01:
+--------------------------------
+SELECT count(id) as count FROM tags WHERE name='Війна на сході';
+--------------------------------
+2019.11.24 19:15:01:
+--------------------------------
+SELECT count(id) as count FROM tags WHERE name='Спорт';
+--------------------------------
+2019.11.24 19:15:01:
+--------------------------------
+SELECT count(id) as count FROM tags WHERE name='Політика';
+--------------------------------
+2019.11.24 19:15:01:
+--------------------------------
+SELECT count(id) as count FROM tags WHERE name='Райони';
+--------------------------------
+2019.11.24 19:15:01:
+--------------------------------
+SELECT count(id) as count FROM tags WHERE name='Поліція';
+--------------------------------
+2019.11.24 19:15:01:
+--------------------------------
+SELECT count(id) as count FROM tags WHERE name='Військомат';
+--------------------------------
+2019.11.24 19:15:01:
+--------------------------------
+SELECT count(id) as count FROM tags WHERE name='Особистість';
+--------------------------------
+2019.11.24 19:15:01:
+--------------------------------
+SELECT count(id) as count FROM tags WHERE name='Свято';
+--------------------------------
+2019.11.24 19:15:01:
+--------------------------------
+SELECT count(id) as count FROM tags WHERE name='Екологія';
+--------------------------------
+2019.11.24 19:15:01:
+--------------------------------
+SELECT count(id) as count FROM tags WHERE name='Економіка';
+--------------------------------
+2019.11.24 19:15:01:
+--------------------------------
+SELECT count(id) as count FROM tags WHERE name='Погода';
+--------------------------------
+2019.11.24 19:15:01:
+--------------------------------
+SELECT count(id) as count FROM tags WHERE name='Релігія';
+--------------------------------
+2019.11.24 19:15:01:
+--------------------------------
+SELECT count(id) as count FROM tags WHERE name='Культура';
+--------------------------------
+2019.11.24 19:15:01:
+--------------------------------
+SELECT count(id) as count FROM tags WHERE name='Освіта';
+--------------------------------
+2019.11.24 19:15:01:
+--------------------------------
+SELECT count(id) as count FROM tags WHERE name='Наука';
+--------------------------------
+2019.11.24 19:15:01:
+--------------------------------
+SELECT count(id) as count FROM tags WHERE name='Медицина';
+--------------------------------
+2019.11.24 19:15:02:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/patrulni-rozpovily-yak-bezpechno-proyihaty-zaliznychnyj-pereyizd/%' OR title ='Патрульні розповіли, як безпечно проїхати залізничний переїзд' ;
+--------------------------------
+2019.11.24 19:15:02:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/tragichni-vyhidni-cherez-palinnya-v-lizhku-zagynulo-2-osoby/%' OR title ='Трагічні вихідні: через паління в ліжку загинуло 2 особи' ;
+--------------------------------
+2019.11.24 19:15:02:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/pry-perevirczi-avtomobiliv-patrulni-vyyavyly-pidrobku-nomeriv-agregativ/%' OR title ='При перевірці автомобілів патрульні виявили підробку номерів агрегатів' ;
+--------------------------------
+2019.11.24 19:15:02:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/zbyv-stovp-ta-perekynuvsya-na-smilyanshhyni-stalasya-dtp/%' OR title ='Збив стовп та перекинувся: на Смілянщині сталася ДТП' ;
+--------------------------------
+2019.11.24 19:15:02:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/na-cherkashhyni-rozrobyly-proekt-shhodo-stvorennya-merezhi-gospitalnyh-skryningovyh-czentriv-zdorovya-cholovika/%' OR title ='На Черкащині розробили проект щодо створення мережі госпітальних скринінгових центрів «Здоров’я чоловіка»' ;
+--------------------------------
+2019.11.24 19:15:02:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/v-gorodyshhenskomu-rajoni-policzejski-vyyavyly-u-cholovika-narkotyky-pid-chas-obshuku/%' OR title ='В Городищенському районі поліцейські виявили у чоловіка наркотики під час обшуку' ;
+--------------------------------
+2019.11.24 19:15:02:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/u-cherkasah-vodij-zbyv-dvoh-pishohodiv/%' OR title ='У Черкасах водій збив двох пішоходів' ;
+--------------------------------
+2019.11.24 19:15:02:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/upravlinska-kompaniya-nova-yakist-rozpochala-energoaudyt-budynkiv-video/%' OR title ='Управлінська компанія «Нова якість» розпочала енергоаудит будинків' ;
+--------------------------------
+2019.11.24 19:15:02:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/zyma-blyzko-bilya-cherkas-dnipro-vkryvayetsya-krygoyu-fotofakt/%' OR title ='Зима близько: біля Черкас Дніпро вкривається кригою' ;
+--------------------------------
+2019.11.24 19:15:02:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/svyato-nasuvayetsya-oglyad-novorichnyh-yalynok-mynulyh-rokiv-vid-cherkaskogo-krayeznavczya-foto/%' OR title ='Свято насувається: огляд новорічних ялинок минулих років від черкаського краєзнавця' ;
+--------------------------------
+2019.11.24 19:15:03:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/advokatka-shho-vede-spravu-sergiyenka-goloduye-tri-dobi/%' OR title ='Адвокатка, що веде справу Сергієнка, голодує четверту добу' ;
+--------------------------------
+2019.11.24 19:15:03:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/na-smilyanshhini-vodij-reno-napidpitku-vrizavsya-u-stovp-foto/%' OR title ='На Смілянщині водій Рено напідпитку врізався у стовп' ;
+--------------------------------
+2019.11.24 19:15:03:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/paliv-u-lizhku-u-cherkasax-pid-chas-pozhezhi-zaginuv-cholovik/%' OR title ='Палив у ліжку: у Смілі під час пожежі загинув чоловік' ;
+--------------------------------
+2019.11.24 19:15:03:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/nadto-bolisnij-proces-shklyar-rozpoviv-chomu-ne-pisav-scenariyu-dlya-filmu-za-motivami-chornogo-vorona/%' OR title ='“Надто болісний процес”, – Шкляр розповів, чому не писав сценарію для фільму за мотивами “Чорного ворона”' ;
+--------------------------------
+2019.11.24 19:15:03:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/tabloid/na-koncerti-vinnika-pobilisya-shanuvalnici-video/%' OR title ='На концерті Винника побилися шанувальниці' ;
+--------------------------------
+2019.11.24 19:15:04:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/tilda/golovne-za-tizhden/%' OR title ='Головне за тиждень від команди “18000”' ;
+--------------------------------
+2019.11.24 19:15:04:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/u-miskradi-povidomili-skilki-vitrachali-na-yalinki-v-poperedni-roki/%' OR title ='У міськраді повідомили, скільки витрачали на ялинки в попередні роки' ;
+--------------------------------
+2019.11.24 19:15:04:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/oxorona-sofi%d1%97vki-v-nastupnomu-roci-koshtuvatime-35-miljoni-griven/%' OR title ='Охорона “Софіївки” в наступному році коштуватиме 3,5 мільйона гривень' ;
+--------------------------------
+2019.11.24 19:15:04:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/ukrzaliznicya-priznachila-sim-dodatkovix-po%d1%97zdiv-na-svyata/%' OR title ='Укрзалізниця призначила сім додаткових поїздів на свята' ;
+--------------------------------
+2019.11.24 19:15:04:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/v-ukra%d1%97ni-predstavili-novi-standarti-fotografij-na-dokumenti-shho-zminilosya/%' OR title ='В Україні представили нові стандарти фотографій на документи: що змінилося?' ;
+--------------------------------
+2019.11.24 19:15:04:
+--------------------------------
+SELECT COUNT(id) as count FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/advokatka-shho-vede-spravu-sergiyenka-goloduye-tri-dobi/%' OR title = 'Адвокатка, що веде справу Сергієнка, голодує четверту добу';
+--------------------------------
+2019.11.24 19:15:08:
+--------------------------------
+SELECT COUNT(md5) as count FROM images WHERE md5='fcdc583a947aaa9ae54c51d5c354c51c';
+--------------------------------
+2019.11.24 19:15:08:
+--------------------------------
+INSERT INTO images ("post_id", "md5", "user_id", "serv_name", "load_time", "is_mini") VALUES ('0', 'fcdc583a947aaa9ae54c51d5c354c51c', '1', '2019-11-24_19-15-04_251.png', '2019-11-24 19:15:08', '1');
+--------------------------------
+2019.11.24 19:15:08:
+--------------------------------
+INSERT INTO posts ("title", "alt_title", "descr", "short_post", "full_post", "comment", "svector", "keywords", "posted", "fixed", "static", "category", "author_id") VALUES ('Адвокатка, що веде справу Сергієнка, голодує четверту добу', '3d6dc6ade3beb7ea20eb3dd0b69f8090', 'Адвокатка, що веде справу Сергієнка, голодує четверту добу', 'Голодування адвокатки Євгенії Закревської, яка представляє у суді родини загиблих та постраждалих під час подій Майдану, триває вже четверту добу. За цей час вона втратила вже майже два кілограми. Про це пише “Радіо Свобода“. «Сьогодні порівняла кількість слідчих управління спецрозслідувань станом на 1.07.2019 і станом на 20.11.2019 – з 67 лишилось 25. Шанси на продовження розслідування #СправМайдану худнуть разом зі мною», – написала вона вчора на своїй фейсбук-сторінці. Окрім того, як повідомила Закревська, на знак соліданості із нею від 22 листопада оголосили голодування також двоє активістів: Михайло Шекета і Микола Колорович із Мукачева. Багато інших активістів та громадських ініціатив підтримують вимоги Закревської постами у соцмережах та на акціях протесту. Адвокатка Євгенія Закревська оголосила голодування через нерозглянуту депутатами Верховної Ради поправку у закон про Державне бюро розслідувань. Закревська зробила цю заяву в ефірі програми «Право на владу» на телеканалі «1+1» 21 листопада. Йдеться про поправку, яка б дозволила перевести до ДБР без конкурсу або за спрощеною процедурою слідчих управління спецрозслідувань Генеральної прокуратури, які займалися справами Майдану. Депутатка з владної фракції Ірина Верещук заявила, що розгляд цієї поправки запланований на 5 грудня. З 21 листопада Генеральна прокуратура втратила функції досудового розслідування та передала розслідувані провадження в інші відомства – ДБР, СБУ, поліцію. Серед цих проваджень і справи Майдану. Серед справ Майдану, які веде Закревська, є вбивство корсунського активіста та журналіста Василя Сергієнка. Нагадаємо, журналіста, активіста Майдану Василя Сергієнка викрали у місті Корсунь-Шевченківський Черкаської області у дворі власного помешкання. Наступного дня його тіло знайшли у лісі в Корсунь-Шевченківському районі закатованим, з пакетом на голові, з численними ножовими пораненнями, закутим у наручники. В організації викрадення, катуванні та вбивстві Сергієнка підозрюють Вадима Мельника, Володимира Воронкова, Віктора Горбенка, Валентина Завражина, Максима Русіна та Романа Недибалюка, яких затримували впродовж 2015-2017 років. У липні 2017 року прокуратура Черкаської області направила до суду обвинувальний акт стосовно організатора та одного з виконавців викрадення і вбивства. 22 серпня колегія суддів Городищенського районного суду винесла ухвалу про зміну запобіжного заходу підозрюваному в організації вбивства журналіста з Корсуні Василя Сергієнка – Вадиму Мельнику.  Відповідно до ухвали суду, Мельнику змінили запобіжний захід із тримання під вартою на цілодобовий домашній арешт, дозволивши відвідувати медичні заклади. Раніше цей же суд відпустив під домашній арешт Віктора Горбенка та Романа Недибалюка, що підозрюються у вбивстві черкаського журналіста Василя Сергієнка. Днями Кропивницький апеляційний суд повернув Мельника у СІЗО.', '<p class=\"bb_p\"><b class=\"bb_b\">Голодування адвокатки Євгенії Закревської, яка представляє у суді родини загиблих та постраждалих під час подій Майдану, триває вже четверту добу. За цей час вона втратила вже майже два кілограми.</b></p>
+<p class=\"bb_p align_center\"><img class="post_img" src="/uploads/images/2019-11-24/2019-11-24_19-15-04_251.png" alt="" title="" /></p>
+<p class=\"bb_p\">Про це пише “Радіо Свобода“.</p>
+<p class=\"bb_p\">«Сьогодні порівняла кількість слідчих управління спецрозслідувань станом на 1.07.2019 і станом на 20.11.2019 – з 67 лишилось 25. Шанси на продовження розслідування #СправМайдану худнуть разом зі мною», – написала вона вчора на своїй фейсбук-сторінці.</p>
+<p class=\"bb_p\">Окрім того, як повідомила Закревська, на знак соліданості із нею від 22 листопада оголосили голодування також двоє активістів: Михайло Шекета і Микола Колорович із Мукачева.</p>
+<p class=\"bb_p\">Багато інших активістів та громадських ініціатив підтримують вимоги Закревської постами у соцмережах та на акціях протесту.</p>
+<p class=\"bb_p\">Адвокатка Євгенія Закревська оголосила голодування через нерозглянуту депутатами Верховної Ради поправку у закон про Державне бюро розслідувань. Закревська зробила цю заяву в ефірі програми «Право на владу» на телеканалі «1+1» 21 листопада.</p>
+<p class=\"bb_p\">Йдеться про поправку, яка б дозволила перевести до ДБР без конкурсу або за спрощеною процедурою слідчих управління спецрозслідувань Генеральної прокуратури, які займалися справами Майдану.</p>
+<p class=\"bb_p\">Депутатка з владної фракції Ірина Верещук заявила, що розгляд цієї поправки запланований на 5 грудня.</p>
+<p class=\"bb_p\">З 21 листопада Генеральна прокуратура втратила функції досудового розслідування та передала розслідувані провадження в інші відомства – ДБР, СБУ, поліцію. Серед цих проваджень і справи Майдану.</p>
+<p class=\"bb_p\">Серед справ Майдану, які веде Закревська, є вбивство корсунського активіста та журналіста Василя Сергієнка.</p>
+<p class=\"bb_p\">Нагадаємо, журналіста, активіста Майдану Василя Сергієнка викрали у місті Корсунь-Шевченківський Черкаської області у дворі власного помешкання. Наступного дня його тіло знайшли у лісі в Корсунь-Шевченківському районі закатованим, з пакетом на голові, з численними ножовими пораненнями, закутим у наручники.</p>
+<p class=\"bb_p\">В організації викрадення, катуванні та вбивстві Сергієнка підозрюють Вадима Мельника, Володимира Воронкова, Віктора Горбенка, Валентина Завражина, Максима Русіна та Романа Недибалюка, яких затримували впродовж 2015-2017 років. У липні 2017 року прокуратура Черкаської області направила до суду обвинувальний акт стосовно організатора та одного з виконавців викрадення і вбивства.</p>
+<p class=\"bb_p\">22 серпня колегія суддів Городищенського районного суду винесла ухвалу про зміну запобіжного заходу підозрюваному в організації вбивства журналіста з Корсуні Василя Сергієнка – Вадиму Мельнику. </p>
+<p class=\"bb_p\">Відповідно до ухвали суду, Мельнику змінили запобіжний захід із тримання під вартою на цілодобовий домашній арешт, дозволивши відвідувати медичні заклади.</p>
+<p class=\"bb_p\">Раніше цей же суд відпустив під домашній арешт Віктора Горбенка та Романа Недибалюка, що підозрюються у вбивстві черкаського журналіста Василя Сергієнка.</p>
+<p class=\"bb_p\">Днями Кропивницький апеляційний суд повернув Мельника у СІЗО.</p><div class="source"><p class=\"bb_p align_right\"><a rel="nofollow noreferrer" href="https://18000.com.ua/strichka-novin/advokatka-shho-vede-spravu-sergiyenka-goloduye-tri-dobi/" target="_blank">За матеріалами "18000.com.ua"</a></p></div>', 'https://18000.com.ua/strichka-novin/advokatka-shho-vede-spravu-sergiyenka-goloduye-tri-dobi/
+Стрічка новин|Василь Сергієнко|голодування|Євгенія Закревська', '', 'Василь Сергієнко', '1', '0', '0', '1', '1') RETURNING id;
+--------------------------------
+2019.11.24 19:15:08:
+--------------------------------
+UPDATE images SET post_id=2318 WHERE post_id=0;
+--------------------------------
+2019.11.24 19:15:08:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= NOW() AND
+	posts.id = 2318 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.11.24 19:15:08:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= NOW() AND
+	posts.id = 2318 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 10;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.11.24 19:15:08:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (2318) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.11.24 19:15:08:
+--------------------------------
+SELECT * FROM categories ORDER BY level;  -- %QUERY_CACHABLE
+--------------------------------
+2019.11.24 19:15:08:
+--------------------------------
+UPDATE posts SET repost_tg=1 WHERE id='2318';
+--------------------------------
+2019.11.24 19:15:08:
+--------------------------------
+SELECT id FROM tags WHERE name = 'Новини';
+--------------------------------
+2019.11.24 19:15:08:
+--------------------------------
+BEGIN;
+DELETE FROM posts_tags WHERE post_id = '2318'::INTEGER AND tag_id = '5'::INTEGER;
+INSERT INTO posts_tags ( post_id, tag_id ) VALUES ('2318'::INTEGER, '5'::INTEGER );
+COMMIT;
+--------------------------------
+2019.11.24 19:15:08:
+--------------------------------
+UPDATE images SET post_id=2318 WHERE md5='fcdc583a947aaa9ae54c51d5c354c51c' AND post_id=0;
+--------------------------------
+2019.11.24 19:15:09:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/22/uvaha-vidbulysia-zminy-u-sferi-derzhavnoi-reiestratsii-prav-ta-reiestratsii-biznesu/%' OR title ='Увага! Відбулися зміни у сфері державної реєстрації прав та реєстрації бізнесу' ;
+--------------------------------
+2019.11.24 19:15:09:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/21/iz-zasidannia-vykonavchoho-komitetu/%' OR title ='Із засідання виконавчого комітету' ;
+--------------------------------
+2019.11.24 19:15:09:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/21/den-hidnosti-ta-svobody-vidznachyly-u-shpolianskij-hromadi/%' OR title ='День Гідності та Свободи відзначили у Шполянській громаді' ;
+--------------------------------
+2019.11.24 19:15:10:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/21/proiekty-rishen-vykonkomu-vid-20-11-2019/%' OR title ='Проєкти рішень виконкому від 20.11.2019' ;
+--------------------------------
+2019.11.24 19:15:10:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/21/21-lystopada-den-hidnosti-ta-svobody-ukrainy-2/%' OR title ='21 листопада — День Гідності та Свободи України' ;
+--------------------------------
+2019.11.24 19:15:10:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/20/kontejnery-dlia-vidpratsovanykh-batarejok-z-iavylys-u-shkolakh-sil-lebedyn-ta-krymky-foto/%' OR title ='Контейнери для відпрацьованих батарейок з’явились у школах сіл Лебедин та Кримки' ;
+--------------------------------
+2019.11.24 19:15:10:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/20/kulturno-osvitnia-poizdka-do-polshchi-shvetsii-norvehii-ta-danii/%' OR title ='Культурно-освітня поїздка до Польщі, Швеції, Норвегії та Данії' ;
+--------------------------------
+2019.11.24 19:15:10:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/20/asotsiatsiia-natsionalno-patriotychnykh-orhanizatsij-informuie/%' OR title ='Асоціація національно-патріотичних організацій інформує' ;
+--------------------------------
+2019.11.24 19:15:11:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/20/do-uvahy/%' OR title ='До уваги!' ;
+--------------------------------
+2019.11.24 19:15:11:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/19/zaklady-osvity-ta-medytsyny-u-selakh-remontuiut/%' OR title ='Заклади освіти та медицини у селах ремонтують' ;
+--------------------------------
+2019.11.24 19:15:12:
+--------------------------------
+SELECT COUNT(id) as count FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/21/iz-zasidannia-vykonavchoho-komitetu/%' OR title = 'Із засідання виконавчого комітету';
+--------------------------------
+2019.11.24 19:18:26:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= NOW() AND
+	posts.posted = 1 AND
+	posts.id = 362 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.11.24 19:18:26:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= NOW() AND
+	posts.posted = 1 AND
+	posts.id = 362 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 10;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.11.24 19:18:26:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (362) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.11.24 19:18:26:
+--------------------------------
+SELECT * FROM categories ORDER BY level;  -- %QUERY_CACHABLE
+--------------------------------
+2019.11.24 19:18:26:
+--------------------------------
+
+            SELECT
+                posts.id,
+                posts.title,
+                posts.created_time,
+                string_agg( posts_tags.tag_id::text, ',' ) as agg_tags
+            FROM
+                posts
+                LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id )
+            WHERE
+                posts.id = 362
+            GROUP by posts.id;-- %QUERY_CACHABLE
+--------------------------------
+2019.11.24 19:18:26:
+--------------------------------
+
+                    -- SpaceX запустила на орбіту ракету з 60 супутниками Starlink (відео)
+                    SELECT
+                        DISTINCT posts.id,
+                        rank
+                    FROM
+                        posts
+                        LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id ),
+                        ts_rank(posts.svector,websearch_to_tsquery('SpaceX')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 362
+                        AND posts_tags.tag_id IN(3,6,7,8)
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2019.11.24 19:18:26:
+--------------------------------
+
+                    -- SpaceX запустила на орбіту ракету з 60 супутниками Starlink (відео)
+                    SELECT
+                        DISTINCT posts.id,
+                        rank
+                    FROM
+                        posts
+                        LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id ),
+                        ts_rank(posts.svector,websearch_to_tsquery('запустила')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 362
+                        AND posts_tags.tag_id IN(3,6,7,8)
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2019.11.24 19:18:26:
+--------------------------------
+
+                    -- SpaceX запустила на орбіту ракету з 60 супутниками Starlink (відео)
+                    SELECT
+                        DISTINCT posts.id,
+                        rank
+                    FROM
+                        posts
+                        LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id ),
+                        ts_rank(posts.svector,websearch_to_tsquery('орбіту')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 362
+                        AND posts_tags.tag_id IN(3,6,7,8)
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2019.11.24 19:18:26:
+--------------------------------
+
+                    -- SpaceX запустила на орбіту ракету з 60 супутниками Starlink (відео)
+                    SELECT
+                        DISTINCT posts.id,
+                        rank
+                    FROM
+                        posts
+                        LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id ),
+                        ts_rank(posts.svector,websearch_to_tsquery('ракету')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 362
+                        AND posts_tags.tag_id IN(3,6,7,8)
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2019.11.24 19:18:26:
+--------------------------------
+
+                    -- SpaceX запустила на орбіту ракету з 60 супутниками Starlink (відео)
+                    SELECT
+                        DISTINCT posts.id,
+                        rank
+                    FROM
+                        posts
+                        LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id ),
+                        ts_rank(posts.svector,websearch_to_tsquery('супутниками')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 362
+                        AND posts_tags.tag_id IN(3,6,7,8)
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2019.11.24 19:18:26:
+--------------------------------
+
+                    -- SpaceX запустила на орбіту ракету з 60 супутниками Starlink (відео)
+                    SELECT
+                        DISTINCT posts.id,
+                        rank
+                    FROM
+                        posts
+                        LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id ),
+                        ts_rank(posts.svector,websearch_to_tsquery('Starlink')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 362
+                        AND posts_tags.tag_id IN(3,6,7,8)
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2019.11.24 19:18:26:
+--------------------------------
+
+                    -- SpaceX запустила на орбіту ракету з 60 супутниками Starlink (відео)
+                    SELECT
+                        DISTINCT posts.id,
+                        rank
+                    FROM
+                        posts
+                        LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id ),
+                        ts_rank(posts.svector,websearch_to_tsquery('(відео)')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 362
+                        AND posts_tags.tag_id IN(3,6,7,8)
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2019.11.24 19:18:26:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= NOW() AND
+	posts.id = 583 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.11.24 19:18:26:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= NOW() AND
+	posts.id = 583 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 10;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.11.24 19:18:26:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (583) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.11.24 19:18:26:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= NOW() AND
+	posts.id = 145 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.11.24 19:18:26:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= NOW() AND
+	posts.id = 145 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 10;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.11.24 19:18:26:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (145) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.11.24 19:18:26:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= NOW() AND
+	posts.id = 567 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.11.24 19:18:26:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= NOW() AND
+	posts.id = 567 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 10;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.11.24 19:18:26:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (567) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.11.24 19:18:26:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= NOW() AND
+	posts.id = 85 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.11.24 19:18:26:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= NOW() AND
+	posts.id = 85 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 10;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.11.24 19:18:26:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (85) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.11.24 19:18:26:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= NOW() AND
+	posts.id = 162 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.11.24 19:18:26:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= NOW() AND
+	posts.id = 162 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 10;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.11.24 19:18:26:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (162) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.11.24 19:18:26:
+--------------------------------
+INSERT INTO visit_counter ( ua_hash, ip, browser ) VALUES ( '2d2e8e6ab88742154eade31e44c21e75', '66.249.65.150'::inet, 'Chrome' );
+--------------------------------
+2019.11.24 19:18:26:
 --------------------------------
 
                 SELECT
@@ -9,654 +918,7 @@
                 FROM
                     tags WHERE id > 0 ORDER BY name; -- %QUERY_CACHABLE
 --------------------------------
-2019.11.24 13:14:54:
---------------------------------
-SELECT 
- count( posts.id ) as count 
-FROM 
-	posts
-	LEFT JOIN categories as categ ON ( categ.id = posts.category )
-	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
-	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
-WHERE 
-	posts.id > 0 AND
-	categ.id > 0 AND
-	posts.created_time <= NOW() AND
-	posts.posted = 1 AND
-	ptags.tag_id = 7 
-
-
--- %QUERY_CACHABLE
--- USER_ID: 0
-
-
---------------------------------
-2019.11.24 13:14:54:
---------------------------------
-SELECT 
--- SELECT 
-	DISTINCT posts.id as "post.id", 
-	posts.title as "post.title", 
-	posts.alt_title as "post.alt_title", 
-	posts.descr as "post.descr", 
-	posts.short_post as "post.short_post", 
-	posts.author_id as "post.author_id", 
-	posts.created_time as "post.created_time", 
-	posts.keywords as "post.keywords", 
-	posts.posted as "post.posted", 
-	posts.fixed as "post.fixed", 
-	posts.static as "post.static", 
-	posts.full_post as "post.full_post", 
-	posts.repost_tg as "post.repost_tg", 
-	categ.id as "categ.id", 
-	categ.altname as "categ.altname", 
-	categ.name as "categ.name", 
-	usr.login as "usr.login", 
-	usr.email as "usr.email"
--- SELECT
-FROM 
-	posts
-	LEFT JOIN categories as categ ON ( categ.id = posts.category )
-	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
-	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
-WHERE 
-	posts.id > 0 AND
-	categ.id > 0 AND
-	posts.created_time <= NOW() AND
-	posts.posted = 1 AND
-	ptags.tag_id = 7 
--- ORDER
-ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
--- ORDER
--- OFFSET
-OFFSET 330 LIMIT 10;
--- OFFSET
--- %QUERY_CACHABLE
--- USER_ID: 0
-
-
---------------------------------
-2019.11.24 13:14:54:
---------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1679,1678,1676,1674,1673,1672,1671,1670,1669,1668) ORDER by tg.name; -- %QUERY_CACHABLE
---------------------------------
-2019.11.24 13:14:54:
---------------------------------
-SELECT * FROM categories ORDER BY level;  -- %QUERY_CACHABLE
---------------------------------
-2019.11.24 13:14:54:
---------------------------------
-INSERT INTO visit_counter ( ua_hash, ip, browser ) VALUES ( '44e10356447ab9ef8abd0bdd1f4ed357', '77.88.47.97'::inet, '[Bot] Yandex' );
---------------------------------
-2019.11.24 13:14:54:
---------------------------------
-SELECT 
- count( posts.id ) as count 
-FROM 
-	posts
-	LEFT JOIN categories as categ ON ( categ.id = posts.category )
-	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
-	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
-WHERE 
-	posts.id > 0 AND
-	categ.id > 0 AND
-	posts.created_time <= NOW() AND
-	posts.posted = 1 AND
-	ptags.tag_id IN( 6 ) 
-
-
--- %QUERY_CACHABLE
--- USER_ID: 0
-
-
---------------------------------
-2019.11.24 13:14:54:
---------------------------------
-SELECT 
--- SELECT 
-	DISTINCT posts.id as "post.id", 
-	posts.title as "post.title", 
-	posts.alt_title as "post.alt_title", 
-	posts.descr as "post.descr", 
-	posts.short_post as "post.short_post", 
-	posts.author_id as "post.author_id", 
-	posts.created_time as "post.created_time", 
-	posts.keywords as "post.keywords", 
-	posts.posted as "post.posted", 
-	posts.fixed as "post.fixed", 
-	posts.static as "post.static", 
-	posts.full_post as "post.full_post", 
-	posts.repost_tg as "post.repost_tg", 
-	categ.id as "categ.id", 
-	categ.altname as "categ.altname", 
-	categ.name as "categ.name", 
-	usr.login as "usr.login", 
-	usr.email as "usr.email"
--- SELECT
-FROM 
-	posts
-	LEFT JOIN categories as categ ON ( categ.id = posts.category )
-	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
-	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
-WHERE 
-	posts.id > 0 AND
-	categ.id > 0 AND
-	posts.created_time <= NOW() AND
-	posts.posted = 1 AND
-	ptags.tag_id IN( 6 ) 
--- ORDER
-ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
--- ORDER
--- OFFSET
-OFFSET 0 LIMIT 2;
--- OFFSET
--- %QUERY_CACHABLE
--- USER_ID: 0
-
-
---------------------------------
-2019.11.24 13:14:54:
---------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (2295,2271) ORDER by tg.name; -- %QUERY_CACHABLE
---------------------------------
-2019.11.24 13:14:54:
---------------------------------
-SELECT 
- count( posts.id ) as count 
-FROM 
-	posts
-	LEFT JOIN categories as categ ON ( categ.id = posts.category )
-	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
-	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
-WHERE 
-	posts.id > 0 AND
-	categ.id > 0 AND
-	posts.created_time <= NOW() AND
-	posts.posted = 1 AND
-	ptags.tag_id IN( 6 ) 
-
-
--- %QUERY_CACHABLE
--- USER_ID: 0
-
-
---------------------------------
-2019.11.24 13:14:54:
---------------------------------
-SELECT 
--- SELECT 
-	DISTINCT posts.id as "post.id", 
-	posts.title as "post.title", 
-	posts.alt_title as "post.alt_title", 
-	posts.descr as "post.descr", 
-	posts.short_post as "post.short_post", 
-	posts.author_id as "post.author_id", 
-	posts.created_time as "post.created_time", 
-	posts.keywords as "post.keywords", 
-	posts.posted as "post.posted", 
-	posts.fixed as "post.fixed", 
-	posts.static as "post.static", 
-	posts.full_post as "post.full_post", 
-	posts.repost_tg as "post.repost_tg", 
-	categ.id as "categ.id", 
-	categ.altname as "categ.altname", 
-	categ.name as "categ.name", 
-	usr.login as "usr.login", 
-	usr.email as "usr.email"
--- SELECT
-FROM 
-	posts
-	LEFT JOIN categories as categ ON ( categ.id = posts.category )
-	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
-	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
-WHERE 
-	posts.id > 0 AND
-	categ.id > 0 AND
-	posts.created_time <= NOW() AND
-	posts.posted = 1 AND
-	ptags.tag_id IN( 6 ) 
--- ORDER
-ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
--- ORDER
--- OFFSET
-OFFSET 10 LIMIT 2;
--- OFFSET
--- %QUERY_CACHABLE
--- USER_ID: 0
-
-
---------------------------------
-2019.11.24 13:14:54:
---------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (2232,2230) ORDER by tg.name; -- %QUERY_CACHABLE
---------------------------------
-2019.11.24 13:14:54:
---------------------------------
-SELECT 
- count( posts.id ) as count 
-FROM 
-	posts
-	LEFT JOIN categories as categ ON ( categ.id = posts.category )
-	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
-	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
-WHERE 
-	posts.id > 0 AND
-	categ.id > 0 AND
-	posts.created_time <= NOW() AND
-	posts.posted = 1 AND
-	ptags.tag_id IN( 15 ) 
-
-
--- %QUERY_CACHABLE
--- USER_ID: 0
-
-
---------------------------------
-2019.11.24 13:14:54:
---------------------------------
-SELECT 
--- SELECT 
-	DISTINCT posts.id as "post.id", 
-	posts.title as "post.title", 
-	posts.alt_title as "post.alt_title", 
-	posts.descr as "post.descr", 
-	posts.short_post as "post.short_post", 
-	posts.author_id as "post.author_id", 
-	posts.created_time as "post.created_time", 
-	posts.keywords as "post.keywords", 
-	posts.posted as "post.posted", 
-	posts.fixed as "post.fixed", 
-	posts.static as "post.static", 
-	posts.full_post as "post.full_post", 
-	posts.repost_tg as "post.repost_tg", 
-	categ.id as "categ.id", 
-	categ.altname as "categ.altname", 
-	categ.name as "categ.name", 
-	usr.login as "usr.login", 
-	usr.email as "usr.email"
--- SELECT
-FROM 
-	posts
-	LEFT JOIN categories as categ ON ( categ.id = posts.category )
-	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
-	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
-WHERE 
-	posts.id > 0 AND
-	categ.id > 0 AND
-	posts.created_time <= NOW() AND
-	posts.posted = 1 AND
-	ptags.tag_id IN( 15 ) 
--- ORDER
-ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
--- ORDER
--- OFFSET
-OFFSET 0 LIMIT 1;
--- OFFSET
--- %QUERY_CACHABLE
--- USER_ID: 0
-
-
---------------------------------
-2019.11.24 13:14:54:
---------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (2265) ORDER by tg.name; -- %QUERY_CACHABLE
---------------------------------
-2019.11.24 13:14:54:
---------------------------------
-SELECT 
- count( posts.id ) as count 
-FROM 
-	posts
-	LEFT JOIN categories as categ ON ( categ.id = posts.category )
-	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
-	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
-WHERE 
-	posts.id > 0 AND
-	categ.id > 0 AND
-	posts.created_time <= NOW() AND
-	posts.posted = 1 AND
-	ptags.tag_id IN( 15 ) 
-
-
--- %QUERY_CACHABLE
--- USER_ID: 0
-
-
---------------------------------
-2019.11.24 13:14:54:
---------------------------------
-SELECT 
--- SELECT 
-	DISTINCT posts.id as "post.id", 
-	posts.title as "post.title", 
-	posts.alt_title as "post.alt_title", 
-	posts.descr as "post.descr", 
-	posts.short_post as "post.short_post", 
-	posts.author_id as "post.author_id", 
-	posts.created_time as "post.created_time", 
-	posts.keywords as "post.keywords", 
-	posts.posted as "post.posted", 
-	posts.fixed as "post.fixed", 
-	posts.static as "post.static", 
-	posts.full_post as "post.full_post", 
-	posts.repost_tg as "post.repost_tg", 
-	categ.id as "categ.id", 
-	categ.altname as "categ.altname", 
-	categ.name as "categ.name", 
-	usr.login as "usr.login", 
-	usr.email as "usr.email"
--- SELECT
-FROM 
-	posts
-	LEFT JOIN categories as categ ON ( categ.id = posts.category )
-	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
-	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
-WHERE 
-	posts.id > 0 AND
-	categ.id > 0 AND
-	posts.created_time <= NOW() AND
-	posts.posted = 1 AND
-	ptags.tag_id IN( 15 ) 
--- ORDER
-ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
--- ORDER
--- OFFSET
-OFFSET 0 LIMIT 2;
--- OFFSET
--- %QUERY_CACHABLE
--- USER_ID: 0
-
-
---------------------------------
-2019.11.24 13:14:54:
---------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (2265,2262) ORDER by tg.name; -- %QUERY_CACHABLE
---------------------------------
-2019.11.24 13:14:54:
---------------------------------
-SELECT 
- count( posts.id ) as count 
-FROM 
-	posts
-	LEFT JOIN categories as categ ON ( categ.id = posts.category )
-	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
-	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
-WHERE 
-	posts.id > 0 AND
-	categ.id > 0 AND
-	posts.created_time <= NOW() AND
-	posts.posted = 1 AND
-	ptags.tag_id IN( 11 ) 
-
-
--- %QUERY_CACHABLE
--- USER_ID: 0
-
-
---------------------------------
-2019.11.24 13:14:54:
---------------------------------
-SELECT 
--- SELECT 
-	DISTINCT posts.id as "post.id", 
-	posts.title as "post.title", 
-	posts.alt_title as "post.alt_title", 
-	posts.descr as "post.descr", 
-	posts.short_post as "post.short_post", 
-	posts.author_id as "post.author_id", 
-	posts.created_time as "post.created_time", 
-	posts.keywords as "post.keywords", 
-	posts.posted as "post.posted", 
-	posts.fixed as "post.fixed", 
-	posts.static as "post.static", 
-	posts.full_post as "post.full_post", 
-	posts.repost_tg as "post.repost_tg", 
-	categ.id as "categ.id", 
-	categ.altname as "categ.altname", 
-	categ.name as "categ.name", 
-	usr.login as "usr.login", 
-	usr.email as "usr.email"
--- SELECT
-FROM 
-	posts
-	LEFT JOIN categories as categ ON ( categ.id = posts.category )
-	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
-	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
-WHERE 
-	posts.id > 0 AND
-	categ.id > 0 AND
-	posts.created_time <= NOW() AND
-	posts.posted = 1 AND
-	ptags.tag_id IN( 11 ) 
--- ORDER
-ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
--- ORDER
--- OFFSET
-OFFSET 0 LIMIT 2;
--- OFFSET
--- %QUERY_CACHABLE
--- USER_ID: 0
-
-
---------------------------------
-2019.11.24 13:14:54:
---------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (2264,2240) ORDER by tg.name; -- %QUERY_CACHABLE
---------------------------------
-2019.11.24 13:14:54:
---------------------------------
-SELECT 
- count( posts.id ) as count 
-FROM 
-	posts
-	LEFT JOIN categories as categ ON ( categ.id = posts.category )
-	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
-	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
-WHERE 
-	posts.id > 0 AND
-	categ.id > 0 AND
-	posts.created_time <= NOW() AND
-	posts.posted = 1 AND
-	ptags.tag_id IN( 11 ) 
-
-
--- %QUERY_CACHABLE
--- USER_ID: 0
-
-
---------------------------------
-2019.11.24 13:14:54:
---------------------------------
-SELECT 
--- SELECT 
-	DISTINCT posts.id as "post.id", 
-	posts.title as "post.title", 
-	posts.alt_title as "post.alt_title", 
-	posts.descr as "post.descr", 
-	posts.short_post as "post.short_post", 
-	posts.author_id as "post.author_id", 
-	posts.created_time as "post.created_time", 
-	posts.keywords as "post.keywords", 
-	posts.posted as "post.posted", 
-	posts.fixed as "post.fixed", 
-	posts.static as "post.static", 
-	posts.full_post as "post.full_post", 
-	posts.repost_tg as "post.repost_tg", 
-	categ.id as "categ.id", 
-	categ.altname as "categ.altname", 
-	categ.name as "categ.name", 
-	usr.login as "usr.login", 
-	usr.email as "usr.email"
--- SELECT
-FROM 
-	posts
-	LEFT JOIN categories as categ ON ( categ.id = posts.category )
-	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
-	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
-WHERE 
-	posts.id > 0 AND
-	categ.id > 0 AND
-	posts.created_time <= NOW() AND
-	posts.posted = 1 AND
-	ptags.tag_id IN( 11 ) 
--- ORDER
-ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
--- ORDER
--- OFFSET
-OFFSET 10 LIMIT 2;
--- OFFSET
--- %QUERY_CACHABLE
--- USER_ID: 0
-
-
---------------------------------
-2019.11.24 13:14:54:
---------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (2218,2217) ORDER by tg.name; -- %QUERY_CACHABLE
---------------------------------
-2019.11.24 13:14:54:
---------------------------------
-SELECT 
- count( posts.id ) as count 
-FROM 
-	posts
-	LEFT JOIN categories as categ ON ( categ.id = posts.category )
-	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
-	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
-WHERE 
-	posts.id > 0 AND
-	categ.id > 0 AND
-	posts.created_time <= NOW() AND
-	posts.posted = 1 AND
-	ptags.tag_id IN( 3,13 ) 
-
-
--- %QUERY_CACHABLE
--- USER_ID: 0
-
-
---------------------------------
-2019.11.24 13:14:54:
---------------------------------
-SELECT 
--- SELECT 
-	DISTINCT posts.id as "post.id", 
-	posts.title as "post.title", 
-	posts.alt_title as "post.alt_title", 
-	posts.descr as "post.descr", 
-	posts.short_post as "post.short_post", 
-	posts.author_id as "post.author_id", 
-	posts.created_time as "post.created_time", 
-	posts.keywords as "post.keywords", 
-	posts.posted as "post.posted", 
-	posts.fixed as "post.fixed", 
-	posts.static as "post.static", 
-	posts.full_post as "post.full_post", 
-	posts.repost_tg as "post.repost_tg", 
-	categ.id as "categ.id", 
-	categ.altname as "categ.altname", 
-	categ.name as "categ.name", 
-	usr.login as "usr.login", 
-	usr.email as "usr.email"
--- SELECT
-FROM 
-	posts
-	LEFT JOIN categories as categ ON ( categ.id = posts.category )
-	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
-	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
-WHERE 
-	posts.id > 0 AND
-	categ.id > 0 AND
-	posts.created_time <= NOW() AND
-	posts.posted = 1 AND
-	ptags.tag_id IN( 3,13 ) 
--- ORDER
-ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
--- ORDER
--- OFFSET
-OFFSET 0 LIMIT 1;
--- OFFSET
--- %QUERY_CACHABLE
--- USER_ID: 0
-
-
---------------------------------
-2019.11.24 13:14:54:
---------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (2263) ORDER by tg.name; -- %QUERY_CACHABLE
---------------------------------
-2019.11.24 13:14:54:
---------------------------------
-SELECT 
- count( posts.id ) as count 
-FROM 
-	posts
-	LEFT JOIN categories as categ ON ( categ.id = posts.category )
-	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
-	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
-WHERE 
-	posts.id > 0 AND
-	categ.id > 0 AND
-	posts.created_time <= NOW() AND
-	posts.posted = 1 AND
-	ptags.tag_id IN( 3,13 ) 
-
-
--- %QUERY_CACHABLE
--- USER_ID: 0
-
-
---------------------------------
-2019.11.24 13:14:54:
---------------------------------
-SELECT 
--- SELECT 
-	DISTINCT posts.id as "post.id", 
-	posts.title as "post.title", 
-	posts.alt_title as "post.alt_title", 
-	posts.descr as "post.descr", 
-	posts.short_post as "post.short_post", 
-	posts.author_id as "post.author_id", 
-	posts.created_time as "post.created_time", 
-	posts.keywords as "post.keywords", 
-	posts.posted as "post.posted", 
-	posts.fixed as "post.fixed", 
-	posts.static as "post.static", 
-	posts.full_post as "post.full_post", 
-	posts.repost_tg as "post.repost_tg", 
-	categ.id as "categ.id", 
-	categ.altname as "categ.altname", 
-	categ.name as "categ.name", 
-	usr.login as "usr.login", 
-	usr.email as "usr.email"
--- SELECT
-FROM 
-	posts
-	LEFT JOIN categories as categ ON ( categ.id = posts.category )
-	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
-	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
-WHERE 
-	posts.id > 0 AND
-	categ.id > 0 AND
-	posts.created_time <= NOW() AND
-	posts.posted = 1 AND
-	ptags.tag_id IN( 3,13 ) 
--- ORDER
-ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
--- ORDER
--- OFFSET
-OFFSET 0 LIMIT 2;
--- OFFSET
--- %QUERY_CACHABLE
--- USER_ID: 0
-
-
---------------------------------
-2019.11.24 13:14:54:
---------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (2263,2238) ORDER by tg.name; -- %QUERY_CACHABLE
---------------------------------
-2019.11.24 13:14:54:
+2019.11.24 19:18:26:
 --------------------------------
 SELECT 
  count( posts.id ) as count 
@@ -677,7 +939,76 @@ WHERE
 
 
 --------------------------------
-2019.11.24 13:14:55:
+2019.11.24 19:18:26:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= NOW() AND
+	posts.posted = 1 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 10000;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.11.24 19:18:26:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (644,643,642,641,640,639,638,637,636,635,634,633,632,631,630,629,628,627,626,625,624,623,622,621,620,619,618,617,616,615,614,613,612,611,610,609,608,607,606,605,604,603,602,601,600,599,598,597,596,595,594,593,592,591,590,589,588,587,586,585,584,583,582,581,580,579,578,577,576,575,574,573,572,571,570,569,568,567,566,565,564,563,562,561,560,559,558,557,556,555,554,553,552,551,550,549,548,547,546,545,544,543,542,541,540,539,538,537,536,535,534,533,532,531,530,529,528,527,526,525,524,523,522,521,520,519,518,517,516,515,514,513,512,511,510,509,508,507,506,505,504,503,502,501,500,499,498,497,496,495,494,493,492,491,490,489,488,487,486,485,484,483,482,481,480,479,478,477,476,475,474,473,472,471,470,469,468,467,466,465,464,463,462,461,460,459,458,457,456,455,454,453,452,451,450,449,448,447,446,445,444,443,442,441,440,439,438,437,436,435,434,433,432,431,430,429,428,427,426,425,424,423,422,421,420,419,418,417,416,415,414,413,412,411,410,409,408,407,406,405,404,403,402,401,400,399,398,397,396,395,394,393,392,391,390,389,388,387,386,385,384,383,382,381,380,379,378,377,376,375,374,373,372,371,370,369,368,367,366,365,364,363,362,361,360,359,358,357,356,355,354,353,352,351,350,349,348,347,346,345,344,343,342,341,340,339,338,337,336,335,334,333,332,331,330,329,328,327,326,325,324,323,322,321,320,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,304,303,302,301,300,299,298,297,296,295,294,293,292,291,290,289,288,287,286,285,284,283,282,281,280,279,278,277,276,275,274,273,272,271,270,269,268,267,266,265,264,263,262,261,260,259,258,257,256,255,254,253,252,251,250,249,248,247,246,245,244,243,242,241,240,239,238,237,236,235,234,233,232,231,230,229,228,227,226,225,224,223,222,221,220,219,218,217,216,215,214,213,212,211,210,209,208,207,206,205,204,203,202,201,200,199,198,197,196,195,194,193,192,191,190,189,188,187,186,185,184,183,182,181,180,179,178,177,176,175,174,173,172,171,170,169,168,167,166,165,164,163,162,161,160,159,158,157,156,155,154,153,152,151,150,149,148,147,146,145,144,143,142,141,140,139,138,137,136,135,134,133,132,131,130,129,128,127,126,125,124,123,122,121,120,119,118,117,116,115,114,113,112,111,110,109,108,107,106,105,104,103,102,101,100,99,98,97,96,95,94,93,92,91,90,89,88,87,86,85,84,83,82,81,80,79,78,77,76,75,74,73,72,71,70,69,68,67,66,65,64,63,62,61,60,59,58,57,56,55,54,53,52,51,50,49,48,47,46,45,44,43,42,41,40,39,38,37,36,35,34,33,32,31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.11.24 19:18:27:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= NOW() AND
+	posts.posted = 1 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.11.24 19:18:27:
 --------------------------------
 SELECT 
 -- SELECT 
@@ -721,15 +1052,15 @@ OFFSET 90 LIMIT 12;
 
 
 --------------------------------
-2019.11.24 13:14:55:
+2019.11.24 19:18:27:
 --------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (2209,2208,2207,2206,2205,2204,2203,2202,2201,2200,2199,2198) ORDER by tg.name; -- %QUERY_CACHABLE
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (554,553,552,551,550,549,548,547,546,545,544,543) ORDER by tg.name; -- %QUERY_CACHABLE
 --------------------------------
-2019.11.24 13:14:55:
+2019.11.24 19:18:27:
 --------------------------------
 SELECT count( DISTINCT ua_hash ) as count FROM visit_counter WHERE date_trunc('day', ts) = date_trunc('day', now());
 --------------------------------
-2019.11.24 13:14:55:
+2019.11.24 19:18:27:
 --------------------------------
 
                 SELECT
@@ -742,220 +1073,4 @@ SELECT count( DISTINCT ua_hash ) as count FROM visit_counter WHERE date_trunc('d
                 GROUP BY visit_day
                 ORDER BY visit_day;
             
---------------------------------
-2019.11.24 13:15:01:
---------------------------------
-SELECT count(id) as count FROM tags WHERE name='Новини';
---------------------------------
-2019.11.24 13:15:01:
---------------------------------
-SELECT count(id) as count FROM tags WHERE name='Життя міста';
---------------------------------
-2019.11.24 13:15:01:
---------------------------------
-SELECT count(id) as count FROM tags WHERE name='Суспільство';
---------------------------------
-2019.11.24 13:15:01:
---------------------------------
-SELECT count(id) as count FROM tags WHERE name='Події';
---------------------------------
-2019.11.24 13:15:01:
---------------------------------
-SELECT count(id) as count FROM tags WHERE name='Мерія';
---------------------------------
-2019.11.24 13:15:01:
---------------------------------
-SELECT count(id) as count FROM tags WHERE name='Війна на сході';
---------------------------------
-2019.11.24 13:15:01:
---------------------------------
-SELECT count(id) as count FROM tags WHERE name='Спорт';
---------------------------------
-2019.11.24 13:15:01:
---------------------------------
-SELECT count(id) as count FROM tags WHERE name='Політика';
---------------------------------
-2019.11.24 13:15:01:
---------------------------------
-SELECT count(id) as count FROM tags WHERE name='Райони';
---------------------------------
-2019.11.24 13:15:01:
---------------------------------
-SELECT count(id) as count FROM tags WHERE name='Поліція';
---------------------------------
-2019.11.24 13:15:01:
---------------------------------
-SELECT count(id) as count FROM tags WHERE name='Військомат';
---------------------------------
-2019.11.24 13:15:01:
---------------------------------
-SELECT count(id) as count FROM tags WHERE name='Особистість';
---------------------------------
-2019.11.24 13:15:01:
---------------------------------
-SELECT count(id) as count FROM tags WHERE name='Свято';
---------------------------------
-2019.11.24 13:15:01:
---------------------------------
-SELECT count(id) as count FROM tags WHERE name='Екологія';
---------------------------------
-2019.11.24 13:15:01:
---------------------------------
-SELECT count(id) as count FROM tags WHERE name='Економіка';
---------------------------------
-2019.11.24 13:15:01:
---------------------------------
-SELECT count(id) as count FROM tags WHERE name='Погода';
---------------------------------
-2019.11.24 13:15:01:
---------------------------------
-SELECT count(id) as count FROM tags WHERE name='Релігія';
---------------------------------
-2019.11.24 13:15:01:
---------------------------------
-SELECT count(id) as count FROM tags WHERE name='Культура';
---------------------------------
-2019.11.24 13:15:01:
---------------------------------
-SELECT count(id) as count FROM tags WHERE name='Освіта';
---------------------------------
-2019.11.24 13:15:01:
---------------------------------
-SELECT count(id) as count FROM tags WHERE name='Наука';
---------------------------------
-2019.11.24 13:15:01:
---------------------------------
-SELECT count(id) as count FROM tags WHERE name='Медицина';
---------------------------------
-2019.11.24 13:15:03:
---------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/u-cherkasah-vodij-zbyv-dvoh-pishohodiv/%' OR title ='У Черкасах водій збив двох пішоходів' ;
---------------------------------
-2019.11.24 13:15:03:
---------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/upravlinska-kompaniya-nova-yakist-rozpochala-energoaudyt-budynkiv-video/%' OR title ='Управлінська компанія «Нова якість» розпочала енергоаудит будинків' ;
---------------------------------
-2019.11.24 13:15:03:
---------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/zyma-blyzko-bilya-cherkas-dnipro-vkryvayetsya-krygoyu-fotofakt/%' OR title ='Зима близько: біля Черкас Дніпро вкривається кригою' ;
---------------------------------
-2019.11.24 13:15:03:
---------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/svyato-nasuvayetsya-oglyad-novorichnyh-yalynok-mynulyh-rokiv-vid-cherkaskogo-krayeznavczya-foto/%' OR title ='Свято насувається: огляд новорічних ялинок минулих років від черкаського краєзнавця' ;
---------------------------------
-2019.11.24 13:15:03:
---------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/shkolyariv-kamyanshhyny-navchaly-yak-obraty-majbutnyu-profesiyu/%' OR title ='Школярів Кам’янщини навчали, як  обрати майбутню професію' ;
---------------------------------
-2019.11.24 13:15:03:
---------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/programa-dostupni-liky-zaoshhadzhuye-byudzhet-soczialno-nezahyshhenyh-kategorij-naselennya/%' OR title ='Програма «Доступні ліки» заощаджує бюджет соціально незахищених категорій населення' ;
---------------------------------
-2019.11.24 13:15:03:
---------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/15-osib-shhodnya-korystuyutsya-poslugoyu-soczialnogo-perevezennya-u-zolotonoshi-video/%' OR title ='15 осіб щодня користуються послугою «Соціального перевезення» у Золотоноші' ;
---------------------------------
-2019.11.24 13:15:03:
---------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/u-1957-roczi-zapraczyuvaly-parsha-ges-na-katerynopilshhyni-foto/%' OR title ='У 1957 році запрацювали парша ГЕС на Катеринопільщині' ;
---------------------------------
-2019.11.24 13:15:03:
---------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/vnochi-v-umani-stalasya-smertelna-pozhezha/%' OR title ='Вночі в Умані сталася смертельна пожежа' ;
---------------------------------
-2019.11.24 13:15:03:
---------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/terpecz-urvavsya-dva-nezakryti-kanalizaczijni-lyuky-u-kanevi-zasypaly-piskom/%' OR title ='Терпець урвався: два незакриті каналізаційні люки у Каневі засипали піском' ;
---------------------------------
-2019.11.24 13:15:03:
---------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/tilda/golovne-za-tizhden/%' OR title ='Головне за тиждень від команди “18000”' ;
---------------------------------
-2019.11.24 13:15:03:
---------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/u-meri%d1%97-povidomili-koshtorisi-minulorichnix-yalinok/%' OR title ='У мерії повідомили кошториси минулорічних ялинок' ;
---------------------------------
-2019.11.24 13:15:03:
---------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/oxorona-sofi%d1%97vki-v-nastupnomu-roci-koshtuvatime-35-miljoni-griven/%' OR title ='Охорона “Софіївки” в наступному році коштуватиме 3,5 мільйона гривень' ;
---------------------------------
-2019.11.24 13:15:03:
---------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/ukrzaliznicya-priznachila-sim-dodatkovix-po%d1%97zdiv-na-svyata/%' OR title ='Укрзалізниця призначила сім додаткових поїздів на свята' ;
---------------------------------
-2019.11.24 13:15:03:
---------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/v-ukra%d1%97ni-predstavili-novi-standarti-fotografij-na-dokumenti-shho-zminilosya/%' OR title ='В Україні представили нові стандарти фотографій на документи: що змінилося?' ;
---------------------------------
-2019.11.24 13:15:03:
---------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/mixajlyuk-vstanoviv-novij-osobistij-rekord-u-nba/%' OR title ='Михайлюк встановив новий особистий рекорд у НБА' ;
---------------------------------
-2019.11.24 13:15:03:
---------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/u-cherkasax-dvoye-pensionerok-sudyatsya-za-odnu-kvartiru-video/%' OR title ='У Черкасах двоє пенсіонерок судяться за одну квартиру' ;
---------------------------------
-2019.11.24 13:15:04:
---------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/na-cherkashhini-policejski-rozkrili-zhorstoke-vbivstvo-90-richnogo-pensionera/%' OR title ='На Черкащині поліцейські розкрили жорстоке вбивство 90-річного пенсіонера' ;
---------------------------------
-2019.11.24 13:15:04:
---------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/v-umani-pid-chas-pozhezhi-zaginuv-cholovik/%' OR title ='В Умані під час пожежі загинув чоловік' ;
---------------------------------
-2019.11.24 13:15:04:
---------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/batku-cherkaskogo-nardepa-prinesli-zemlyu/%' OR title ='У Черкасах привезли землю до “Бочки”' ;
---------------------------------
-2019.11.24 13:15:04:
---------------------------------
-SELECT COUNT(id) as count FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/u-cherkasax-dvoye-pensionerok-sudyatsya-za-odnu-kvartiru-video/%' OR title = 'У Черкасах двоє пенсіонерок судяться за одну квартиру';
---------------------------------
-2019.11.24 13:15:04:
---------------------------------
-SELECT COUNT(id) as count FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/v-umani-pid-chas-pozhezhi-zaginuv-cholovik/%' OR title = 'В Умані під час пожежі загинув чоловік';
---------------------------------
-2019.11.24 13:15:05:
---------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/22/uvaha-vidbulysia-zminy-u-sferi-derzhavnoi-reiestratsii-prav-ta-reiestratsii-biznesu/%' OR title ='Увага! Відбулися зміни у сфері державної реєстрації прав та реєстрації бізнесу' ;
---------------------------------
-2019.11.24 13:15:05:
---------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/21/iz-zasidannia-vykonavchoho-komitetu/%' OR title ='Із засідання виконавчого комітету' ;
---------------------------------
-2019.11.24 13:15:05:
---------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/21/den-hidnosti-ta-svobody-vidznachyly-u-shpolianskij-hromadi/%' OR title ='День Гідності та Свободи відзначили у Шполянській громаді' ;
---------------------------------
-2019.11.24 13:15:05:
---------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/21/proiekty-rishen-vykonkomu-vid-20-11-2019/%' OR title ='Проєкти рішень виконкому від 20.11.2019' ;
---------------------------------
-2019.11.24 13:15:06:
---------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/21/21-lystopada-den-hidnosti-ta-svobody-ukrainy-2/%' OR title ='21 листопада — День Гідності та Свободи України' ;
---------------------------------
-2019.11.24 13:15:06:
---------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/20/kontejnery-dlia-vidpratsovanykh-batarejok-z-iavylys-u-shkolakh-sil-lebedyn-ta-krymky-foto/%' OR title ='Контейнери для відпрацьованих батарейок з’явились у школах сіл Лебедин та Кримки' ;
---------------------------------
-2019.11.24 13:15:06:
---------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/20/kulturno-osvitnia-poizdka-do-polshchi-shvetsii-norvehii-ta-danii/%' OR title ='Культурно-освітня поїздка до Польщі, Швеції, Норвегії та Данії' ;
---------------------------------
-2019.11.24 13:15:06:
---------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/20/asotsiatsiia-natsionalno-patriotychnykh-orhanizatsij-informuie/%' OR title ='Асоціація національно-патріотичних організацій інформує' ;
---------------------------------
-2019.11.24 13:15:06:
---------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/20/do-uvahy/%' OR title ='До уваги!' ;
---------------------------------
-2019.11.24 13:15:07:
---------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/19/zaklady-osvity-ta-medytsyny-u-selakh-remontuiut/%' OR title ='Заклади освіти та медицини у селах ремонтують' ;
---------------------------------
-2019.11.24 13:15:07:
---------------------------------
-SELECT COUNT(id) as count FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/21/iz-zasidannia-vykonavchoho-komitetu/%' OR title = 'Із засідання виконавчого комітету';
 --------------------------------
