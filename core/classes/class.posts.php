@@ -119,12 +119,14 @@ class posts
       }
 
       $_curr_post = $this->get( array( 'post.id' => $_ID ) );
-      $_curr_post = $_curr_post[$_ID];
-
-      preg_match( '!src=\"\/(\S+(jpeg|jpg|png))\"!i', $_curr_post['post']['full_post'], $tphoto );
+      if( isset($_curr_post[$_ID]) )
+      {
+          $_curr_post = $_curr_post[$_ID];
+          preg_match( '!src=\"\/(\S+(jpeg|jpg|png))\"!i', $_curr_post['post']['full_post'], $tphoto );
+      }
       $tphoto = isset($tphoto[1]) ? $tphoto[1] : false;
 
-      if( $tphoto && file_exists( ROOT_DIR.DS.$tphoto ) && !intval( $_curr_post['post']['repost_tg'] ) )
+      if( $tphoto && isset($_curr_post['post']) && file_exists( ROOT_DIR.DS.$tphoto ) && !intval( $_curr_post['post']['repost_tg'] ) )
       {
           $_config    = config::get();
           $_curr_post['post']['short_post'] = strip_tags(common::stripslashes( common::htmlspecialchars_decode( common::stripslashes( common::stripslashes( common::html_entity_decode( common::stripslashes( $_curr_post['post']['short_post']) ) )) ) ));
@@ -293,7 +295,8 @@ class posts
         {
           $WHERE['posts.id'] = 'posts.id > 0';
           $WHERE['categ.id'] = 'categ.id > 0';
-          $WHERE['posts.created_time'] = 'posts.created_time <= NOW()';
+          $WHERE['posts.created_time'] = 'posts.created_time <= ( NOW() + interval \'1 year\' )';
+
           if( $filters['post.posted'] ){ $WHERE['post.posted'] = 'posts.posted = '.$filters['post.posted']; }
         }
         else
