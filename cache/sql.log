@@ -1,212 +1,327 @@
-2019.11.27 13:15:01:
+2019.11.27 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Новини';
 --------------------------------
-2019.11.27 13:15:01:
+2019.11.27 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Життя міста';
 --------------------------------
-2019.11.27 13:15:01:
+2019.11.27 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Суспільство';
 --------------------------------
-2019.11.27 13:15:01:
+2019.11.27 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Події';
 --------------------------------
-2019.11.27 13:15:01:
+2019.11.27 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Мерія';
 --------------------------------
-2019.11.27 13:15:01:
+2019.11.27 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Війна на сході';
 --------------------------------
-2019.11.27 13:15:01:
+2019.11.27 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Спорт';
 --------------------------------
-2019.11.27 13:15:01:
+2019.11.27 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Політика';
 --------------------------------
-2019.11.27 13:15:01:
+2019.11.27 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Райони';
 --------------------------------
-2019.11.27 13:15:01:
+2019.11.27 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Поліція';
 --------------------------------
-2019.11.27 13:15:01:
+2019.11.27 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Військомат';
 --------------------------------
-2019.11.27 13:15:01:
+2019.11.27 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Особистість';
 --------------------------------
-2019.11.27 13:15:01:
+2019.11.27 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Свято';
 --------------------------------
-2019.11.27 13:15:01:
+2019.11.27 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Екологія';
 --------------------------------
-2019.11.27 13:15:01:
+2019.11.27 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Економіка';
 --------------------------------
-2019.11.27 13:15:01:
+2019.11.27 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Погода';
 --------------------------------
-2019.11.27 13:15:01:
+2019.11.27 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Релігія';
 --------------------------------
-2019.11.27 13:15:01:
+2019.11.27 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Культура';
 --------------------------------
-2019.11.27 13:15:01:
+2019.11.27 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Освіта';
 --------------------------------
-2019.11.27 13:15:01:
+2019.11.27 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Наука';
 --------------------------------
-2019.11.27 13:15:01:
+2019.11.27 19:15:01:
 --------------------------------
 SELECT count(id) as count FROM tags WHERE name='Медицина';
 --------------------------------
-2019.11.27 13:15:02:
+2019.11.27 19:15:01:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/yak-pereviryty-elektrolichylnyk-na-pravylnist-roboty-rozpovily-u-cherkasyoblenergo/%' OR title ='Як перевірити електролічильник на правильність роботи розповіли у “Черкасиобленерго”' ;
+SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/policzejski-zolotonoshi-doluchylasya-do-vseukrayinskoyi-akcziyi-16-dniv-proty-nasylstva/%' OR title ='Поліцейські Золотоноші долучилася до Всеукраїнської акції “16 днів проти насильства”' ;
 --------------------------------
-2019.11.27 13:15:02:
+2019.11.27 19:15:01:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/vijskovyky-kontraktnyky-j-nadali-otrymuvatymut-zaohochuvalni-10-tys-grn-z-byudzhetu-kaneva/%' OR title ='Військовики-контрактники й надалі отримуватимуть заохочувальні 10 тис.грн. з бюджету Канева' ;
+SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/ozheledyczeyu-ta-tumanom-lyakayut-cherkaskyh-vodiyiv/%' OR title ='Ожеледицею та туманом лякають черкаських водіїв' ;
 --------------------------------
-2019.11.27 13:15:02:
+2019.11.27 19:15:01:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/bilya-svydivka-ryboohoronczi-spijmaly-brakonyeriv/%' OR title ='Біля Свидівка рибоохоронці спіймали браконьєрів' ;
+SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/na-cherkashhyni-kosulya-sprychynyla-dtp-foto/%' OR title ='На Черкащині косуля спричинила ДТП' ;
 --------------------------------
-2019.11.27 13:15:02:
+2019.11.27 19:15:01:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/v-cherkasah-zyavylasya-persha-sobacha-vbyralnya-foto/%' OR title ='В Черкасах з’явилася перша “собача вбиральня”' ;
+SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/neruhomist-v-lnr-yashhyky-z-groshyma-kvartyry-palaczy-ta-korolivski-mayetky-trohy-z-deklaraczij-cherkaskyh-suddiv/%' OR title ='Нерухомість в “ЛНР”, ящики з грошима, квартири-палаци та “королівські” маєтки – трохи з декларацій черкаських суддів' ;
 --------------------------------
-2019.11.27 13:15:02:
+2019.11.27 19:15:01:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/smertelna-pozhezha-stalasya-na-lysyanshhyni-video/%' OR title ='Смертельна пожежа сталася на Лисянщині' ;
+SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/zemlya-maye-sluzhyty-gromadam-i-lyudyam-a-ne-okremym-oligarham-golova-zolotoniskoyi-rajrady/%' OR title ='Земля має служити громадам і людям, а не окремим олігархам, – голова Золотоніської райради' ;
 --------------------------------
-2019.11.27 13:15:02:
+2019.11.27 19:15:01:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/cherkaskogo-patrulnogo-sudytymut-za-otrymanyj-habar/%' OR title ='Черкаського патрульного судитимуть за отриманий хабар' ;
+SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/dtp-u-cherkasah-vodiyu-stalo-zle-pislya-skladannya-na-nogo-protokolu/%' OR title ='ДТП у Черкасах: водію стало зле після складання на нього протоколу' ;
 --------------------------------
-2019.11.27 13:15:02:
+2019.11.27 19:15:01:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/shhe-try-kiosky-u-cherkasah-mayut-znesty-do-kinczya-roku-foto/%' OR title ='Ще три кіоски у Черкасах мають знести до кінця року' ;
+SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/u-odnomu-z-dvoriv-pivdenno-zahidnogo-rajonu-rekonstruyuvaly-osvitlennya/%' OR title ='У одному з дворів Південно-Західного району реконструювали освітлення' ;
 --------------------------------
-2019.11.27 13:15:02:
+2019.11.27 19:15:01:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/cherkasy-osoblyvi-u-sosnivczi-svogo-chasu-vidpochyvaly-osoby-monarshoyi-krovi-foto/%' OR title ='Черкаси особливі: у Соснівці свого часу відпочивали особи “монаршої” крові' ;
+SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/cherez-pichne-opalennya-gorily-dva-zhytlovi-budynky/%' OR title ='Через пічне опалення горіли два житлові будинки' ;
 --------------------------------
-2019.11.27 13:15:02:
+2019.11.27 19:15:01:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/ryatuvalnyky-prosyat-cherkashhan-ne-vyhodyty-na-kryhkyj-lid/%' OR title ='Рятувальники просять черкащан не виходити на крихкий лід' ;
+SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/patrulni-zatrymaly-hvorogo-yakyj-vtik-iz-psyhiatrychnoyi-likarni-ta-pronyk-do-chuzhogo-budynku/%' OR title ='Патрульні затримали хворого, який втік із психіатричної лікарні та проник до чужого будинку' ;
 --------------------------------
-2019.11.27 13:15:02:
+2019.11.27 19:15:01:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/bosnijskij-legioner-mavp-rozpoviv-yak-osvoyivsya-u-cherkasah/%' OR title ='Боснійській легіонер “Мавп” розповів, як освоївся у Черкасах' ;
+SELECT count(id) FROM posts WHERE comment LIKE 'https://dzvin.media/news/na-cherkashhyni-pryznachyly-goliv-pyaty-rda/%' OR title ='На Черкащині призначили голів п’яти РДА?' ;
 --------------------------------
-2019.11.27 13:15:03:
+2019.11.27 19:15:02:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/novij-rik-rozpochnetsya-v-ukra%d1%97ni-z-pokazu-kazki-za-scenariyem-umanskogo-kazkarya-video/%' OR title ='Новий рік розпочнеться в Україні з показу казки за сценарієм уманського казкаря' ;
+SELECT COUNT(id) as count FROM posts WHERE comment LIKE 'https://dzvin.media/news/policzejski-zolotonoshi-doluchylasya-do-vseukrayinskoyi-akcziyi-16-dniv-proty-nasylstva/%' OR title = 'Поліцейські Золотоноші долучилася до Всеукраїнської акції “16 днів проти насильства”';
 --------------------------------
-2019.11.27 13:15:03:
+2019.11.27 19:15:07:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/4-grivni-za-zhittya-yak-svitlovidbivayuchi-elementi-ryatuyut-na-dorogax-eksperiment/%' OR title ='4 гривні за життя. Як світловідбиваючі елементи рятують на дорогах' ;
+SELECT COUNT(md5) as count FROM images WHERE md5='68bfda3621730a26fb0e8c19088d92f9';
 --------------------------------
-2019.11.27 13:15:04:
+2019.11.27 19:15:07:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/na-rizdvyani-svyata-ukra%d1%97nci-dvichi-matimut-dovgi-vixidni/%' OR title ='На різдвяні свята українці двічі матимуть довгі вихідні' ;
+INSERT INTO images ("post_id", "md5", "user_id", "serv_name", "load_time", "is_mini") VALUES ('0', '68bfda3621730a26fb0e8c19088d92f9', '1', '2019-11-27_19-15-02_538.png', '2019-11-27 19:15:07', '1');
 --------------------------------
-2019.11.27 13:15:04:
+2019.11.27 19:15:07:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/obvinuvachenomu-u-vbivstvi-cherkaskogo-deputata-prodovzhili-zapobizhnij-zaxid/%' OR title ='Обвинуваченому у вбивстві черкаського депутата продовжили запобіжний захід' ;
+INSERT INTO posts ("title", "alt_title", "descr", "short_post", "full_post", "comment", "svector", "keywords", "posted", "fixed", "static", "category", "author_id") VALUES ('Поліцейські Золотоноші долучилася до Всеукраїнської акції “16 днів проти насильства”', '773c8f98bfa8312e9ca4519cd383b551', 'Поліцейські Золотоноші долучилася до Всеукраїнської акції “16 днів проти насильства”', 'Щорічно в Україні з 25 листопада по 10 грудня проводиться Всеукраїнська акція «16 днів проти насильства». Долучилися до даної акції і правоохоронці  Золотоніського відділу поліції. Основна мета акції – формування свідомості усіх верств населення щодо нетерпимого ставлення до будь-яких форм насильства. Повідомили у нацполіції Черкащини. Які бувають види насильства, як не стати жертвою таких дій та куди необхідно звертатись по допомогу – ці питання стали темою зустрічі, яка відбулася за участі правоохоронців Золотоніського відділу поліції, представників служби у справах дітей Золотоніської міської ради та учнів 9-х класів Золотоніської загально-освітньої школи №1. Основною метою таких зустрічей є попередження і припинення насильства та жорстокого поводження з дітьми та підлітками в сім’ях, навчальних закладах та громадських місцях, а також підвищення правової культури неповнолітніх. Поліцейські детально розповіли про те, які існують види насильства. Особливу увагу підлітків звернули на те, як важливо не боятися повідомляти про факти насильства відносно них. Правоохоронці закликали присутніх завжди пам’ятати — насильство не можна терпіти, з ним потрібно боротися. Школярам надали інформацію, куди вони можуть звернутись по допомогу в разі вчинення відносно них, або членів їх сім’ї протиправних дій. На зустрічі правоохоронці також обговорили тему булінгу та дали поради, як боротися з цим негативним явищем. Діти брали активну участь в обговоренні, задавали багато питань на які отримували змістовні відповіді.  ', '<p class=\"bb_p\">Щорічно в Україні з 25 листопада по 10 грудня проводиться Всеукраїнська акція «16 днів проти насильства». Долучилися до даної акції і правоохоронці  Золотоніського відділу поліції. Основна мета акції – формування свідомості усіх верств населення щодо нетерпимого ставлення до будь-яких форм насильства. Повідомили у нацполіції Черкащини.</p>
+<p class=\"bb_p align_center\"><img class="post_img" src="/uploads/images/2019-11-27/2019-11-27_19-15-02_538.png" alt="" title="" /></p>
+<p class=\"bb_p\">Які бувають види насильства, як не стати жертвою таких дій та куди необхідно звертатись по допомогу – ці питання стали темою зустрічі, яка відбулася за участі правоохоронців Золотоніського відділу поліції, представників служби у справах дітей Золотоніської міської ради та учнів 9-х класів Золотоніської загально-освітньої школи №1.</p>
+<p class=\"bb_p\">Основною метою таких зустрічей є попередження і припинення насильства та жорстокого поводження з дітьми та підлітками в сім’ях, навчальних закладах та громадських місцях, а також підвищення правової культури неповнолітніх. Поліцейські детально розповіли про те, які існують види насильства. Особливу увагу підлітків звернули на те, як важливо не боятися повідомляти про факти насильства відносно них.</p>
+<p class=\"bb_p\">Правоохоронці закликали присутніх завжди пам’ятати — насильство не можна терпіти, з ним потрібно боротися. Школярам надали інформацію, куди вони можуть звернутись по допомогу в разі вчинення відносно них, або членів їх сім’ї протиправних дій.</p>
+<p class=\"bb_p\">На зустрічі правоохоронці також обговорили тему булінгу та дали поради, як боротися з цим негативним явищем. Діти брали активну участь в обговоренні, задавали багато питань на які отримували змістовні відповіді.</p>
+<p class=\"bb_p\"> </p><div class="source"><p class=\"bb_p align_right\"><a rel="nofollow noreferrer" href="https://dzvin.media/news/policzejski-zolotonoshi-doluchylasya-do-vseukrayinskoyi-akcziyi-16-dniv-proty-nasylstva/" target="_blank">За матеріалами "dzvin.media"</a></p></div>', 'https://dzvin.media/news/policzejski-zolotonoshi-doluchylasya-do-vseukrayinskoyi-akcziyi-16-dniv-proty-nasylstva/', '', '', '1', '0', '0', '1', '1') RETURNING id;
 --------------------------------
-2019.11.27 13:15:04:
+2019.11.27 19:15:07:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/u-cherkasax-rozshukuvanij-za-vbivstvo-cholovik-vtik-iz-psixiatrichno%d1%97-likarni-foto/%' OR title ='У Черкасах розшукуваний за вбивство чоловік втік із психіатричної лікарні' ;
+UPDATE images SET post_id=2560 WHERE post_id=0;
 --------------------------------
-2019.11.27 13:15:04:
+2019.11.27 19:15:07:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/na-umanshhini-ne-rozminulisya-dva-legkoviki-foto/%' OR title ='На Уманщині не розминулися два легковики' ;
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 2560 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
 --------------------------------
-2019.11.27 13:15:04:
+2019.11.27 19:15:07:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/tabloid/spasiba-vam-cherkasi-yak-selyuki-vidigrali-koncert-ta-za-shho-dyakuvali-auditori%d1%97-fotoreportazh/%' OR title ='“Спасіба вам – Черкаси”. Як “Селюки” відіграли концерт та за що дякували аудиторії' ;
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 2560 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 10;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
 --------------------------------
-2019.11.27 13:15:04:
+2019.11.27 19:15:07:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/u-cherkaskij-oda-zustrilisya-iz-dorozhnimi-pidryadnikami-ta-ozvuchili-principi-roboti-z-nimi/%' OR title ='У Черкаській ОДА зустрілися із дорожніми підрядниками та озвучили принципи роботи з ними' ;
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (2560) ORDER by tg.name; -- %QUERY_CACHABLE
 --------------------------------
-2019.11.27 13:15:04:
+2019.11.27 19:15:07:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/ya-podayu-u-sud-karas-suditimetsya-z-meriyeyu-cherez-vidsutnist-finansuvannya-na-itp/%' OR title ='Карась судитиметься з мерією через відсутність фінансування на ІТП' ;
+SELECT * FROM categories ORDER BY level;  -- %QUERY_CACHABLE
 --------------------------------
-2019.11.27 13:15:04:
+2019.11.27 19:15:07:
 --------------------------------
-SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/blogs/ne-do-rozvedennya-internet-zmi-cherkashhini-nechasto-publikuyut-novini-pro-oos/%' OR title ='Не до розведення: інтернет-ЗМІ Черкащини нечасто публікують новини про ООС' ;
+UPDATE posts SET repost_tg=1 WHERE id='2560';
 --------------------------------
-2019.11.27 13:15:04:
+2019.11.27 19:15:07:
+--------------------------------
+UPDATE images SET post_id=2560 WHERE md5='68bfda3621730a26fb0e8c19088d92f9' AND post_id=0;
+--------------------------------
+2019.11.27 19:15:07:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/pislya-zastillya-cherkashhanina-pograbuvala-podruga/%' OR title ='Після застілля черкащанина пограбувала подруга' ;
+--------------------------------
+2019.11.27 19:15:08:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/tabloid/zaxopivsya-cherkaskij-tancivnik-rozbiv-kameru-operatoru-video/%' OR title ='Захопився: черкаський танцівник розбив камеру оператору' ;
+--------------------------------
+2019.11.27 19:15:08:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/pomichnik-slugi-narodu-eks-pomichnicya-nichiporenka-ta-inshi-pretendenti-na-posadi-goliv-rajoniv/%' OR title ='Помічник “Слуги народу”, екс-помічниця Ничипоренка та інші претенденти на посади голів районів' ;
+--------------------------------
+2019.11.27 19:15:08:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/pid-chas-oformlennya-dtp-u-cherkasax-vodiyevi-stalo-zle-foto/%' OR title ='Під час оформлення ДТП у Черкасах водієві стало зле' ;
+--------------------------------
+2019.11.27 19:15:08:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/v-uryadi-pogodili-5-goliv-administracij-dlya-cherkashhini-nardep/%' OR title ='В Уряді погодили 5 голів адміністрацій для Черкащини, – нардеп' ;
+--------------------------------
+2019.11.27 19:15:08:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/u-likarni-na-cherkashhini-medpracivnikam-ne-viplachuyut-zarobitnu-platu/%' OR title ='У лікарні на Черкащині медпрацівникам не виплачують заробітну плату' ;
+--------------------------------
+2019.11.27 19:15:08:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/na-cherkashhini-prognozuyut-tumani-ta-doshhi/%' OR title ='На Черкащині прогнозують тумани та дощі' ;
+--------------------------------
+2019.11.27 19:15:08:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/na-cherkashhini-inspektor-patrulno%d1%97-pogoriv-na-xabari/%' OR title ='На Черкащині інспектор патрульної “погорів” на хабарі' ;
+--------------------------------
+2019.11.27 19:15:09:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/na-cherkashhini-stalasya-avariya-vodij-zbiv-kosulyu-video-foto/%' OR title ='На Черкащині сталася аварія: водій збив косулю' ;
+--------------------------------
+2019.11.27 19:15:09:
+--------------------------------
+SELECT count(id) FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/v-umani-vzyali-pid-vartu-xlopcya-shho-z%d2%91valtuvav-nepovnolitnyu/%' OR title ='В Умані взяли під варту хлопця, що під час застілля зґвалтував неповнолітню' ;
+--------------------------------
+2019.11.27 19:15:09:
+--------------------------------
+SELECT COUNT(id) as count FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/pislya-zastillya-cherkashhanina-pograbuvala-podruga/%' OR title = 'Після застілля черкащанина пограбувала подруга';
+--------------------------------
+2019.11.27 19:15:09:
+--------------------------------
+SELECT COUNT(id) as count FROM posts WHERE comment LIKE 'https://18000.com.ua/strichka-novin/na-cherkashhini-inspektor-patrulno%d1%97-pogoriv-na-xabari/%' OR title = 'На Черкащині інспектор патрульної “погорів” на хабарі';
+--------------------------------
+2019.11.27 19:15:10:
 --------------------------------
 SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/26/startuvala-vsesvitnia-aktsiia-16-dniv-proty-nasylstva/%' OR title ='Стартувала Всесвітня акція “16 днів проти насильства”' ;
 --------------------------------
-2019.11.27 13:15:04:
+2019.11.27 19:15:10:
 --------------------------------
 SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/25/tantsiurysty-barvinku-iak-zavzhdy-sered-pershykh/%' OR title ='Танцюристи «Барвінку» як завжди серед перших' ;
 --------------------------------
-2019.11.27 13:15:04:
+2019.11.27 19:15:10:
 --------------------------------
 SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/25/informatsiia-shchodo-naiavnosti-likarskykh-zasobiv-vytratnykh-materialiv-medychnykh-vyrobiv-ta-kharchovykh-produktiv-dlia-spetsialnoho-diietychnoho-spozhyvannia-otrymanykh-za-koshty-derzhavnoho-ta-30/%' OR title ='Інформація щодо наявності лікарських засобів, витратних матеріалів, медичних виробів та харчових продуктів для спеціального дієтичного споживання, отриманих за кошти державного та місцевого бюджетів, благодійної діяльності і гуманітарної допомоги' ;
 --------------------------------
-2019.11.27 13:15:05:
+2019.11.27 19:15:10:
 --------------------------------
 SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/25/uvaha-shpolianskyj-rem-pat-cherkasyoblenerho-poperedzhaie-pro-vidkliuchennia-elektroenerhii/%' OR title ='Увага! Шполянський РЕМ ПАТ «Черкасиобленерго» попереджає про відключення електроенергії!' ;
 --------------------------------
-2019.11.27 13:15:05:
+2019.11.27 19:15:10:
 --------------------------------
 SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/25/rishennia-vykonavchoho-komitetu-vid-20-11-2019/%' OR title ='Рішення виконавчого комітету від 20.11.2019' ;
 --------------------------------
-2019.11.27 13:15:05:
+2019.11.27 19:15:11:
 --------------------------------
 SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/23/pam-iat-po-holodomor-ne-zhasne/%' OR title ='Пам’ять по Голодомор не згасне…' ;
 --------------------------------
-2019.11.27 13:15:05:
+2019.11.27 19:15:11:
 --------------------------------
 SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/22/uvaha-vidbulysia-zminy-u-sferi-derzhavnoi-reiestratsii-prav-ta-reiestratsii-biznesu/%' OR title ='Увага! Відбулися зміни у сфері державної реєстрації прав та реєстрації бізнесу' ;
 --------------------------------
-2019.11.27 13:15:05:
+2019.11.27 19:15:11:
 --------------------------------
 SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/21/iz-zasidannia-vykonavchoho-komitetu/%' OR title ='Із засідання виконавчого комітету' ;
 --------------------------------
-2019.11.27 13:15:06:
+2019.11.27 19:15:11:
 --------------------------------
 SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/21/den-hidnosti-ta-svobody-vidznachyly-u-shpolianskij-hromadi/%' OR title ='День Гідності та Свободи відзначили у Шполянській громаді' ;
 --------------------------------
-2019.11.27 13:15:06:
+2019.11.27 19:15:12:
 --------------------------------
 SELECT count(id) FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/21/proiekty-rishen-vykonkomu-vid-20-11-2019/%' OR title ='Проєкти рішень виконкому від 20.11.2019' ;
 --------------------------------
-2019.11.27 13:15:07:
+2019.11.27 19:15:12:
 --------------------------------
 SELECT COUNT(id) as count FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/25/rishennia-vykonavchoho-komitetu-vid-20-11-2019/%' OR title = 'Рішення виконавчого комітету від 20.11.2019';
 --------------------------------
-2019.11.27 13:15:07:
+2019.11.27 19:15:12:
 --------------------------------
 SELECT COUNT(id) as count FROM posts WHERE comment LIKE 'http://shpola-otg.gov.ua/2019/11/21/iz-zasidannia-vykonavchoho-komitetu/%' OR title = 'Із засідання виконавчого комітету';
 --------------------------------
