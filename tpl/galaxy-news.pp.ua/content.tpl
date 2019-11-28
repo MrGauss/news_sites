@@ -33,17 +33,17 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript"></script>
         <script src="{SKINDIR}/js/main.lib.js" type="text/javascript"></script>
 
-        <link href="https://fonts.googleapis.com/css?family=Comfortaa|Ubuntu&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="{SKINDIR}/css/style.css?ver=1" media="screen" />
+        <link href="https://fonts.googleapis.com/css?family=Kurale|Ledger|M+PLUS+Rounded+1c|Montserrat+Alternates&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="{SKINDIR}/css/style.css?ver={RAND}" media="screen" />
     </head>
     <body>
 
         <div id="page">
             <div id="leftside">
                 <div class="header">
-                    <a id="inflogo" href="{HOME}">ІНФОРМАЦІЙНИЙ РЕСУРС</a>
-                    <a id="logo" href="{HOME}">CKnews</a>
-                    <a id="sublogo"  href="{HOME}">новини Черкащини</a>
+                    <a id="inflogo" href="{HOME}">ІНФОРМАЦІЙНИЙ ПОРТАЛ</a>
+                    <a id="logo" href="{HOME}">GALAXY NEWS</a>
+                    <a id="sublogo"  href="{HOME}">новини галактики</a>
                 </div>
                 <div class="container">
                     <ul>
@@ -62,7 +62,6 @@
                         <li><a href="/">Головна</a></li>
                         <li><a href="/tag:%C2%B3%E9%ED%E0+%ED%E0+%F1%F5%EE%E4%B3/" title="&Vcy;&iukcy;&jcy;&ncy;&acy; &ncy;&acy; &scy;&khcy;&ocy;&dcy;&iukcy;">Війна на сході</a></li>
                         <li><a href="/tag:%C5%EA%EE%ED%EE%EC%B3%EA%E0/" title="&IEcy;&kcy;&ocy;&ncy;&ocy;&mcy;&iukcy;&kcy;&acy;">Економіка</a></li>
-                        <li><a href="/tag:%CA%F3%EB%FC%F2%F3%F0%E0/" title="&Kcy;&ucy;&lcy;&softcy;&tcy;&ucy;&rcy;&acy;">Культура</a></li>
                         <li><a href="/tag:%CC%E5%F0%B3%FF/" title="&Mcy;&iecy;&rcy;&iukcy;&yacy;">Мерія</a></li>
                         <li><a rel="nofollow noreferrer" target="_blank" title="Наш канал в TELEGRAM" href="https://t.me/cknewsppua">TELEGRAM</a></li>
                         <li><a href="/rss.xml" target="_blank">RSS</a></li>

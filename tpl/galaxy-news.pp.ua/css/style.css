@@ -111,17 +111,17 @@ button:active{ background-color: #66A7E1; opacity: 1.0; }
 button:hover{ background-color: #66A7E1; opacity: 1.0; }
 
 .clr{ clear: both; }
-body{ background: #ebebeb;  font-size: 14px; }
+body{ background: #ebebeb; font-family: 'Ledger', sans-serif; font-size: 14px; }
 #page{ position: relative; width: 980px; margin: 0px auto; border: 1px solid #DEDEDE; background: #FFFFFF; border-top: none; border-bottom: none; }
 #page .header{ height: 100px; border: none; padding: 10px; }
-#page #leftside{ position: fixed; width: 180px; height: 100%; top: 0px; border: none; background: #2F2F2F; color: #FFFFFF; }
+#page #leftside{ position: fixed; width: 180px; height: 100%; top: 0px; border: none; background: #002E02; color: #FFFFFF; }
 #page #leftside .bottom{ position: fixed; bottom: 0px; width: 180px; padding: 5px; text-align: center; color: #8A8A8A; font-size: 0.8em; }
 #page.small #leftside .bottom{ display: none; }
-#page #footer{ background: #2F2F2F; color: #FFFFFF; }
+#page #footer{ background: #002E02; color: #FFFFFF; }
 
 #page #footer{ padding: 5px; text-align: center; color: #8A8A8A; font-size: 0.8em; }
 #page #footer .shortimg{ text-align: justify; }
-#page #footer .shortimg .bottom_short{ width: 25%; height: 170px; float: left; border: 1px solid #2F2F2F; padding: 15px; overflow: hidden; z-index: 1; }
+#page #footer .shortimg .bottom_short{ width: 25%; height: 170px; float: left; border: 1px solid #002E02; padding: 15px; overflow: hidden; z-index: 1; }
 #page #footer .shortimg .bottom_short:hover{ background: #FFFFFF; border-color: #FF9E00; box-shadow: 0px 0px 10px #FF9E00; z-index: 10; }
 #page #footer .shortimg .bottom_short:hover a{ color: #111111; }
 #page #footer .shortimg .bottom_short .image{ }
@@ -130,9 +130,9 @@ body{ background: #ebebeb;  font-size: 14px; }
 
 #page #footer .bottom{ padding: 5px; text-align: center; color: #8A8A8A; font-size: 0.8em; }
 
-#page #leftside #logo{ display: block; color: #FFFFFF; font-size: 2.8em; font-weight: bold; text-align: center; padding-top: 20px; }
-#page #leftside #inflogo{ display: block; width: 180px; color: #FFFFFF; font-size: 0.7em; font-weight: normal; text-align: center; padding-top: 0px; position: absolute; top: 15px; left: 0px; text-align: center; }
-#page #leftside #sublogo{ display: block; color: #FFFFFF; font-size: 0.7em; font-weight: bold; text-transform: uppercase; text-align: center; margin-top: 5px; }
+#page #leftside #logo{ display: block; color: #FFFFFF; font-size: 2.1em; font-weight: bold; text-align: center; padding-top: 20px; }
+#page #leftside #inflogo{ display: block; width: 180px; color: #FFFFFF; font-size: 0.75em; font-weight: normal; text-align: center; padding-top: 0px; position: absolute; top: 15px; left: 0px; text-align: center; }
+#page #leftside #sublogo{ display: block; color: #FFFFFF; font-size: 0.8em; font-weight: normal; text-transform: uppercase; text-align: center; margin-top: 5px; }
 #page #leftside .container{ padding: 10px; }
 #page #leftside .container ul{ margin: 0px; padding: 0px; }
 #page #leftside .container ul li{ margin: 0px; padding: 5px 10px 0px 10px; list-style: none; text-align: right; }
@@ -143,6 +143,9 @@ body{ background: #ebebeb;  font-size: 14px; }
 #page #mainbox .header ul{ margin: 20px 0px 0px 20px; padding: 0px; }
 #page #mainbox .header ul li{ margin: 0px; padding: 10px 15px 10px 15px; list-style: none; float: left; }
 #page #mainbox .header ul li a{ color: #424242; text-transform: uppercase; font-size: 1em; }
+
+#page #mainbox .right_top,
+#page #mainbox .articles{ }
 
 #page #mainbox .articles{ padding: 10px 10px 0px 10px; font-size: 1em; position: relative; top: -20px; width: 65%; float: left; }
 #page #mainbox .right_top{ padding: 10px 10px 0px 10px; font-size: 1em; position: relative; top: -20px; width: 35%; float: right; border-left: 1px solid #F2F8FC; }
@@ -159,7 +162,7 @@ body{ background: #ebebeb;  font-size: 14px; }
 
 #page #mainbox .articles .short_article{ padding-top: 10px; position: relative; }
 #page #mainbox .articles .short_article{ margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px solid #F2F8FC; text-align: justify; }
-#page #mainbox .articles .short_article a{ font-size: 1.3em; color: #1F1F1F; font-weight: bold; font-family: 'Ubuntu'; }
+#page #mainbox .articles .short_article a{ font-size: 1.3em; color: #1F1F1F; font-weight: bold;  }
 #page #mainbox .articles .short_article .short_text{ padding: 10px 0px 0px 0px; font-size: 1.0em; float: left; padding-right: 155px; text-align: justify; position: relative;  min-height: 100px; }
 #page #mainbox .articles .short_article .image{ padding: 5px; float: right; display: block; position: absolute; top: 10px; right: 0px; }
 #page #mainbox .articles .short_article .image img{ width: 140px; height: 78px; border: 1px solid #757575; }
