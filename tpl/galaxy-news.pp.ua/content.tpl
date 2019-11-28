@@ -35,8 +35,8 @@
         <div id="page">
             <div id="leftside">
                 <div class="header">
-                    <a id="logo" href="{HOME}">CKnews</a>
-                    <a id="sublogo"  href="{HOME}">новини Черкащини</a>
+                    <a id="logo" href="{HOME}">Galaxy News</a>
+                    <a id="sublogo"  href="{HOME}">новини галактики</a>
                 </div>
                 <div class="container">
                     <ul>

@@ -114,15 +114,15 @@ button:hover{ background-color: #66A7E1; opacity: 1.0; }
 body{ background: #ebebeb; font-family: 'Ubuntu', sans-serif; font-size: 14px; }
 #page{ position: relative; width: 980px; margin: 0px auto; border: 1px solid #DEDEDE; background: #FFFFFF; border-top: none; border-bottom: none; }
 #page .header{ height: 100px; border: none; padding: 10px; }
-#page #leftside{ position: fixed; width: 180px; height: 100%; top: 0px; border: none; background: #2F2F2F; color: #FFFFFF; }
+#page #leftside{ position: fixed; width: 180px; height: 100%; top: 0px; border: none; background: #105200; color: #FFFFFF; }
 #page #leftside .bottom{ position: fixed; bottom: 0px; width: 180px; padding: 5px; text-align: center; color: #8A8A8A; font-size: 0.8em; }
 #page.small #leftside .bottom{ display: none; }
-#page #footer{ background: #2F2F2F; color: #FFFFFF; }
+#page #footer{ background: #105200; color: #FFFFFF; }
 
 #page #footer{ padding: 5px; text-align: center; color: #8A8A8A; font-size: 0.8em; }
 #page #footer .shortimg{ text-align: justify; }
-#page #footer .shortimg .bottom_short{ width: 25%; height: 170px; float: left; border: 1px solid #2F2F2F; padding: 15px; overflow: hidden; z-index: 1; }
-#page #footer .shortimg .bottom_short:hover{ background: #FFFFFF; border-color: #FF9E00; box-shadow: 0px 0px 10px #FF9E00; z-index: 10; }
+#page #footer .shortimg .bottom_short{ width: 25%; height: 170px; float: left; border: 1px solid #105200; padding: 15px; overflow: hidden; z-index: 1; }
+#page #footer .shortimg .bottom_short:hover{ background: #FFFFFF; border-color: #105200; box-shadow: 0px 0px 10px #105200; z-index: 10; }
 #page #footer .shortimg .bottom_short:hover a{ color: #111111; }
 #page #footer .shortimg .bottom_short .image{ }
 #page #footer .shortimg .bottom_short .image img{ width: 100%; height: auto; border: 1px solid #1F1F1F; }
@@ -130,8 +130,8 @@ body{ background: #ebebeb; font-family: 'Ubuntu', sans-serif; font-size: 14px; }
 
 #page #footer .bottom{ padding: 5px; text-align: center; color: #8A8A8A; font-size: 0.8em; }
 
-#page #leftside #logo{ display: block; color: #FFFFFF; font-size: 2.8em; font-weight: bold; text-align: center; padding-top: 20px; }
-#page #leftside #sublogo{ display: block; color: #FFFFFF; font-size: 0.7em; font-weight: bold; font-family: 'Comfortaa', cursive; text-transform: uppercase; text-align: center; margin-top: 5px; }
+#page #leftside #logo{ display: block; color: #FFFFFF; font-size: 2.6em; font-weight: bold; text-align: center; padding-top: 20px; padding-bottom: 20px; }
+#page #leftside #sublogo{ display: block; color: #FFFFFF; font-size: 0.9em; font-weight: bold; font-family: 'Comfortaa', cursive; text-transform: uppercase; text-align: center; margin-top: 5px; }
 #page #leftside .container{ padding: 10px; }
 #page #leftside .container ul{ margin: 0px; padding: 0px; }
 #page #leftside .container ul li{ margin: 0px; padding: 5px 10px 0px 10px; list-style: none; text-align: right; }
@@ -154,7 +154,7 @@ body{ background: #ebebeb; font-family: 'Ubuntu', sans-serif; font-size: 14px; }
 #page #mainbox .articles h2{ font-size: 1.4em; }
 
 #page #mainbox .right_top h2,
-#page #mainbox .articles h2{ border-bottom: 5px solid #FF9E00; padding: 7px 0px 5px 0px; }
+#page #mainbox .articles h2{ border-bottom: 5px solid #105200; padding: 7px 0px 5px 0px; }
 
 #page #mainbox .articles .short_article{ padding-top: 10px; position: relative; }
 #page #mainbox .articles .short_article{ margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px solid #F2F8FC; text-align: justify; }
@@ -165,7 +165,7 @@ body{ background: #ebebeb; font-family: 'Ubuntu', sans-serif; font-size: 14px; }
 #page #mainbox .articles .short_article .post_date{ color: #757575; font-size: 0.8em; font-style: italic; padding-top: 5px; }
 
 #page #mainbox .right_top{ text-align: justify; }
-#page #mainbox .right_top h2{ border-color: #0077FF; text-align: right; }
+#page #mainbox .right_top h2{ border-color: #105200; text-align: right; }
 #page #mainbox .right_top ul{ padding: 0px; margin: 0px; }
 #page #mainbox .right_top ul li{ padding: 5px 0px 5px 0px; margin: 5px 0px 5px 0px; list-style: none; }
 #page #mainbox .right_top ul li a{ height: auto; color: #1F1F1F; }

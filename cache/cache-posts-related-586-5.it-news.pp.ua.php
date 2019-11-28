@@ -1,0 +1,4 @@
+<?php if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
+ /* CACHE CREATED: 1574899083.3712 (2019-11-28 01:58:03) */
+return '<div class="related"><a href="/addon/116-ba019a365d02defbc4273641a7901601.html" title="Новий трейлер та дата прем’єри серіалу The Witcher">Новий трейлер та дата прем’єри серіалу The Witcher</a></div><div class="related"><a href="/addon/436-f551449dba8ffbf7147195322c482ae6.html" title="У WWE SuperCard стартує 6 сезон">У WWE SuperCard стартує 6 сезон</a></div><div class="related"><a href="/addon/475-53a6ea1a96ab23ce316eb14966a7476e.html" title="Нове доповнення для Jurassic World Evolution поверне гравців у 1993 рік">Нове доповнення для Jurassic World Evolution поверне гравців у 1993 рік</a></div>'; 
+?>

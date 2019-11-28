@@ -9,6 +9,12 @@ if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
 if( !trait_exists( 'basic' ) ){ require( CLASSES_DIR.DS.'trait.basic.php' ); }
 if( !class_exists( 'posts' ) ){ require( CLASSES_DIR.DS.'class.posts.php' ); }
 
+// https://pingvin.pro/tag/kosmos
+// https://dt.ua/tags/%D0%BA%D0%BE%D1%81%D0%BC%D0%BE%D1%81?page=1
+// https://ua.interfax.com.ua/news/tag/%D0%BA%D0%BE%D1%81%D0%BC%D0%BE%D1%81.html
+// https://24tv.ua/techno/kosmos_tag1810/
+// https://www.unn.com.ua/uk/news/tag/kosmos
+
 // https://itechua.com/
 // https://gsminfo.com.ua/
 // https://www.ukrinform.ua/rubric-technology/block-lastnews
@@ -16,7 +22,6 @@ if( !class_exists( 'posts' ) ){ require( CLASSES_DIR.DS.'class.posts.php' ); }
 // https://ua.interfax.com.ua/news/tag/%D0%BA%D0%BE%D1%81%D0%BC%D0%BE%D1%81.html
 // https://ua.interfax.com.ua/news/telecom.html
 // https://politeka.net/ua/tag/nauka/
-// https://24tv.ua/techno/kosmos_tag1810/
 // https://techno.znaj.ua/
 // https://www.unn.com.ua/rss/news_tech_uk.xml
 // https://dt.ua/TECHNOLOGIES
@@ -1713,17 +1718,26 @@ trait tr_pingvin_pro
         $data['page'] = preg_replace( '!<(link)(.+?)>!is', '', $data['page'] );
         $data['page'] = preg_replace( '!<(\w+) class=\"(catsbutton|ads|singlebread|buttons)(.+?|)"(.+?)<\/\1>!is', '', $data['page'] );
 
+
+
         $data['page'] = explode( '</h1>', $data['page'], 2 ); $data['page'] = end( $data['page'] );
         $data['page'] = explode( 'class="wrapper', $data['page'], 2 ); $data['page'] = '<div class="wrapper '.end( $data['page'] );
 
-
         $data['page'] = explode( 'class="wpf-search-container">', $data['page'], 2 );
+        $data['page'] = reset( $data['page'] );
+
+        $data['page'] = explode( 'id="sharing"', $data['page'], 2 );
+        $data['page'] = reset( $data['page'] );
+
+        $data['page'] = explode( 'class="article-footer"', $data['page'], 2 );
         $data['page'] = reset( $data['page'] );
 
         $data['youtube'] = array();
         preg_match_all( '!src=\"((\S+)youtube\.com\/(\S+?))(\?\S+|)\"!i', $data['page'], $data['youtube'] );
         $data['youtube'] = isset($data['youtube'][1])?array_values($data['youtube'][1]):array();
 
+        $data['page'] = preg_replace( '!<p(.+?)caption-attachment(.+?)\/p>!i', '', $data['page'] );
+        $data['page'] = preg_replace( '!<p(.+?)caption-text(.+?)\/p>!i', '', $data['page'] );
         $data['page'] = preg_replace( '!<(iframe)(.+?)(\1)>!is', '', $data['page'] );
 
         $data['page'] = preg_replace( '!<(strong|b)>(.+?)<\/(\1)>!i', '[b]$2[/b]', $data['page'] );
@@ -1731,6 +1745,8 @@ trait tr_pingvin_pro
         $data['page'] = preg_replace( '!<figure(.+?)figure>!is', '', $data['page'] );
         $data['page'] = preg_replace( '!<(\w+)(\s+)(.+?|)>!is', '<$1>', $data['page'] );
         $data['page'] = preg_replace( '!^(\s+)$!is', '', $data['page'] );
+
+        $data['page'] = preg_replace( '!<h(\d+)>(.+?)<\/h\1>!i', '[h$1]$2[/h$1]', $data['page'] );
 
         $data['page'] = trim( strip_tags( $data['page'] ) );
 
@@ -1748,9 +1764,17 @@ trait tr_pingvin_pro
         $data['page'] = str_replace( '[p] [/p]', '', $data['page'] );
 
         $data['page'] = preg_replace( '!\[p\]\[\/p\]!i', '', $data['page'] );
+        $data['page'] = preg_replace( '!\[(p)\]\[(h)(\d+)\](.+?)\[\/\2\3\]\[\/\1\]!i', '[$2$3]$4[/$2$3]', $data['page'] );
 
         $data['page'] = explode( "\n", $data['page'] );
-        foreach( $data['page'] as $k =>$v ){ if( strlen($v) < 50 ){ unset( $data['page'][$k] ); }}
+        foreach( $data['page'] as $k =>$v )
+        {
+            if( strlen($v) < 20 && !preg_match('!\[h(\d+?)\](.+?)\[\/h\1\]!',$v) )
+            {
+                unset( $data['page'][$k] );
+            }
+        }
+
         $data['page'] = implode( "\n", $data['page'] );
         if( strlen($data['page']) < 200 ){ return false; }
 

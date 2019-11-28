@@ -81,11 +81,12 @@ if( DOMAIN == 'cknews.pp.ua' )
 if( DOMAIN == 'live-in-ck.pp.ua' )  { $parser->unian_load( 'https://www.unian.ua/m/war', array( 'війна', 'ато' ) ); }
 if( DOMAIN == 'it-news.pp.ua' )
 {
+    $parser->load_from_pingvin_pro(); 
     $parser->load_from_ukr_media('https://ukr.media/science/', array( 'наука', 'технології' ));
 
     $parser->load_from_playua_net();
     $parser->load_from_cikavosti( 'https://cikavosti.com/category/tehnologiyi/', array( 'технології' ) );
-    $parser->load_from_pingvin_pro();
+    //
 
     $parser->unian_load( 'https://www.unian.ua/m/tag/hakeri', array( 'хакер' ) );
     $parser->unian_load( 'https://www.unian.ua/m/tag/kosmos', array( 'космос' ) );
