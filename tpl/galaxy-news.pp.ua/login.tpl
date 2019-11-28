@@ -1,4 +1,4 @@
-<li id="alogin">
+<div id="alogin">
 [nologin]
 <a href="/" data-role="dialog:open" data-dialog="loginform"><span>¬ı≥‰</span></a>
 
@@ -19,4 +19,4 @@
 [login]
 <a href="/index.php?mod=admin" target="_blank">¿‰Ï≥Ì</a>
 [/login]
-</li>
+</div>
