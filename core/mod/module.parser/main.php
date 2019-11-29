@@ -81,7 +81,7 @@ if( DOMAIN == 'cknews.pp.ua' )
 if( DOMAIN == 'live-in-ck.pp.ua' )  { $parser->unian_load( 'https://www.unian.ua/m/war', array( 'війна', 'ато' ) ); }
 if( DOMAIN == 'it-news.pp.ua' )
 {
-    $parser->load_from_pingvin_pro(); 
+    $parser->load_from_pingvin_pro();
     $parser->load_from_ukr_media('https://ukr.media/science/', array( 'наука', 'технології' ));
 
     $parser->load_from_playua_net();
@@ -92,6 +92,11 @@ if( DOMAIN == 'it-news.pp.ua' )
     $parser->unian_load( 'https://www.unian.ua/m/tag/kosmos', array( 'космос' ) );
     $parser->unian_load( 'https://www.unian.ua/m/science', array( 'технології', 'наука' ) );
     $parser->unian_load( 'https://www.unian.ua/m/tag/gadjeti', array( 'девайс' ) );
+}
+
+if( DOMAIN == 'galaxy-news.pp.ua' )
+{
+    $parser->load_from_dt_ua( 'https://dt.ua/tags/%D0%BA%D0%BE%D1%81%D0%BC%D0%BE%D1%81', array(1) );
 }
 
 $parser->load_and_process_tags();

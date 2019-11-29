@@ -60,7 +60,7 @@ ob_start();
  * Підключення обробника помилок
  */
 require( CLASSES_DIR.DS.'class.err_handler.php' );
-err_handler::start();
+//err_handler::start();
 
 /**
  * Підключення ядра

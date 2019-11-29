@@ -1905,11 +1905,158 @@ trait tr_playua_net
     }
 }
 
+trait dt_ua
+{
+    // https://dt.ua/tags/%D0%BA%D0%BE%D1%81%D0%BC%D0%BE%D1%81?page=1
+    public final function load_from_dt_ua( $url, $pages = array( 1 ) )
+    {
+        $pages = common::integer( $pages );
+        if( !is_array($pages) ){ return false; }
+
+        $articles = array();
+
+        $i = 0;
+        foreach( $pages as $page )
+        {
+            $i++;
+            $curr_url = $url.'?page='.$page;
+            $data = $this->curl( $curr_url );
+
+            if( $this->HTTP_STATUS != 200 ){ continue; }
+
+            echo "\n".$curr_url."\n";
+
+            // echo $data; exit;
+
+            $data = explode( '<ul class=\'news_list\'>', $data, 2 );
+            $data = end( $data );
+
+            $data = explode( '</ul>', $data );
+            $data = reset( $data );
+
+            preg_match_all( '!<li(.+?)news_item(.+?)>(.+?)<\/li>!is', $data, $data );
+            if( !isset($data[3]) ){ continue; }
+
+            $data = $data[3];
+
+            foreach( $data as $data_line )
+            {
+                $i++;
+                $articles[$i] = array();
+
+                preg_match( '!href=(\'|")(.+?\.html)(\'|")!i', $data_line, $articles[$i]['link'] );
+                preg_match( '!news_title\'>(.+?)<\/!is', $data_line, $articles[$i]['title'] );
+                preg_match( '!news_date\'>(.+?)<\/!is', $data_line, $articles[$i]['date'] );
+
+                if( !isset($articles[$i]['link'][2]) ) { continue; }
+                if( !isset($articles[$i]['title'][1]) ){ continue; }
+                if( !isset($articles[$i]['date'][1]) ) { continue; }
+
+                $articles[$i]['link'] = 'https://dt.ua'.$articles[$i]['link'][2];
+                $articles[$i]['title'] = common::trim( $articles[$i]['title'][1] );
+                $articles[$i]['date'] = strtotime( common::trim( $articles[$i]['date'][1] ) );
+                if( $articles[$i]['date'] < (time() - 60*60*24*360) ){ $articles[$i]['date'] = time(); }
+                $articles[$i]['date'] = date('Y-m-d H:i:s', $articles[$i]['date']);
+
+                ////////////////////////////////
+
+                $SQL = 'SELECT count(id) FROM posts WHERE comment LIKE \''.$this->db->safesql($articles[$i]['link']).'%\' OR title =\''.$this->db->safesql( $articles[$i]['title'] ).'\' ;';
+                $count = $this->db->super_query( $SQL );
+                if( $count['count'] > 0 ){ echo "\tDUBLICATE! - ".$articles[$i]['title']."\n"; continue; }
+
+                $articles[$i]['domain'] = explode('//',$articles[$i]['link'],2);
+                $articles[$i]['domain'] = end( $articles[$i]['domain'] );
+                $articles[$i]['domain'] = explode( '/', $articles[$i]['domain'] );
+                $articles[$i]['domain'] = reset( $articles[$i]['domain'] );
+                $articles[$i]['domain'] = self::strtolower( $articles[$i]['domain'] );
+
+                $articles[$i]['category'] = '';
+
+                $articles[$i]['page'] = $this->curl( $articles[$i]['link'] );
+                if( $this->HTTP_STATUS != 200 ){ continue; }
+
+                $articles[$i]['images'] = array();
+                preg_match( '!<meta property="og:image" content="(.+?)"!i', $articles[$i]['page'], $articles[$i]['images'] );
+                $articles[$i]['images'] = isset($articles[$i]['images'][1])?array( 0 => $articles[$i]['images'][1] ):array();
+
+                $articles[$i]['keywords'] = false;
+
+                $articles[$i]['page'] = preg_replace( '!<(script|style|noscript)(.+?)(\1)>!is', '', $articles[$i]['page'] );
+                $articles[$i]['page'] = preg_replace( '!<(link)(.+?)>!is', '', $articles[$i]['page'] );
+                $articles[$i]['page'] = preg_replace( '!<(\w+) class=\"(catsbutton|ads|singlebread|buttons)(.+?|)"(.+?)<\/\1>!is', '', $articles[$i]['page'] );
+
+
+                $articles[$i]['page'] = explode( '</h1>', $articles[$i]['page'], 2 ); $articles[$i]['page'] = end( $articles[$i]['page'] );
+                $articles[$i]['page'] = explode( '<div class=\'article_body\'>', $articles[$i]['page'], 2 ); $articles[$i]['page'] = ''.end( $articles[$i]['page'] );
+
+                $articles[$i]['page'] = explode( '<div class="banner', $articles[$i]['page'], 2 );
+                $articles[$i]['page'] = reset( $articles[$i]['page'] );
+
+                $articles[$i]['page'] = explode( '<ul class=\'hashtags\'>', $articles[$i]['page'], 2 );
+                $articles[$i]['page'] = reset( $articles[$i]['page'] );
+
+                $articles[$i]['page'] = preg_replace( '!<div class=\'article_attached(.+?)\/div>!is', '', $articles[$i]['page'] );
+
+
+                $articles[$i]['youtube'] = array();
+                preg_match_all( '!src=\"((\S+)youtube\.com\/(\S+?))(\?\S+|)\"!i', $articles[$i]['page'], $articles[$i]['youtube'] );
+                $articles[$i]['youtube'] = isset($articles[$i]['youtube'][1])?array_values($articles[$i]['youtube'][1]):array();
+
+                $articles[$i]['page'] = preg_replace( '!<(iframe)(.+?)(\1)>!is', '', $articles[$i]['page'] );
+
+                $articles[$i]['page'] = preg_replace( '!<(strong|b)>(.+?)<\/(\1)>!i', '[b]$2[/b]', $articles[$i]['page'] );
+                $articles[$i]['page'] = preg_replace( '!<(p)>(.+?)<\/(\1)>!i', '$2'."\n", $articles[$i]['page'] );
+                $articles[$i]['page'] = preg_replace( '!<figure(.+?)figure>!is', '', $articles[$i]['page'] );
+                $articles[$i]['page'] = preg_replace( '!<(\w+)(\s+)(.+?|)>!is', '<$1>', $articles[$i]['page'] );
+                $articles[$i]['page'] = preg_replace( '!^(\s+)$!is', '', $articles[$i]['page'] );
+
+                $articles[$i]['page'] = preg_replace( '!<h(\d+)>(.+?)<\/h\1>!i', '[h$1]$2[/h$1]', $articles[$i]['page'] );
+
+                $articles[$i]['page'] = trim( strip_tags( $articles[$i]['page'] ) );
+
+                $articles[$i]['page'] = preg_replace( '!(\r+)!is', '', $articles[$i]['page'] );
+                $articles[$i]['page'] = preg_replace( '!(\t+)!is', '', $articles[$i]['page'] );
+                $articles[$i]['page'] = preg_replace( '!(\n{1,})!is', "\n", $articles[$i]['page'] );
+
+                $articles[$i]['page'] = explode( "\n", $articles[$i]['page'] );
+                $articles[$i]['page'] = '[p]'.implode( "[/p]\n[p]", $articles[$i]['page'] ).'[/p]';
+
+                $articles[$i]['page'] = self::htmlspecialchars_decode($articles[$i]['page']);
+                $articles[$i]['page'] = self::html_entity_decode($articles[$i]['page']);
+                $articles[$i]['page'] = preg_replace( '!(\s{2,})!is', ' ', $articles[$i]['page'] );
+                $articles[$i]['page'] = preg_replace( '!\[(p|b)\](\s+| )\[\/\1\]!is', '', $articles[$i]['page'] );
+                $articles[$i]['page'] = str_replace( '[p] [/p]', '', $articles[$i]['page'] );
+
+                $articles[$i]['page'] = preg_replace( '!\[p\]\[\/p\]!i', '', $articles[$i]['page'] );
+                $articles[$i]['page'] = preg_replace( '!\[(p)\]\[(h)(\d+)\](.+?)\[\/\2\3\]\[\/\1\]!i', '[$2$3]$4[/$2$3]', $articles[$i]['page'] );
+
+                $articles[$i]['page'] = explode( "\n", $articles[$i]['page'] );
+                foreach( $articles[$i]['page'] as $k =>$v )
+                {
+                    if( strlen($v) < 20 && !preg_match('!\[h(\d+?)\](.+?)\[\/h\1\]!',$v) )
+                    {
+                        unset( $articles[$i]['page'][$k] );
+                    }
+                }
+
+                $articles[$i]['page'] = implode( "\n", $articles[$i]['page'] );
+                if( strlen($articles[$i]['page']) < 200 ){ continue; }
+
+                $articles[$i]['page'] = trim( $articles[$i]['page'] );
+
+                echo "ADDED: ".$this->save_post( $articles[$i] )."\n";
+            }
+        }
+    }
+}
+
+
 class parser
 {
     use basic,
         db_connect,
             tr_provce_ck_ua,
+            dt_ua,
             tr_18000_com_ua,
             tr_vycherpno_ck_ua,
             tr_ridnyi_com_ua,
@@ -2416,7 +2563,7 @@ class parser
         $data['post:full_post']   = $raw['page'].'<div class="source">[right]<a rel="nofollow noreferrer" href="'.$raw['link'].'" target="_blank">За матеріалами "'.$raw['domain'].'"</a>[/right]</div>';
         $data['post:keywords']    = $raw['keywords'];
         $data['post:comment']     = $raw['link']."\n".$raw['category']."\n".implode('%%%',$raw['images']);
-        $data['post:created_time']= date('Y-m-d H:i:s', time() + rand(-43200, 43200 ) );
+        $data['post:created_time']= ( isset($raw['date']) && $raw['date'] )?$raw['date']:date('Y-m-d H:i:s', time() + rand(-43200, 43200 ) );
 
         foreach( $data as $k=>$v ){ $data[$k] = self::filter_utf8( $v ); }
         $post_id = $_posts->save( $data );
