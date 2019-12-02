@@ -1,5 +1,5 @@
 <?php if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
- /* CACHE CREATED: 1575220646.7524 (2019-12-01 19:17:26) */
+ /* CACHE CREATED: 1575242704.7312 (2019-12-02 01:25:04) */
 return array (
   14 => 
   array (
@@ -55,7 +55,7 @@ return array (
     'id' => '4',
     'name' => 'Мерія',
     'altname' => 'meriya',
-    'news_count' => '1871',
+    'news_count' => '1873',
   ),
   22 => 
   array (
@@ -69,7 +69,7 @@ return array (
     'id' => '5',
     'name' => 'Новини',
     'altname' => 'novini',
-    'news_count' => '2235',
+    'news_count' => '2238',
   ),
   13 => 
   array (
@@ -104,7 +104,7 @@ return array (
     'id' => '11',
     'name' => 'Політика',
     'altname' => 'politika',
-    'news_count' => '1428',
+    'news_count' => '1429',
   ),
   9 => 
   array (
@@ -118,7 +118,7 @@ return array (
     'id' => '6',
     'name' => 'Райони',
     'altname' => 'rajoni',
-    'news_count' => '1858',
+    'news_count' => '1860',
   ),
   21 => 
   array (
@@ -132,7 +132,7 @@ return array (
     'id' => '18',
     'name' => 'Свято',
     'altname' => 'svyato',
-    'news_count' => '90',
+    'news_count' => '91',
   ),
   10 => 
   array (
@@ -146,7 +146,7 @@ return array (
     'id' => '7',
     'name' => 'Суспільство',
     'altname' => 'suspil_stvo',
-    'news_count' => '1601',
+    'news_count' => '1603',
   ),
 ); 
 ?>
