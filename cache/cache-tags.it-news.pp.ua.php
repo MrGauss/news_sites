@@ -1,26 +1,26 @@
 <?php if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
- /* CACHE CREATED: 1575589101.3608 (2019-12-06 01:38:21) */
+ /* CACHE CREATED: 1575631275.9833 (2019-12-06 13:21:15) */
 return array (
   9 => 
   array (
     'id' => '9',
     'name' => 'Hardware',
     'altname' => 'hardware',
-    'news_count' => '161',
+    'news_count' => '167',
   ),
   4 => 
   array (
     'id' => '4',
     'name' => 'Software',
     'altname' => 'software',
-    'news_count' => '72',
+    'news_count' => '74',
   ),
   13 => 
   array (
     'id' => '13',
     'name' => 'Віруси',
     'altname' => 'virusi',
-    'news_count' => '10',
+    'news_count' => '11',
   ),
   11 => 
   array (
@@ -55,7 +55,7 @@ return array (
     'id' => '3',
     'name' => 'Новини',
     'altname' => 'novini',
-    'news_count' => '372',
+    'news_count' => '374',
   ),
   10 => 
   array (
@@ -69,21 +69,21 @@ return array (
     'id' => '14',
     'name' => 'Соцмережі',
     'altname' => 'socmerezhi',
-    'news_count' => '51',
+    'news_count' => '52',
   ),
   8 => 
   array (
     'id' => '8',
     'name' => 'Технології',
     'altname' => 'tenologi',
-    'news_count' => '336',
+    'news_count' => '337',
   ),
   5 => 
   array (
     'id' => '5',
     'name' => 'Хакери',
     'altname' => 'akeri',
-    'news_count' => '40',
+    'news_count' => '41',
   ),
 ); 
 ?>
