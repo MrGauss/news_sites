@@ -1,12 +1,12 @@
 <?php if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
- /* CACHE CREATED: 1575764237.5678 (2019-12-08 02:17:17) */
+ /* CACHE CREATED: 1575803825.6332 (2019-12-08 13:17:05) */
 return array (
   9 => 
   array (
     'id' => '9',
     'name' => 'Hardware',
     'altname' => 'hardware',
-    'news_count' => '177',
+    'news_count' => '178',
   ),
   4 => 
   array (
@@ -48,7 +48,7 @@ return array (
     'id' => '7',
     'name' => 'Наука',
     'altname' => 'nauka',
-    'news_count' => '354',
+    'news_count' => '355',
   ),
   3 => 
   array (
