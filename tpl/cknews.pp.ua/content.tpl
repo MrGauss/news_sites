@@ -29,12 +29,16 @@
         <link rel="stylesheet" type="text/css" href="{SKINDIR}/css/jquery-ui.theme.css" media="screen" />
         <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
 
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript"></script>
-        <script src="{SKINDIR}/js/main.lib.js" type="text/javascript"></script>
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+        <script src="{SKINDIR}/js/main.lib.js?ver=5.12" type="text/javascript"></script>
 
         <link href="https://fonts.googleapis.com/css?family=Comfortaa|Ubuntu&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="{SKINDIR}/css/style.css?ver=1" media="screen" />
+        <link rel="stylesheet" type="text/css" href="{SKINDIR}/css/style.css?ver=5.12" media="screen" />
     </head>
     <body>
 

@@ -113,6 +113,7 @@ button:hover{ background-color: #66A7E1; opacity: 1.0; }
 .clr{ clear: both; }
 body{ background: #ebebeb; font-family: 'Ubuntu', sans-serif; font-size: 14px; }
 #page{ position: relative; width: 980px; margin: 0px auto; border: 1px solid #DEDEDE; background: #FFFFFF; border-top: none; border-bottom: none; }
+#page.small{ position: relative; width: 100%; }
 #page .header{ height: 100px; border: none; padding: 10px; }
 #page #leftside{ position: fixed; width: 180px; height: 100%; top: 0px; border: none; background: #2F2F2F; color: #FFFFFF; }
 #page #leftside .bottom{ position: fixed; bottom: 0px; width: 180px; padding: 5px; text-align: center; color: #8A8A8A; font-size: 0.8em; }
@@ -188,7 +189,7 @@ body{ background: #ebebeb; font-family: 'Ubuntu', sans-serif; font-size: 14px; }
 #page .psts_navbar .navbar_pages.current{ background: #FF9E00; color: #FFFFFF; }
 
 #page .article.full{ font-size: 1.25em; margin: 0px 10px 10px 10px; }
-#page .article.full h1{ font-size: 1.4em; margin: 0px 0px 10px 0px; padding: 0px 0px 10px 0px; text-align: center;  border-bottom: 5px solid #FF9E00; }
+#page .article.full h1{ font-size: 1.4em; margin: 0px 0px 10px 0px; padding: 0px 0px 10px 0px; text-align: center;  border-bottom: 5px solid #FF9E00; clear: both; }
 
 #page .article.full .text { line-height: 1.5em; text-align: justify; text-indent: 25px; }
 #page .article.full .text p{ padding: 0px 0px 5px 0px; }
@@ -196,9 +197,6 @@ body{ background: #ebebeb; font-family: 'Ubuntu', sans-serif; font-size: 14px; }
 #page .article.full .text [class^="bb_"].align_right{ text-align: right; }
 #page .article.full .text [class^="bb_"].align_center{ text-align: center; }
 #page .article.full .text [class^="bb_"].align_justify{ text-align: justify; }
-
-#page .article.full .text img{ max-width: 700px; }
-#page .article.full .text img.post_img{ border: 1px solid #363636; padding: 5px; margin: 10px 0px 10px 0px; }
 #page .article.full .text a{  }
 #page .article.full .text a:hover{ border-bottom: 1px dashed #398DD8; }
 #page .article.full .text .source{ font-size: 0.8em; }
@@ -213,7 +211,22 @@ body{ background: #ebebeb; font-family: 'Ubuntu', sans-serif; font-size: 14px; }
 #page .article.full .related a::before { content: "•  "; }
 #page .article.full .related a:hover{ border-color: #2065A2; }
 
-#alogin a{ color: #8A8A8A; opacity: 0.4; }  
+#alogin a{ color: #8A8A8A; opacity: 0.4; }
+
+/***********************/
+
+#page.small #leftside{ display: none; }
+#page.small.show_left #leftside{ display: block; }
+#page.small #mainbox{ margin-left: 0px; }
+#page.small.show_left #mainbox{ margin-left: 180px; }
+#page.small #mainbox .header,
+#page.small #mainbox .header ul,
+#page.small #mainbox .header ul li{ text-align: center; }
+#page .article.full h1{ clear: both; }
+#page .article.full .text img{  width: 100%; max-width: 100px; -moz-box-sizing: border-box; box-sizing: border-box; text-indent: 0px; }
+#page .article.full .text img.post_img{ border: 1px solid #363636; padding: 5px; margin: 10px 0px 10px 0px; width: 100%; max-width: 100px; text-indent: 0px; }
+
+/***********************/
 
 
 
@@ -223,18 +236,14 @@ body{ background: #ebebeb; font-family: 'Ubuntu', sans-serif; font-size: 14px; }
 
 
 
-
-
-
-
-
+.ui-loader{ display: none; } 
 
 h2.bb_h2{ font-size: 1.0em; font-weight: bold; text-align: center; margin: 10px 20px 5px 20px; }
 h3.bb_h3{ font-size: 1.0em; font-weight: bold; text-align: left;  }
 
 [class^="bb_"].align_left{ text-align: left; }
 [class^="bb_"].align_right{ text-align: right; }
-[class^="bb_"].align_center{ text-align: center; }
+[class^="bb_"].align_center{ text-align: center; text-indent: 0px; }
 [class^="bb_"].align_justify{ text-align: justify; }
 
 .bb_sup{ position: relative; top: -0.3em; }

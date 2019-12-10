@@ -226,12 +226,29 @@ h3.bb_h3{ font-size: 1.0em; font-weight: bold; text-align: left;  }
 
 [class^="bb_"].align_left{ text-align: left; }
 [class^="bb_"].align_right{ text-align: right; }
-[class^="bb_"].align_center{ text-align: center; }
+[class^="bb_"].align_center{ text-align: center; text-indent: 0px; }
 [class^="bb_"].align_justify{ text-align: justify; }
 
 .bb_sup{ position: relative; top: -0.3em; }
 .bb_sub{ position: relative; bottom: -0.3em; }
 .bb_sub + .bb_sup{ margin-left: -0.55em; }
 .bb_sup + .bb_sub{ margin-left: -0.55em; }
+
+/***********************/
+
+.ui-loader{ display: none; }
+
+#page.small #leftside{ display: none; }
+#page.small.show_left #leftside{ display: block; }
+#page.small #mainbox{ margin-left: 0px; }
+#page.small.show_left #mainbox{ margin-left: 180px; }
+#page.small #mainbox .header,
+#page.small #mainbox .header ul,
+#page.small #mainbox .header ul li{ text-align: center; }
+#page .article.full h1{ clear: both; }
+#page .article.full .text img{  width: 100%; max-width: 100px; -moz-box-sizing: border-box; box-sizing: border-box; text-indent: 0px; }
+#page .article.full .text img.post_img{ border: 1px solid #363636; padding: 5px; margin: 10px 0px 10px 0px; width: 100%; max-width: 100px; text-indent: 0px; }
+
+/***********************/
 
 

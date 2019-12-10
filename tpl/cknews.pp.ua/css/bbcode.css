@@ -3,7 +3,7 @@ h3.bb_h3{ font-size: 1.0em; font-weight: bold; text-align: left;  }
 
 [class^="bb_"].align_left{ text-align: left; }
 [class^="bb_"].align_right{ text-align: right; }
-[class^="bb_"].align_center{ text-align: center; }
+[class^="bb_"].align_center{ text-align: center; text-indent: 0px; }
 [class^="bb_"].align_justify{ text-align: justify; }
 
 .bb_sup{ position: relative; top: -0.3em; }

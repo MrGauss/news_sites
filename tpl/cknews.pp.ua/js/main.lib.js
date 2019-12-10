@@ -2,9 +2,11 @@ function dynamic_width()
 {
     var W = $(window).width();
     var P = 980;
+    var MIN_W = 300;
+
     if( W < P )
     {
-        if( W < 600 ){ W = 600; }
+        if( W < MIN_W ){ W = MIN_W; }
         $('#page').css('width', W+'px' );
 
         if( !$('#page').hasClass( 'small' ) )
@@ -18,10 +20,14 @@ function dynamic_width()
         $('#page').css('width', P+'px' );
         $('#page').removeClass( 'small' ); 
     }
+
+    $('#page .article.full .text img').css( 'max-width', $('#page .article.full .text').width()+'px' );
 }
 
 $(document).ready( function()
 {
+        $("a").attr('data-ajax', false);
+
         $('[data-role="dialog:window"]').dialog(
         {
             'modal' : true,
@@ -59,5 +65,19 @@ $(document).ready( function()
         {
             dynamic_width();
         });
+
+        $( '#page' ).on( "swiperight", function()
+        {
+            if( !$(this).hasClass('show_left') )
+            {
+                $(this).addClass('show_left');
+            }
+        } );
+
+        $( '#page' ).on( "swipeleft", function()
+        {
+            $(this).removeClass('show_left');
+        } );
+
 
 });

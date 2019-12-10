@@ -1,4 +1,0 @@
-<?php if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
- /* CACHE CREATED: 1575933043.8419 (2019-12-10 01:10:43) */
-return '<div class="related"><a href="/addon/716-affeb2daa9d31aa349dc9687ed270d82.html" title="PlayStaytion 5 робитиме скріншоти і замірятиме ваш пульс. Одночасно.">PlayStaytion 5 робитиме скріншоти і замірятиме ваш пульс. Одночасно.</a></div><div class="related"><a href="/addon/19-8d8082ab3e040b860e5f57b2d7304739.html" title="Великий, довгий і необрізаний — ось вам фінальний трейлер Death Stranding">Великий, довгий і необрізаний — ось вам фінальний трейлер Death Stranding</a></div><div class="related"><a href="/addon/410-e0dcdd3a6b3599c7fc1232bb67f8b1dd.html" title="Death Stranding з’явились у Steam і Epic Games Store">Death Stranding з’явились у Steam і Epic Games Store</a></div>'; 
-?>
