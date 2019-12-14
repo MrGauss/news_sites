@@ -2095,11 +2095,16 @@ class parser
         {
             foreach( $raw['images'] as $k=>$image_url )
             {
+                $image_url = common::win2utf( $image_url );
+
+                if( strpos( $image_url, '?' ) != false ){ continue; }
+
+                $image_url = explode( '?', $image_url );
+                $image_url = reset( $image_url );
+
                 $ext = explode( '.', $image_url );
                 $ext = end( $ext );
                 $ext = strtolower($ext);
-
-                $image_url = common::win2utf( $image_url );
 
                 $image = UPL_DIR.DS.'images'.DS.date('Y-m-d').DS.date('Y-m-d_H-i-s').'_'.rand(0,999).'.'.$ext;
 

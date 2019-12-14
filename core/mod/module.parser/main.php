@@ -36,6 +36,8 @@ exit; */
 
 if( !class_exists( 'parser' ) ){ require( CLASSES_DIR.DS.'class.parser.php' ); }
 
+set_time_limit( 180 );
+
 header('Content-type: text/plain; charset=' . CHARSET);
 
 $f = MODS_DIR.DS.'module.'._MOD_.DS.DOMAIN.'.php';

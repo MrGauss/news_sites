@@ -462,6 +462,8 @@ class posts
     {
         preg_match_all( '!<img(.+?)src="(.+?)"!i', $text, $text );
 
+        
+
         if( is_array( $text ) && isset($text[2]) && is_array($text[2]) && count($text[2]) )
         {
             foreach( array_values($text[2]) as $i => $img )
