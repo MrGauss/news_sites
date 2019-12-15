@@ -2,15 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 	<loc>https://galaxy-news.pp.ua/</loc>
-		<lastmod>2019-12-05</lastmod>
+		<lastmod>2019-12-15</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>https://galaxy-news.pp.ua/tag:%CA%EE%F1%EC%EE%F1/</loc>
-		<lastmod>2019-12-05</lastmod>
+		<lastmod>2019-12-15</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
+	</url>
+	<url>
+		<loc>https://galaxy-news.pp.ua/news/96-188dd30f288475126c79c655fa4596b7.html</loc>
+		<lastmod>2019-12-14</lastmod>
+		<changefreq>never</changefreq>
+		<priority>0.6</priority>
 	</url>
 	<url>
 		<loc>https://galaxy-news.pp.ua/news/95-7d13887a6556dda9ed365e270ae42100.html</loc>
