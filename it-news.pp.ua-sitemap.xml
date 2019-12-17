@@ -2,81 +2,135 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 	<loc>https://it-news.pp.ua/</loc>
-		<lastmod>2019-12-16</lastmod>
+		<lastmod>2019-12-17</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>https://it-news.pp.ua/tag:Hardware/</loc>
-		<lastmod>2019-12-16</lastmod>
+		<lastmod>2019-12-17</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>https://it-news.pp.ua/tag:Software/</loc>
-		<lastmod>2019-12-16</lastmod>
+		<lastmod>2019-12-17</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>https://it-news.pp.ua/tag:%C2%B3%F0%F3%F1%E8/</loc>
-		<lastmod>2019-12-16</lastmod>
+		<lastmod>2019-12-17</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>https://it-news.pp.ua/tag:%CA%B3%E1%E5%F0%E1%E5%E7%EF%E5%EA%E0/</loc>
-		<lastmod>2019-12-16</lastmod>
+		<lastmod>2019-12-17</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>https://it-news.pp.ua/tag:%CA%EE%F1%EC%EE%F1/</loc>
-		<lastmod>2019-12-16</lastmod>
+		<lastmod>2019-12-17</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>https://it-news.pp.ua/tag:%CC%E5%E4%E8%F6%E8%ED%E0/</loc>
-		<lastmod>2019-12-16</lastmod>
+		<lastmod>2019-12-17</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>https://it-news.pp.ua/tag:%CD%E0%F3%EA%E0/</loc>
-		<lastmod>2019-12-16</lastmod>
+		<lastmod>2019-12-17</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>https://it-news.pp.ua/tag:%CD%EE%E2%E8%ED%E8/</loc>
-		<lastmod>2019-12-16</lastmod>
+		<lastmod>2019-12-17</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>https://it-news.pp.ua/tag:%CF%EE%E4%B3%BF/</loc>
-		<lastmod>2019-12-16</lastmod>
+		<lastmod>2019-12-17</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>https://it-news.pp.ua/tag:%D1%EE%F6%EC%E5%F0%E5%E6%B3/</loc>
-		<lastmod>2019-12-16</lastmod>
+		<lastmod>2019-12-17</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>https://it-news.pp.ua/tag:%D2%E5%F5%ED%EE%EB%EE%E3%B3%BF/</loc>
-		<lastmod>2019-12-16</lastmod>
+		<lastmod>2019-12-17</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>https://it-news.pp.ua/tag:%D5%E0%EA%E5%F0%E8/</loc>
-		<lastmod>2019-12-16</lastmod>
+		<lastmod>2019-12-17</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
+	</url>
+	<url>
+		<loc>https://it-news.pp.ua/addon/1113-4d545a2b94c22081115451eb2643e186.html</loc>
+		<lastmod>2019-12-16</lastmod>
+		<changefreq>never</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>https://it-news.pp.ua/addon/1112-760c3cc8071c03ad69373eedbd0c1f9e.html</loc>
+		<lastmod>2019-12-16</lastmod>
+		<changefreq>never</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>https://it-news.pp.ua/addon/1111-8c2d6a2cb0eb898b3070c24758505381.html</loc>
+		<lastmod>2019-12-16</lastmod>
+		<changefreq>never</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>https://it-news.pp.ua/addon/1110-e5c825bfb513cbfc4d7effef99838728.html</loc>
+		<lastmod>2019-12-16</lastmod>
+		<changefreq>never</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>https://it-news.pp.ua/addon/1109-3811a4539f26fc3a29c06fcccd84884c.html</loc>
+		<lastmod>2019-12-16</lastmod>
+		<changefreq>never</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>https://it-news.pp.ua/addon/1108-7f5b7b58e86d0ef30f84c95bfd3e3d20.html</loc>
+		<lastmod>2019-12-16</lastmod>
+		<changefreq>never</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>https://it-news.pp.ua/addon/1107-7aed73148d73b6af29b96517a53594a7.html</loc>
+		<lastmod>2019-12-16</lastmod>
+		<changefreq>never</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>https://it-news.pp.ua/addon/1106-954241a01fe9d0648f56445dd6fa2174.html</loc>
+		<lastmod>2019-12-16</lastmod>
+		<changefreq>never</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>https://it-news.pp.ua/addon/1105-772c5c21a835791224ee11f0d5a86c5d.html</loc>
+		<lastmod>2019-12-16</lastmod>
+		<changefreq>never</changefreq>
+		<priority>0.6</priority>
 	</url>
 	<url>
 		<loc>https://it-news.pp.ua/addon/1104-93aa69ee6ae4ec8b9eacb1e89ffeb7bc.html</loc>
