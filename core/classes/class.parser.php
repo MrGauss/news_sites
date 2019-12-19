@@ -2491,9 +2491,16 @@ class parser
     {
         if( !defined('NEWS_PARSER_USER_ID') ){ define( 'NEWS_PARSER_USER_ID', 1 ); }
 
+        $raw['page'] = preg_replace( '!\[p\](\s+|)\[\/p\]!is', '', $raw['page'] );
+
+
+        if( strpos( $raw['page'], 'https:/' ) !== false ){ echo "\tURL IN TEXT! SKIP!\n"; return false; }
+
         $files = $this->_save_images( $raw );
 
         if( !count($files) ){ echo "\tNO IMAGES! SKIP!\n"; return false; }
+
+
         $raw['page'] = explode( "\n", $raw['page'] );
 
         $page = array();

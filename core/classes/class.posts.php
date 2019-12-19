@@ -460,9 +460,7 @@ class posts
 
     private final static function parse_images2tags( string $text, object &$tpl, $area = 'short' )
     {
-        preg_match_all( '!<img(.+?)src="(.+?)"!i', $text, $text );
-
-        
+        preg_match_all( '!<img(.+?)src="(\/.+?)"!i', $text, $text );
 
         if( is_array( $text ) && isset($text[2]) && is_array($text[2]) && count($text[2]) )
         {
