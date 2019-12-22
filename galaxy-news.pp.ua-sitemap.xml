@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 	<loc>https://galaxy-news.pp.ua/</loc>
-		<lastmod>2019-12-19</lastmod>
+		<lastmod>2019-12-21</lastmod>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>https://galaxy-news.pp.ua/tag:%CA%EE%F1%EC%EE%F1/</loc>
-		<lastmod>2019-12-19</lastmod>
+		<lastmod>2019-12-21</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.7</priority>
 	</url>
