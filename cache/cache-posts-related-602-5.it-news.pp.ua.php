@@ -1,0 +1,4 @@
+<?php if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
+ /* CACHE CREATED: 1577307483.3112 (2019-12-25 22:58:03) */
+return '<div class="related"><a href="/addon/1110-e5c825bfb513cbfc4d7effef99838728.html" title="На Афоні знайшли стародавнє поховання жінки">На Афоні знайшли стародавнє поховання жінки</a></div><div class="related"><a href="/addon/807-2a08db374e23f03f43f3403c2e97c959.html" title="9 цікавих фактів щодо звичайної води">9 цікавих фактів щодо звичайної води</a></div><div class="related"><a href="/addon/318-9760655c60e8efdfacb43ec5f6d8fe61.html" title="Огляд коміксу «Сага. Книга 1»">Огляд коміксу «Сага. Книга 1»</a></div>'; 
+?>

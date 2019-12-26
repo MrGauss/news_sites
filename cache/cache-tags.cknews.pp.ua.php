@@ -1,5 +1,5 @@
 <?php if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
- /* CACHE CREATED: 1577294266.9074 (2019-12-25 19:17:46) */
+ /* CACHE CREATED: 1577317210.4977 (2019-12-26 01:40:10) */
 return array (
   14 => 
   array (
@@ -27,7 +27,7 @@ return array (
     'id' => '15',
     'name' => 'Економіка',
     'altname' => 'ekonomika',
-    'news_count' => '583',
+    'news_count' => '585',
   ),
   23 => 
   array (
@@ -41,7 +41,7 @@ return array (
     'id' => '3',
     'name' => 'Культура',
     'altname' => 'kul_tura',
-    'news_count' => '976',
+    'news_count' => '978',
   ),
   12 => 
   array (
@@ -55,7 +55,7 @@ return array (
     'id' => '4',
     'name' => 'Мерія',
     'altname' => 'meriya',
-    'news_count' => '3224',
+    'news_count' => '3225',
   ),
   22 => 
   array (
@@ -69,14 +69,14 @@ return array (
     'id' => '5',
     'name' => 'Новини',
     'altname' => 'novini',
-    'news_count' => '3872',
+    'news_count' => '3875',
   ),
   13 => 
   array (
     'id' => '13',
     'name' => 'Освіта',
     'altname' => 'osvita',
-    'news_count' => '736',
+    'news_count' => '737',
   ),
   24 => 
   array (
@@ -97,35 +97,35 @@ return array (
     'id' => '8',
     'name' => 'Події',
     'altname' => 'podi',
-    'news_count' => '1181',
+    'news_count' => '1182',
   ),
   11 => 
   array (
     'id' => '11',
     'name' => 'Політика',
     'altname' => 'politika',
-    'news_count' => '2531',
+    'news_count' => '2532',
   ),
   9 => 
   array (
     'id' => '9',
     'name' => 'Поліція',
     'altname' => 'policiya',
-    'news_count' => '1472',
+    'news_count' => '1474',
   ),
   6 => 
   array (
     'id' => '6',
     'name' => 'Райони',
     'altname' => 'rajoni',
-    'news_count' => '3161',
+    'news_count' => '3163',
   ),
   21 => 
   array (
     'id' => '21',
     'name' => 'Релігія',
     'altname' => 'religiya',
-    'news_count' => '36',
+    'news_count' => '37',
   ),
   18 => 
   array (
@@ -139,14 +139,14 @@ return array (
     'id' => '10',
     'name' => 'Спорт',
     'altname' => 'sport',
-    'news_count' => '682',
+    'news_count' => '683',
   ),
   7 => 
   array (
     'id' => '7',
     'name' => 'Суспільство',
     'altname' => 'suspil_stvo',
-    'news_count' => '2906',
+    'news_count' => '2909',
   ),
 ); 
 ?>
