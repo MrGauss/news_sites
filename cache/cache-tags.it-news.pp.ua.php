@@ -1,26 +1,26 @@
 <?php if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
- /* CACHE CREATED: 1577317062.5273 (2019-12-26 01:37:42) */
+ /* CACHE CREATED: 1577359112.7237 (2019-12-26 13:18:32) */
 return array (
   9 => 
   array (
     'id' => '9',
     'name' => 'Hardware',
     'altname' => 'hardware',
-    'news_count' => '322',
+    'news_count' => '326',
   ),
   4 => 
   array (
     'id' => '4',
     'name' => 'Software',
     'altname' => 'software',
-    'news_count' => '165',
+    'news_count' => '167',
   ),
   13 => 
   array (
     'id' => '13',
     'name' => 'Â³ğóñè',
     'altname' => 'virusi',
-    'news_count' => '14',
+    'news_count' => '15',
   ),
   11 => 
   array (
@@ -34,7 +34,7 @@ return array (
     'id' => '6',
     'name' => 'Êîñìîñ',
     'altname' => 'kosmos',
-    'news_count' => '140',
+    'news_count' => '141',
   ),
   12 => 
   array (
@@ -48,14 +48,14 @@ return array (
     'id' => '7',
     'name' => 'Íàóêà',
     'altname' => 'nauka',
-    'news_count' => '492',
+    'news_count' => '494',
   ),
   3 => 
   array (
     'id' => '3',
     'name' => 'Íîâèíè',
     'altname' => 'novini',
-    'news_count' => '528',
+    'news_count' => '531',
   ),
   10 => 
   array (
@@ -76,7 +76,7 @@ return array (
     'id' => '8',
     'name' => 'Òåõíîëîã³¿',
     'altname' => 'tenologi',
-    'news_count' => '495',
+    'news_count' => '497',
   ),
   5 => 
   array (
