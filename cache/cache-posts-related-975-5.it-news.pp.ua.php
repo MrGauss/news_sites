@@ -1,0 +1,4 @@
+<?php if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
+ /* CACHE CREATED: 1577394179.6881 (2019-12-26 23:02:59) */
+return '<div class="related"><a href="/addon/521-3bdcbe0569e5eb002642c3e0da2e83a8.html" title="Дослідники розшифрували кулінарні рецепти, яким близько 4000 років">Дослідники розшифрували кулінарні рецепти, яким близько 4000 років</a></div><div class="related"><a href="/addon/1301-10865fed5aa265042bfc1b32d5d61c87.html" title="Вчені розшифрували давню табличку з демоном (фото)">Вчені розшифрували давню табличку з демоном (фото)</a></div><div class="related"><a href="/addon/636-bdeed0ca90464dd076c5bbb8347b7eee.html" title="Вчені з&apos;ясували, що запахи здатні формувати наші спогади">Вчені з&apos;ясували, що запахи здатні формувати наші спогади</a></div>'; 
+?>
