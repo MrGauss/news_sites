@@ -1,519 +1,4 @@
-2019.12.30 13:22:16:
---------------------------------
-SELECT 
- count( posts.id ) as count 
-FROM 
-	posts
-	LEFT JOIN categories as categ ON ( categ.id = posts.category )
-	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
-	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
-WHERE 
-	posts.id > 0 AND
-	categ.id > 0 AND
-	posts.created_time <= ( NOW() + interval '1 year' ) AND
-	posts.posted = 1 AND
-	posts.id = 1039 
-
-
--- %QUERY_CACHABLE
--- USER_ID: 0
-
-
---------------------------------
-2019.12.30 13:22:16:
---------------------------------
-SELECT 
--- SELECT 
-	DISTINCT posts.id as "post.id", 
-	posts.title as "post.title", 
-	posts.alt_title as "post.alt_title", 
-	posts.descr as "post.descr", 
-	posts.short_post as "post.short_post", 
-	posts.author_id as "post.author_id", 
-	posts.created_time as "post.created_time", 
-	posts.keywords as "post.keywords", 
-	posts.posted as "post.posted", 
-	posts.fixed as "post.fixed", 
-	posts.static as "post.static", 
-	posts.full_post as "post.full_post", 
-	posts.repost_tg as "post.repost_tg", 
-	categ.id as "categ.id", 
-	categ.altname as "categ.altname", 
-	categ.name as "categ.name", 
-	usr.login as "usr.login", 
-	usr.email as "usr.email"
--- SELECT
-FROM 
-	posts
-	LEFT JOIN categories as categ ON ( categ.id = posts.category )
-	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
-	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
-WHERE 
-	posts.id > 0 AND
-	categ.id > 0 AND
-	posts.created_time <= ( NOW() + interval '1 year' ) AND
-	posts.posted = 1 AND
-	posts.id = 1039 
--- ORDER
-ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
--- ORDER
--- OFFSET
-OFFSET 0 LIMIT 10;
--- OFFSET
--- %QUERY_CACHABLE
--- USER_ID: 0
-
-
---------------------------------
-2019.12.30 13:22:16:
---------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1039) ORDER by tg.name; -- %QUERY_CACHABLE
---------------------------------
-2019.12.30 13:22:16:
---------------------------------
-SELECT * FROM categories ORDER BY level;  -- %QUERY_CACHABLE
---------------------------------
-2019.12.30 13:22:16:
---------------------------------
-
-            SELECT
-                posts.id,
-                posts.title,
-                posts.created_time,
-                string_agg( posts_tags.tag_id::text, ',' ) as agg_tags
-            FROM
-                posts
-                LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id )
-            WHERE
-                posts.id = 1039
-            GROUP by posts.id;-- %QUERY_CACHABLE
---------------------------------
-2019.12.30 13:22:16:
---------------------------------
-
-                    -- Resident Evil 2 Remake скупили краще за оригінальну RE2
-                    SELECT
-                        DISTINCT posts.id,
-                        rank
-                    FROM
-                        posts
-                        LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id ),
-                        ts_rank(posts.svector,websearch_to_tsquery('Resident')) as rank
-                    WHERE
-                        rank > 0
-                        AND posts.id != 1039
-                        AND posts_tags.tag_id IN(3)
-                    ORDER by rank DESC
-                    OFFSET 0 LIMIT 10;
-                -- %QUERY_CACHABLE
---------------------------------
-2019.12.30 13:22:16:
---------------------------------
-
-                    -- Resident Evil 2 Remake скупили краще за оригінальну RE2
-                    SELECT
-                        DISTINCT posts.id,
-                        rank
-                    FROM
-                        posts
-                        LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id ),
-                        ts_rank(posts.svector,websearch_to_tsquery('Remake')) as rank
-                    WHERE
-                        rank > 0
-                        AND posts.id != 1039
-                        AND posts_tags.tag_id IN(3)
-                    ORDER by rank DESC
-                    OFFSET 0 LIMIT 10;
-                -- %QUERY_CACHABLE
---------------------------------
-2019.12.30 13:22:16:
---------------------------------
-
-                    -- Resident Evil 2 Remake скупили краще за оригінальну RE2
-                    SELECT
-                        DISTINCT posts.id,
-                        rank
-                    FROM
-                        posts
-                        LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id ),
-                        ts_rank(posts.svector,websearch_to_tsquery('скупили')) as rank
-                    WHERE
-                        rank > 0
-                        AND posts.id != 1039
-                        AND posts_tags.tag_id IN(3)
-                    ORDER by rank DESC
-                    OFFSET 0 LIMIT 10;
-                -- %QUERY_CACHABLE
---------------------------------
-2019.12.30 13:22:16:
---------------------------------
-
-                    -- Resident Evil 2 Remake скупили краще за оригінальну RE2
-                    SELECT
-                        DISTINCT posts.id,
-                        rank
-                    FROM
-                        posts
-                        LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id ),
-                        ts_rank(posts.svector,websearch_to_tsquery('оригінальну')) as rank
-                    WHERE
-                        rank > 0
-                        AND posts.id != 1039
-                        AND posts_tags.tag_id IN(3)
-                    ORDER by rank DESC
-                    OFFSET 0 LIMIT 10;
-                -- %QUERY_CACHABLE
---------------------------------
-2019.12.30 13:22:16:
---------------------------------
-SELECT 
- count( posts.id ) as count 
-FROM 
-	posts
-	LEFT JOIN categories as categ ON ( categ.id = posts.category )
-	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
-	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
-WHERE 
-	posts.id > 0 AND
-	categ.id > 0 AND
-	posts.created_time <= ( NOW() + interval '1 year' ) AND
-	posts.id = 855 
-
-
--- %QUERY_CACHABLE
--- USER_ID: 0
-
-
---------------------------------
-2019.12.30 13:22:16:
---------------------------------
-SELECT 
--- SELECT 
-	DISTINCT posts.id as "post.id", 
-	posts.title as "post.title", 
-	posts.alt_title as "post.alt_title", 
-	posts.descr as "post.descr", 
-	posts.short_post as "post.short_post", 
-	posts.author_id as "post.author_id", 
-	posts.created_time as "post.created_time", 
-	posts.keywords as "post.keywords", 
-	posts.posted as "post.posted", 
-	posts.fixed as "post.fixed", 
-	posts.static as "post.static", 
-	posts.full_post as "post.full_post", 
-	posts.repost_tg as "post.repost_tg", 
-	categ.id as "categ.id", 
-	categ.altname as "categ.altname", 
-	categ.name as "categ.name", 
-	usr.login as "usr.login", 
-	usr.email as "usr.email"
--- SELECT
-FROM 
-	posts
-	LEFT JOIN categories as categ ON ( categ.id = posts.category )
-	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
-	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
-WHERE 
-	posts.id > 0 AND
-	categ.id > 0 AND
-	posts.created_time <= ( NOW() + interval '1 year' ) AND
-	posts.id = 855 
--- ORDER
-ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
--- ORDER
--- OFFSET
-OFFSET 0 LIMIT 10;
--- OFFSET
--- %QUERY_CACHABLE
--- USER_ID: 0
-
-
---------------------------------
-2019.12.30 13:22:16:
---------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (855) ORDER by tg.name; -- %QUERY_CACHABLE
---------------------------------
-2019.12.30 13:22:16:
---------------------------------
-SELECT 
- count( posts.id ) as count 
-FROM 
-	posts
-	LEFT JOIN categories as categ ON ( categ.id = posts.category )
-	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
-	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
-WHERE 
-	posts.id > 0 AND
-	categ.id > 0 AND
-	posts.created_time <= ( NOW() + interval '1 year' ) AND
-	posts.id = 617 
-
-
--- %QUERY_CACHABLE
--- USER_ID: 0
-
-
---------------------------------
-2019.12.30 13:22:16:
---------------------------------
-SELECT 
--- SELECT 
-	DISTINCT posts.id as "post.id", 
-	posts.title as "post.title", 
-	posts.alt_title as "post.alt_title", 
-	posts.descr as "post.descr", 
-	posts.short_post as "post.short_post", 
-	posts.author_id as "post.author_id", 
-	posts.created_time as "post.created_time", 
-	posts.keywords as "post.keywords", 
-	posts.posted as "post.posted", 
-	posts.fixed as "post.fixed", 
-	posts.static as "post.static", 
-	posts.full_post as "post.full_post", 
-	posts.repost_tg as "post.repost_tg", 
-	categ.id as "categ.id", 
-	categ.altname as "categ.altname", 
-	categ.name as "categ.name", 
-	usr.login as "usr.login", 
-	usr.email as "usr.email"
--- SELECT
-FROM 
-	posts
-	LEFT JOIN categories as categ ON ( categ.id = posts.category )
-	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
-	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
-WHERE 
-	posts.id > 0 AND
-	categ.id > 0 AND
-	posts.created_time <= ( NOW() + interval '1 year' ) AND
-	posts.id = 617 
--- ORDER
-ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
--- ORDER
--- OFFSET
-OFFSET 0 LIMIT 10;
--- OFFSET
--- %QUERY_CACHABLE
--- USER_ID: 0
-
-
---------------------------------
-2019.12.30 13:22:16:
---------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (617) ORDER by tg.name; -- %QUERY_CACHABLE
---------------------------------
-2019.12.30 13:22:16:
---------------------------------
-SELECT 
- count( posts.id ) as count 
-FROM 
-	posts
-	LEFT JOIN categories as categ ON ( categ.id = posts.category )
-	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
-	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
-WHERE 
-	posts.id > 0 AND
-	categ.id > 0 AND
-	posts.created_time <= ( NOW() + interval '1 year' ) AND
-	posts.id = 843 
-
-
--- %QUERY_CACHABLE
--- USER_ID: 0
-
-
---------------------------------
-2019.12.30 13:22:16:
---------------------------------
-SELECT 
--- SELECT 
-	DISTINCT posts.id as "post.id", 
-	posts.title as "post.title", 
-	posts.alt_title as "post.alt_title", 
-	posts.descr as "post.descr", 
-	posts.short_post as "post.short_post", 
-	posts.author_id as "post.author_id", 
-	posts.created_time as "post.created_time", 
-	posts.keywords as "post.keywords", 
-	posts.posted as "post.posted", 
-	posts.fixed as "post.fixed", 
-	posts.static as "post.static", 
-	posts.full_post as "post.full_post", 
-	posts.repost_tg as "post.repost_tg", 
-	categ.id as "categ.id", 
-	categ.altname as "categ.altname", 
-	categ.name as "categ.name", 
-	usr.login as "usr.login", 
-	usr.email as "usr.email"
--- SELECT
-FROM 
-	posts
-	LEFT JOIN categories as categ ON ( categ.id = posts.category )
-	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
-	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
-WHERE 
-	posts.id > 0 AND
-	categ.id > 0 AND
-	posts.created_time <= ( NOW() + interval '1 year' ) AND
-	posts.id = 843 
--- ORDER
-ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
--- ORDER
--- OFFSET
-OFFSET 0 LIMIT 10;
--- OFFSET
--- %QUERY_CACHABLE
--- USER_ID: 0
-
-
---------------------------------
-2019.12.30 13:22:16:
---------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (843) ORDER by tg.name; -- %QUERY_CACHABLE
---------------------------------
-2019.12.30 13:22:16:
---------------------------------
-SELECT 
- count( posts.id ) as count 
-FROM 
-	posts
-	LEFT JOIN categories as categ ON ( categ.id = posts.category )
-	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
-	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
-WHERE 
-	posts.id > 0 AND
-	categ.id > 0 AND
-	posts.created_time <= ( NOW() + interval '1 year' ) AND
-	posts.id = 1172 
-
-
--- %QUERY_CACHABLE
--- USER_ID: 0
-
-
---------------------------------
-2019.12.30 13:22:16:
---------------------------------
-SELECT 
--- SELECT 
-	DISTINCT posts.id as "post.id", 
-	posts.title as "post.title", 
-	posts.alt_title as "post.alt_title", 
-	posts.descr as "post.descr", 
-	posts.short_post as "post.short_post", 
-	posts.author_id as "post.author_id", 
-	posts.created_time as "post.created_time", 
-	posts.keywords as "post.keywords", 
-	posts.posted as "post.posted", 
-	posts.fixed as "post.fixed", 
-	posts.static as "post.static", 
-	posts.full_post as "post.full_post", 
-	posts.repost_tg as "post.repost_tg", 
-	categ.id as "categ.id", 
-	categ.altname as "categ.altname", 
-	categ.name as "categ.name", 
-	usr.login as "usr.login", 
-	usr.email as "usr.email"
--- SELECT
-FROM 
-	posts
-	LEFT JOIN categories as categ ON ( categ.id = posts.category )
-	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
-	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
-WHERE 
-	posts.id > 0 AND
-	categ.id > 0 AND
-	posts.created_time <= ( NOW() + interval '1 year' ) AND
-	posts.id = 1172 
--- ORDER
-ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
--- ORDER
--- OFFSET
-OFFSET 0 LIMIT 10;
--- OFFSET
--- %QUERY_CACHABLE
--- USER_ID: 0
-
-
---------------------------------
-2019.12.30 13:22:16:
---------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1172) ORDER by tg.name; -- %QUERY_CACHABLE
---------------------------------
-2019.12.30 13:22:16:
---------------------------------
-SELECT 
- count( posts.id ) as count 
-FROM 
-	posts
-	LEFT JOIN categories as categ ON ( categ.id = posts.category )
-	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
-	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
-WHERE 
-	posts.id > 0 AND
-	categ.id > 0 AND
-	posts.created_time <= ( NOW() + interval '1 year' ) AND
-	posts.id = 1141 
-
-
--- %QUERY_CACHABLE
--- USER_ID: 0
-
-
---------------------------------
-2019.12.30 13:22:16:
---------------------------------
-SELECT 
--- SELECT 
-	DISTINCT posts.id as "post.id", 
-	posts.title as "post.title", 
-	posts.alt_title as "post.alt_title", 
-	posts.descr as "post.descr", 
-	posts.short_post as "post.short_post", 
-	posts.author_id as "post.author_id", 
-	posts.created_time as "post.created_time", 
-	posts.keywords as "post.keywords", 
-	posts.posted as "post.posted", 
-	posts.fixed as "post.fixed", 
-	posts.static as "post.static", 
-	posts.full_post as "post.full_post", 
-	posts.repost_tg as "post.repost_tg", 
-	categ.id as "categ.id", 
-	categ.altname as "categ.altname", 
-	categ.name as "categ.name", 
-	usr.login as "usr.login", 
-	usr.email as "usr.email"
--- SELECT
-FROM 
-	posts
-	LEFT JOIN categories as categ ON ( categ.id = posts.category )
-	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
-	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
-WHERE 
-	posts.id > 0 AND
-	categ.id > 0 AND
-	posts.created_time <= ( NOW() + interval '1 year' ) AND
-	posts.id = 1141 
--- ORDER
-ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
--- ORDER
--- OFFSET
-OFFSET 0 LIMIT 10;
--- OFFSET
--- %QUERY_CACHABLE
--- USER_ID: 0
-
-
---------------------------------
-2019.12.30 13:22:16:
---------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1141) ORDER by tg.name; -- %QUERY_CACHABLE
---------------------------------
-2019.12.30 13:22:16:
---------------------------------
-INSERT INTO visit_counter ( ua_hash, ip, browser ) VALUES ( 'c1d09fbc47901386c3b6b4df24a0c940', '77.88.47.53'::inet, '[Bot] Yandex' );
---------------------------------
-2019.12.30 13:22:16:
+2019.12.30 19:17:55:
 --------------------------------
 
                 SELECT
@@ -524,7 +9,654 @@ INSERT INTO visit_counter ( ua_hash, ip, browser ) VALUES ( 'c1d09fbc47901386c3b
                 FROM
                     tags WHERE id > 0 ORDER BY name; -- %QUERY_CACHABLE
 --------------------------------
-2019.12.30 13:22:16:
+2019.12.30 19:17:55:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.posted = 1 AND
+	ptags.tag_id = 9 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:17:55:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.posted = 1 AND
+	ptags.tag_id = 9 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 40 LIMIT 10;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:17:55:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (5222,5219,5218,5216,5214,5211,5210,5207,5204,5199) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:17:55:
+--------------------------------
+SELECT * FROM categories ORDER BY level;  -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:17:55:
+--------------------------------
+INSERT INTO visit_counter ( ua_hash, ip, browser ) VALUES ( '4dd8d9a04dd6e27c335671602d349712', '93.158.161.26'::inet, '[Bot] Yandex' );
+--------------------------------
+2019.12.30 19:17:55:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.posted = 1 AND
+	ptags.tag_id IN( 6 ) 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:17:55:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.posted = 1 AND
+	ptags.tag_id IN( 6 ) 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 2;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:17:55:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (5346,5345) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:17:55:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.posted = 1 AND
+	ptags.tag_id IN( 6 ) 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:17:55:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.posted = 1 AND
+	ptags.tag_id IN( 6 ) 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 10 LIMIT 2;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:17:55:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (5334,5331) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:17:55:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.posted = 1 AND
+	ptags.tag_id IN( 15 ) 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:17:55:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.posted = 1 AND
+	ptags.tag_id IN( 15 ) 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 1;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:17:55:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (5336) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:17:55:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.posted = 1 AND
+	ptags.tag_id IN( 15 ) 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:17:55:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.posted = 1 AND
+	ptags.tag_id IN( 15 ) 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 2;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:17:55:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (5336,5334) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:17:55:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.posted = 1 AND
+	ptags.tag_id IN( 11 ) 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:17:55:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.posted = 1 AND
+	ptags.tag_id IN( 11 ) 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 2;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:17:55:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (5347,5345) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:17:55:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.posted = 1 AND
+	ptags.tag_id IN( 11 ) 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:17:55:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.posted = 1 AND
+	ptags.tag_id IN( 11 ) 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 10 LIMIT 2;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:17:55:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (5325,5324) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:17:55:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.posted = 1 AND
+	ptags.tag_id IN( 3,13 ) 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:17:56:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.posted = 1 AND
+	ptags.tag_id IN( 3,13 ) 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 1;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:17:56:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (5345) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:17:56:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.posted = 1 AND
+	ptags.tag_id IN( 3,13 ) 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:17:56:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.posted = 1 AND
+	ptags.tag_id IN( 3,13 ) 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 2;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:17:56:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (5345,5336) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:17:56:
 --------------------------------
 SELECT 
  count( posts.id ) as count 
@@ -545,7 +677,7 @@ WHERE
 
 
 --------------------------------
-2019.12.30 13:22:16:
+2019.12.30 19:17:57:
 --------------------------------
 SELECT 
 -- SELECT 
@@ -589,15 +721,15 @@ OFFSET 90 LIMIT 12;
 
 
 --------------------------------
-2019.12.30 13:22:16:
+2019.12.30 19:17:57:
 --------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1327,1326,1325,1324,1323,1322,1321,1320,1319,1318,1317,1316) ORDER by tg.name; -- %QUERY_CACHABLE
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (5257,5256,5255,5254,5253,5252,5251,5250,5249,5248,5247,5246) ORDER by tg.name; -- %QUERY_CACHABLE
 --------------------------------
-2019.12.30 13:22:16:
+2019.12.30 19:17:58:
 --------------------------------
 SELECT count( DISTINCT ua_hash ) as count FROM visit_counter WHERE date_trunc('day', ts) = date_trunc('day', now());
 --------------------------------
-2019.12.30 13:22:16:
+2019.12.30 19:17:58:
 --------------------------------
 
                 SELECT
@@ -610,4 +742,1838 @@ SELECT count( DISTINCT ua_hash ) as count FROM visit_counter WHERE date_trunc('d
                 GROUP BY visit_day
                 ORDER BY visit_day;
             
+--------------------------------
+2019.12.30 19:18:01:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.posted = 1 AND
+	ptags.tag_id = 11 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:01:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.posted = 1 AND
+	ptags.tag_id = 11 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 170 LIMIT 10;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:01:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (5015,5014,5012,5010,5007,5004,5003,5001,5000,4999) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:01:
+--------------------------------
+INSERT INTO visit_counter ( ua_hash, ip, browser ) VALUES ( 'd860b1ed94308415175422146084349d', '93.158.161.36'::inet, '[Bot] Yandex' );
+--------------------------------
+2019.12.30 19:18:20:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.posted = 1 AND
+	posts.id = 2669 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:20:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.posted = 1 AND
+	posts.id = 2669 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 10;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:20:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (2669) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:20:
+--------------------------------
+
+            SELECT
+                posts.id,
+                posts.title,
+                posts.created_time,
+                string_agg( posts_tags.tag_id::text, ',' ) as agg_tags
+            FROM
+                posts
+                LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id )
+            WHERE
+                posts.id = 2669
+            GROUP by posts.id;-- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:20:
+--------------------------------
+
+                    -- В Черкасах відбудеться дитячий конкурс краси
+                    SELECT
+                        DISTINCT posts.id,
+                        rank
+                    FROM
+                        posts
+                        LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id ),
+                        ts_rank(posts.svector,websearch_to_tsquery('Черкасах')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 2669
+                        AND posts_tags.tag_id IN(3,4,5,6,7,11,23)
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:20:
+--------------------------------
+
+                    -- В Черкасах відбудеться дитячий конкурс краси
+                    SELECT
+                        DISTINCT posts.id,
+                        rank
+                    FROM
+                        posts
+                        LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id ),
+                        ts_rank(posts.svector,websearch_to_tsquery('відбудеться')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 2669
+                        AND posts_tags.tag_id IN(3,4,5,6,7,11,23)
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:21:
+--------------------------------
+
+                    -- В Черкасах відбудеться дитячий конкурс краси
+                    SELECT
+                        DISTINCT posts.id,
+                        rank
+                    FROM
+                        posts
+                        LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id ),
+                        ts_rank(posts.svector,websearch_to_tsquery('дитячий')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 2669
+                        AND posts_tags.tag_id IN(3,4,5,6,7,11,23)
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:21:
+--------------------------------
+
+                    -- В Черкасах відбудеться дитячий конкурс краси
+                    SELECT
+                        DISTINCT posts.id,
+                        rank
+                    FROM
+                        posts
+                        LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id ),
+                        ts_rank(posts.svector,websearch_to_tsquery('конкурс')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 2669
+                        AND posts_tags.tag_id IN(3,4,5,6,7,11,23)
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:21:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 132 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:21:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 132 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 10;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:21:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (132) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:21:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 1991 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:21:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 1991 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 10;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:21:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1991) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:21:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 3061 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:21:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 3061 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 10;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:21:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (3061) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:21:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 1216 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:21:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 1216 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 10;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:21:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1216) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:21:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 127 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:21:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 127 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 10;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:21:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (127) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:21:
+--------------------------------
+INSERT INTO visit_counter ( ua_hash, ip, browser ) VALUES ( '14962541e4705b98449ff3bd7e99d8e8', '5.255.250.172'::inet, '[Bot] Yandex' );
+--------------------------------
+2019.12.30 19:18:23:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.posted = 1 AND
+	ptags.tag_id = 4 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:23:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.posted = 1 AND
+	ptags.tag_id = 4 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 20 LIMIT 10;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:23:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (5322,5319,5318,5317,5315,5314,5310,5303,5301,5300) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:23:
+--------------------------------
+INSERT INTO visit_counter ( ua_hash, ip, browser ) VALUES ( '7cee8fcb7013907022970333e9076016', '77.88.47.98'::inet, '[Bot] Yandex' );
+--------------------------------
+2019.12.30 19:18:27:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.posted = 1 AND
+	posts.id = 2568 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:27:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.posted = 1 AND
+	posts.id = 2568 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 10;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:27:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (2568) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:27:
+--------------------------------
+
+            SELECT
+                posts.id,
+                posts.title,
+                posts.created_time,
+                string_agg( posts_tags.tag_id::text, ',' ) as agg_tags
+            FROM
+                posts
+                LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id )
+            WHERE
+                posts.id = 2568
+            GROUP by posts.id;-- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:28:
+--------------------------------
+
+                    -- У Кам’янському районі сапери знищили артилерійський снаряд
+                    SELECT
+                        DISTINCT posts.id,
+                        rank
+                    FROM
+                        posts
+                        LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id ),
+                        ts_rank(posts.svector,websearch_to_tsquery('Кам’янському')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 2568
+                        AND posts_tags.tag_id IN(4,8)
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:28:
+--------------------------------
+
+                    -- У Кам’янському районі сапери знищили артилерійський снаряд
+                    SELECT
+                        DISTINCT posts.id,
+                        rank
+                    FROM
+                        posts
+                        LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id ),
+                        ts_rank(posts.svector,websearch_to_tsquery('районі')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 2568
+                        AND posts_tags.tag_id IN(4,8)
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:28:
+--------------------------------
+
+                    -- У Кам’янському районі сапери знищили артилерійський снаряд
+                    SELECT
+                        DISTINCT posts.id,
+                        rank
+                    FROM
+                        posts
+                        LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id ),
+                        ts_rank(posts.svector,websearch_to_tsquery('сапери')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 2568
+                        AND posts_tags.tag_id IN(4,8)
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:28:
+--------------------------------
+
+                    -- У Кам’янському районі сапери знищили артилерійський снаряд
+                    SELECT
+                        DISTINCT posts.id,
+                        rank
+                    FROM
+                        posts
+                        LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id ),
+                        ts_rank(posts.svector,websearch_to_tsquery('знищили')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 2568
+                        AND posts_tags.tag_id IN(4,8)
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:28:
+--------------------------------
+
+                    -- У Кам’янському районі сапери знищили артилерійський снаряд
+                    SELECT
+                        DISTINCT posts.id,
+                        rank
+                    FROM
+                        posts
+                        LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id ),
+                        ts_rank(posts.svector,websearch_to_tsquery('артилерійський')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 2568
+                        AND posts_tags.tag_id IN(4,8)
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:28:
+--------------------------------
+
+                    -- У Кам’янському районі сапери знищили артилерійський снаряд
+                    SELECT
+                        DISTINCT posts.id,
+                        rank
+                    FROM
+                        posts
+                        LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id ),
+                        ts_rank(posts.svector,websearch_to_tsquery('снаряд')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 2568
+                        AND posts_tags.tag_id IN(4,8)
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:28:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 3669 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:28:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 3669 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 10;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:28:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (3669) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:28:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 4657 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:28:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 4657 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 10;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:28:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (4657) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:28:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 2706 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:28:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 2706 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 10;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:28:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (2706) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:28:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 3601 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:28:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 3601 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 10;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:28:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (3601) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:28:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 2625 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:28:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 2625 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 10;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:28:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (2625) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:28:
+--------------------------------
+INSERT INTO visit_counter ( ua_hash, ip, browser ) VALUES ( '17697f4818e36bf3a86f7662a4869a57', '5.255.250.92'::inet, '[Bot] Yandex' );
+--------------------------------
+2019.12.30 19:18:30:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.posted = 1 AND
+	posts.id = 2530 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:30:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.posted = 1 AND
+	posts.id = 2530 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 10;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:30:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (2530) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:30:
+--------------------------------
+
+            SELECT
+                posts.id,
+                posts.title,
+                posts.created_time,
+                string_agg( posts_tags.tag_id::text, ',' ) as agg_tags
+            FROM
+                posts
+                LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id )
+            WHERE
+                posts.id = 2530
+            GROUP by posts.id;-- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:30:
+--------------------------------
+
+                    -- Як перевірити електролічильник на правильність роботи розповіли у “Черкасиобленерго”
+                    SELECT
+                        DISTINCT posts.id,
+                        rank
+                    FROM
+                        posts
+                        LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id ),
+                        ts_rank(posts.svector,websearch_to_tsquery('перевірити')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 2530
+                        AND posts_tags.tag_id IN(7,15)
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:31:
+--------------------------------
+
+                    -- Як перевірити електролічильник на правильність роботи розповіли у “Черкасиобленерго”
+                    SELECT
+                        DISTINCT posts.id,
+                        rank
+                    FROM
+                        posts
+                        LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id ),
+                        ts_rank(posts.svector,websearch_to_tsquery('електролічильник')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 2530
+                        AND posts_tags.tag_id IN(7,15)
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:31:
+--------------------------------
+
+                    -- Як перевірити електролічильник на правильність роботи розповіли у “Черкасиобленерго”
+                    SELECT
+                        DISTINCT posts.id,
+                        rank
+                    FROM
+                        posts
+                        LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id ),
+                        ts_rank(posts.svector,websearch_to_tsquery('правильність')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 2530
+                        AND posts_tags.tag_id IN(7,15)
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:31:
+--------------------------------
+
+                    -- Як перевірити електролічильник на правильність роботи розповіли у “Черкасиобленерго”
+                    SELECT
+                        DISTINCT posts.id,
+                        rank
+                    FROM
+                        posts
+                        LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id ),
+                        ts_rank(posts.svector,websearch_to_tsquery('роботи')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 2530
+                        AND posts_tags.tag_id IN(7,15)
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:31:
+--------------------------------
+
+                    -- Як перевірити електролічильник на правильність роботи розповіли у “Черкасиобленерго”
+                    SELECT
+                        DISTINCT posts.id,
+                        rank
+                    FROM
+                        posts
+                        LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id ),
+                        ts_rank(posts.svector,websearch_to_tsquery('розповіли')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 2530
+                        AND posts_tags.tag_id IN(7,15)
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:31:
+--------------------------------
+
+                    -- Як перевірити електролічильник на правильність роботи розповіли у “Черкасиобленерго”
+                    SELECT
+                        DISTINCT posts.id,
+                        rank
+                    FROM
+                        posts
+                        LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id ),
+                        ts_rank(posts.svector,websearch_to_tsquery('“Черкасиобленерго”')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 2530
+                        AND posts_tags.tag_id IN(7,15)
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:31:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 4594 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:31:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 4594 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 10;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:31:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (4594) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:31:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 3547 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:31:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 3547 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 10;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:31:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (3547) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:31:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 5153 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:31:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 5153 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 10;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:31:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (5153) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:31:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 1653 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:31:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 1653 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 10;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:31:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1653) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:31:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 726 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:31:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.id = 726 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 0 LIMIT 10;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:18:31:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (726) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:18:31:
+--------------------------------
+INSERT INTO visit_counter ( ua_hash, ip, browser ) VALUES ( 'c3fd8c48516bfe228b81b01e1495f740', '100.43.91.108'::inet, '[Bot] Yandex' );
+--------------------------------
+2019.12.30 19:19:18:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.posted = 1 AND
+	ptags.tag_id = 18 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:19:18:
+--------------------------------
+SELECT 
+-- SELECT 
+	DISTINCT posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category )
+	LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id )
+WHERE 
+	posts.id > 0 AND
+	categ.id > 0 AND
+	posts.created_time <= ( NOW() + interval '1 year' ) AND
+	posts.posted = 1 AND
+	ptags.tag_id = 18 
+-- ORDER
+ORDER BY posts.created_time DESC, posts.fixed DESC, posts.posted ASC 
+-- ORDER
+-- OFFSET
+OFFSET 170 LIMIT 10;
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2019.12.30 19:19:18:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (485,471,352,311,290,285,273,266,238,159) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2019.12.30 19:19:18:
+--------------------------------
+INSERT INTO visit_counter ( ua_hash, ip, browser ) VALUES ( '523294434128c819111602fd870dbc1d', '93.158.161.148'::inet, '[Bot] Yandex' );
 --------------------------------
