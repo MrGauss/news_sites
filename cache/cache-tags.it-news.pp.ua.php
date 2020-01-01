@@ -1,5 +1,5 @@
 <?php if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
- /* CACHE CREATED: 1577834872.1902 (2020-01-01 01:27:52) */
+ /* CACHE CREATED: 1577877538.8651 (2020-01-01 13:18:58) */
 return array (
   9 => 
   array (
@@ -34,28 +34,28 @@ return array (
     'id' => '6',
     'name' => 'Êîñìîñ',
     'altname' => 'kosmos',
-    'news_count' => '151',
+    'news_count' => '154',
   ),
   12 => 
   array (
     'id' => '12',
     'name' => 'Ìåäèöèíà',
     'altname' => 'medicina',
-    'news_count' => '66',
+    'news_count' => '69',
   ),
   7 => 
   array (
     'id' => '7',
     'name' => 'Íàóêà',
     'altname' => 'nauka',
-    'news_count' => '520',
+    'news_count' => '524',
   ),
   3 => 
   array (
     'id' => '3',
     'name' => 'Íîâèíè',
     'altname' => 'novini',
-    'news_count' => '556',
+    'news_count' => '561',
   ),
   10 => 
   array (
@@ -76,7 +76,7 @@ return array (
     'id' => '8',
     'name' => 'Òåõíîëîã³¿',
     'altname' => 'tenologi',
-    'news_count' => '523',
+    'news_count' => '527',
   ),
   5 => 
   array (
