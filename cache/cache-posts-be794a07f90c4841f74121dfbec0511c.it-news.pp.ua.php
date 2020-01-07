@@ -1,9 +1,53 @@
 <?php if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
- /* CACHE CREATED: 1578331264.9175 (2020-01-06 19:21:04) */
+ /* CACHE CREATED: 1578352109.6901 (2020-01-07 01:08:29) */
 return array (
-  'count' => 2858,
+  'count' => 2861,
   'rows' => 
   array (
+    1441 => 
+    array (
+      'post' => 
+      array (
+        'id' => '1441',
+        'title' => 'Отримайте Yooka-Laylee and the Impossible Lair Search безкоштовно!',
+        'alt_title' => '3c1ed1c677fcea52cb29cc0d6687c1a7',
+        'descr' => 'Отримайте Yooka-Laylee and the Impossible Lair Search безкоштовно!',
+        'short_post' => 'Вчора Epic Games Store роздали 12 безкоштовну гру в рамках раніше анонсованої акції, і ця гра мала б стати останньою, однак хтось щось неправильно підрахував і ігр насправді буде 13! Так сьогодні безкоштовно роздають вже точно останню гру в рамках цієї святкової акції — Yooka-Laylee and the Impossible Lair. Yooka-Laylee and the Impossible Lair – це платформер від ключових розробників Donkey Kong Country. Яскрава та динамічна гра пропонує вам як 2,5D так і 3D ігролад з масою різноманітних рівнів, до того ж це ще й новинка, реліз якої відбувся лише кілька місяців тому, тому не проґавте таку можливість та заберіть Yooka-Laylee and the Impossible Lairу Epic Games Store вже зараз!  Epic Games підтримує вас безкоштовними іграми, а ви можете підтримати нас! Користуючись нашим посиланням на гру Yooka-Laylee and the Impossible Lair, ви підтримуєте команду PlayUA. Також ви можете оформлювати покупки в Epic Games Store або прямо у Fortnite, використовуючи наш Epic Creator Tag: PLAYUA. Цим ви теж дуже нас підтримаєте. Вам не важко, а нам – приємно!',
+        'author_id' => '1',
+        'created_time' => '2019-12-31 18:23:09',
+        'keywords' => '',
+        'posted' => '1',
+        'fixed' => '0',
+        'static' => '0',
+        'full_post' => '<p class=\\"bb_p\\">Вчора Epic Games Store роздали 12 безкоштовну гру в рамках раніше анонсованої акції, і ця гра мала б стати останньою, однак хтось щось неправильно підрахував і ігр насправді буде 13! Так сьогодні безкоштовно роздають вже точно останню гру в рамках цієї святкової акції — <b class=\\"bb_b\\">Yooka-Laylee and the Impossible Lair</b>.</p>
+<p class=\\"bb_p align_center\\"><img class="post_img" src="/uploads/images/2019-12-31/2019-12-31_18-23-05_722.png" alt="" title="" /></p>
+<p class=\\"bb_p\\"><b class=\\"bb_b\\">Yooka-Laylee and the Impossible Lair </b>– це платформер від ключових розробників Donkey Kong Country. Яскрава та динамічна гра пропонує вам як 2,5D так і 3D ігролад з масою різноманітних рівнів, до того ж це ще й новинка, реліз якої відбувся лише кілька місяців тому, тому не проґавте таку можливість та заберіть <b class=\\"bb_b\\">Yooka-Laylee and the Impossible Lair</b>у Epic Games Store вже зараз!<b class=\\"bb_b\\"> </b></p>
+<div class="bb_youtube"><iframe width="640" src="https://www.youtube.com/embed/pwGpIg0Q7WU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<p class=\\"bb_p\\">Epic Games підтримує вас безкоштовними іграми, а ви можете підтримати нас! Користуючись нашим посиланням на гру <b class=\\"bb_b\\">Yooka-Laylee and the Impossible Lair</b>, ви підтримуєте команду PlayUA. Також ви можете оформлювати покупки в Epic Games Store або прямо у Fortnite, використовуючи наш Epic Creator Tag: <b class=\\"bb_b\\">PLAYUA</b>. Цим ви теж дуже нас підтримаєте. Вам не важко, а нам – приємно!</p><div class="source"><p class=\\"bb_p align_right\\"><a rel="nofollow noreferrer" href="https://playua.net/otrymajte-yooka-laylee-and-the-impossible-lair-search-bezkoshtovno/" target="_blank">За матеріалами "playua.net"</a></p></div>',
+        'repost_tg' => '1',
+      ),
+      'categ' => 
+      array (
+        'id' => '1',
+        'altname' => 'blog',
+        'name' => 'Новини',
+      ),
+      'usr' => 
+      array (
+        'login' => 'admin',
+        'email' => 'admin@cmska.org',
+      ),
+      'tags' => 
+      array (
+        3 => 
+        array (
+          'id' => '3',
+          'name' => 'Новини',
+          'altname' => 'novini',
+          'post_id' => '1441',
+        ),
+      ),
+    ),
     1440 => 
     array (
       'post' => 
@@ -565,67 +609,6 @@ return array (
           'name' => 'Software',
           'altname' => 'software',
           'post_id' => '1430',
-        ),
-      ),
-    ),
-    1429 => 
-    array (
-      'post' => 
-      array (
-        'id' => '1429',
-        'title' => 'У Китаї створили &quot;електрокішку&quot; з шістьма емоціями',
-        'alt_title' => '22ee82710ed3995dbb2d2b0b868b5dab',
-        'descr' => 'У Китаї створили &quot;електрокішку&quot; з шістьма емоціями',
-        'short_post' => 'Серед емоцій кішки - ентузіазм, байдужість, енергійність, лінь, бажання спілкуватися і сором\'язливість. Китайська компанія Elephant Robotics створила робота-кішку MarsCat, яка може пересуватися будинком свого господаря і відображати шість емоцій. Про це повідомляє New Atlas. У кішки шістнадцять моторизованих суглобів. Крім звичайної ходьби, кішка-робот вміє грати, спати і закопувати уявні відходи в сміттєвому баку. У «тварини» є камера, мікрофон, динамік, мікропроцесор Raspberry Pi, а також шість датчиків дотику. Серед емоцій кішки - ентузіазм, байдужість, енергійність, лінь, бажання спілкуватися і сором\'язливість. Вбудовані технології дають можливість роботові-кішці розпізнавати іграшки і перешкоди, а також реагувати на команди людей. З часом особистість кішки буде змінюватися в залежності від манери спілкування людини з нею. Вартість роботизованої тварини для продажу становитиме 1299 доларів. Як повідомляв УНІАН, в американському штаті Массачусетс поліція кілька місяців тестувала робота-пса Spot американської компанії Boston Dynamics.',
-        'author_id' => '1',
-        'created_time' => '2019-12-31 06:13:10',
-        'keywords' => 'технології, наука, новини, новини України, новини дня, головні новини, свіжі новини, новини Київ',
-        'posted' => '1',
-        'fixed' => '0',
-        'static' => '0',
-        'full_post' => '<p class=\\"bb_p\\">Серед емоцій кішки - ентузіазм, байдужість, енергійність, лінь, бажання спілкуватися і сором\'язливість.</p>
-<p class=\\"bb_p align_center\\"><img class="post_img" src="/uploads/images/2019-12-31/2019-12-31_06-13-08_447.png" alt="" title="" /></p>
-<p class=\\"bb_p\\">Китайська компанія Elephant Robotics створила робота-кішку MarsCat, яка може пересуватися будинком свого господаря і відображати шість емоцій.</p>
-<p class=\\"bb_p\\">Про це повідомляє New Atlas.</p>
-<p class=\\"bb_p\\">У кішки шістнадцять моторизованих суглобів. Крім звичайної ходьби, кішка-робот вміє грати, спати і закопувати уявні відходи в сміттєвому баку. У «тварини» є камера, мікрофон, динамік, мікропроцесор Raspberry Pi, а також шість датчиків дотику. Серед емоцій кішки - ентузіазм, байдужість, енергійність, лінь, бажання спілкуватися і сором\'язливість.</p>
-<p class=\\"bb_p\\">Вбудовані технології дають можливість роботові-кішці розпізнавати іграшки і перешкоди, а також реагувати на команди людей. З часом особистість кішки буде змінюватися в залежності від манери спілкування людини з нею.</p>
-<p class=\\"bb_p\\">Вартість роботизованої тварини для продажу становитиме 1299 доларів.</p>
-<p class=\\"bb_p\\">Як повідомляв УНІАН, в американському штаті Массачусетс поліція кілька місяців тестувала робота-пса Spot американської компанії Boston Dynamics.</p><div class="source"><p class=\\"bb_p align_right\\"><a rel="nofollow noreferrer" href="https://www.unian.ua/m/science/10815368-u-kitaji-stvorili-elektrokishku-z-shistma-emociyami.html" target="_blank">За матеріалами "unian"</a></p></div>',
-        'repost_tg' => '1',
-      ),
-      'categ' => 
-      array (
-        'id' => '1',
-        'altname' => 'blog',
-        'name' => 'Новини',
-      ),
-      'usr' => 
-      array (
-        'login' => 'admin',
-        'email' => 'admin@cmska.org',
-      ),
-      'tags' => 
-      array (
-        7 => 
-        array (
-          'id' => '7',
-          'name' => 'Наука',
-          'altname' => 'nauka',
-          'post_id' => '1429',
-        ),
-        3 => 
-        array (
-          'id' => '3',
-          'name' => 'Новини',
-          'altname' => 'novini',
-          'post_id' => '1429',
-        ),
-        8 => 
-        array (
-          'id' => '8',
-          'name' => 'Технології',
-          'altname' => 'tenologi',
-          'post_id' => '1429',
         ),
       ),
     ),
