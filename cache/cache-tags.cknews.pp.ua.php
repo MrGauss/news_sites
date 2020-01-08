@@ -1,5 +1,5 @@
 <?php if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
- /* CACHE CREATED: 1578417557.3164 (2020-01-07 19:19:17) */
+ /* CACHE CREATED: 1578440422.9479 (2020-01-08 01:40:22) */
 return array (
   14 => 
   array (
@@ -69,7 +69,7 @@ return array (
     'id' => '5',
     'name' => 'Íîâèíè',
     'altname' => 'novini',
-    'news_count' => '4339',
+    'news_count' => '4340',
   ),
   13 => 
   array (
@@ -104,7 +104,7 @@ return array (
     'id' => '11',
     'name' => 'Ïîë³òèêà',
     'altname' => 'politika',
-    'news_count' => '2842',
+    'news_count' => '2843',
   ),
   9 => 
   array (
