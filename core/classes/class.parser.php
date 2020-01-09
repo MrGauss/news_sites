@@ -843,7 +843,7 @@ trait tr_dzvin_media
 
         $data['page'] = preg_replace( '!<(strong|b)>(.+?)<\/(\1)>!i', '[b]$2[/b]', $data['page'] );
         $data['page'] = preg_replace( '!<(p)(.+?|)>(.+?)<\/(\1)>!i', '$3'."\n", $data['page'] );
-        $data['page'] = preg_replace( '!<figure(.+?)figure>!is', '', $data['page'] );
+        $data['page'] = preg_replace( '!<div style(.+?)div>!is', '', $data['page'] );
 
         $data['page'] = trim( strip_tags( $data['page'] ) );
         $data['page'] = preg_replace( '!\r!i', "\n", $data['page'] );
