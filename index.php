@@ -20,6 +20,8 @@
  *
  */
 
+ $_BEGIN_TIME = microtime( true );
+
 error_reporting ( E_ALL );
 ini_set ( 'display_errors', true );
 ini_set ( 'html_errors', false );

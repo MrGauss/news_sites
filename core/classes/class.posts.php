@@ -365,8 +365,6 @@ class posts
 
         $countSQL = preg_replace( '!-- SELECT(.+?)-- SELECT!is', ' count( posts.id ) as count ', $SQL );
 
-        // echo $SQL; exit;
-
         $countSQL = preg_replace( '!-- OFFSET(.+?)-- OFFSET!is', '', $countSQL );
         $countSQL = preg_replace( '!(OFFSET|LIMIT)(\s+?)(\d+)!is', '', $countSQL );
         $countSQL = preg_replace( '!-- ORDER(.+?)-- ORDER!is', '', $countSQL );

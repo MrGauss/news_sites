@@ -90,7 +90,7 @@ class cache
         $name = self::get_cache_file_path( $name );
 
         if( !file_exists($name) ){ return false; }
-        if( ! ( ( filemtime($name) + 60*60 ) > time() ) )
+        if( ! ( ( filemtime($name) + 60*60*24 ) > time() ) )
         {
             unlink( $name );
             return false;

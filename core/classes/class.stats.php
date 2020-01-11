@@ -63,6 +63,13 @@ class stats
         $html = str_replace( '{stats:used_memory}', common::integer2size(memory_get_peak_usage()), $html );
         $html = str_replace( '{stats:user_count}', visit_counter::stats_by_curr_day(), $html );
         $html = str_replace( '{stats:user_count_periodic}', visit_counter::stats_by_week_txt(), $html );
+
+        if( isset($GLOBALS['_BEGIN_TIME']) && $GLOBALS['_BEGIN_TIME'] )
+        {
+            $GLOBALS['_BEGIN_TIME'] = round( microtime( true ) - $GLOBALS['_BEGIN_TIME'], 4 );
+            $html = str_replace( '{stats:load_time}', $GLOBALS['_BEGIN_TIME'], $html );
+        }
+
         $html = preg_replace( '!\{stats:(.+?)\}!i', '0', $html );
 
         return $html;
