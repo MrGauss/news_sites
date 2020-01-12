@@ -265,7 +265,7 @@ class posts
         $WHERE  = array();
         $ORDER  = array();
 
-        $SELECT['DISTINCT posts.id']              = 'post.id';
+        $SELECT['posts.id']              = 'post.id';
         $SELECT['posts.title']           = 'post.title';
         $SELECT['posts.alt_title']       = 'post.alt_title';
         $SELECT['posts.descr']           = 'post.descr';
@@ -287,9 +287,9 @@ class posts
         $SELECT['usr.email']             = 'usr.email';
 
         $FROM['posts']       = 'posts';
-        $FROM['categories']  = 'LEFT JOIN categories as categ ON ( categ.id = posts.category )';
-        $FROM['posts_tags']  = 'LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 )';
-        $FROM['users']       = 'LEFT JOIN users as usr ON ( usr.id = posts.author_id )';
+        $FROM['categories']  = 'LEFT JOIN categories as categ ON ( categ.id = posts.category ) -- JOIN';
+        // $FROM['posts_tags']  = 'LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 ) -- JOIN';
+        $FROM['users']       = 'LEFT JOIN users as usr ON ( usr.id = posts.author_id ) -- JOIN';
 
         if( !$filters['nullpost'] )
         {
@@ -316,19 +316,26 @@ class posts
 
         if( !is_array($filters['tag.id']) && $filters['tag.id'] > 0 )
         {
-            $WHERE['tags.id'] = 'ptags.tag_id = '.$filters['tag.id'];
+            $WHERE['tags.id'] = 'ARRAY[\''.$filters['tag.id'].'\'::int8] && posts.tag_id';
         }
 
         if( is_array($filters['tag.id']) && count($filters['tag.id']) )
         {
-            $WHERE['tags.id'] = 'ptags.tag_id IN( '.implode( ',', common::integer( $filters['tag.id'] ) ).' )';
+            $WHERE['tags.id'] = 'posts.tag_id && ARRAY[ \''.implode( '\'::int8, \'', common::integer( $filters['tag.id'] ) ).'\'::int8 ]';
         }
 
-        $ORDER['posts.created_time'] = 'posts.created_time DESC';
-        $ORDER['posts.fixed']        = 'posts.fixed DESC';
-        $ORDER['posts.posted']       = 'posts.posted ASC';
-
-
+        if( isset($WHERE['post.id']) && $WHERE['post.id'] )
+        {
+            $WHERE = array( 'post.id' => $WHERE['post.id'] );
+            unset( $filters['offset'] );
+            unset( $filters['limit'] );
+        }
+        else
+        {
+            $ORDER['posts.created_time'] = 'posts.created_time DESC';
+            $ORDER['posts.fixed']        = 'posts.fixed DESC';
+            $ORDER['posts.posted']       = 'posts.posted ASC';
+        }
 
         if( $SELECT && is_array($SELECT) && count($SELECT) )
         {
@@ -356,18 +363,30 @@ class posts
                 'FROM '.$FROM."\n".
                 'WHERE '."\n\t".implode( ' AND'."\n\t", $WHERE )." \n".
                 "-- ORDER\n".
-                'ORDER BY '.implode( ', ', array_values($ORDER) )." \n".
+                ( count($ORDER)?'ORDER BY '.implode( ', ', array_values($ORDER) )." \n":'' ).
                 "-- ORDER\n".
                 "-- OFFSET\n".
-                'OFFSET '.$filters['offset'].' LIMIT '.$filters['limit'].';'."\n".
+                ( isset($filters['offset']) && $filters['limit'] ?'OFFSET '.$filters['offset'].' LIMIT '.$filters['limit'].';'."\n":'').
                 "-- OFFSET\n".
                 ($filters['uncache']?'':self::trim(QUERY_CACHABLE))."\n-- USER_ID: ".abs(intval(CURRENT_USER_ID))."\n\n";
 
-        $countSQL = preg_replace( '!-- SELECT(.+?)-- SELECT!is', ' count( posts.id ) as count ', $SQL );
 
+
+        $countSQL = preg_replace( '!-- SELECT(.+?)-- SELECT!is', ' count( posts.id ) as count ', $SQL );
         $countSQL = preg_replace( '!-- OFFSET(.+?)-- OFFSET!is', '', $countSQL );
         $countSQL = preg_replace( '!(OFFSET|LIMIT)(\s+?)(\d+)!is', '', $countSQL );
         $countSQL = preg_replace( '!-- ORDER(.+?)-- ORDER!is', '', $countSQL );
+
+        $countSQL = explode( "\n", $countSQL );
+        foreach($countSQL as $n => $l)
+        {
+            if( isset($WHERE['post.id']) && $WHERE['post.id'] )
+            {
+                $countSQL[$n] = preg_replace( '!^(.+?)-- JOIN(.+?|)$!i', '', $countSQL[$n] );
+            }
+        }
+        $countSQL = implode( "\r\n", $countSQL );
+
 
         $_var = self::CACHE_VAR_POSTS.'-'.self::md5($SQL);
         $data = cache::get( $_var );
@@ -613,10 +632,9 @@ class posts
                 posts.id,
                 posts.title,
                 posts.created_time,
-                string_agg( posts_tags.tag_id::text, \',\' ) as agg_tags
+                array_to_string(posts.tag_id,\',\', \'0\') as agg_tags
             FROM
                 posts
-                LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id )
             WHERE
                 posts.id = '.intval( $post_id ).'
             GROUP by posts.id;'.self::trim(QUERY_CACHABLE);
@@ -630,7 +648,7 @@ class posts
 
             $RELATED = array();
 
-            $row['agg_tags'] = implode(',',$row['agg_tags']);
+            $row['agg_tags'] = '\''.implode('\'::int8, \'',$row['agg_tags']).'\'::int8';
 
             foreach( preg_split( '!(\s+)!is', $row['title'] ) as $k => $v )
             {
@@ -639,16 +657,15 @@ class posts
                 $chSQL = '
                     -- '.$row['title'].'
                     SELECT
-                        DISTINCT posts.id,
+                        posts.id,
                         rank
                     FROM
-                        posts
-                        LEFT JOIN posts_tags ON( posts.id = posts_tags.post_id ),
+                        posts,
                         ts_rank(posts.svector,'.$v.') as rank
                     WHERE
                         rank > 0
                         AND posts.id != '.$row['id'].'
-                        AND posts_tags.tag_id IN('.$row['agg_tags'].')
+                        AND posts.tag_id && ARRAY['.$row['agg_tags'].']
                     ORDER by rank DESC
                     OFFSET 0 LIMIT 10;
                 '.self::trim(QUERY_CACHABLE);
