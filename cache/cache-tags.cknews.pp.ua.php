@@ -1,5 +1,5 @@
 <?php if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
- /* CACHE CREATED: 1578849567.8948 (2020-01-12 19:19:27) */
+ /* CACHE CREATED: 1578854347.8795 (2020-01-12 20:39:07) */
 return array (
   14 => 
   array (
@@ -20,14 +20,14 @@ return array (
     'id' => '19',
     'name' => 'Екологія',
     'altname' => 'ekologiya',
-    'news_count' => '358',
+    'news_count' => '359',
   ),
   15 => 
   array (
     'id' => '15',
     'name' => 'Економіка',
     'altname' => 'ekonomika',
-    'news_count' => '704',
+    'news_count' => '705',
   ),
   23 => 
   array (
@@ -69,7 +69,7 @@ return array (
     'id' => '5',
     'name' => 'Новини',
     'altname' => 'novini',
-    'news_count' => '4602',
+    'news_count' => '4603',
   ),
   13 => 
   array (
@@ -97,7 +97,7 @@ return array (
     'id' => '8',
     'name' => 'Події',
     'altname' => 'podi',
-    'news_count' => '1447',
+    'news_count' => '1448',
   ),
   11 => 
   array (
@@ -111,14 +111,14 @@ return array (
     'id' => '9',
     'name' => 'Поліція',
     'altname' => 'policiya',
-    'news_count' => '1780',
+    'news_count' => '1781',
   ),
   6 => 
   array (
     'id' => '6',
     'name' => 'Райони',
     'altname' => 'rajoni',
-    'news_count' => '3779',
+    'news_count' => '3780',
   ),
   21 => 
   array (
@@ -146,7 +146,7 @@ return array (
     'id' => '7',
     'name' => 'Суспільство',
     'altname' => 'suspil_stvo',
-    'news_count' => '3552',
+    'news_count' => '3553',
   ),
 ); 
 ?>
