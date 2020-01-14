@@ -1,0 +1,4 @@
+<?php if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
+ /* CACHE CREATED: 1578956922.5254 (2020-01-14 01:08:42) */
+return '<div class="related"><a href="/addon/1655-98a1f6674b5ac31fbd70ef7c7e677dfc.html" title="Знайдений в Мексиці двокілограмовий шматок золота згубили конкістадори">Знайдений в Мексиці двокілограмовий шматок золота згубили конкістадори</a></div><div class="related"><a href="/addon/586-fbfe9c162a72f8231ed7afd8b63fdd3e.html" title="За мотивами Sniper Elite зроблять настільну гру">За мотивами Sniper Elite зроблять настільну гру</a></div><div class="related"><a href="/addon/489-fb53b80ba806e17755b5a1c89bb878dc.html" title="Археологи в Китаї знайшли гробницю першого китайського імператора">Археологи в Китаї знайшли гробницю першого китайського імператора</a></div>'; 
+?>
