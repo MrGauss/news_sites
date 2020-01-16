@@ -1,4 +1,4 @@
-2020.01.16 13:09:46:
+2020.01.16 19:12:14:
 --------------------------------
 SELECT 
  count( posts.id ) as count 
@@ -7,7 +7,7 @@ FROM
 
 
 WHERE 
-	posts.id = 1198 
+	posts.id = 1468 
 
 
 -- %QUERY_CACHABLE
@@ -15,7 +15,7 @@ WHERE
 
 
 --------------------------------
-2020.01.16 13:09:46:
+2020.01.16 19:12:14:
 --------------------------------
 SELECT 
 -- SELECT 
@@ -43,7 +43,7 @@ FROM
 	LEFT JOIN categories as categ ON ( categ.id = posts.category ) -- JOIN
 	LEFT JOIN users as usr ON ( usr.id = posts.author_id ) -- JOIN
 WHERE 
-	posts.id = 1198 
+	posts.id = 1468 
 -- ORDER
 -- ORDER
 -- OFFSET
@@ -53,15 +53,15 @@ WHERE
 
 
 --------------------------------
-2020.01.16 13:09:46:
+2020.01.16 19:12:14:
 --------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1198) ORDER by tg.name; -- %QUERY_CACHABLE
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1468) ORDER by tg.name; -- %QUERY_CACHABLE
 --------------------------------
-2020.01.16 13:09:46:
+2020.01.16 19:12:14:
 --------------------------------
 SELECT * FROM categories ORDER BY level;  -- %QUERY_CACHABLE
 --------------------------------
-2020.01.16 13:09:46:
+2020.01.16 19:12:14:
 --------------------------------
 
             SELECT
@@ -72,82 +72,82 @@ SELECT * FROM categories ORDER BY level;  -- %QUERY_CACHABLE
             FROM
                 posts
             WHERE
-                posts.id = 1198
+                posts.id = 1468
             GROUP by posts.id;-- %QUERY_CACHABLE
 --------------------------------
-2020.01.16 13:09:46:
+2020.01.16 19:12:14:
 --------------------------------
 
-                    -- Google додає медіапанель у браузер Chrome
+                    -- Samsung привезе на CES 2020 «віртуальну людину»
                     SELECT
                         posts.id,
                         rank
                     FROM
                         posts,
-                        ts_rank(posts.svector,websearch_to_tsquery('Google')) as rank
+                        ts_rank(posts.svector,websearch_to_tsquery('Samsung')) as rank
                     WHERE
                         rank > 0
-                        AND posts.id != 1198
-                        AND posts.tag_id && ARRAY['4'::int8]
+                        AND posts.id != 1468
+                        AND posts.tag_id && ARRAY['9'::int8]
                     ORDER by rank DESC
                     OFFSET 0 LIMIT 10;
                 -- %QUERY_CACHABLE
 --------------------------------
-2020.01.16 13:09:46:
+2020.01.16 19:12:14:
 --------------------------------
 
-                    -- Google додає медіапанель у браузер Chrome
+                    -- Samsung привезе на CES 2020 «віртуальну людину»
                     SELECT
                         posts.id,
                         rank
                     FROM
                         posts,
-                        ts_rank(posts.svector,websearch_to_tsquery('медіапанель')) as rank
+                        ts_rank(posts.svector,websearch_to_tsquery('привезе')) as rank
                     WHERE
                         rank > 0
-                        AND posts.id != 1198
-                        AND posts.tag_id && ARRAY['4'::int8]
+                        AND posts.id != 1468
+                        AND posts.tag_id && ARRAY['9'::int8]
                     ORDER by rank DESC
                     OFFSET 0 LIMIT 10;
                 -- %QUERY_CACHABLE
 --------------------------------
-2020.01.16 13:09:46:
+2020.01.16 19:12:14:
 --------------------------------
 
-                    -- Google додає медіапанель у браузер Chrome
+                    -- Samsung привезе на CES 2020 «віртуальну людину»
                     SELECT
                         posts.id,
                         rank
                     FROM
                         posts,
-                        ts_rank(posts.svector,websearch_to_tsquery('браузер')) as rank
+                        ts_rank(posts.svector,websearch_to_tsquery('«віртуальну')) as rank
                     WHERE
                         rank > 0
-                        AND posts.id != 1198
-                        AND posts.tag_id && ARRAY['4'::int8]
+                        AND posts.id != 1468
+                        AND posts.tag_id && ARRAY['9'::int8]
                     ORDER by rank DESC
                     OFFSET 0 LIMIT 10;
                 -- %QUERY_CACHABLE
 --------------------------------
-2020.01.16 13:09:46:
+2020.01.16 19:12:14:
 --------------------------------
 
-                    -- Google додає медіапанель у браузер Chrome
+                    -- Samsung привезе на CES 2020 «віртуальну людину»
                     SELECT
                         posts.id,
                         rank
                     FROM
                         posts,
-                        ts_rank(posts.svector,websearch_to_tsquery('Chrome')) as rank
+                        ts_rank(posts.svector,websearch_to_tsquery('людину»')) as rank
                     WHERE
                         rank > 0
-                        AND posts.id != 1198
-                        AND posts.tag_id && ARRAY['4'::int8]
+                        AND posts.id != 1468
+                        AND posts.tag_id && ARRAY['9'::int8]
                     ORDER by rank DESC
                     OFFSET 0 LIMIT 10;
                 -- %QUERY_CACHABLE
 --------------------------------
-2020.01.16 13:09:46:
+2020.01.16 19:12:14:
 --------------------------------
 SELECT 
  count( posts.id ) as count 
@@ -156,7 +156,7 @@ FROM
 
 
 WHERE 
-	posts.id = 1087 
+	posts.id = 1479 
 
 
 -- %QUERY_CACHABLE
@@ -164,7 +164,7 @@ WHERE
 
 
 --------------------------------
-2020.01.16 13:09:46:
+2020.01.16 19:12:14:
 --------------------------------
 SELECT 
 -- SELECT 
@@ -192,7 +192,7 @@ FROM
 	LEFT JOIN categories as categ ON ( categ.id = posts.category ) -- JOIN
 	LEFT JOIN users as usr ON ( usr.id = posts.author_id ) -- JOIN
 WHERE 
-	posts.id = 1087 
+	posts.id = 1479 
 -- ORDER
 -- ORDER
 -- OFFSET
@@ -202,11 +202,11 @@ WHERE
 
 
 --------------------------------
-2020.01.16 13:09:46:
+2020.01.16 19:12:14:
 --------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1087) ORDER by tg.name; -- %QUERY_CACHABLE
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1479) ORDER by tg.name; -- %QUERY_CACHABLE
 --------------------------------
-2020.01.16 13:09:46:
+2020.01.16 19:12:14:
 --------------------------------
 SELECT 
  count( posts.id ) as count 
@@ -215,7 +215,7 @@ FROM
 
 
 WHERE 
-	posts.id = 831 
+	posts.id = 1617 
 
 
 -- %QUERY_CACHABLE
@@ -223,7 +223,7 @@ WHERE
 
 
 --------------------------------
-2020.01.16 13:09:46:
+2020.01.16 19:12:14:
 --------------------------------
 SELECT 
 -- SELECT 
@@ -251,7 +251,7 @@ FROM
 	LEFT JOIN categories as categ ON ( categ.id = posts.category ) -- JOIN
 	LEFT JOIN users as usr ON ( usr.id = posts.author_id ) -- JOIN
 WHERE 
-	posts.id = 831 
+	posts.id = 1617 
 -- ORDER
 -- ORDER
 -- OFFSET
@@ -261,11 +261,11 @@ WHERE
 
 
 --------------------------------
-2020.01.16 13:09:46:
+2020.01.16 19:12:14:
 --------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (831) ORDER by tg.name; -- %QUERY_CACHABLE
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1617) ORDER by tg.name; -- %QUERY_CACHABLE
 --------------------------------
-2020.01.16 13:09:46:
+2020.01.16 19:12:14:
 --------------------------------
 SELECT 
  count( posts.id ) as count 
@@ -274,7 +274,7 @@ FROM
 
 
 WHERE 
-	posts.id = 1048 
+	posts.id = 1010 
 
 
 -- %QUERY_CACHABLE
@@ -282,7 +282,7 @@ WHERE
 
 
 --------------------------------
-2020.01.16 13:09:46:
+2020.01.16 19:12:14:
 --------------------------------
 SELECT 
 -- SELECT 
@@ -310,7 +310,7 @@ FROM
 	LEFT JOIN categories as categ ON ( categ.id = posts.category ) -- JOIN
 	LEFT JOIN users as usr ON ( usr.id = posts.author_id ) -- JOIN
 WHERE 
-	posts.id = 1048 
+	posts.id = 1010 
 -- ORDER
 -- ORDER
 -- OFFSET
@@ -320,11 +320,11 @@ WHERE
 
 
 --------------------------------
-2020.01.16 13:09:46:
+2020.01.16 19:12:14:
 --------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1048) ORDER by tg.name; -- %QUERY_CACHABLE
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1010) ORDER by tg.name; -- %QUERY_CACHABLE
 --------------------------------
-2020.01.16 13:09:46:
+2020.01.16 19:12:14:
 --------------------------------
 SELECT 
  count( posts.id ) as count 
@@ -333,7 +333,7 @@ FROM
 
 
 WHERE 
-	posts.id = 1700 
+	posts.id = 1085 
 
 
 -- %QUERY_CACHABLE
@@ -341,7 +341,7 @@ WHERE
 
 
 --------------------------------
-2020.01.16 13:09:46:
+2020.01.16 19:12:14:
 --------------------------------
 SELECT 
 -- SELECT 
@@ -369,7 +369,7 @@ FROM
 	LEFT JOIN categories as categ ON ( categ.id = posts.category ) -- JOIN
 	LEFT JOIN users as usr ON ( usr.id = posts.author_id ) -- JOIN
 WHERE 
-	posts.id = 1700 
+	posts.id = 1085 
 -- ORDER
 -- ORDER
 -- OFFSET
@@ -379,11 +379,11 @@ WHERE
 
 
 --------------------------------
-2020.01.16 13:09:46:
+2020.01.16 19:12:14:
 --------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1700) ORDER by tg.name; -- %QUERY_CACHABLE
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1085) ORDER by tg.name; -- %QUERY_CACHABLE
 --------------------------------
-2020.01.16 13:09:46:
+2020.01.16 19:12:14:
 --------------------------------
 SELECT 
  count( posts.id ) as count 
@@ -392,7 +392,7 @@ FROM
 
 
 WHERE 
-	posts.id = 1143 
+	posts.id = 911 
 
 
 -- %QUERY_CACHABLE
@@ -400,7 +400,7 @@ WHERE
 
 
 --------------------------------
-2020.01.16 13:09:46:
+2020.01.16 19:12:14:
 --------------------------------
 SELECT 
 -- SELECT 
@@ -428,7 +428,7 @@ FROM
 	LEFT JOIN categories as categ ON ( categ.id = posts.category ) -- JOIN
 	LEFT JOIN users as usr ON ( usr.id = posts.author_id ) -- JOIN
 WHERE 
-	posts.id = 1143 
+	posts.id = 911 
 -- ORDER
 -- ORDER
 -- OFFSET
@@ -438,15 +438,15 @@ WHERE
 
 
 --------------------------------
-2020.01.16 13:09:46:
+2020.01.16 19:12:14:
 --------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1143) ORDER by tg.name; -- %QUERY_CACHABLE
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (911) ORDER by tg.name; -- %QUERY_CACHABLE
 --------------------------------
-2020.01.16 13:09:46:
+2020.01.16 19:12:14:
 --------------------------------
-INSERT INTO visit_counter ( ua_hash, ip, browser ) VALUES ( 'bbc73cf92656b27bd1280a5dceee4a98', '66.249.65.148'::inet, 'Chrome' );
+INSERT INTO visit_counter ( ua_hash, ip, browser ) VALUES ( '169baed0a03081f453aca5daea591304', '141.8.188.167'::inet, '[Bot] Yandex' );
 --------------------------------
-2020.01.16 13:09:46:
+2020.01.16 19:12:14:
 --------------------------------
 
                 SELECT
@@ -457,7 +457,7 @@ INSERT INTO visit_counter ( ua_hash, ip, browser ) VALUES ( 'bbc73cf92656b27bd12
                 FROM
                     tags WHERE id > 0 ORDER BY name; -- %QUERY_CACHABLE
 --------------------------------
-2020.01.16 13:09:46:
+2020.01.16 19:12:14:
 --------------------------------
 SELECT 
  count( posts.id ) as count 
@@ -477,7 +477,7 @@ WHERE
 
 
 --------------------------------
-2020.01.16 13:09:46:
+2020.01.16 19:12:15:
 --------------------------------
 SELECT 
 -- SELECT 
@@ -520,15 +520,15 @@ OFFSET 90 LIMIT 12;
 
 
 --------------------------------
-2020.01.16 13:09:46:
+2020.01.16 19:12:15:
 --------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1633,1632,1631,1630,1629,1628,1627,1626,1625,1624,1623,1622) ORDER by tg.name; -- %QUERY_CACHABLE
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1652,1651,1650,1649,1648,1647,1646,1645,1644,1643,1642,1641) ORDER by tg.name; -- %QUERY_CACHABLE
 --------------------------------
-2020.01.16 13:09:46:
+2020.01.16 19:12:15:
 --------------------------------
 SELECT count( DISTINCT ua_hash ) as count FROM visit_counter WHERE date_trunc('day', ts) = date_trunc('day', now());
 --------------------------------
-2020.01.16 13:09:46:
+2020.01.16 19:12:15:
 --------------------------------
 
                 SELECT
