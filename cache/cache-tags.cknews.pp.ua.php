@@ -1,5 +1,5 @@
 <?php if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
- /* CACHE CREATED: 1579194713.0702 (2020-01-16 19:11:53) */
+ /* CACHE CREATED: 1579200219.6482 (2020-01-16 20:43:39) */
 return array (
   14 => 
   array (
@@ -34,14 +34,14 @@ return array (
     'id' => '23',
     'name' => 'Життя міста',
     'altname' => 'zhittya_mista',
-    'news_count' => '1056',
+    'news_count' => '1059',
   ),
   3 => 
   array (
     'id' => '3',
     'name' => 'Культура',
     'altname' => 'kul_tura',
-    'news_count' => '1242',
+    'news_count' => '1243',
   ),
   12 => 
   array (
@@ -55,21 +55,21 @@ return array (
     'id' => '4',
     'name' => 'Мерія',
     'altname' => 'meriya',
-    'news_count' => '4071',
+    'news_count' => '4078',
   ),
   22 => 
   array (
     'id' => '22',
     'name' => 'Наука',
     'altname' => 'nauka',
-    'news_count' => '371',
+    'news_count' => '372',
   ),
   5 => 
   array (
     'id' => '5',
     'name' => 'Новини',
     'altname' => 'novini',
-    'news_count' => '4919',
+    'news_count' => '4924',
   ),
   13 => 
   array (
@@ -90,35 +90,35 @@ return array (
     'id' => '20',
     'name' => 'Погода',
     'altname' => 'pogoda',
-    'news_count' => '336',
+    'news_count' => '337',
   ),
   8 => 
   array (
     'id' => '8',
     'name' => 'Події',
     'altname' => 'podi',
-    'news_count' => '1548',
+    'news_count' => '1550',
   ),
   11 => 
   array (
     'id' => '11',
     'name' => 'Політика',
     'altname' => 'politika',
-    'news_count' => '3203',
+    'news_count' => '3204',
   ),
   9 => 
   array (
     'id' => '9',
     'name' => 'Поліція',
     'altname' => 'policiya',
-    'news_count' => '1929',
+    'news_count' => '1931',
   ),
   6 => 
   array (
     'id' => '6',
     'name' => 'Райони',
     'altname' => 'rajoni',
-    'news_count' => '4020',
+    'news_count' => '4025',
   ),
   21 => 
   array (
@@ -146,7 +146,7 @@ return array (
     'id' => '7',
     'name' => 'Суспільство',
     'altname' => 'suspil_stvo',
-    'news_count' => '3829',
+    'news_count' => '3833',
   ),
 ); 
 ?>
