@@ -1,19 +1,19 @@
 <?php if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
- /* CACHE CREATED: 1579286412.5522 (2020-01-17 20:40:12) */
+ /* CACHE CREATED: 1579345775.9101 (2020-01-18 13:09:35) */
 return array (
   9 => 
   array (
     'id' => '9',
     'name' => 'Hardware',
     'altname' => 'hardware',
-    'news_count' => '485',
+    'news_count' => '486',
   ),
   4 => 
   array (
     'id' => '4',
     'name' => 'Software',
     'altname' => 'software',
-    'news_count' => '240',
+    'news_count' => '241',
   ),
   13 => 
   array (
@@ -48,14 +48,14 @@ return array (
     'id' => '7',
     'name' => 'Íàóêà',
     'altname' => 'nauka',
-    'news_count' => '642',
+    'news_count' => '643',
   ),
   3 => 
   array (
     'id' => '3',
     'name' => 'Íîâèíè',
     'altname' => 'novini',
-    'news_count' => '689',
+    'news_count' => '698',
   ),
   10 => 
   array (
@@ -69,14 +69,14 @@ return array (
     'id' => '14',
     'name' => 'Ñîöìåğåæ³',
     'altname' => 'socmerezhi',
-    'news_count' => '112',
+    'news_count' => '113',
   ),
   8 => 
   array (
     'id' => '8',
     'name' => 'Òåõíîëîã³¿',
     'altname' => 'tenologi',
-    'news_count' => '662',
+    'news_count' => '664',
   ),
   5 => 
   array (
