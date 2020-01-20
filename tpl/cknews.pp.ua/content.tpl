@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="ua">
-    <!-- Час генерації:     {stats:load_time} сек -->         
+    <!-- Час генерації:     {stats:load_time} сек -->
     <!-- Використано RAM:   {stats:used_memory} -->
     <!-- Запитів до БД:     {stats:queries} -->
     <!--    поміщено в кеш: {stats:cached} -->
