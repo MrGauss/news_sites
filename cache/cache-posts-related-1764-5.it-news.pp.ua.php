@@ -1,0 +1,4 @@
+<?php if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
+ /* CACHE CREATED: 1579557187.5437 (2020-01-20 23:53:07) */
+return '<div class="related"><a href="/addon/1111-8c2d6a2cb0eb898b3070c24758505381.html" title="До нових крісел Hator клавіатура у подарунок">До нових крісел Hator клавіатура у подарунок</a></div><div class="related"><a href="/addon/653-04fa9436f783be2cd07d7910b6d0fdac.html" title="Найгірші подарунки на Новий рік та Різдво, які нікого не радують">Найгірші подарунки на Новий рік та Різдво, які нікого не радують</a></div><div class="related"><a href="/addon/1286-43dd3705370fd168037c414af426194d.html" title="GTA VI: стало відомо, коли представлять нову гру">GTA VI: стало відомо, коли представлять нову гру</a></div>'; 
+?>

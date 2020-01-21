@@ -1,0 +1,88 @@
+<?php if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
+ /* CACHE CREATED: 1579558494.5415 (2020-01-21 00:14:54) */
+return array (
+  'count' => 1,
+  'rows' => 
+  array (
+    1750 => 
+    array (
+      'post' => 
+      array (
+        'id' => '1750',
+        'title' => 'Астронавтка NASA опублікувала пожежі в Австралії з космосу (фото)',
+        'alt_title' => 'f04eb098f46aef27ef745f22a0c3f23e',
+        'descr' => 'Астронавтка NASA опублікувала пожежі в Австралії з космосу (фото)',
+        'short_post' => 'Лісові пожежі почалися в Австралії в жовтні 2019 року і відтоді в країні вигоріло вже близько 15 млн га, тисячі будинків були знищені. Жертвами стихії стали 27 осіб. Астронавт NASA Крістіна Кох, яка перебуває на Міжнародній космічній станції (ISS), поділилась коротким, але сильним повідомленням з космосу у вівторок: «Австралія. Наші серця і думки з вами». Світлини лісових пожеж на материку з’явилися у Twitter жінки. На фото дим від пожеж можна побачити на 400 км над Землею. Australia. Our hearts and thoughts are with you. pic.twitter.com/6D7AS4LaDe — Christina H Koch (@Astro_Christina) January 14, 2020 На сторінці ISS в Instagram 4 січня теж з’явилися світлини з охопленою димом та вогнем Австралією. Переглянути цей допис в Instagram Wildfires are pictured surrounding Sydney, Australia, as the International Space Station orbited 269 miles above the Tasman Sea on Jan. 3, 2020. #nasa #earth #sydney #australia #fire #tasman #sea #international #space #station Допис, поширений International Space Station (@iss) 4 Січ 2020 р. о 11:05 PST Лісові пожежі почалися в Австралії в жовтні 2019 року і відтоді в країні вигоріло вже близько 15 млн га, тисячі будинків були знищені. Жертвами стихії стали 27 осіб. Днями вчені NASA попередили, що дим від лісових пожеж, які вже кілька місяців вирують в Австралії, зробить повний оберт навколо Землі й знову накриє цей материк. Більше інших постраждала Нова Зеландія, яка знаходиться поряд з Австралією. Дим від лісових пожеж "приніс" в цю країну не тільки ефектні червоні заходи, але і вкрив попелом снігові вершини.',
+        'author_id' => '1',
+        'created_time' => '2020-01-17 09:35:35',
+        'keywords' => 'технології, наука, новини, новини України, новини дня, головні новини, свіжі новини, новини Київ',
+        'posted' => '1',
+        'fixed' => '0',
+        'static' => '0',
+        'full_post' => '<p class=\\"bb_p\\">Лісові пожежі почалися в Австралії в жовтні 2019 року і відтоді в країні вигоріло вже близько 15 млн га, тисячі будинків були знищені. Жертвами стихії стали 27 осіб.</p>
+<p class=\\"bb_p align_center\\"><img class="post_img" src="/uploads/images/2020-01-17/2020-01-17_09-35-31_452.png" alt="" title="" /></p>
+<p class=\\"bb_p\\">Астронавт NASA Крістіна Кох, яка перебуває на Міжнародній космічній станції (ISS), поділилась коротким, але сильним повідомленням з космосу у вівторок: «Австралія. Наші серця і думки з вами».</p>
+<p class=\\"bb_p\\">Світлини лісових пожеж на материку з’явилися у Twitter жінки. На фото дим від пожеж можна побачити на 400 км над Землею.</p>
+<p class=\\"bb_p\\">Australia. Our hearts and thoughts are with you. pic.twitter.com/6D7AS4LaDe — Christina H Koch (@Astro_Christina) January 14, 2020</p>
+<p class=\\"bb_p\\">На сторінці ISS в Instagram 4 січня теж з’явилися світлини з охопленою димом та вогнем Австралією.</p>
+<p class=\\"bb_p\\">Переглянути цей допис в Instagram</p>
+<p class=\\"bb_p\\">Wildfires are pictured surrounding Sydney, Australia, as the International Space Station orbited 269 miles above the Tasman Sea on Jan. 3, 2020. #nasa #earth #sydney #australia #fire #tasman #sea #international #space #station</p>
+<p class=\\"bb_p\\">Допис, поширений  International Space Station (@iss) 4 Січ 2020 р. о 11:05 PST</p>
+<p class=\\"bb_p\\">Лісові пожежі почалися в Австралії в жовтні 2019 року і відтоді в країні вигоріло вже близько 15 млн га, тисячі будинків були знищені. Жертвами стихії стали 27 осіб.</p>
+<p class=\\"bb_p\\">Днями вчені NASA попередили, що дим від лісових пожеж, які вже кілька місяців вирують в Австралії, зробить повний оберт навколо Землі й знову накриє цей материк.</p>
+<p class=\\"bb_p\\">Більше інших постраждала Нова Зеландія, яка знаходиться поряд з Австралією. Дим від лісових пожеж "приніс" в цю країну не тільки ефектні червоні заходи, але і вкрив попелом снігові вершини.</p><div class="source"><p class=\\"bb_p align_right\\"><a rel="nofollow noreferrer" href="https://www.unian.ua/m/science/10834007-astronavtka-nasa-opublikuvala-pozhezhi-v-avstraliji-z-kosmosu-foto.html" target="_blank">За матеріалами "unian"</a></p></div>',
+        'repost_tg' => '1',
+      ),
+      'categ' => 
+      array (
+        'id' => '1',
+        'altname' => 'blog',
+        'name' => 'Новини',
+      ),
+      'usr' => 
+      array (
+        'login' => 'admin',
+        'email' => 'admin@cmska.org',
+      ),
+      'tags' => 
+      array (
+        6 => 
+        array (
+          'id' => '6',
+          'name' => 'Космос',
+          'altname' => 'kosmos',
+          'post_id' => '1750',
+        ),
+        7 => 
+        array (
+          'id' => '7',
+          'name' => 'Наука',
+          'altname' => 'nauka',
+          'post_id' => '1750',
+        ),
+        3 => 
+        array (
+          'id' => '3',
+          'name' => 'Новини',
+          'altname' => 'novini',
+          'post_id' => '1750',
+        ),
+        14 => 
+        array (
+          'id' => '14',
+          'name' => 'Соцмережі',
+          'altname' => 'socmerezhi',
+          'post_id' => '1750',
+        ),
+        8 => 
+        array (
+          'id' => '8',
+          'name' => 'Технології',
+          'altname' => 'tenologi',
+          'post_id' => '1750',
+        ),
+      ),
+    ),
+  ),
+); 
+?>
