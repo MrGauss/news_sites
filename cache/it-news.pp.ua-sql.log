@@ -1,4 +1,4 @@
-2020.01.21 13:15:52:
+2020.01.21 19:09:16:
 --------------------------------
 SELECT 
  count( posts.id ) as count 
@@ -7,7 +7,7 @@ FROM
 
 
 WHERE 
-	posts.id = 689 
+	posts.id = 1094 
 
 
 -- %QUERY_CACHABLE
@@ -15,7 +15,7 @@ WHERE
 
 
 --------------------------------
-2020.01.21 13:15:52:
+2020.01.21 19:09:16:
 --------------------------------
 SELECT 
 -- SELECT 
@@ -43,7 +43,7 @@ FROM
 	LEFT JOIN categories as categ ON ( categ.id = posts.category ) -- JOIN
 	LEFT JOIN users as usr ON ( usr.id = posts.author_id ) -- JOIN
 WHERE 
-	posts.id = 689 
+	posts.id = 1094 
 -- ORDER
 -- ORDER
 -- OFFSET
@@ -53,15 +53,15 @@ WHERE
 
 
 --------------------------------
-2020.01.21 13:15:52:
+2020.01.21 19:09:16:
 --------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (689) ORDER by tg.name; -- %QUERY_CACHABLE
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1094) ORDER by tg.name; -- %QUERY_CACHABLE
 --------------------------------
-2020.01.21 13:15:52:
+2020.01.21 19:09:16:
 --------------------------------
 SELECT * FROM categories ORDER BY level;  -- %QUERY_CACHABLE
 --------------------------------
-2020.01.21 13:15:52:
+2020.01.21 19:09:16:
 --------------------------------
 
             SELECT
@@ -72,82 +72,136 @@ SELECT * FROM categories ORDER BY level;  -- %QUERY_CACHABLE
             FROM
                 posts
             WHERE
-                posts.id = 689
+                posts.id = 1094
             GROUP by posts.id;-- %QUERY_CACHABLE
 --------------------------------
-2020.01.21 13:15:52:
+2020.01.21 19:09:16:
 --------------------------------
 
-                    -- Маск задумався над розробкою міні-електропікапа Cybertruck
+                    -- Міжнародна IT-компанія ESET представила основні тенденції розвитку кіберзагроз у 2020 році
                     SELECT
                         posts.id,
                         rank
                     FROM
                         posts,
-                        ts_rank(posts.svector,websearch_to_tsquery('задумався')) as rank
+                        ts_rank(posts.svector,websearch_to_tsquery('Міжнародна')) as rank
                     WHERE
                         rank > 0
-                        AND posts.id != 689
-                        AND posts.tag_id && ARRAY['3'::int8, '6'::int8, '7'::int8, '8'::int8]
+                        AND posts.id != 1094
+                        AND posts.tag_id && ARRAY['3'::int8, '5'::int8, '8'::int8, '11'::int8]
                     ORDER by rank DESC
                     OFFSET 0 LIMIT 10;
                 -- %QUERY_CACHABLE
 --------------------------------
-2020.01.21 13:15:52:
+2020.01.21 19:09:16:
 --------------------------------
 
-                    -- Маск задумався над розробкою міні-електропікапа Cybertruck
+                    -- Міжнародна IT-компанія ESET представила основні тенденції розвитку кіберзагроз у 2020 році
                     SELECT
                         posts.id,
                         rank
                     FROM
                         posts,
-                        ts_rank(posts.svector,websearch_to_tsquery('розробкою')) as rank
+                        ts_rank(posts.svector,websearch_to_tsquery('IT-компанія')) as rank
                     WHERE
                         rank > 0
-                        AND posts.id != 689
-                        AND posts.tag_id && ARRAY['3'::int8, '6'::int8, '7'::int8, '8'::int8]
+                        AND posts.id != 1094
+                        AND posts.tag_id && ARRAY['3'::int8, '5'::int8, '8'::int8, '11'::int8]
                     ORDER by rank DESC
                     OFFSET 0 LIMIT 10;
                 -- %QUERY_CACHABLE
 --------------------------------
-2020.01.21 13:15:52:
+2020.01.21 19:09:16:
 --------------------------------
 
-                    -- Маск задумався над розробкою міні-електропікапа Cybertruck
+                    -- Міжнародна IT-компанія ESET представила основні тенденції розвитку кіберзагроз у 2020 році
                     SELECT
                         posts.id,
                         rank
                     FROM
                         posts,
-                        ts_rank(posts.svector,websearch_to_tsquery('міні-електропікапа')) as rank
+                        ts_rank(posts.svector,websearch_to_tsquery('представила')) as rank
                     WHERE
                         rank > 0
-                        AND posts.id != 689
-                        AND posts.tag_id && ARRAY['3'::int8, '6'::int8, '7'::int8, '8'::int8]
+                        AND posts.id != 1094
+                        AND posts.tag_id && ARRAY['3'::int8, '5'::int8, '8'::int8, '11'::int8]
                     ORDER by rank DESC
                     OFFSET 0 LIMIT 10;
                 -- %QUERY_CACHABLE
 --------------------------------
-2020.01.21 13:15:52:
+2020.01.21 19:09:16:
 --------------------------------
 
-                    -- Маск задумався над розробкою міні-електропікапа Cybertruck
+                    -- Міжнародна IT-компанія ESET представила основні тенденції розвитку кіберзагроз у 2020 році
                     SELECT
                         posts.id,
                         rank
                     FROM
                         posts,
-                        ts_rank(posts.svector,websearch_to_tsquery('Cybertruck')) as rank
+                        ts_rank(posts.svector,websearch_to_tsquery('основні')) as rank
                     WHERE
                         rank > 0
-                        AND posts.id != 689
-                        AND posts.tag_id && ARRAY['3'::int8, '6'::int8, '7'::int8, '8'::int8]
+                        AND posts.id != 1094
+                        AND posts.tag_id && ARRAY['3'::int8, '5'::int8, '8'::int8, '11'::int8]
                     ORDER by rank DESC
                     OFFSET 0 LIMIT 10;
                 -- %QUERY_CACHABLE
 --------------------------------
-2020.01.21 13:15:52:
+2020.01.21 19:09:16:
+--------------------------------
+
+                    -- Міжнародна IT-компанія ESET представила основні тенденції розвитку кіберзагроз у 2020 році
+                    SELECT
+                        posts.id,
+                        rank
+                    FROM
+                        posts,
+                        ts_rank(posts.svector,websearch_to_tsquery('тенденції')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 1094
+                        AND posts.tag_id && ARRAY['3'::int8, '5'::int8, '8'::int8, '11'::int8]
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2020.01.21 19:09:16:
+--------------------------------
+
+                    -- Міжнародна IT-компанія ESET представила основні тенденції розвитку кіберзагроз у 2020 році
+                    SELECT
+                        posts.id,
+                        rank
+                    FROM
+                        posts,
+                        ts_rank(posts.svector,websearch_to_tsquery('розвитку')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 1094
+                        AND posts.tag_id && ARRAY['3'::int8, '5'::int8, '8'::int8, '11'::int8]
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2020.01.21 19:09:16:
+--------------------------------
+
+                    -- Міжнародна IT-компанія ESET представила основні тенденції розвитку кіберзагроз у 2020 році
+                    SELECT
+                        posts.id,
+                        rank
+                    FROM
+                        posts,
+                        ts_rank(posts.svector,websearch_to_tsquery('кіберзагроз')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 1094
+                        AND posts.tag_id && ARRAY['3'::int8, '5'::int8, '8'::int8, '11'::int8]
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2020.01.21 19:09:16:
 --------------------------------
 SELECT 
  count( posts.id ) as count 
@@ -156,7 +210,7 @@ FROM
 
 
 WHERE 
-	posts.id = 1607 
+	posts.id = 1670 
 
 
 -- %QUERY_CACHABLE
@@ -164,7 +218,7 @@ WHERE
 
 
 --------------------------------
-2020.01.21 13:15:52:
+2020.01.21 19:09:16:
 --------------------------------
 SELECT 
 -- SELECT 
@@ -192,7 +246,7 @@ FROM
 	LEFT JOIN categories as categ ON ( categ.id = posts.category ) -- JOIN
 	LEFT JOIN users as usr ON ( usr.id = posts.author_id ) -- JOIN
 WHERE 
-	posts.id = 1607 
+	posts.id = 1670 
 -- ORDER
 -- ORDER
 -- OFFSET
@@ -202,11 +256,11 @@ WHERE
 
 
 --------------------------------
-2020.01.21 13:15:52:
+2020.01.21 19:09:16:
 --------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1607) ORDER by tg.name; -- %QUERY_CACHABLE
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1670) ORDER by tg.name; -- %QUERY_CACHABLE
 --------------------------------
-2020.01.21 13:15:52:
+2020.01.21 19:09:16:
 --------------------------------
 SELECT 
  count( posts.id ) as count 
@@ -215,7 +269,7 @@ FROM
 
 
 WHERE 
-	posts.id = 598 
+	posts.id = 1619 
 
 
 -- %QUERY_CACHABLE
@@ -223,7 +277,7 @@ WHERE
 
 
 --------------------------------
-2020.01.21 13:15:52:
+2020.01.21 19:09:16:
 --------------------------------
 SELECT 
 -- SELECT 
@@ -251,7 +305,7 @@ FROM
 	LEFT JOIN categories as categ ON ( categ.id = posts.category ) -- JOIN
 	LEFT JOIN users as usr ON ( usr.id = posts.author_id ) -- JOIN
 WHERE 
-	posts.id = 598 
+	posts.id = 1619 
 -- ORDER
 -- ORDER
 -- OFFSET
@@ -261,11 +315,11 @@ WHERE
 
 
 --------------------------------
-2020.01.21 13:15:52:
+2020.01.21 19:09:16:
 --------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (598) ORDER by tg.name; -- %QUERY_CACHABLE
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1619) ORDER by tg.name; -- %QUERY_CACHABLE
 --------------------------------
-2020.01.21 13:15:52:
+2020.01.21 19:09:16:
 --------------------------------
 SELECT 
  count( posts.id ) as count 
@@ -274,7 +328,7 @@ FROM
 
 
 WHERE 
-	posts.id = 616 
+	posts.id = 1748 
 
 
 -- %QUERY_CACHABLE
@@ -282,7 +336,7 @@ WHERE
 
 
 --------------------------------
-2020.01.21 13:15:52:
+2020.01.21 19:09:16:
 --------------------------------
 SELECT 
 -- SELECT 
@@ -310,7 +364,7 @@ FROM
 	LEFT JOIN categories as categ ON ( categ.id = posts.category ) -- JOIN
 	LEFT JOIN users as usr ON ( usr.id = posts.author_id ) -- JOIN
 WHERE 
-	posts.id = 616 
+	posts.id = 1748 
 -- ORDER
 -- ORDER
 -- OFFSET
@@ -320,11 +374,11 @@ WHERE
 
 
 --------------------------------
-2020.01.21 13:15:52:
+2020.01.21 19:09:16:
 --------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (616) ORDER by tg.name; -- %QUERY_CACHABLE
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1748) ORDER by tg.name; -- %QUERY_CACHABLE
 --------------------------------
-2020.01.21 13:15:52:
+2020.01.21 19:09:16:
 --------------------------------
 SELECT 
  count( posts.id ) as count 
@@ -333,7 +387,7 @@ FROM
 
 
 WHERE 
-	posts.id = 1532 
+	posts.id = 1418 
 
 
 -- %QUERY_CACHABLE
@@ -341,7 +395,7 @@ WHERE
 
 
 --------------------------------
-2020.01.21 13:15:52:
+2020.01.21 19:09:16:
 --------------------------------
 SELECT 
 -- SELECT 
@@ -369,7 +423,7 @@ FROM
 	LEFT JOIN categories as categ ON ( categ.id = posts.category ) -- JOIN
 	LEFT JOIN users as usr ON ( usr.id = posts.author_id ) -- JOIN
 WHERE 
-	posts.id = 1532 
+	posts.id = 1418 
 -- ORDER
 -- ORDER
 -- OFFSET
@@ -379,11 +433,11 @@ WHERE
 
 
 --------------------------------
-2020.01.21 13:15:52:
+2020.01.21 19:09:16:
 --------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1532) ORDER by tg.name; -- %QUERY_CACHABLE
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1418) ORDER by tg.name; -- %QUERY_CACHABLE
 --------------------------------
-2020.01.21 13:15:52:
+2020.01.21 19:09:16:
 --------------------------------
 SELECT 
  count( posts.id ) as count 
@@ -392,7 +446,7 @@ FROM
 
 
 WHERE 
-	posts.id = 369 
+	posts.id = 1571 
 
 
 -- %QUERY_CACHABLE
@@ -400,7 +454,7 @@ WHERE
 
 
 --------------------------------
-2020.01.21 13:15:52:
+2020.01.21 19:09:16:
 --------------------------------
 SELECT 
 -- SELECT 
@@ -428,7 +482,7 @@ FROM
 	LEFT JOIN categories as categ ON ( categ.id = posts.category ) -- JOIN
 	LEFT JOIN users as usr ON ( usr.id = posts.author_id ) -- JOIN
 WHERE 
-	posts.id = 369 
+	posts.id = 1571 
 -- ORDER
 -- ORDER
 -- OFFSET
@@ -438,15 +492,15 @@ WHERE
 
 
 --------------------------------
-2020.01.21 13:15:52:
+2020.01.21 19:09:16:
 --------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (369) ORDER by tg.name; -- %QUERY_CACHABLE
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1571) ORDER by tg.name; -- %QUERY_CACHABLE
 --------------------------------
-2020.01.21 13:15:52:
+2020.01.21 19:09:16:
 --------------------------------
-INSERT INTO visit_counter ( ua_hash, ip, browser ) VALUES ( '50027cc66ea01f9c2732ba30158ccdd1', '5.255.250.61'::inet, '[Bot] Yandex' );
+INSERT INTO visit_counter ( ua_hash, ip, browser ) VALUES ( '2d2e8e6ab88742154eade31e44c21e75', '66.249.65.150'::inet, 'Chrome' );
 --------------------------------
-2020.01.21 13:15:52:
+2020.01.21 19:09:16:
 --------------------------------
 
                 SELECT
@@ -457,7 +511,7 @@ INSERT INTO visit_counter ( ua_hash, ip, browser ) VALUES ( '50027cc66ea01f9c273
                 FROM
                     tags WHERE id > 0 ORDER BY name; -- %QUERY_CACHABLE
 --------------------------------
-2020.01.21 13:15:52:
+2020.01.21 19:09:16:
 --------------------------------
 SELECT 
  count( posts.id ) as count 
@@ -477,7 +531,7 @@ WHERE
 
 
 --------------------------------
-2020.01.21 13:15:52:
+2020.01.21 19:09:16:
 --------------------------------
 SELECT 
 -- SELECT 
@@ -520,15 +574,15 @@ OFFSET 90 LIMIT 12;
 
 
 --------------------------------
-2020.01.21 13:15:52:
+2020.01.21 19:09:16:
 --------------------------------
-SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1736,1735,1734,1733,1732,1731,1730,1729,1728,1727,1726,1725) ORDER by tg.name; -- %QUERY_CACHABLE
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1749,1748,1747,1746,1745,1744,1743,1742,1741,1740,1739,1738) ORDER by tg.name; -- %QUERY_CACHABLE
 --------------------------------
-2020.01.21 13:15:52:
+2020.01.21 19:09:16:
 --------------------------------
 SELECT count( DISTINCT ua_hash ) as count FROM visit_counter WHERE date_trunc('day', ts) = date_trunc('day', now());
 --------------------------------
-2020.01.21 13:15:52:
+2020.01.21 19:09:16:
 --------------------------------
 
                 SELECT
@@ -541,4 +595,484 @@ SELECT count( DISTINCT ua_hash ) as count FROM visit_counter WHERE date_trunc('d
                 GROUP BY visit_day
                 ORDER BY visit_day;
             
+--------------------------------
+2020.01.21 19:19:59:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+
+
+WHERE 
+	posts.id = 1003 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2020.01.21 19:19:59:
+--------------------------------
+SELECT 
+-- SELECT 
+	posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category ) -- JOIN
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id ) -- JOIN
+WHERE 
+	posts.id = 1003 
+-- ORDER
+-- ORDER
+-- OFFSET
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2020.01.21 19:19:59:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1003) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2020.01.21 19:19:59:
+--------------------------------
+
+            SELECT
+                posts.id,
+                posts.title,
+                posts.created_time,
+                array_to_string(posts.tag_id,',', '0') as agg_tags
+            FROM
+                posts
+            WHERE
+                posts.id = 1003
+            GROUP by posts.id;-- %QUERY_CACHABLE
+--------------------------------
+2020.01.21 19:19:59:
+--------------------------------
+
+                    -- Ajax випустив новий датчик MotionCam і важливе оновлення OS Malevich 2.8
+                    SELECT
+                        posts.id,
+                        rank
+                    FROM
+                        posts,
+                        ts_rank(posts.svector,websearch_to_tsquery('випустив')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 1003
+                        AND posts.tag_id && ARRAY['4'::int8]
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2020.01.21 19:19:59:
+--------------------------------
+
+                    -- Ajax випустив новий датчик MotionCam і важливе оновлення OS Malevich 2.8
+                    SELECT
+                        posts.id,
+                        rank
+                    FROM
+                        posts,
+                        ts_rank(posts.svector,websearch_to_tsquery('датчик')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 1003
+                        AND posts.tag_id && ARRAY['4'::int8]
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2020.01.21 19:19:59:
+--------------------------------
+
+                    -- Ajax випустив новий датчик MotionCam і важливе оновлення OS Malevich 2.8
+                    SELECT
+                        posts.id,
+                        rank
+                    FROM
+                        posts,
+                        ts_rank(posts.svector,websearch_to_tsquery('MotionCam')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 1003
+                        AND posts.tag_id && ARRAY['4'::int8]
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2020.01.21 19:19:59:
+--------------------------------
+
+                    -- Ajax випустив новий датчик MotionCam і важливе оновлення OS Malevich 2.8
+                    SELECT
+                        posts.id,
+                        rank
+                    FROM
+                        posts,
+                        ts_rank(posts.svector,websearch_to_tsquery('важливе')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 1003
+                        AND posts.tag_id && ARRAY['4'::int8]
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2020.01.21 19:19:59:
+--------------------------------
+
+                    -- Ajax випустив новий датчик MotionCam і важливе оновлення OS Malevich 2.8
+                    SELECT
+                        posts.id,
+                        rank
+                    FROM
+                        posts,
+                        ts_rank(posts.svector,websearch_to_tsquery('оновлення')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 1003
+                        AND posts.tag_id && ARRAY['4'::int8]
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2020.01.21 19:19:59:
+--------------------------------
+
+                    -- Ajax випустив новий датчик MotionCam і важливе оновлення OS Malevich 2.8
+                    SELECT
+                        posts.id,
+                        rank
+                    FROM
+                        posts,
+                        ts_rank(posts.svector,websearch_to_tsquery('Malevich')) as rank
+                    WHERE
+                        rank > 0
+                        AND posts.id != 1003
+                        AND posts.tag_id && ARRAY['4'::int8]
+                    ORDER by rank DESC
+                    OFFSET 0 LIMIT 10;
+                -- %QUERY_CACHABLE
+--------------------------------
+2020.01.21 19:19:59:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+
+
+WHERE 
+	posts.id = 750 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2020.01.21 19:19:59:
+--------------------------------
+SELECT 
+-- SELECT 
+	posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category ) -- JOIN
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id ) -- JOIN
+WHERE 
+	posts.id = 750 
+-- ORDER
+-- ORDER
+-- OFFSET
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2020.01.21 19:19:59:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (750) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2020.01.21 19:19:59:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+
+
+WHERE 
+	posts.id = 1484 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2020.01.21 19:19:59:
+--------------------------------
+SELECT 
+-- SELECT 
+	posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category ) -- JOIN
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id ) -- JOIN
+WHERE 
+	posts.id = 1484 
+-- ORDER
+-- ORDER
+-- OFFSET
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2020.01.21 19:19:59:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1484) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2020.01.21 19:19:59:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+
+
+WHERE 
+	posts.id = 1017 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2020.01.21 19:19:59:
+--------------------------------
+SELECT 
+-- SELECT 
+	posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category ) -- JOIN
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id ) -- JOIN
+WHERE 
+	posts.id = 1017 
+-- ORDER
+-- ORDER
+-- OFFSET
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2020.01.21 19:19:59:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1017) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2020.01.21 19:19:59:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+
+
+WHERE 
+	posts.id = 1598 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2020.01.21 19:19:59:
+--------------------------------
+SELECT 
+-- SELECT 
+	posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category ) -- JOIN
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id ) -- JOIN
+WHERE 
+	posts.id = 1598 
+-- ORDER
+-- ORDER
+-- OFFSET
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2020.01.21 19:19:59:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1598) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2020.01.21 19:19:59:
+--------------------------------
+SELECT 
+ count( posts.id ) as count 
+FROM 
+	posts
+
+
+WHERE 
+	posts.id = 1212 
+
+
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2020.01.21 19:19:59:
+--------------------------------
+SELECT 
+-- SELECT 
+	posts.id as "post.id", 
+	posts.title as "post.title", 
+	posts.alt_title as "post.alt_title", 
+	posts.descr as "post.descr", 
+	posts.short_post as "post.short_post", 
+	posts.author_id as "post.author_id", 
+	posts.created_time as "post.created_time", 
+	posts.keywords as "post.keywords", 
+	posts.posted as "post.posted", 
+	posts.fixed as "post.fixed", 
+	posts.static as "post.static", 
+	posts.full_post as "post.full_post", 
+	posts.repost_tg as "post.repost_tg", 
+	categ.id as "categ.id", 
+	categ.altname as "categ.altname", 
+	categ.name as "categ.name", 
+	usr.login as "usr.login", 
+	usr.email as "usr.email"
+-- SELECT
+FROM 
+	posts
+	LEFT JOIN categories as categ ON ( categ.id = posts.category ) -- JOIN
+	LEFT JOIN users as usr ON ( usr.id = posts.author_id ) -- JOIN
+WHERE 
+	posts.id = 1212 
+-- ORDER
+-- ORDER
+-- OFFSET
+-- OFFSET
+-- %QUERY_CACHABLE
+-- USER_ID: 0
+
+
+--------------------------------
+2020.01.21 19:19:59:
+--------------------------------
+SELECT tg.*, ptags.post_id FROM tags as tg LEFT JOIN posts_tags as ptags ON (tg.id = ptags.tag_id) WHERE tg.id > 0 AND ptags.post_id IN (1212) ORDER by tg.name; -- %QUERY_CACHABLE
+--------------------------------
+2020.01.21 19:19:59:
+--------------------------------
+INSERT INTO visit_counter ( ua_hash, ip, browser ) VALUES ( '50027cc66ea01f9c2732ba30158ccdd1', '5.255.250.61'::inet, '[Bot] Yandex' );
 --------------------------------
