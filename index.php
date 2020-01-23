@@ -47,6 +47,10 @@ define ( 'CACHE_TYPE',      'FILE' /*MEM | FILE*/ );
 
 ////////////////////////////////////////////////////////////////
 
+if( isset($_REQUEST['no_cache']) && $_REQUEST['no_cache'] == '1' ){ define ( '_NO_CACHE_', true ); }
+
+////////////////////////////////////////////////////////////////
+
 setlocale ( LC_ALL, 'uk_UA.CP1251' );
 mb_internal_encoding( CHARSET );
 

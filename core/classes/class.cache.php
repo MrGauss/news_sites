@@ -89,6 +89,7 @@ class cache
     {
         $name = self::get_cache_file_path( $name );
 
+        if( defined('_NO_CACHE_') ){ return false; }
         if( !file_exists($name) ){ return false; }
         if( ! ( ( filemtime($name) + 60*60*24 ) > time() ) )
         {

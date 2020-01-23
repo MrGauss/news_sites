@@ -337,6 +337,9 @@ class posts
             $ORDER['posts.posted']       = 'posts.posted ASC';
         }
 
+        $filters['limit']   = isset($filters['limit'])?$filters['limit']:$_config['posts_limit'];
+        $filters['offset']  = isset($filters['offset'])?$filters['offset']:'0';
+
         if( $SELECT && is_array($SELECT) && count($SELECT) )
         {
             foreach( $SELECT as $key => $name )
@@ -369,8 +372,6 @@ class posts
                 ( isset($filters['offset']) && $filters['limit'] ?'OFFSET '.$filters['offset'].' LIMIT '.$filters['limit'].';'."\n":'').
                 "-- OFFSET\n".
                 ($filters['uncache']?'':self::trim(QUERY_CACHABLE))."\n-- USER_ID: ".abs(intval(CURRENT_USER_ID))."\n\n";
-
-
 
         $countSQL = preg_replace( '!-- SELECT(.+?)-- SELECT!is', ' count( posts.id ) as count ', $SQL );
         $countSQL = preg_replace( '!-- OFFSET(.+?)-- OFFSET!is', '', $countSQL );

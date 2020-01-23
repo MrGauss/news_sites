@@ -4,6 +4,13 @@ if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+if( defined('_NO_CACHE_') )
+{
+    $_SERVER['REQUEST_URI'] = preg_replace( '!(\?no_cache=1|\&no_cache=1)!i', '', $_SERVER['REQUEST_URI'] );
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 $data = false;
 if( preg_match( '!^\/index\.(htm|html)$!i', $_SERVER['REQUEST_URI'], $data ) )
 {
