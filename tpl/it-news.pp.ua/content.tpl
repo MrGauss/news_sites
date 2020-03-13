@@ -32,13 +32,14 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript"></script>
-        <!-- script src="https://code.jquery.com/jquery-1.11.1.min.js"></script -->
+        <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
         <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-
-        <script src="{SKINDIR}/js/main.lib.js?ver=5.12" type="text/javascript"></script>
+        <script src="/tpl/js/main.lib.js?ver=2.0.5" type="text/javascript"></script>
 
         <link href="https://fonts.googleapis.com/css?family=Comfortaa|Ubuntu&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="{SKINDIR}/css/style.css?ver=5.12" media="screen" />
+        <link rel="stylesheet" type="text/css" href="/tpl/css/style.css?ver=2.0.5" media="screen" />
+        <link rel="stylesheet" type="text/css" href="{SKINDIR}/css/style.css?ver=2.0.5" media="screen" />
+        <link rel="stylesheet" type="text/css" href="/tpl/css/bbcode.css?ver=2.0.5" media="screen" />
     </head>
     <body>
 
@@ -66,10 +67,7 @@
                 <div class="header">
                     <ul>
                         <li><a href="/">Головна</a></li>
-                        <li><a href="/tag:Hardware/" title="Hardware">Hardware</a></li>
-                        <li><a href="/tag:Software/" title="Software">Software</a></li>
-                        <li><a href="/tag:%C2%B3%F0%F3%F1%E8/" title="&Vcy;&iukcy;&rcy;&ucy;&scy;&icy;">Віруси</a></li>
-                        <li><a href="/tag:%CD%E0%F3%EA%E0/" title="&Ncy;&acy;&ucy;&kcy;&acy;">Наука</a></li>
+                        {tagstop:tag_element:4}
                         <li><a href="/rss.xml" target="_blank">RSS</a></li>
                         <li><a rel="nofollow noreferrer" target="_blank" title="Наш канал в TELEGRAM" href="https://t.me/it_news_pp_ua">TELEGRAM</a></li>
                         <li><a href="/post/1-pro_nas.html">Про нас</a></li>
@@ -102,7 +100,7 @@
 
                 <div id="footer">
                     <div class="shortimg">
-                        {custom:10-12:tags:0:topnews_bottom}
+                        {custom:10-8:tags:0:topnews_bottom}
                         <div class="clr"></div>
                     </div>
                     <div class="bottom">З питань функціонування сайту звертайтесь за адресою admin@{DOMAIN}</div>

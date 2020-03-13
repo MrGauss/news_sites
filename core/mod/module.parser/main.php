@@ -63,6 +63,7 @@ $parser = new parser;
 
 if( DOMAIN == 'cknews.pp.ua' )
 {
+    $parser->load_from_ndekc_ck( array('Черкаський НДЕКЦ МВС України') );
     $parser->load_from_dzvin_media();
     $parser->load_from_18000_com_ua();
     $parser->load_from_shpola_otg_gov_ua();
@@ -71,37 +72,48 @@ if( DOMAIN == 'cknews.pp.ua' )
     $parser->load_from_provce_ck_ua();
     $parser->load_from_vycherpno_ck_ua();
     $parser->load_from_ridnyi_com_ua();
-
     $parser->unian_load( 'https://www.unian.ua/m/tag/cherkasi', array( 'черкаси' ) );
 
-    //
-
-    //$parser->unian_load( 'https://www.unian.ua/m/tag/seks', array( 'секс' ) );
-    //$parser->unian_load( 'https://www.unian.ua/m/health', array( 'медицина' ) );
-    //$parser->unian_load( 'https://www.unian.ua/m/tag/tserkva', array( 'церква' ) );
+    $parser->load_and_process_tags();
 }
 if( DOMAIN == 'live-in-ck.pp.ua' )  { $parser->unian_load( 'https://www.unian.ua/m/war', array( 'війна', 'ато' ) ); }
 if( DOMAIN == 'it-news.pp.ua' )
 {
+    $parser->load_from_ndekc_ck( array('Черкаський НДЕКЦ МВС України') );
+    $parser->load_from_dt_ua( 'https://dt.ua/tags/Google', array(1) );
+    $parser->unian_load( 'https://www.unian.ua/m/tag/gadjeti', array( 'девайс' ) );
+    $parser->load_from_dt_ua( 'https://dt.ua/tags/Android', array(1) );
+    $parser->unian_load( 'https://www.unian.ua/m/tag/hakeri', array( 'хакер' ) );
+    $parser->load_from_dt_ua( 'https://dt.ua/tags/Linux', array(1) );
+    $parser->unian_load( 'https://www.unian.ua/m/science', array( 'технології', 'наука' ) );
+
     $parser->load_from_pingvin_pro();
     $parser->load_from_ukr_media('https://ukr.media/science/', array( 'наука', 'технології' ));
 
     $parser->load_from_playua_net();
     $parser->load_from_cikavosti( 'https://cikavosti.com/category/tehnologiyi/', array( 'технології' ) );
-    //
 
-    $parser->unian_load( 'https://www.unian.ua/m/tag/hakeri', array( 'хакер' ) );
-    $parser->unian_load( 'https://www.unian.ua/m/tag/kosmos', array( 'космос' ) );
-    $parser->unian_load( 'https://www.unian.ua/m/science', array( 'технології', 'наука' ) );
-    $parser->unian_load( 'https://www.unian.ua/m/tag/gadjeti', array( 'девайс' ) );
+    $parser->load_and_process_tags();
 }
 
 if( DOMAIN == 'galaxy-news.pp.ua' )
 {
+    // posts::resend2telegram( 50 ); exit;
+
+    $parser->load_from_dt_ua( 'https://dt.ua/tags/SpaceX', array(1) ); 
+    $parser->load_from_ndekc_ck( array('Черкаський НДЕКЦ МВС України') );
+    $parser->unian_load( 'https://www.unian.ua/m/tag/kosmos', array( 'космос' ) );
+    $parser->load_from_korrespondent( 'https://ua.korrespondent.net/tech/space/', array() );
     $parser->load_from_dt_ua( 'https://dt.ua/tags/%D0%BA%D0%BE%D1%81%D0%BC%D0%BE%D1%81', array(1) );
+    $parser->load_from_dt_ua( 'https://dt.ua/tags/NASA', array(1) );
+
+
+    $parser->load_and_process_tags();
 }
 
-$parser->load_and_process_tags();
+
+sitemap::generate();
+
 
 exit;
 

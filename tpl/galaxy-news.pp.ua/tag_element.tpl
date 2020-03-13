@@ -1,1 +1,1 @@
-<li><a href="{tag:url}" title="{tag:name:html}">{tag:name}</a></li>
+<li><a href="{tag:url}" title="{tag:name:html} | {tag:news_count}">{tag:name}</a></li>

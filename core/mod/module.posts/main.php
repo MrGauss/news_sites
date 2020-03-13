@@ -8,21 +8,25 @@ if( !defined('GAUSS_CMS') ){ echo basename(__FILE__); exit; }
 
 $_POSTS = new posts;
 
+$_config    = config::get();
+
 $posts_count = 0;
 $skin       = 'postshort';
 $filter     = array();
-$url        = '/index.php';
+$url        = '/';
 
 // ÂÑÒÀÍÎÂËÅÍÍß Ô²ËÜÒÐ²Â ÄËß ÏÎØÓÊÓ ÏÓÁË²ÊÀÖ²É ///////////////////////////////////////////
 
 // ÂÈÂ²Ä Ò²ËÜÊÈ ÎÏÓÁË²ÊÎÂÀÍÎÃÎ //
 $filter['post.posted']  = 1;
-$filter['offset']  = _PAGE_ID;
+$filter['offset']  = _PAGE_ID * $_config['posts_limit'];
+$filter['searchTerm']  = isset($_REQUEST['searchTerm'])?common::trim($_REQUEST['searchTerm']):false;
 
-if( _CATEG_ID ){    $filter['post.categ'] = _CATEG_ID; }
-if( _TAG_ID ){      $filter['tag.id'] = _TAG_ID; }
+if( _CATEG_ID ){    $filter['post.categ']   = _CATEG_ID; }
+if( _TAG_ID ){      $filter['tag.id']       = _TAG_ID; }
 if( _POST_ID )
 {
+    $filter['searchTerm']   = false;
     $filter['post.id']      = _POST_ID;
     $skin = 'postfull';
 }
@@ -66,6 +70,8 @@ if( !_CATEG_ID && !_TAG_ID && !_POST_ID && _PAGE_ID && $posts_count )
     $url = $GLOBALS['_CATEG']->get_url( _CATEG_ID );
 }
 
+$url = $url.common::searchTermUrl();
+
 if( defined('_PAGE_ID') && _PAGE_ID > 1 )
 {
     $url = $url.'/page:'._PAGE_ID.'/';
@@ -95,7 +101,7 @@ $tpl->set( '{posts}', $tpl->result( $skin ) );
 
 if( !_POST_ID && $posts_count )
 {
-    $tpl->set( '{navbar}', common::get_pages_navbar( $url, $posts_count ) );
+    $tpl->set( '{navbar}', common::get_pages_navbar( $url, ( $posts_count > $_config['posts_limit'] ) ? ( $posts_count-$_config['posts_limit'] ) : $posts_count ) );
 }
 else
 {

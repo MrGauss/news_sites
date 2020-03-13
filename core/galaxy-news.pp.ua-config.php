@@ -4,7 +4,7 @@ return array (
   'skin' => DOMAIN,
   'title' => 'GALAXY NEWS',
   'enable_site' => '1',
-  'posts_limit' => 10,
+  'posts_limit' => 7,
   'homeurl' => '/',
   'site_descr' => 'GALAXY NEWS',
   'enable_chpu' => '1',
@@ -23,5 +23,7 @@ return array (
   'upload.image.watermark' => 0,
   'upload.file.ext' => '.doc,.pdf,.zip',
   'upload.file.encode' => 1,
+  'telegram_token' => '1132536557:AAFD74KTMArSUh80_rK1b--DZeAxC33UcWw',
+  'telegram_chat_id' => '-1001188407122',
 );
 ?>

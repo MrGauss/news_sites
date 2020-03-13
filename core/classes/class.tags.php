@@ -40,9 +40,23 @@ class tags
         return false;
     }
 
-    public final function get_tags()
+    public final function get_top_tags()
     {
-        $data = cache::get( self::CACHE_VAR_TAGS );
+        return $this->get_tags( 'posts_count', 'DESC' );
+    }
+
+    static public final function get_top_tag_id()
+    {
+        $tags = new tags;
+        $tags = $tags->get_tags( 'posts_count', 'DESC', 1 );
+        $tags = reset( $tags );
+
+        return $tags['id'];
+    }
+
+    public final function get_tags( $order = 'name', $order_dest = 'ASC', $limit = 100 )
+    {
+        $data = cache::get( self::CACHE_VAR_TAGS.'_order_'.$order.$order_dest.$limit );
 
         if( !$data || !is_array($data) || !count($data) )
         {
@@ -51,9 +65,10 @@ class tags
                     tags.id,
                     tags.name,
                     tags.altname,
-                    (SELECT count(posts_tags.post_id) FROM posts_tags WHERE posts_tags.tag_id = tags.id ) as news_count
+                    tags.posts_count as news_count
                 FROM
-                    tags WHERE id > 0 ORDER BY name;'.QUERY_CACHABLE;
+                    tags WHERE id > 0 ORDER BY '.$order.' '.$order_dest.'
+                LIMIT '.common::integer($limit).';'.QUERY_CACHABLE;
 
             $SQL = $this->db->query( $SQL );
 
@@ -63,9 +78,10 @@ class tags
                 $data[$row['id']] = self::stripslashes( $row );
                 $data[$row['id']]['name'] = self::htmlspecialchars( $data[$row['id']]['name'] );
                 $data[$row['id']]['altname'] = self::totranslit( $data[$row['id']]['altname'] );
+                $data[$row['id']]['news_count'] = self::integer( $data[$row['id']]['news_count'] );
             }
             $this->db->free( $SQL );
-            cache::set( self::CACHE_VAR_TAGS, $data );
+            cache::set( self::CACHE_VAR_TAGS.'_order_'.$order.$order_dest.$limit, $data );
         }
 
         return $data;

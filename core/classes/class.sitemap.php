@@ -120,7 +120,8 @@ class sitemap
 
     static public final function rss()
     {
-        $_cache_var = 'posts-rss';
+        $N = 50;
+        $_cache_var = 'posts-rss-'.$N;
         $skin = cache::get( $_cache_var );
 
         if( $skin ){ return $skin; }
@@ -128,7 +129,7 @@ class sitemap
         $skin = false;
 
         $posts = new posts;
-        $data = $posts->get( array( 'offset' => 0, 'limit' => 10, 'post.posted' => 1 ) );
+        $data = $posts->get( array( 'offset' => 0, 'limit' => $N, 'post.posted' => 1 ) );
 
         $_config    = config::get();
 

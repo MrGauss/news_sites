@@ -12,8 +12,8 @@
         <meta name="description" content="{title}">
         <meta name="keywords" content="Новини, ЧЕркаси">
         <meta name="application-name" content="MrGauss CMS">
-        <meta name="google-site-verification" content="RE5sWBnQ2kuLU7jopEtZ7E-Whr_GyEePDfOfIbi-gZg" />
-        <meta name="telegram:channel" content="@cknewsppua">
+        <meta name="google-site-verification" content="f-NhXXr4a44MOjq3Q21n3-Bptb-oPC_V7noR843a458" />
+        <meta name="telegram:channel" content="@ua_galaxy_news">
 
         <meta property="og:image"     content="{og:image}" />
         <meta property="og:title"     content="{title}" />
@@ -31,13 +31,16 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript"></script>
-        <script src="{SKINDIR}/js/main.lib.js" type="text/javascript"></script>
+        <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <script src="/tpl/js/main.lib.js?ver=2.0.5" type="text/javascript"></script>
 
         <link href="https://fonts.googleapis.com/css?family=Comfortaa|Ubuntu&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="{SKINDIR}/css/style.css?ver={RAND}" media="screen" />
+        <link rel="stylesheet" type="text/css" href="/tpl/css/style.css?ver=2.0.5" media="screen" />
+        <link rel="stylesheet" type="text/css" href="{SKINDIR}/css/style.css?ver=2.0.5" media="screen" />
+        <link rel="stylesheet" type="text/css" href="/tpl/css/bbcode.css?ver=2.0.5" media="screen" />
     </head>
-    <body>
-
+    <body data-area="{AREA}">
         <div id="page">
             <div id="leftside">
                 <div class="header">
@@ -60,33 +63,35 @@
                 <div class="header">
                     <ul>
                         <li><a href="/">Головна</a></li>
-                        <li><a rel="nofollow noreferrer" target="_blank" title="Наш канал в TELEGRAM" href="https://t.me/cknewsppua">TELEGRAM</a></li>
+                        {tagstop:tag_element:4}
+                        <li><a rel="nofollow noreferrer" target="_blank" title="Наш канал в TELEGRAM" href="https://t.me/ua_galaxy_news">TELEGRAM</a></li>
                         <li><a href="/rss.xml" target="_blank">RSS</a></li>
                     </ul>
                     <div class="clr"></div>
                 </div>
                 [notarea:fullpost]
                 <div class="articles">
-                    <h2>Новини Черкащини</h2>
+                    <h2>Останні публікації</h2>
+                    <div class="header_top" data-tag="{TAG_ID}">{custom:{{7*{PAGE_ID}}+7}-6:tags:{TAG_ID}:mainbox_top}<div class="clr"></div></div>
                     {global:posts}
                 </div>
                 <div class="right_top">
-                    <h2>Райони</h2>             <div class="right_side_img">{custom:0-2:tags:6:topnews_bottom}</div><ul>{custom:2-2:tags:6:topnews}</ul>
-                    <h2>Економіка</h2>          <div class="right_side_img">{custom:0-1:tags:15:topnews_bottom}</div><ul>{custom:1-2:tags:15:topnews}</ul>
-                    <h2>Політика</h2>           <div class="right_side_img">{custom:0-2:tags:11:topnews_bottom}</div><ul>{custom:2-2:tags:11:topnews}</ul>
-                    <h2>Освіта та культура</h2> <div class="right_side_img">{custom:0-1:tags:3,13:topnews_bottom}</div><ul>{custom:1-2:tags:3,13:topnews}</ul>
+                    <h2>NASA</h2>               <div class="right_side_img">{custom:0-2:tags:31:topnews_bottom}</div><ul>{custom:2-2:tags:31:topnews}</ul>
+                    <h2>SpaceX</h2>             <div class="right_side_img">{custom:0-1:tags:30:topnews_bottom}</div><ul>{custom:1-2:tags:30:topnews}</ul>
+                    <h2>Планети</h2>            <div class="right_side_img">{custom:0-2:tags:32:topnews_bottom}</div><ul>{custom:2-2:tags:32:topnews}</ul>
+                    <h2>Астрономія</h2>         <div class="right_side_img">{custom:0-1:tags:28:topnews_bottom}</div><ul>{custom:1-2:tags:28:topnews}</ul>
                 </div>
                 [/notarea]
 
                 [area:fullpost]
                     {global:posts}
-                [/area]
+                [/area:fullpost]
 
                 <div class="clr"></div>
 
                 <div id="footer">
                     <div class="shortimg">
-                        {custom:10-12:tags:0:topnews_bottom}
+                        {custom:10-8:tags:0:topnews_bottom}
                         <div class="clr"></div>
                     </div>
                     <div class="bottom">З питань функціонування сайту звертайтесь за адресою admin@{DOMAIN}</div>

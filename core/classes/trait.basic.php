@@ -150,10 +150,34 @@
 			return md5($data . CMS_KEY);
 		}
 
-		/**
-		 * @param $data
-		 * @return array|string
-		 */
+		static public final function rawurldecode($data)
+		{
+			if (!is_scalar($data) && !is_array($data))
+			{
+				self::err('' . __CLASS__ . '::' . __METHOD__ . ' accepts string or array only!');
+			}
+			if (is_array($data))
+			{
+				return array_map('self::' . __METHOD__, $data);
+			}
+
+			return rawurldecode($data);
+		}
+
+		static public final function rawurlencode($data)
+		{
+			if (!is_scalar($data) && !is_array($data))
+			{
+				self::err('' . __CLASS__ . '::' . __METHOD__ . ' accepts string or array only!');
+			}
+			if (is_array($data))
+			{
+				return array_map('self::' . __METHOD__, $data);
+			}
+
+			return rawurlencode($data);
+		}
+
 		static public final function md5_file($data)
 		{
 			if (!is_scalar($data) && !is_array($data))
@@ -723,18 +747,23 @@
                 return 'Other (Unknown)';
         }
 
+        static public final function searchTermUrl( $text = false )
+        {
+            if( !$text && defined( '_SEARCH' ) ){ $text = _SEARCH; }
+
+            if( $text && strlen($text) >= 3 )
+            {
+                $text = self::win2utf( $text );
+                $text = self::rawurlencode( $text );
+                return 'search:'.$text.'/';
+            }
+            return '';
+        }
+
         static public final function telegram_make_mesage( $message )
         {
             $_config    = config::get();
-/*
-$tphoto = $tphoto?'<a href="'.$tphoto.'">&#8205;</a>':'';
 
-$telegram =
-    $tphoto
-    .'<b>'.$params['title'].'</b>'
-    ."\n\n".$params['message']
-    ."\n\n".'<a href="'.$params['link'].'">Черкаський НДЕНКЦ МВС України</a>';
-*/
         }
 
         static public final function telegram_send( $message )

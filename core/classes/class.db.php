@@ -90,8 +90,8 @@ class db
 
     public final function log( $query )
     {
-        $line = date('Y.m.d H:i:s').':'."\n".str_repeat('-',32)."\n".$query."\n".str_repeat('-',32)."\n";
-        self::write_file( CACHE_DIR.DS.DOMAIN.'-sql.log', $line, true );
+        // $line = date('Y.m.d H:i:s').':'."\n".str_repeat('-',32)."\n".$query."\n".str_repeat('-',32)."\n";
+        // self::write_file( CACHE_DIR.DS.DOMAIN.'-sql.log', $line, true );
     }
 
     public final function query( $SQL )

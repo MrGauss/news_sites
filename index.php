@@ -43,7 +43,7 @@ define ( 'TPL_DIR',         ROOT_DIR.DS.'tpl' );
 define ( 'UPL_DIR',         ROOT_DIR.DS.'uploads' );
 define ( 'USER_IP',         isset($_SERVER['HTTP_CF_CONNECTING_IP'])?$_SERVER['HTTP_CF_CONNECTING_IP']:$_SERVER['REMOTE_ADDR'] );
 define ( 'CHARSET',         'Windows-1251' /*'CP1251'*/ );
-define ( 'CACHE_TYPE',      'FILE' /*MEM | FILE*/ );
+define ( 'CACHE_TYPE',      'FILE' );
 
 ////////////////////////////////////////////////////////////////
 

@@ -525,7 +525,7 @@
 			}
 
 			$SQL = 'INSERT INTO images ("' . implode('", "', array_keys($_2db)) . '") VALUES (\'' . implode('\', \'', array_values($_2db)) . '\');';
-
+ 
 			$_cl->db->query($SQL);
 			$_cl->db->free();
 			$_cl = false;

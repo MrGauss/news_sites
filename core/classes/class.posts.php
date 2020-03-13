@@ -171,6 +171,78 @@ class posts
       return $_ID;
     }
 
+    static public final function resend2telegram( $count )
+    {
+        $count = common::integer( $count );
+
+        if( !$count ){ return false; }
+
+        $_posts = new posts;
+
+        $filter = array();
+        $filter['limit'] = $count;
+        $filter['post.posted'] = true;
+        $filter['post.tg_posted'] = false;
+        $filter['order'] = array();
+        $filter['order']['posts.created_time'] = 'posts.created_time ASC';
+        $filter['order']['posts.fixed']        = 'posts.fixed ASC';
+        $filter['order']['posts.posted']       = 'posts.posted DESC';
+
+        foreach( $_posts->get( $filter ) as $_curr_post )
+        {
+            $_ID = common::integer( $_curr_post['post']['id'] );
+
+            if( !preg_match( '!src=\"\/(\S+(jpeg|jpg|png))\"!i', $_curr_post['post']['full_post'], $tphoto ) ){ continue; }
+            $tphoto = isset($tphoto[1]) ? $tphoto[1] : false;
+
+              if( $tphoto && isset($_curr_post['post']) && file_exists( ROOT_DIR.DS.$tphoto ) && !intval( $_curr_post['post']['repost_tg'] ) )
+              {
+                  $_config    = config::get();
+                  $_curr_post['post']['short_post'] = strip_tags(common::stripslashes( common::htmlspecialchars_decode( common::stripslashes( common::stripslashes( common::html_entity_decode( common::stripslashes( $_curr_post['post']['short_post']) ) )) ) ));
+                  $_curr_post['post']['title']      = common::stripslashes( common::htmlspecialchars_decode( common::stripslashes( common::stripslashes( common::html_entity_decode( common::stripslashes( strip_tags( $_curr_post['post']['title'] ) ) ) )) ) );
+
+                  $post = $_curr_post['post']['short_post'];
+                  if( strlen($post) > 600 )
+                  {
+                      $post = substr( $post, 0, 600 ).'...';
+                  }
+
+                  if( strlen($_curr_post['post']['short_post']) > 800 )
+                  {
+                      $_curr_post['post']['short_post'] = substr( $_curr_post['post']['short_post'], 0, 800 ).'...';
+                  }
+
+                  if( strlen($_curr_post['post']['title']) > 200 )
+                  {
+                      $_curr_post['post']['title'] = substr( $_curr_post['post']['title'], 0, 200 ).'...';
+                  }
+
+                  //common::telegram_send_photo( ROOT_DIR.DS.$tphoto, $_curr_post['post']['title'] );
+
+                  $link = SCHEME.'://'.DOMAIN.$_posts->get_url( $_curr_post );
+
+                  $tme = 'https://t.me/iv?url='.trim($link).'&rhash=a2ccd40756e9eb';
+
+                  $tphoto = $tphoto?'<a href="'.HOMEURL.$tphoto.'">&#8205;</a>':'';
+
+                  $telegram =
+                    $tphoto
+                    .'<b>'.$_curr_post['post']['title'].'</b>'
+                    ."\n\n".$_curr_post['post']['short_post']
+                    ."\n\n".'<a href="'.$link.'">'.$_config['title'].'</a>';
+
+                  common::telegram_send( $telegram );
+
+                  $_posts->db->query( 'UPDATE posts SET repost_tg=1 WHERE id=\''.$_ID.'\';' );
+
+                  echo $_ID." - ".$_curr_post['post']['title']."\n";
+              }
+        }
+
+        cache::clean( self::CACHE_VAR_POSTS );
+        return true;
+    }
+
     public final function listposts_html( $data = array(), &$tpl = false /*OBJECT*/, $skin = 'post_list' )
     {
       foreach( $data as $post_id => $value )
@@ -224,6 +296,7 @@ class posts
         if( !is_array($filters) ){ $filters = array(); }
 
         $_config    = config::get();
+        $_categories = categ::get();
 
         if( isset($filters['offset']) )
         {
@@ -236,7 +309,7 @@ class posts
         }
 
         $filters['nullpost']    = self::integer( (isset($filters['nullpost'])?$filters['nullpost']:0) ) ? true : false;
-        $filters['offset']      = self::integer( (isset($filters['offset'])?$filters['offset']*$_config['posts_limit']:0) );
+        $filters['offset']      = self::integer( (isset($filters['offset'])?$filters['offset']:0) );
         $filters['limit']       = self::integer( (isset($filters['limit'])?$filters['limit']:$_config['posts_limit']) );
         $filters['uncache']     = self::integer( (isset($filters['uncache'])?$filters['uncache']:false) )? true : false;
         $filters['post.categ']  = self::integer( (isset($filters['post.categ'])?$filters['post.categ']:false) );
@@ -245,6 +318,14 @@ class posts
         $filters['post.posted'] = self::integer( (isset($filters['post.posted'])?$filters['post.posted']:false) );
         $filters['post.fixed']  = self::integer( (isset($filters['post.fixed'])?$filters['post.fixed']:false) );
         $filters['post.static'] = self::integer( (isset($filters['post.static'])?$filters['post.static']:false) );
+        $filters['order']       = self::filter( ( ( isset($filters['order']) && is_array($filters['order']) && count($filters['order']) ) ?$filters['order']:false) );
+        $filters['searchTerm']  = isset($filters['searchTerm'])?self::filter(self::trim($filters['searchTerm'])):false;
+
+        if( isset($filters['post.tg_posted']) )
+        {
+            $filters['post.tg_posted'] = self::integer( $filters['post.tg_posted'] )?true:false;
+        }
+
 
         /////////////////
         if( $filters['nullpost'] )
@@ -257,6 +338,7 @@ class posts
           $filters['post.fixed'] = false;
           $filters['post.static'] = false;
           $filters['tag.id'] = false;
+          unset($filters['post.tg_posted']);
         }
         /////////////////
 
@@ -279,23 +361,26 @@ class posts
         $SELECT['posts.full_post']       = 'post.full_post';
         $SELECT['posts.repost_tg']       = 'post.repost_tg';
 
-        $SELECT['categ.id']              = 'categ.id';
-        $SELECT['categ.altname']         = 'categ.altname';
-        $SELECT['categ.name']            = 'categ.name';
+        $SELECT['posts.category']        = 'posts.category';
 
         $SELECT['usr.login']             = 'usr.login';
         $SELECT['usr.email']             = 'usr.email';
 
         $FROM['posts']       = 'posts';
-        $FROM['categories']  = 'LEFT JOIN categories as categ ON ( categ.id = posts.category ) -- JOIN';
+        // $FROM['categories']  = 'LEFT JOIN categories as categ ON ( categ.id = posts.category ) -- JOIN';
         // $FROM['posts_tags']  = 'LEFT JOIN posts_tags as ptags ON ( ptags.post_id = posts.id AND ptags.tag_id > 0 ) -- JOIN';
         $FROM['users']       = 'LEFT JOIN users as usr ON ( usr.id = posts.author_id ) -- JOIN';
 
+        if( strlen($filters['searchTerm']) >=3 )
+        {
+            $WHERE['svector'] = 'posts.svector @@ plainto_tsquery(\''.$this->db->safesql($filters['searchTerm']).'\')';
+        }
+
         if( !$filters['nullpost'] )
         {
-          $WHERE['posts.id'] = 'posts.id > 0';
-          $WHERE['categ.id'] = 'categ.id > 0';
-          $WHERE['posts.created_time'] = 'posts.created_time <= ( NOW() + interval \'1 year\' )';
+          $WHERE['posts.id']            = 'posts.id > 0';
+          $WHERE['posts.category']      = 'posts.category > 0';
+          $WHERE['posts.created_time']  = 'posts.created_time <= ( NOW() + interval \'1 year\' )';
 
           if( $filters['post.posted'] ){ $WHERE['post.posted'] = 'posts.posted = '.$filters['post.posted']; }
         }
@@ -306,7 +391,12 @@ class posts
 
         if( $filters['post.categ'] > 0 )
         {
-            $WHERE['categ.id'] = 'categ.id = '.$filters['post.categ'];
+            $WHERE['posts.category'] = 'posts.category = '.$filters['post.categ'];
+        }
+
+        if( isset($filters['post.tg_posted']) )
+        {
+            $WHERE['posts.repost_tg'] = 'posts.repost_tg = \''.common::integer($filters['post.tg_posted']).'\'::int2';
         }
 
         if( $filters['post.id'] > 0 )
@@ -332,9 +422,17 @@ class posts
         }
         else
         {
-            $ORDER['posts.created_time'] = 'posts.created_time DESC';
-            $ORDER['posts.fixed']        = 'posts.fixed DESC';
-            $ORDER['posts.posted']       = 'posts.posted ASC';
+            if( !$filters['order'] )
+            {
+                $ORDER['posts.created_time'] = 'posts.created_time DESC';
+                $ORDER['posts.fixed']        = 'posts.fixed DESC';
+                $ORDER['posts.posted']       = 'posts.posted ASC';
+            }
+            else
+            {
+                $ORDER = $this->db->safesql( $filters['order'] );
+            }
+
         }
 
         $filters['limit']   = isset($filters['limit'])?$filters['limit']:$_config['posts_limit'];
@@ -373,6 +471,8 @@ class posts
                 "-- OFFSET\n".
                 ($filters['uncache']?'':self::trim(QUERY_CACHABLE))."\n-- USER_ID: ".abs(intval(CURRENT_USER_ID))."\n\n";
 
+        //echo $SQL;
+
         $countSQL = preg_replace( '!-- SELECT(.+?)-- SELECT!is', ' count( posts.id ) as count ', $SQL );
         $countSQL = preg_replace( '!-- OFFSET(.+?)-- OFFSET!is', '', $countSQL );
         $countSQL = preg_replace( '!(OFFSET|LIMIT)(\s+?)(\d+)!is', '', $countSQL );
@@ -402,6 +502,14 @@ class posts
 
             while( $row = $this->db->get_row($SQL) )
             {
+                // $_categories
+                $row['posts.category']  = common::integer( $row['posts.category'] );
+                $row['categ.id']        = common::integer( $row['posts.category'] );
+                $row['categ.altname']   = common::trim( $_categories[$row['categ.id']]['altname'] );
+                $row['categ.name']      = common::trim( $_categories[$row['categ.id']]['name'] );
+
+                // var_export($_categories);exit;
+
                 $row['post.created_time'] = self::en_date( $row['post.created_time'], 'Y-m-d H:i:s' );
                 $data['rows'][$row['post.id']] = array();
                 foreach( $row as $k => $v )

@@ -74,6 +74,16 @@ define( '_TAG_ID', intval( $data ) );
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 $data = false;
+if( preg_match( '!\/search:(.+?)\/!i', $_SERVER['REQUEST_URI'], $data ) )
+{
+    $_REQUEST['mod'] =  'posts';
+    $_REQUEST['searchTerm'] = isset($data[1])? common::strtolower( common::utf2win(common::rawurldecode($data[1])) ) : false;
+}
+define( '_SEARCH', isset($_REQUEST['searchTerm'])?$_REQUEST['searchTerm']:false );
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+$data = false;
 if( preg_match( '!\/(\d+)-(\w+)\.html$!i', $_SERVER['REQUEST_URI'], $data ) )
 {
     $_REQUEST['mod'] =  'posts';

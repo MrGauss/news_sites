@@ -26,6 +26,276 @@ if( !class_exists( 'posts' ) ){ require( CLASSES_DIR.DS.'class.posts.php' ); }
 // https://www.unn.com.ua/rss/news_tech_uk.xml
 // https://dt.ua/TECHNOLOGIES
 
+https://ua.korrespondent.net/tech/space/
+
+trait tr_ndekc_ck
+{
+    public final function load_from_ndekc_ck( $tags = array() )
+    {
+        if( !defined('NEWS_PARSER_USER_ID') )
+        {
+            define( 'NEWS_PARSER_USER_ID', 1 );
+        }
+        $categ_link = 'https://ndekc.ck.ua/index.php?do=export';
+
+        $data = $this->curl( $categ_link );
+        echo "\nLOAD: ".$categ_link."\n";
+        if( $this->HTTP_STATUS != 200 ){ echo "\tHTTP ERROR! (".$this->HTTP_STATUS.")\n"; return false; }
+
+        $data = unserialize($data);
+
+        foreach( $data as $post_id=>$post )
+        {
+            $post['domain'] = 'ndekc.ck.ua';
+            $SAVE_IMAGES = array();
+            foreach( $post as $k => $v ){ $post[$k] = base64_decode( base64_decode( $v ) ); }
+
+            $post['full_story'] = explode( "\n", $post['full_story'] );
+            foreach( $post['full_story'] as $k => $v )
+            {
+                $post['full_story'][$k] = common::trim( $v );
+                $post['full_story'][$k] = common::strip_tags( $v );
+                if( strlen($post['full_story'][$k]) < 3 ){ unset($post['full_story'][$k]); }
+            }
+            $post['full_story'] = implode( "\n", $post['full_story'] );
+
+            //$post['full_story'] = str_replace( "\n", "\r\n", $post['full_story'] );
+            $post['full_story'] = preg_replace( '!\[center\]!i', '[p=center]', $post['full_story'] );
+            $post['full_story'] = preg_replace( '!\[\/center\]!i', '[/p]', $post['full_story'] );
+            $post['full_story'] = preg_replace( '!\[(ul|list)\]!i', '<ul>', $post['full_story'] );
+            $post['full_story'] = preg_replace( '!\[\/(ul|list)\]!i', '</ul>', $post['full_story'] );
+            $post['full_story'] = preg_replace( '!\[\/ol\]!i', '</ol>', $post['full_story'] );
+            $post['full_story'] = preg_replace( '!\[ol(.+?|)\]!i', '<ol>', $post['full_story'] );
+
+            $post['full_story'] = preg_replace( '!\[url=(\S+?)\|(.+?)\](.+?)\[\/url\]!i', '<a rel="nofollow noreferrer" target="_blank" href="$1" title="$2">$3</a>', $post['full_story'] );
+            $post['full_story'] = preg_replace( '!\[url=(\S+?)\](.+?)\[\/url\]!i', '<a rel="nofollow noreferrer" target="_blank" href="$1">$2</a>', $post['full_story'] );
+
+            $post['full_story'] = explode( "\n", $post['full_story'] );
+            foreach( $post['full_story'] as $k => $v )
+            {
+                $post['full_story'][$k] = common::trim( $v );
+                $post['full_story'][$k] = preg_replace( '!^\[\*\](.+?)$!is', '<li>$1</li>', $post['full_story'][$k] );
+            }
+            $post['full_story'] = implode( "\n", $post['full_story'] );
+
+            if( strlen($post['full_story']) < 250 ){ echo "VERY SHORT! ".$post['title']."\n"; continue; }
+
+            $SQL = 'SELECT count(id) FROM posts WHERE comment LIKE \''.$this->db->safesql($post['url']).'%\' OR title =\''.$this->db->safesql( $post['title'] ).'\' ;';
+            if( $this->db->super_query( $SQL )['count'] > 0 ){ echo "DUBLICATE! ".$post['title']."\n"; continue; }
+
+            $post['tags'] = common::trim( explode( ',', $post['tags'] ) );
+
+            if( preg_match_all( '!\[img\](.+?)\[\/img\]!i', $post['full_story'], $images ) )
+            {
+                $images = isset($images[1])?$images[1]:array();
+
+                foreach( $images as $im_id => $remote_image )
+                {
+                    $link = 'https://ndekc.ck.ua'.$remote_image;
+                    $link = common::win2utf( $link );
+                    $img_name = explode( '/', $link );
+                    $img_name = common::strtolower( end( $img_name ) );
+                    $img_ext = explode( '.', $img_name );  $img_ext = end( $img_ext );
+
+                    $image = UPL_DIR.DS.'images'.DS.date('Y-m-d').DS.$img_name;
+
+                    if( !is_dir( dirname($image) ) )
+                    {
+                        mkdir( dirname($image), 0777 );
+                        chmod( dirname($image), 0777 );
+                    }
+
+                    if( file_exists($image) ){ unlink($image); }
+
+                    $this->UTF2WIN = false;
+
+                    file_put_contents( $image, $this->curl( $link ) );
+
+                    echo "\t\tDownload image: ".$link."\n";
+                    echo "\t\t\tto: ".$image."\n";
+                    if( $this->HTTP_STATUS != 200 ){ echo "\t\t\t\tWRONG[HTTP]!"."\n"; continue; }
+                    if( !file_exists($image) )     { echo "\t\t\t\tWRONG!"."\n"; continue; }
+                    $image_post = str_replace( ROOT_DIR, '', $image );
+                    $image_post = preg_replace( '!\.('.$img_ext.')$!i', '.png', $image_post );
+
+                    $post['full_story'] = str_replace( $remote_image, $image_post, $post['full_story'] );
+
+                    chmod( $image, 0666 );
+
+                    $file = array();
+                    $file['status'] = 1;
+                    $file['error'] = false;
+                    $file['filename'] = $image;
+
+                    $file = images::_upload_process( $file, config::get() );
+                    unset( $file );
+
+                    $image = preg_replace( '!\.('.$img_ext.')$!i', '.png', $image );
+
+                    $SAVE_IMAGES[] = $image;
+
+                }
+            }
+            $data[$post_id] = $post;
+
+
+            $ins2db = array();
+            $ins2db['post:id']          = 0;
+            $ins2db['categ:id']         = 1;
+
+            $ins2db['post:posted']      = 1;
+            $ins2db['post:fixed']       = 0;
+            $ins2db['post:static']      = 0;
+
+            $ins2db['post:alt_title']   = md5($data[$post_id]['url']);
+            $ins2db['post:title']       = $data[$post_id]['title'];
+            $ins2db['post:descr']       = $data[$post_id]['title'];
+            $ins2db['post:short_post']  = preg_replace( '!(\s+)!', ' ', strip_tags( bbcode::bbcode2html( $data[$post_id]['full_story'] ) ) );
+            $ins2db['post:full_post']   = $data[$post_id]['full_story'].'<div class="source">[right]<a rel="nofollow noreferrer" href="'.$data[$post_id]['url'].'" target="_blank">За матеріалами "ndekc.ck.ua"</a>[/right]</div>';
+            $ins2db['post:keywords']    = implode(',', array_merge( $data[$post_id]['tags'], $tags ));
+            $ins2db['post:comment']     = $data[$post_id]['url']."\n".$data[$post_id]['category']."\n".str_replace( ROOT_DIR, '', implode('%%%',$SAVE_IMAGES) );
+            $ins2db['post:created_time']= date('Y-m-d H:i:s', strtotime($data[$post_id]['date']) );
+
+            foreach( $ins2db as $k=>$v ){ $ins2db[$k] = self::filter_utf8( $v ); }
+            $_posts = new posts;
+
+            $_id = $_posts->save( $ins2db );
+
+            $this->process_tags( $data[$post_id]['category'], $_id );
+
+            foreach( $SAVE_IMAGES as $image )
+            {
+                $SQL = 'UPDATE images SET post_id=' . $_id . ' WHERE md5=\''.md5_file($image).'\' AND post_id=0;';
+                $this->db->query( $SQL );
+            }
+
+            cache::clean();
+        }
+
+    }
+}
+
+trait tr_korrespondent
+{
+    // https://ua.korrespondent.net/tech/space/
+    public final function load_from_korrespondent( $categ_link, $tags = array() )
+    {
+        $N = 15;
+        $I = 0;
+        $this->AGENT = 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1';
+        $data = $this->curl( $categ_link );
+        echo "\n\nLOAD: ".$categ_link."\n";
+        if( $this->HTTP_STATUS != 200 ){ echo "\tHTTP ERROR! (".$this->HTTP_STATUS.")\n"; return false; }
+
+        $data = preg_replace( '!<(script|style|noscript)(.+?)(\1)>!is', '', $data );
+        $data = preg_replace( '!<\!--(.+?)-->!is', '', $data );
+        $data = preg_replace( '!src=\"data(\S+?)\"!is', '', $data );
+
+        $data = explode( '</h1>', $data, 2 ); $data = end( $data );
+
+        preg_match_all( '!href=\"('.str_replace( '/', '\/', $categ_link ).'(\d+?)-(\S+?))\"!is', $data, $data );
+        $data = isset($data[1])?$data[1]:array();
+
+        $data = array_unique( $data );
+
+        shuffle( $data );
+        //$data = array( 'https://ua.korrespondent.net/tech/space/4190888-znaidena-ultramasyvna-mertva-halaktyka' );
+
+        foreach( $data as $k => $article )
+        {
+            unset( $data[$k] );
+            $article = array( 'link' => $article );
+
+            $SQL = 'SELECT count(id) FROM posts WHERE comment LIKE \''.$this->db->safesql($article['link']).'%\';';
+            if( $this->db->super_query( $SQL )['count'] > 0 ){ echo "DUBLICATE! ".$article['link']."\n"; continue; }
+
+            $article['page'] = $this->curl( $article['link'] );
+            if( $this->HTTP_STATUS != 200 ){ continue; }
+
+            $article = common::html_entity_decode( $article );
+            $article = common::htmlspecialchars_decode( $article );
+            $article = common::stripslashes( $article );
+            $article = common::trim( $article );
+            $article = common::html_entity_decode( $article );
+
+            $article['page'] = preg_replace( '!<(script|style|noscript)(.+?)(\1)>!is', '', $article['page'] );
+            $article['page'] = preg_replace( '!<\!--(.+?)-->!is', '', $article['page'] );
+            $article['page'] = preg_replace( '!src=\"data(\S+?)\"!is', '', $article['page'] );
+            $article['page'] = preg_replace( '!style=\"(.+?)\"!is', 'style', $article['page'] );
+
+            if( !preg_match( '!<h1(.+?)>(.+?)<\/h1>!i', $article['page'], $article['title'] ) ){ continue; }
+            $article['title'] = strip_tags( $article['title'][2] );
+
+            $SQL = 'SELECT count(id) FROM posts WHERE title =\''.$this->db->safesql( $article['title'] ).'\' ;';
+            if( $this->db->super_query( $SQL )['count'] > 0 ){ echo "DUBLICATE! ".$article['title']."\n"; continue; }
+
+            $article['page'] = explode( '</h1>', $article['page'], 2 ); $article['page']= end( $article['page'] );
+            $article['page'] = explode( '<div class="error-report">', $article['page'] ); $article['page']= reset( $article['page'] );
+
+            if( !preg_match_all( '!<a href=\"http(.+?)\/tag\/(\d+?)\/\">(.+?)<\/a>!i', $article['page'], $article['keywords'] ) ){ continue; }
+            $article['category'] = $article['keywords'] = $article['keywords'] = implode(', ', array_unique( common::strip_tags( $article['keywords'][3] ) ) );
+
+            $article['images'] = array();
+            if( preg_match_all( '!src=\"((http|https):\/\/(\S+?)\.(jpg|jpeg|png))\"!i', $article['page'], $article['images'] ) )
+            {
+                $article['images'] = array_unique($article['images'][1]);
+            }
+            if( !count($article['images']) ){ continue; }
+
+            $article['page'] = preg_replace( '!<span style(.+?)span>!is', '', $article['page'] );
+
+            $article['page'] = explode( '"post-item__text"', $article['page'], 2 ); $article['page']= '<div'.end( $article['page'] );
+            $article['page'] = preg_replace( '!<(script|style|noscript|blockquote)(.+?)<\/(\1)>!i', '', $article['page'] );
+            $article['page'] = preg_replace( '!<(blockquote)(.+?)(\1)>!is', '', $article['page'] );
+
+            $article['youtube'] = array();
+            preg_match_all( '!src=\"(\S+?)(youtube\.com\/embed\/(\S+?))\"!i', $article['page'], $article['youtube'] );
+            $article['youtube'] = isset($article['youtube'][2])?$article['youtube'][2]:array();
+
+            if( count($article['youtube']) )
+            {
+                foreach( $article['youtube'] as $k => $v ){ $article['youtube'][$k] = 'https://www.'.$v; }
+            }
+
+            $article['page'] = preg_replace( '!<(iframe)(.+?)(\1)>!is', '', $article['page'] );
+
+            $article['page'] = preg_replace( '!<(a)(.+?)\/t\.me\/(.+?)(\1)>!i', '', $article['page'] );
+
+            $article['page'] = explode( '"post-item__social"', $article['page'], 2 ); $article['page']= ''.reset( $article['page'] ).'>';
+            $article['page'] = explode( 'post-item__tags', $article['page'], 2 ); $article['page']= ''.reset( $article['page'] ).'asd">';
+
+
+            $article['page'] = explode( '/t.me/', $article['page'] );           $article['page']= ''.reset( $article['page'] ).'">';
+            $article['page'] = preg_replace( '!<em(.+?)<span(.+?)<strong(.+?)em><!i', "<", $article['page'] );
+            $article['page'] = preg_replace( '!<em(\s+?|)(style|)(.+?)em><!i', "<", $article['page'] );
+            $article['page'] = preg_replace( '!<em(.+?)Telegram(.+?)em>!i', "", $article['page'] );
+
+            //var_export($article['page']);exit;
+
+            $article['page'] = preg_replace( '!(\n{1,})!i', "\n", $article['page'] );
+
+            //echo "\n\n\n\n\n\n"; var_export($article['page']); echo "\n\n\n\n\n\n";
+
+            $article['page'] = strip_tags( $article['page'] );
+            $article['page'] = explode( "\n", $article['page'] );
+            foreach( $article['page'] as $l => $p )
+            {
+                $article['page'][$l] = preg_replace( '!(\s+)!i', ' ', $p );
+                $article['page'][$l] = common::trim( $article['page'][$l] );
+                if( strlen($article['page'][$l]) < 10 ){ unset( $article['page'][$l] ); continue; }
+                $article['page'][$l] = '[p]'.$article['page'][$l].'[/p]';
+            }
+            $article['page'] = implode( "\n", $article['page'] );
+            $article['domain'] = 'ua.korrespondent.net';
+
+            echo "ADDED: ".$this->save_post( $article )."\n";
+
+            $I++;
+            if( $I > $N ){ break; }
+        }
+    }
+}
+
 trait tr_ukr_media
 {
     // https://ukr.media/science/
@@ -38,7 +308,7 @@ trait tr_ukr_media
 
         echo "\n\nLOAD: ".$categ_link."\n";
 
-        if( $this->HTTP_STATUS != 200 ){ echo "\tHTTP ERROR!\n"; return false; }
+        if( $this->HTTP_STATUS != 200 ){ echo "\tHTTP ERROR! (".$this->HTTP_STATUS.")\n"; return false; }
 
         $data = preg_replace( '!<(script|style|noscript)(.+?)(\1)>!is', '', $data );
         $data = preg_replace( '!<\!--(.+?)-->!is', '', $data );
@@ -88,6 +358,8 @@ trait tr_ukr_media
             if( !preg_match( '!<div(.+?)gtegs(.+?)div>!i', $article['page'], $article['keywords'] ) ){ continue; }
             $article['keywords'] = implode(', ', common::trim(explode("\n",trim( strip_tags( preg_replace('!<a!i',"\n".'$0',$article['keywords'][0]) ) ))) );
 
+            $article['page'] = preg_replace( '!<(blockquote)(.+?)(\1)>!is', '', $article['page'] );
+
             $article['page'] = explode( 'class="gtegs', $article['page'], 2 ); $article['page'] = reset( $article['page'] ).'>';
 
             $article = common::html_entity_decode( $article );
@@ -133,7 +405,7 @@ trait tr_cikavosti
 
         echo "\n\nLOAD: ".$categ_link."\n";
 
-        if( $this->HTTP_STATUS != 200 ){ echo "\tHTTP ERROR!\n"; return false; }
+        if( $this->HTTP_STATUS != 200 ){ echo "\tHTTP ERROR! (".$this->HTTP_STATUS.")\n"; return false; }
 
         $data = preg_replace( '!<(script|style)(.+?)(\1)>!is', '', $data );
         $data = preg_replace( '!<\!--(.+?)-->!is', '', $data );
@@ -169,6 +441,8 @@ trait tr_cikavosti
 
             $article['page'] = preg_replace( '!<(script|style)(.+?)(\1)>!is', '', $article['page'] );
             $article['page'] = preg_replace( '!<\!--(.+?)-->!is', '', $article['page'] );
+
+            $article['page'] = preg_replace( '!<(blockquote)(.+?)(\1)>!is', '', $article['page'] );
 
             $article['images'] = array();
 
@@ -241,6 +515,8 @@ trait tr_provce_ck_ua
         $data['page'] = explode( '<div class="flexbox np-wrap">', $data['page'], 2 );
         $data['page'] = reset( $data['page'] );
         $data['page'] = trim( $data['page'] );
+
+        $data['page'] = preg_replace( '!<(blockquote)(.+?)(\1)>!is', '', $data['page'] );
 
         preg_match_all( '!<img(.+?)src=\"(\S+?)\"!i', $data['page'], $data['images'] );
         $data['images'] = isset($data['images'][2])?$data['images'][2]:array();
@@ -489,6 +765,8 @@ trait tr_18000_com_ua
         $data['page'] = preg_replace( '!<(p)>(.+?)<\/(\1)>!i', '$2'."\n", $data['page'] );
         $data['page'] = preg_replace( '!<figure(.+?)figure>!is', '', $data['page'] );
 
+        $data['page'] = preg_replace( '!<(blockquote)(.+?)(\1)>!is', '', $data['page'] );
+
         $data['page'] = trim( strip_tags( $data['page'] ) );
 
         $data['page'] = common::trim( $data['page'] );
@@ -668,6 +946,8 @@ trait tr_vycherpno_ck_ua
         $data['images'] = isset($data['images'][2])?$data['images'][2]:array();
         $data['images'] = array_unique( $data['images'] );
 
+        $data['page'] = preg_replace( '!<(blockquote)(.+?)(\1)>!is', '', $data['page'] );
+
         $data['page'] = preg_replace( '!<(p)>(.+?)<\/(\1)>!i', '$2'."\n", $data['page'] );
         $data['page'] = preg_replace( '!<figure(.+?)figure>!is', '', $data['page'] );
         $data['page'] = trim( strip_tags( $data['page'] ) );
@@ -845,6 +1125,8 @@ trait tr_dzvin_media
         $data['page'] = preg_replace( '!<(p)(.+?|)>(.+?)<\/(\1)>!i', '$3'."\n", $data['page'] );
         $data['page'] = preg_replace( '!<div style(.+?)div>!is', '', $data['page'] );
 
+        $data['page'] = preg_replace( '!<(blockquote)(.+?)(\1)>!is', '', $data['page'] );
+
         $data['page'] = trim( strip_tags( $data['page'] ) );
         $data['page'] = preg_replace( '!\r!i', "\n", $data['page'] );
         $data['page'] = preg_replace( '!(\n{2,})!i', "\n", $data['page'] );
@@ -1004,7 +1286,7 @@ trait tr_ridnyi_com_ua
         $data['page'] = explode( '</article>', $data['page'], 2 );
         $data['page'] = reset( $data['page'] );
 
-
+        $data['page'] = preg_replace( '!<(blockquote)(.+?)(\1)>!is', '', $data['page'] );
 
         preg_match_all( '!<img(.+?)src=\"(http\S+?\.(jpg|jpeg|png))\"!i', $data['page'], $data['images'] );
         $data['images'] = isset($data['images'][2])?$data['images'][2]:array();
@@ -1189,6 +1471,8 @@ trait tr_zolotonosha_ck_ua
         $data['images'] = isset($data['images'][2])?$data['images'][2]:array();
         $data['images'] = array_unique( $data['images'] ); */
 
+        $data['page'] = preg_replace( '!<(blockquote)(.+?)(\1)>!is', '', $data['page'] );
+
         $data['page'] = preg_replace( '!<div class=\"(.+?)-ads-(.+?)<\/div>!i', '', $data['page'] );
         $data['page'] = preg_replace( '!<(strong|b)>(.+?)<\/(\1)>!i', '[b]$2[/b]', $data['page'] );
         $data['page'] = preg_replace( '!<(p)>(.+?)<\/(\1)>!i', '$2'."\n", $data['page'] );
@@ -1298,6 +1582,8 @@ trait tr_vch_uman_in_ua
         $data['page'] = explode( '<div id=wpdevar_comment', $data['page'], 2 );
         $data['page'] = reset( $data['page'] ).'';
 
+        $data['page'] = preg_replace( '!<(blockquote)(.+?)(\1)>!is', '', $data['page'] );
+
         /*preg_match_all( '!<img(.+?)src=\"(http\S+?\.(jpg|jpeg|png))\"!i', $data['page'], $data['images'] );
         $data['images'] = isset($data['images'][2])?$data['images'][2]:array();
         $data['images'] = array_unique( $data['images'] ); */
@@ -1335,9 +1621,12 @@ trait unian
         echo 'START: '.$url."\n" ;
         $this->AGENT = 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1';
         $this->REF = $url;
+
+
+
         $page = $this->curl( $url );
 
-        if( $this->HTTP_STATUS != 200 ){ echo "HTTP STATUS ERROR!\n";  return false; }
+        if( $this->HTTP_STATUS != 200 ){ echo "HTTP STATUS ERROR (".$this->HTTP_STATUS.")!\n";  return false; }
 
         $page = preg_split( '!<h1!i', $page, 2 );
             $page = end( $page );
@@ -1351,7 +1640,9 @@ trait unian
             $I = 0;
             $links = $links[1];
 
-            shuffle( $links );
+            //shuffle( $links );
+
+            //var_export($links);exit;
 
             foreach( $links as $link )
             {
@@ -1366,7 +1657,7 @@ trait unian
                 if( $count['count'] > 0 ){ echo "DUBLICATE!\n"; continue; }
 
                 $page = $this->curl( $link );
-                if( $this->HTTP_STATUS != 200 ){ echo "HTTP STATUS ERROR!\n";  continue; }
+                if( $this->HTTP_STATUS != 200 ){ echo "HTTP STATUS ERROR (".$this->HTTP_STATUS.")!\n";  continue; }
 
                 $page = preg_replace( "!<(\w+)!i", "\n".'<$1', $page );
                 $page = preg_replace( "!\r!", "", $page );
@@ -1376,6 +1667,7 @@ trait unian
                 $page = preg_replace( '!<(script|style|noscript)(.+?)(\1)>!is', '', $page );
                 $page = preg_replace( '!<\!--(.+?)-->!is', '', $page );
                 $page = preg_replace( '!\n{2,}!', "\n", trim($page) );
+
 
                 $data['title'] = array();
                 preg_match( '!<(h1)>(.+?)<\/\1>!i', $page, $data['title'] );
@@ -1403,6 +1695,9 @@ trait unian
                 $page = explode( '<div class="article-text">', $page, 2 ); $page = end( $page );
                 $page = explode( 'class="like-h2"', $page, 2 ); $page = end( $page ); $page = '<div'.$page;
                 $page = explode( 'class="mistake', $page, 2 ); $page = reset( $page );
+                $page = explode( 'article-shares', $page, 2 ); $page = reset( $page ).'>';
+
+
 
                 $images = array();
                 preg_match_all( '!<img(.+?)src=\"(\S+?\.(jpg|jpeg|png))!i', $page, $images );
@@ -1411,15 +1706,22 @@ trait unian
 
                 if( !is_array($data['images']) || !count($data['images']) ){ echo "SKIP [BAD IMAGES]!\n";  continue; }
 
+                $page = preg_replace( '!<(blockquote)(.+?)(\1)>!is', '', $page );
+
                 $page = preg_replace( '!<(figure|figcaption|noscript)(.+?)(\1)>!is', '', $page );
                 $page = preg_replace( '!\r!i', "\n", trim($page) );
                 $page = preg_replace( '!\n!i', " ", trim($page) );
                 $page = preg_replace( '!\s{2,}!i', ' ', trim($page) );
                 $page = preg_replace( '!\<(p|h1|h2)!i', "\n".'<$1', trim($page) );
+
+
+
                 $page = strip_tags($page);
                 $page = preg_replace( '!\n{2,}!i', "\n", trim($page) );
 
                 $page = explode( "\n", $page );
+
+                //var_export($data);exit;
 
                 foreach( $page as $k => $v )
                 {
@@ -1436,6 +1738,8 @@ trait unian
 
                 $page = '';
 
+
+                //var_export($data);exit;
 
                 echo "ADD: ".$data['title']."\n";
                 $this->save_unian( $data );
@@ -1740,6 +2044,8 @@ trait tr_pingvin_pro
         $data['page'] = preg_replace( '!<p(.+?)caption-text(.+?)\/p>!i', '', $data['page'] );
         $data['page'] = preg_replace( '!<(iframe)(.+?)(\1)>!is', '', $data['page'] );
 
+        $data['page'] = preg_replace( '!<(blockquote)(.+?)(\1)>!is', '', $data['page'] );
+
         $data['page'] = preg_replace( '!<(strong|b)>(.+?)<\/(\1)>!i', '[b]$2[/b]', $data['page'] );
         $data['page'] = preg_replace( '!<(p)>(.+?)<\/(\1)>!i', '$2'."\n", $data['page'] );
         $data['page'] = preg_replace( '!<figure(.+?)figure>!is', '', $data['page'] );
@@ -1870,6 +2176,7 @@ trait tr_playua_net
         $data['youtube'] = isset($data['youtube'][1])?array_values($data['youtube'][1]):array();
 
         $data['page'] = preg_replace( '!<(iframe)(.+?)(\1)>!is', '', $data['page'] );
+        $data['page'] = preg_replace( '!<(blockquote)(.+?)(\1)>!is', '', $data['page'] );
 
         $data['page'] = preg_replace( '!<(strong|b)>(.+?)<\/(\1)>!i', '[b]$2[/b]', $data['page'] );
         $data['page'] = preg_replace( '!<(p)>(.+?)<\/(\1)>!i', '$2'."\n", $data['page'] );
@@ -1910,6 +2217,7 @@ trait dt_ua
     // https://dt.ua/tags/%D0%BA%D0%BE%D1%81%D0%BC%D0%BE%D1%81?page=1
     public final function load_from_dt_ua( $url, $pages = array( 1 ) )
     {
+
         $pages = common::integer( $pages );
         if( !is_array($pages) ){ return false; }
 
@@ -2003,6 +2311,7 @@ trait dt_ua
                 $articles[$i]['youtube'] = isset($articles[$i]['youtube'][1])?array_values($articles[$i]['youtube'][1]):array();
 
                 $articles[$i]['page'] = preg_replace( '!<(iframe)(.+?)(\1)>!is', '', $articles[$i]['page'] );
+                $articles[$i]['page'] = preg_replace( '!<(blockquote)(.+?)(\1)>!is', '', $articles[$i]['page'] );
 
                 $articles[$i]['page'] = preg_replace( '!<(strong|b)>(.+?)<\/(\1)>!i', '[b]$2[/b]', $articles[$i]['page'] );
                 $articles[$i]['page'] = preg_replace( '!<(p)>(.+?)<\/(\1)>!i', '$2'."\n", $articles[$i]['page'] );
@@ -2068,7 +2377,9 @@ class parser
             tr_playua_net,
             tr_shpola_otg_gov_ua,
             tr_ukr_media,
-            tr_zolotonosha_ck_ua;
+            tr_korrespondent,
+            tr_zolotonosha_ck_ua,
+            tr_ndekc_ck;
 
     const CACHE_VAR_POSTS = 'posts';
 
@@ -2227,7 +2538,7 @@ class parser
         curl_setopt($id, CURLOPT_RETURNTRANSFER, 1 );
         curl_setopt($id, CURLOPT_FOLLOWLOCATION, true );
         curl_setopt($id, CURLOPT_MAXREDIRS, 5 );
-        curl_setopt($id, CURLOPT_TIMEOUT, 3 );
+        curl_setopt($id, CURLOPT_TIMEOUT, 10 );
         curl_setopt($id, CURLOPT_AUTOREFERER, true );
         curl_setopt($id, CURLOPT_REFERER, $this->REF );
         curl_setopt($id, CURLOPT_USERAGENT, $this->AGENT );
@@ -2330,10 +2641,11 @@ class parser
 
     public final function load_and_process_tags()
     {
-        $SQL = 'SELECT id, comment FROM posts WHERE comment != \'\' AND id != 0 ORDER BY created_time DESC;';
+        $SQL = 'SELECT id, comment FROM posts WHERE comment != \'\' AND id != 0 ORDER BY created_time DESC LIMIT 100;';
         $SQL = $this->db->query( $SQL );
 
         $_TAGS_COLLECTION = array();
+        $TAGS_SQUERY = array();
 
         while( ( $row = $this->db->get_row($SQL) ) !== false )
         {
@@ -2368,21 +2680,27 @@ class parser
                         $tag_id = $this->db->super_query( $SQUERY );
                         $tag_id = $tag_id['id'];
                     }
+                    else
+                    {
+                        continue;
+                    }
 
-                    $SQUERY = array();
-                    $SQUERY[] = 'BEGIN;';
-                    $SQUERY[] = 'DELETE FROM posts_tags WHERE post_id = \''.$post_id.'\'::INTEGER AND tag_id = \''.$tag_id.'\'::INTEGER;';
-                    $SQUERY[] = 'INSERT INTO posts_tags ( post_id, tag_id ) VALUES (\''.$post_id.'\'::INTEGER, \''.$tag_id.'\'::INTEGER );';
-                    $SQUERY[] = 'COMMIT;';
-
-                    $SQUERY = implode( "\n", $SQUERY );
-
-                    $this->db->query( $SQUERY );
+                    $TAGS_SQUERY[] = 'BEGIN; -- TAG: '.$tag;
+                    $TAGS_SQUERY[] = 'DELETE FROM posts_tags WHERE post_id = \''.$post_id.'\'::INTEGER AND tag_id = \''.$tag_id.'\'::INTEGER;';
+                    $TAGS_SQUERY[] = 'INSERT INTO posts_tags ( post_id, tag_id ) VALUES (\''.$post_id.'\'::INTEGER, \''.$tag_id.'\'::INTEGER );';
+                    $TAGS_SQUERY[] = 'COMMIT;';
                 }
             }
-
-            cache::clean( self::CACHE_VAR_POSTS );
         }
+
+        $TAGS_SQUERY = trim( implode( "\n", $TAGS_SQUERY ) );
+
+        if( $TAGS_SQUERY )
+        {
+            $this->db->query( $TAGS_SQUERY );
+        }
+
+        cache::clean( self::CACHE_VAR_POSTS );
 
         $addict_tagging = array();
         $_CATEGS = array();

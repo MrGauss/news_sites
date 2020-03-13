@@ -124,6 +124,12 @@ class categ
         return 0;
     }
 
+    public static final function get()
+    {
+        $c = new self;
+        return $c->get_categories();
+    }
+
     public final function get_categories()
     {
         $data = false;

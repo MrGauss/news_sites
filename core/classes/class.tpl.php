@@ -191,8 +191,16 @@ class tpl
 
     private final function parse_global_tags( $data )
     {
-        $data = str_replace( '{MOD}',   _MOD_, $data );
-        $data = str_replace( '{AREA}', _AREA_, $data );
+        $data = str_replace( '{MOD}',       _MOD_, $data );
+        $data = str_replace( '{PAGE_ID}',   (_PAGE_ID==0)?1:_PAGE_ID, $data );
+        $data = str_replace( '{CATEG_ID}',  _CATEG_ID, $data );
+        $data = str_replace( '{TAG_ID}',    _TAG_ID, $data );
+        $data = str_replace( '{AREA}',      _AREA_, $data );
+
+        if( strpos( $data, '{TOP_TAG_ID}' ) !== false )
+        {
+            $data = str_replace( '{TOP_TAG_ID}',tags::get_top_tag_id(), $data );
+        }
 
         while( strpos($data, '{RAND}' ) !== false )
         {
@@ -227,6 +235,22 @@ class tpl
         $data = str_replace( '{CHARSET}', CHARSET, $data );
         $data = str_replace( '{DOMAIN}',  DOMAIN, $data );
         $data = str_replace( '%SITENAME%',  DOMAIN, $data );
+
+        while( preg_match( '!\{(\d+?)(\*|\+|\:|\-)(\d+?)\}!i', $data, $arif ) )
+        {
+            $res = '';
+            $arif[1] = common::integer($arif[1]);
+            $arif[3] = common::integer($arif[3]);
+
+                if( $arif[2] == '*' )       { $res = $arif[1] * $arif[3]; }
+            elseif( $arif[2] == ':' )   { $res = $arif[1] / $arif[3]; }
+            elseif( $arif[2] == '+' )   { $res = $arif[1] + $arif[3]; }
+            elseif( $arif[2] == '-' )   { $res = $arif[1] - $arif[3]; }
+
+            //echo $arif[0].' : '.$res."\n";
+            $data = str_replace( $arif[0], $res, $data );
+        }
+
         $data = $this->parse_tags_include( $data );
         $data = $this->parse_tags_login_nologin( $data );
         $data = $this->parse_tags_curr_user_info( $data );
@@ -243,8 +267,10 @@ class tpl
     private final function parse_custom_posts( $data )
     {
         $POSTS = false;
-        while( preg_match( '!\{custom:(\d+)-(\d+?):tags:([0-9,]+):(\w+)\}!i', $data, $tag ) )
+        while( preg_match( '!\{custom:(\d+?)\-(\d+?):tags:([0-9,]+):(\w+)\}!i', $data, $tag ) )
         {
+            //echo $tag[0]."\n";
+
             $offset = common::integer( isset($tag[1])?$tag[1]:0 );
             $limit  = common::integer( isset($tag[2])?$tag[2]:0 );
             $tags   = explode( ',', isset($tag[3])?$tag[3]:'' );
@@ -266,8 +292,15 @@ class tpl
             $filter['tag.id'] = $tags;
             $filter['post.posted'] = 1;
 
+            //var_export($filter); echo "\n";
+
             $res = $POSTS->get_custom( $filter, $skin );
+
+            //echo "\n";
+
             $data = str_replace( $tag[0], $res, $data );
+
+            //echo "\n\n";
         }
 
         return $data;
@@ -371,6 +404,49 @@ class tpl
                     $this->compile( $skin );
                 }
                 $data = str_replace( '{taglist:'.$skin.'}', $this->result( $skin ), $data );
+            }
+        }
+
+
+        if( preg_match_all( '!\{tagstop:((\w+?):(\d+?))\}!i', $data, $tag ) )
+        {
+            $skins = isset($tag[1])?$tag[1]:false;
+            if( !$skins ){ return $data; }
+
+            if( !isset($GLOBALS['_TAGS']) || !is_object($GLOBALS['_TAGS']) ){ $GLOBALS['_TAGS'] = new tags; }
+            $tags = array();
+            $tags = $GLOBALS['_TAGS']->get_top_tags();
+
+            foreach( $skins as $skin )
+            {
+                $skin  = explode( ':', $skin, 2 );
+
+                $count = end( $skin );
+                    $count = common::integer( $count );
+                $skin  = reset( $skin );
+                    $skin = common::totranslit( $skin );
+
+                $i = 0;
+                foreach( $tags as $row )
+                {
+                    if( !$row['news_count'] ){ continue; }
+
+                    $this->load( $skin );
+
+                    $this->set( '{tag:url}', $GLOBALS['_TAGS']->get_url( $row['name'] ) );
+
+                    foreach( $row as $k => $v )
+                    {
+                        if( is_array($v) ){ continue; }
+                        $this->set( '{tag:'.$k.'}', $v );
+                        $this->set( '{tag:'.$k.':html}', common::htmlentities( $v ) );
+                    }
+                    $this->compile( $skin );
+
+                    $i++;
+                    if( $i >= $count ){ break; }
+                }
+                $data = str_replace( '{tagstop:'.$skin.':'.$count.'}', $this->result( $skin ), $data );
             }
         }
         return $data;
